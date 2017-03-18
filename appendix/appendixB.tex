@@ -1,0 +1,153 @@
+\chapter{Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}
+\label{app:boxfunc}
+
+In the $gq \to Hgq$ amplitude with full finite quark masses included, the box integral in the gauge where the gluon polarisation vectors are orthogonal to both the incoming and the outgoing gluon momenta can be parametrised as;
+
+\begin{equation}
+M^{\mu \nu \rho} = \frac{g_s^3 m_t^2}{v} 2i f^{bac}J^{\mu \nu \rho},
+\end{equation}
+
+with;
+
+\begin{equation}
+J^{\mu \nu \rho} = \eta^{\mu \nu}(H_1 k_1^\rho + H_2 k_2^\rho) + \eta^{\mu \rho}H_4 k^\nu + \eta^{\nu \rho}H_5 k^\mu + H_{10}k_2^\rho k^\mu k^\nu + H_{12}k_1^\rho k^\mu k^\nu,
+\end{equation}
+
+with the convention that all the $k$s are taken as outgoing. We have that $k_1^\mu$ and $k_2^\mu$ are the momenta corresponding to the on-shell gluons with colour indices $a,b$ and $k = -k_1 -k_2 -k_H$ with colour index $c$. Not all of the $H$ functions above are independent, though;
+
+\begin{equation}
+\begin{split}
+H_2 &= -H_1(k_1 \leftrightarrow k_2) \\
+H_5 &= -H_4(k_1 \leftrightarrow k_2) \\
+H_{12} &= -H_{10}(k_1 \leftrightarrow k_2).
+\end{split}
+\end{equation}
+
+We will therefore only give the forms for $H_1$,$H_4$ and $H_{10}$. Since there are three distinct orderings for the box diagram, we present this in the form $H_i = E_i + F_i + G_i$, where each term is a function of the scalar integrals;
+
+\begin{equation}
+\begin{split}
+B_0(k) &= \int \frac{d^4 q}{(2 \pi)^4} \frac{1}{(q^2-m_t^2)((q+k)^2-m_t^2)}, \\
+C_0(p,k) &= \int \frac{d^4 q}{(2 \pi)^4} \frac{1}{(q^2-m_t^2)((q+p)^2-m_t^2)((q+p+k)^2-m_t^2)}, \\
+D_0(p,k,v) &= \int \frac{d^4 q}{(2 \pi)^4} \biggl[ \frac{1}{(q^2-m_t^2)((q+p)^2-m_t^2)((q+p+k)^2-m_t^2)} \\
+& \times \frac{1}{((q+p+k+v)^2-m_t^2)} \biggr].
+\end{split}
+\end{equation}
+
+The $B_0$ integral is divergent in four dimensions but will always appear in combinations such that the divergence is cancelled. We will also define;
+
+\begin{equation}
+\begin{split}
+s_{ij} &= (k_i + k_j)^2, \\
+S_i &= 2 k_i \cdot k, \\
+\Delta &= s_{12}s_{34} - S_1 S_2, \\
+\Sigma &= 4 s_{12}s_{34} - (S_1 + S_2)^2.
+\end{split}
+\end{equation}
+
+In terms of these variables, we obtain;
+\begin{subequations}
+\begin{equation}
+\begin{split}
+E_1 &= -s_{12}D_0(2,1,34) \biggl[ 1 - \frac{8m_t^2}{s_{12}}+\frac{S_2}{2s_{12}} + \frac{S_2(s_{12}-8m_t^2)(s_{34}+S_1)}{2 s_{12} \Delta}\\
+&+ \frac{2(s_{34}+S_1)^2}{\Delta} + \frac{S_2(s_{34}+S_1)^3}{\Delta^2} \biggr] \\
+&- \left[(s_{12}+S_2)C_0(2,134) - s_{12}+(S_1-S_2)C_0(12,34)-S_1C_0(1,34) \right] \\
+& \times \left(\frac{S_2(s_{12}-4m_t^2)}{2s_{12}\Delta} + \frac{2(s_{34}+S_1)}{\Delta} +\frac{S_2(s_{34}+S_1)^2}{\Delta^2} \right) \\
+& + \left[C_0(1,34)-C_0(12,34) \right] \left(1-\frac{4m_t^2}{s_{12}} \right) -C_0(12,34) \frac{2s_{34}}{S_1} \\
+&- \left[B_0(134)-B_0(1234) \right] \frac{2s_{34}(s_{34}+S_1)}{S_1 \Delta} \\
+&+ \left[B_0(34)-B_0(1234) +s_{12} C_0(12,34) \right] \left(\frac{2 s_{34}(s_{34}+S_1)(S_1-S_2)}{\Delta \Sigma} + \frac{2s_{34}(s_{34}+S_1)}{S_1 \Delta} \right) \\
+&+ \left[B_0(12)-B_0(1234)-(s_{34} + S_1+S_2)C_0(12,34)\right] \frac{2(s_{34}+S_1)(2s_{12}s_{34}-S_2(S_1+S_2))}{\Delta \Sigma},
+\end{split}
+\end{equation}
+\begin{equation}
+\begin{split}
+F_1 &= -S_2 D_0(1,2,34)\left[\frac{1}{2} - \frac{(s_{12}-8m_t^2)(s_{34}+S_2)}{2 \Delta} \right] -\frac{s_{12}(s_{34}+S_2)^3}{\Delta^2} \\
+&+ \left[(s_{12}+S_1)C_0(1,234)-s_{12}C_0(1,2)-(S_1-S_2)C_0(12,34)-S_2C_0(2,34) \right] \\
+& \times \left(\frac{S_2(s_{12}-4m_t^2)}{2s_{12}\Delta} + \frac{S_2(s_{34}+S_2)^2}{\Delta^2} \right) \\
+&- \left[C_0(12,34)-C_0(1,234) \right] \left(1-\frac{4m_t^2}{s_{12}} \right) - C_0(1,234) \\
+&+ \left[B_0(234)-B_0(1234) \right] \frac{2(s_{34}+S_2)^2}{(s_{12}+S_1)\Delta} \\
+& - \left[B_0(34)-B_0(1234)+s_{12}C_0(12,34) \right] \frac{2s_{34}(s_{34}+S_2)(S_2-S_1)}{\Delta \Sigma} \\
+& \left[B_0(12) - B_0(1234)-(s_{34}+S_1+S_2)C_0(12,34) \right] \frac{2(s_{34}+S_2)(2s_{12}s_{34}-S_2(S_1+S_2))}{\Delta \Sigma},
+\end{split}
+\end{equation}
+\begin{equation}
+\begin{split}
+G_1 &= S_2 D_0(1,34,2) \left[\frac{\Delta}{s_{12}^2} - \frac{4 m_t^2}{s_{12}} \right] \\
+& -S_2 \left[(s_{12}+S_1)C_0(1,234)-S_1C_0(1,34) \right] \left(\frac{1}{s_{12}^2}-\frac{s_{12}-4m_t^2}{2s_{12}\Delta} \right) \\
+& -S_2 \left[(s_{12}+S_2)C_0(13,2)-S_2C_0(2,34) \right]\left(\frac{1}{s_{12}^2}+\frac{s_{12}-4m_t^2}{2s_{12}\Delta} \right) \\
+&-C_0(1,34) - \left[C_0(1,234)-C_0(1,34) \right] \frac{4m_t^2}{s_{12}} + \left[B_0(134)-B_0(1234) \right] \frac{2}{s_{12}} \\
+&+ \left[B_0(134)-B_0(34) \right] \frac{2s_{34}}{s_{12}S_1} + \left[B_0(234)-B_0(1234) \right] \frac{2(s_{34}+S_2)}{s_{12}(s_{12}+S_1)},
+\end{split}
+\end{equation}
+\begin{equation}
+\begin{split}
+E_4 &= -s_{12}D_0(2,1,34) \left[\frac{1}{2} - \frac{(S_1-8m_t^2)(s_{34}+S_1)}{2 \Delta} -\frac{s_{12}(s_{34}+S_1)^3}{\Delta^3} \right] \\
+&+ \left[(s_{12}+S_2)C_0(2,134)-s_{12}C_0(1,2)+(S_1-S_2)C_0(12,34)-S_1C_0(1,34) \right] \\
+& \times \left(\frac{(S_1-4m_t^2)}{2\Delta} +\frac{s_{12}(s_{34}+S_1)^2}{\Delta^2} \right) \\
+&-C_0(12,34)+\left[B_0(134)-B_0(1234) \right] \left(\frac{2s_{34}}{\Delta} + \frac{2s_{12}(s_{34}+S_1)}{(s_{12}+S_2)\Delta} \right) \\
+&- \left[B_0(34) - B_0(1234) + s_{12}C_0(12,34) \right] \left(\frac{2s_{34}(2s_{12}s_{34}-S_2(S_1+S_2)+s_{12}(S_1-S_2))}{\Delta \Sigma} \right) \\
+&+ \left[B_0(12)-B_0(1234)-(s_{34}+S_1+S_2)C_0(12,34) \right] \\
+& \times \left(\frac{2s_{12}(2s_{12}s_{34}-S_1(S_1+S_2)+s_{34}(S_2-S_1))}{\Delta \Sigma} \right),
+\end{split}
+\end{equation}
+\begin{equation}
+\begin{split}
+F_4 &= -s_{12}D_0(1,2,34) \left[\frac{1}{2} + \frac{(S_1-8m_t^2)(s_{34}+S_2)}{2 \Delta} + \frac{s_{12}(s_{34}+S_2)^3}{\Delta^3} \right]\\
+&- \left[(s_{12}+S_1)C_0(1,234)-s_{12}C_0(1,2)-(S_1-S_2)C_0(12,34)-S_2C_0(2,34) \right] \\
+& \times \left(\frac{S_1-4m_t^2}{2 \Delta} + \frac{s_{12}(s_{34}+S_2)^2}{\Delta^2} \right) \\
+&-C_0(12,34) - \left[B_0(234)-B_0(1234) \right] \frac{2(s_{34}+S_2)}{\Delta} \\
+&+ \left[B_0(34)-B_0(1234) + s_{12}C_0(12,34) \right] \frac{2s_{34}(2s_{12}s_{34}-S_1(S_1+S_2)+s_{12}(S_2-S_1))}{\Delta \Sigma} \\
+&- \left[B_0(12)-B_0(1234)-(s_{34}+S_1+S_2)C_0(12,34) \right] \\
+& \times \left(\frac{2s_{12}(2s_{12}s_{34}-S_2(S_1+S_2)+s_{34}(S_1-S_2))}{\Delta \Sigma} \right),
+\end{split}
+\end{equation}
+\begin{equation}
+\begin{split}
+G_4 &= -D_0(1,34,2) \left[\frac{\Delta}{s_{12}} + \frac{s_{12}+S_1}{2} - 4m_t^2 \right] \\
+&+\left[(s_{12}+S_1)C_0(1,234)-S_1C_0(1,34) \right] \left(\frac{1}{s_{12}}-\frac{S_1-4m_t^2}{2\Delta} \right) \\
+&+ \left[(s_{12}+S_2)C_0(134,2)-S_2C_0(2,34) \right] \left(\frac{1}{s_{12}} + \frac{S_1-4m_t^2}{2 \Delta} \right) \\
+&+\left[B_0(1234)-B_0(134) \right] \frac{2}{s_{12}+S_2},
+\end{split}
+\end{equation}
+\begin{equation}
+\begin{split}
+E_{10} &= -s_{12}D_0(2,1,34) \left[\frac{s_{34}+S_1}{\Delta} + \frac{12m_t^2S_1(s_{34}+S_1)}{\Delta^2} - \frac{4s_{12}S_1(s_{34}+S_1)^3}{\Delta^3} \right] \\
+&- \left[(s_{12}+S_2)C_0(2,134) -s_{12}C_0(1,2)+(S_1-S_2)C_0(12,34)-S_1C_0(1,34) \right] \\
+& \times \left(\frac{1}{\Delta}+\frac{4m_t^2S_1}{\Delta^2} - \frac{4s_{12}S_1(s_{34}+S_1)^2}{\Delta^3} \right) \\
+&+C_0(12,34)\left(\frac{4s_{12}s_{34}(S_1-S_2)}{\Delta \Sigma} - \frac{4(s_{12}-2m_t^2)(2s_{12}s_{34}-S_1(S_1+S_2))}{\Delta \Sigma} \right) \\
+&+ \left[B_0(134)-B_0(1234) \right] \left(\frac{4(s_{34}+S_1)}{(s_{12}+S_2)\Delta} + \frac{8S_1(s_{34}+S_1)}{\Delta^2} \right) \\
+&+ \left[B_0(34)-B_0(1234)+s_{12}C_0(12,34) \right] \biggl(\frac{12s_{34}(2s_{12}+S_1+S_2)(2s_{12}s_{34}-S_1(S_1+S_2))}{\Delta \Sigma^2} \\
+& -\frac{4s_{34}(4s_{!2}+3S_1+S_2}{\Delta \Sigma} + \frac{8 s_{12}s_{34}(s_{34}(s_{12}+S_2)-S_1(s_{34}+S_1))}{\Delta^2 \Sigma} \biggr) \\
+& + \left[B_0(12)-B_0(1234)-(s_{34}+S_1+S_2)C_0(12,34) \right] \\
+& \times \biggl(\frac{12s_{12}(2s_{34}+S_1+S_2)(2s_{12}S_{34}-S_1(S_1+S_2))}{\Delta \Sigma^2} \\
+& + \frac{8s_{12}S_1(s_{34}(s_{12}+S_2)-S_1(s_{34}+S_1))}{\Delta^2 \Sigma} \biggr) \\
+&+ \frac{i}{4 \pi^2} \left(\frac{2 s_{12}s_{34}-S_1(S_1+S_2)}{\Delta \Sigma} \right),
+\end{split}
+\end{equation}
+\begin{equation}
+\begin{split}
+F_{10} &= s_{12}D_0(1,2,34) \biggl[\frac{s_{34}+S_2}{\Delta} - \frac{4m_t^2}{\Delta} + \frac{12 m_t^2 s_{34}(s_{12}+S_1)}{\Delta^2} \\
+& -\frac{4s_{12}(s_{34}+S_2)^2}{\Delta^2} - \frac{4s_{12}S_1(s_{34}+S_2)^3}{\Delta^3} \biggr] \\
+&+ \left[(s_{12}+S_1)C_0(1,234)-s_{12}C_0(1,2)-(S_1-S_2)C_0(12,34)-S_2C_0(2,34) \right] \\
+& \times \left(\frac{1}{\Delta} + \frac{4m_t^2S_1}{\Delta^2} - \frac{4s_{12}(s_{34}+S_2)}{\Delta^2} - \frac{4s_{12}S_1(s_{34}+S_1)^2}{\Delta^3} \right) \\
+&- C_0(12,34) \left(\frac{4s_{12}s_{34}}{S_2\Delta} + \frac{4s_{12}s_{34}(S_2-S_1)}{\Delta \Sigma} + \frac{4(s_{12}-2m_t^2)(2s_{12}s_{34}-S_1(S_2+S_2))}{\Delta \Sigma} \right) \\
+& - \left[B_0(234)-B_0(1234) \right] \left( \frac{4 s_{34}}{S_2 \Delta} + \frac{8s_{34}(s_{12}+S_1)}{\Delta^2} \right) \\
+&- \left[B_0(34)-B_0(1234)+s_{12}C_0(12,34) \right] \biggl(-\frac{12s_{34}(2s_{12}+S_1+S_2)(2s_{12}s_{34}-S_1(S_1+S_2))}{\Delta \Sigma^2} \biggr) \\
+& - \frac{4 s_{12}s_{34}^2}{S_2 \Delta^2} + \frac{4 s_{34}S_1}{\Delta \Sigma} - \frac{4s_{34}(s_{12}s_{34}(2s_{12}+S_2)-S_1^2(2s_{12}+S_1))}{\Delta^2 \Sigma} \\
+&- \left[B_0(12)-B_0(1234)-(s_{34}+S_1+S_2)C_0(12,34) \right] \\
+& \biggl(-\frac{12s_{12}(2s_{34}+S_1+S_2)(2s_{12}s_{34}-S_1(S_1+S_2))}{\Delta \Sigma^2} + \frac{8s_{12}(2s_{34}+S_1)}{\Delta \Sigma} \\
+& -\frac{8 s_{12}s_{34}(2s_{12}s_{34}-S_1(S_1+S_2)+s_{12}(S_2-S_1))}{\Delta^2 \Sigma} \biggr) \\
+& + \left(\frac{i}{4 \pi^2} \right) \left(\frac{2s_{12}s_{34}-S_1(S_1+S_2)}{\Delta \Sigma} \right),
+\end{split}
+\end{equation}
+\begin{equation}
+\begin{split}
+G_{10} &= -D_0(1,34,2) \left(1+\frac{4S_1m_t^2}{\Delta} \right)\\
+&+ \left[(s_{12}+S_1)C_0(1,234)-S_1C_0(1,34) \right] \left(\frac{1}{\Delta}+\frac{4S_1m_t^2}{\Delta^2} \right) \\
+& - \left[(s_{12}+S_2)C_0(134,2)-S_2C_0(2,34) \right] \left(\frac{1}{\Delta}+\frac{4S_1m_t^2}{\Delta^2} \right) \\
+&+ \left[B_0(1234)-B_0(134) \right] \frac{4(s_{34}+S_1)}{\Delta(s_{12}+S_2)} + \left[B_0(34)-B_0(234) \right] \frac{4s_{34}}{\Delta S_2},
+\end{split}
+\end{equation}
+\end{subequations}
+
+where we have used the notation $ij$ to mean $k_i + k_j$ in writing out the scalar integral arguments. 

@@ -1,0 +1,2662 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.29)  17 MAR 2017 14:22
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**master.tex
+(./master.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks14
+\float@box=\box26
+\@float@everytoks=\toks15
+\@floatcapt=\box27
+)
+(./customisations.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\captionmargin=\dimen103
+\captionmargin@=\dimen104
+\captionwidth=\dimen105
+\caption@tempdima=\dimen106
+\caption@indent=\dimen107
+\caption@parindent=\dimen108
+\caption@hangindent=\dimen109
+)
+\c@ContinuedFloat=\count89
+Package caption Info: float package is loaded.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count90
+\sf@farskip=\skip43
+\sf@captopadj=\dimen110
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count91
+\c@subfigure@save=\count92
+\c@lofdepth=\count93
+\c@subtable=\count94
+\c@subtable@save=\count95
+\c@lotdepth=\count96
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count97
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen113
+\Hy@linkcounter=\count98
+\Hy@pagecounter=\count99
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count100
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count101
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen114
+\Fld@menulength=\count102
+\Field@Width=\dimen115
+\Fld@charsize=\dimen116
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count103
+\c@Item=\count104
+\c@Hfootnote=\count105
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count106
+\c@bookmark@seq@number=\count107
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2016/05/16 v1.17 Extended file name support for graphics (HO)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip49
+\L@UnitsRaiseTextstyle=\skip50
+\L@UnitsRaiseScriptstyle=\skip51
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count108
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count109
+\c@@ppsavesec=\count110
+\c@@ppsaveapp=\count111
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip54
+\aftertitleunit=\skip55
+\ttl@plus=\dimen117
+\ttl@minus=\dimen118
+\ttl@toksa=\toks17
+\titlewidth=\dimen119
+\titlewidthlast=\dimen120
+\titlewidthfirst=\dimen121
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen122
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip56
+\f@ncyO@elh=\skip57
+\f@ncyO@erh=\skip58
+\f@ncyO@olh=\skip59
+\f@ncyO@orh=\skip60
+\f@ncyO@elf=\skip61
+\f@ncyO@erf=\skip62
+\f@ncyO@olf=\skip63
+\f@ncyO@orf=\skip64
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count112
+\Gm@cntv=\count113
+\c@Gm@tempcnt=\count114
+\Gm@bindingoffset=\dimen123
+\Gm@wd@mp=\dimen124
+\Gm@odd@mp=\dimen125
+\Gm@even@mp=\dimen126
+\Gm@layoutwidth=\dimen127
+\Gm@layoutheight=\dimen128
+\Gm@layouthoffset=\dimen129
+\Gm@layoutvoffset=\dimen130
+\Gm@dimlist=\toks18
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count115
+\lst@gtempboxa=\box29
+\lst@token=\toks19
+\lst@length=\count116
+\lst@currlwidth=\dimen131
+\lst@column=\count117
+\lst@pos=\count118
+\lst@lostspace=\dimen132
+\lst@width=\dimen133
+\lst@newlines=\count119
+\lst@lineno=\count120
+\lst@maxwidth=\dimen134
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count121
+\lst@skipnumbers=\count122
+\lst@framebox=\box30
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/carlisle/slashed.sty
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip65
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen135
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count123
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count124
+\leftroot@=\count125
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count126
+\DOTSCASE@=\count127
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count128
+\c@MaxMatrixCols=\count129
+\dotsspace@=\muskip11
+\c@parentequation=\count130
+\dspbrk@lvl=\count131
+\tag@help=\toks22
+\row@=\count132
+\column@=\count133
+\maxfields@=\count134
+\andhelp@=\toks23
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks24
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bbold/bbold.sty
+Package: bbold 1994/04/06 Bbold symbol package
+LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 42.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count135
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen144
+\pgfutil@tempdimb=\dimen145
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box33
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen146
+\pgf@y=\dimen147
+\pgf@xa=\dimen148
+\pgf@ya=\dimen149
+\pgf@xb=\dimen150
+\pgf@yb=\dimen151
+\pgf@xc=\dimen152
+\pgf@yc=\dimen153
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count136
+\c@pgf@countb=\count137
+\c@pgf@countc=\count138
+\c@pgf@countd=\count139
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count140
+\pgfsyssoftpath@bigbuffer@items=\count141
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen154
+\pgfmath@count=\count142
+\pgfmath@box=\box34
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count143
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen155
+\pgf@picmaxx=\dimen156
+\pgf@picminy=\dimen157
+\pgf@picmaxy=\dimen158
+\pgf@pathminx=\dimen159
+\pgf@pathmaxx=\dimen160
+\pgf@pathminy=\dimen161
+\pgf@pathmaxy=\dimen162
+\pgf@xx=\dimen163
+\pgf@xy=\dimen164
+\pgf@yx=\dimen165
+\pgf@yy=\dimen166
+\pgf@zx=\dimen167
+\pgf@zy=\dimen168
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen169
+\pgf@path@lasty=\dimen170
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen171
+\pgf@shorten@start@additional=\dimen172
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box35
+\pgf@hbox=\box36
+\pgf@layerbox@main=\box37
+\pgf@picture@serial@count=\count144
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen173
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen174
+\pgf@pt@y=\dimen175
+\pgf@pt@temp=\dimen176
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen177
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen178
+\pgf@sys@shading@range@num=\count145
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box38
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box39
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen179
+\pgf@nodesepend=\dimen180
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen181
+\pgffor@skip=\dimen182
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count146
+\pgfplotmarksize=\dimen183
+)
+\tikz@lastx=\dimen184
+\tikz@lasty=\dimen185
+\tikz@lastxsaved=\dimen186
+\tikz@lastysaved=\dimen187
+\tikzleveldistance=\dimen188
+\tikzsiblingdistance=\dimen189
+\tikz@figbox=\box40
+\tikz@figbox@bg=\box41
+\tikz@tempbox=\box42
+\tikz@tempbox@bg=\box43
+\tikztreelevel=\count147
+\tikznumberofchildren=\count148
+\tikznumberofcurrentchild=\count149
+\tikz@fig@count=\count150
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count151
+\pgfmatrixcurrentcolumn=\count152
+\pgf@matrix@numberofcolumns=\count153
+)
+\tikz@expandcount=\count154
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count155
+\calc@Bcount=\count156
+\calc@Adimen=\dimen190
+\calc@Bdimen=\dimen191
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count157
+\calc@Cskip=\skip70
+)
+\c@@todonotes@numberoftodonotes=\count158
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip71
+\enit@outerparindent=\dimen192
+\enit@toks=\toks40
+\enit@inbox=\box44
+\enitdp@description=\count159
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen193
+\extrarowheight=\dimen194
+\NC@list=\toks41
+\extratabsurround=\skip72
+\backup@length=\skip73
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen195
+\lightrulewidth=\dimen196
+\cmidrulewidth=\dimen197
+\belowrulesep=\dimen198
+\belowbottomsep=\dimen199
+\aboverulesep=\dimen256
+\abovetopsep=\dimen257
+\cmidrulesep=\dimen258
+\cmidrulekern=\dimen259
+\defaultaddspace=\dimen260
+\@cmidla=\count160
+\@cmidlb=\count161
+\@aboverulesep=\dimen261
+\@belowrulesep=\dimen262
+\@thisruleclass=\count162
+\@lastruleclass=\count163
+\@thisrulewidth=\dimen263
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/notoccite/notoccite.sty
+Package: notoccite 2000/07/20
+)
+(./master.aux (./chapter1/chapter1.aux) (./chapter2/chapter2.aux)
+(./chapter3/chapter3.aux) (./chapter4/chapter4.aux) (./chapter5/chapter5.aux)
+(./appendix/appendixB.aux))
+\openout1 = `master.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 42.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count164
+\scratchdimen=\dimen264
+\scratchbox=\box45
+\nofMPsegments=\count165
+\nofMParguments=\count166
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count167
+\MPscratchDim=\dimen265
+\MPnumerator=\count168
+\makeMPintoPDFobject=\count169
+\everyMPtoPDFconversion=\toks43
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box46
+Package hyperref Info: Link coloring OFF on input line 42.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count170
+)
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
+
+(./master.out) (./master.out)
+\@outlinefile=\write4
+\openout4 = `master.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 412.56497pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 674.33032pt, 113.81102pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=412.56497pt
+* \textheight=674.33032pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-47.23828pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=38.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count171
+ABD: EveryShipout initializing macros
+<thesis-frontmatter/crest.pdf, id=224, 614.295pt x 794.97pt>
+File: thesis-frontmatter/crest.pdf Graphic file (type pdf)
+
+<use thesis-frontmatter/crest.pdf>
+Package pdftex.def Info: thesis-frontmatter/crest.pdf used on input line 49.
+(pdftex.def)             Requested size: 206.28249pt x 266.95041pt.
+ [1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./thesi
+s-frontmatter/crest.pdf>]
+(./thesis-frontmatter/lay.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+
+ []
+
+) (./thesis-frontmatter/abstract.tex [1
+
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)) [2
+
+]
+(./thesis-frontmatter/acknowledgements.tex [3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 7--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--14
+
+ []
+
+) [4
+
+] (./master.toc [5
+
+
+] [6])
+\tf@toc=\write5
+\openout5 = `master.toc'.
+
+ [7] (./master.lof [8
+
+
+] [9] [10] [11])
+\tf@lof=\write6
+\openout6 = `master.lof'.
+
+ [12]
+(./master.lot)
+\tf@lot=\write7
+\openout7 = `master.lot'.
+
+ [13
+
+
+] (./master.tdo)
+\tf@tdo=\write8
+\openout8 = `master.tdo'.
+
+ [14
+
+]
+\openout2 = `chapter1/chapter1.aux'.
+
+ (./chapter1/chapter1.tex
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.8 
+     [1
+
+
+
+] <Images/SM.png, id=657, 2007.5pt x 1507.6325pt>
+File: Images/SM.png Graphic file (type png)
+ <use Images/SM.png>
+Package pdftex.def Info: Images/SM.png used on input line 11.
+(pdftex.def)             Requested size: 401.49289pt x 301.52116pt.
+
+[2 <./Images/SM.png>] [3] [4]pdfTeX warning (ext4): destination with the same i
+dentifier (name{equation.1.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75 \end{align}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{equation.1.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75 \end{align}
+                 [5] [6] [7] [8]
+LaTeX Font Info:    Try loading font information for U+bbold on input line 190.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bbold/Ubbold.fd) [9] [10]
+[11] [12]
+Overfull \hbox (18.33868pt too wide) in paragraph at lines 323--323
+[] 
+ []
+
+[13] [14] [15pdfTeX warning (ext4): destination with the same identifier (name{
+equation.1.3.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.393 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.1.3.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.393 \end{equation}
+                    ] [16] [17] [18] [19] [20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 587--589
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--589
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--595
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 609--612
+
+ []
+
+[23] <Images/feyndiags.pdf, id=873, 572.72858pt x 293.37776pt>
+File: Images/feyndiags.pdf Graphic file (type pdf)
+
+<use Images/feyndiags.pdf>
+Package pdftex.def Info: Images/feyndiags.pdf used on input line 630.
+(pdftex.def)             Requested size: 343.63979pt x 176.028pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 635--638
+
+ []
+
+[24] [25 <./Images/feyndiags.pdf>]
+<Images/ferm_prop.pdf, id=905, 171.88757pt x 48.61151pt>
+File: Images/ferm_prop.pdf Graphic file (type pdf)
+
+<use Images/ferm_prop.pdf>
+Package pdftex.def Info: Images/ferm_prop.pdf used on input line 656.
+(pdftex.def)             Requested size: 120.32047pt x 34.02782pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 656--658
+
+ []
+
+<Images/gluon_prop.pdf, id=906, 161.71306pt x 63.03128pt>
+File: Images/gluon_prop.pdf Graphic file (type pdf)
+
+<use Images/gluon_prop.pdf>
+Package pdftex.def Info: Images/gluon_prop.pdf used on input line 670.
+(pdftex.def)             Requested size: 113.19836pt x 44.12158pt.
+
+<Images/3g_vert.pdf, id=907, 181.46295pt x 155.94983pt>
+File: Images/3g_vert.pdf Graphic file (type pdf)
+
+<use Images/3g_vert.pdf>
+Package pdftex.def Info: Images/3g_vert.pdf used on input line 683.
+(pdftex.def)             Requested size: 127.02318pt x 109.16412pt.
+
+Overfull \hbox (3.25244pt too wide) in paragraph at lines 683--684
+[][] 
+ []
+
+<Images/4g_vert.pdf, id=908, 200.20667pt x 213.62259pt>
+File: Images/4g_vert.pdf Graphic file (type pdf)
+
+<use Images/4g_vert.pdf>
+Package pdftex.def Info: Images/4g_vert.pdf used on input line 698.
+(pdftex.def)             Requested size: 140.14369pt x 149.53477pt.
+
+Overfull \hbox (16.37296pt too wide) in paragraph at lines 698--699
+[][] 
+ []
+
+<Images/qg_vert.pdf, id=909, 190.73196pt x 110.78539pt>
+File: Images/qg_vert.pdf Graphic file (type pdf)
+
+<use Images/qg_vert.pdf>
+Package pdftex.def Info: Images/qg_vert.pdf used on input line 711.
+(pdftex.def)             Requested size: 133.51146pt x 77.54922pt.
+
+Overfull \hbox (9.74072pt too wide) in paragraph at lines 711--712
+[][] 
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 716--718
+[]|\OT1/cmr/m/n/12 Quark-Gluon Ver-tex with
+ []
+
+
+Overfull \hbox (39.24992pt too wide) in paragraph at lines 652--727
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 730.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\to' on input line 730.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 730.
+
+<Images/qQ_t.pdf, id=911, 294.51189pt x 210.63715pt>
+File: Images/qQ_t.pdf Graphic file (type pdf)
+ <use Images/qQ_t.pdf>
+Package pdftex.def Info: Images/qQ_t.pdf used on input line 736.
+(pdftex.def)             Requested size: 220.88336pt x 157.97745pt.
+
+[26 <./Images/qQ_t.pdf>] [27 <./Images/ferm_prop.pdf> <./Images/gluon_prop.pdf>
+ <./Images/3g_vert.pdf> <./Images/4g_vert.pdf> <./Images/qg_vert.pdf>] [28]
+[29] [30] [31] <Images/PDF.png, id=1126, 629.35126pt x 406.01688pt>
+File: Images/PDF.png Graphic file (type png)
+
+<use Images/PDF.png>
+Package pdftex.def Info: Images/PDF.png used on input line 838.
+(pdftex.def)             Requested size: 440.54288pt x 284.20985pt.
+
+Overfull \hbox (27.9779pt too wide) in paragraph at lines 838--839
+ [][] 
+ []
+
+[32 <./Images/PDF.png>] [33] [34pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.1.6.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.896 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.1.6.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.896 \end{align}
+                 ]pdfTeX warning (ext4): destination with the same identifier (
+name{equation.1.6.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.916 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.1.6.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.916 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.1.6.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.935 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.1.6.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.935 \end{align}
+                  [35pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.6.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.935 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.1.6.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.935 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.1.6.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.935 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.1.6.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.935 \end{align}
+                 ]pdfTeX warning (ext4): destination with the same identifier (
+name{equation.1.6.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.954 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.1.6.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.954 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.1.6.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.988  \end{align}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{equation.1.6.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.988  \end{align}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{equation.1.6.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.988  \end{align}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{equation.1.6.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.988  \end{align}
+                   [36] [37] [38]) [39] [40]
+\openout2 = `chapter2/chapter2.aux'.
+
+ (./chapter2/chapter2.tex
+Chapter 2.
+[41
+
+
+
+] [42]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\to' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 44.
+
+<Images/ud_ud_plots.pdf, id=1216, 794.97pt x 614.295pt>
+File: Images/ud_ud_plots.pdf Graphic file (type pdf)
+
+<use Images/ud_ud_plots.pdf>
+Package pdftex.def Info: Images/ud_ud_plots.pdf used on input line 56.
+(pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
+ [43pdfTeX warning (ext4): destination with the same identifier (name{equation.
+2.1.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.62 
+     pdfTeX warning (ext4): destination with the same identifier (name{equation
+.2.1.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.62 
+     pdfTeX warning (ext4): destination with the same identifier (name{equation
+.2.1.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.62 
+     ] <Images/qQ_nlo.pdf, id=1226, 502.27306pt x 487.2846pt>
+File: Images/qQ_nlo.pdf Graphic file (type pdf)
+
+<use Images/qQ_nlo.pdf>
+Package pdftex.def Info: Images/qQ_nlo.pdf used on input line 65.
+(pdftex.def)             Requested size: 401.819pt x 389.82822pt.
+ [44 <./Images/ud_ud_plots.pdf, page is rotated 90 degrees>] [45 <./Images/qQ_n
+lo.pdf>]
+<Images/cuts.pdf, id=1262, 316.7552pt x 178.23468pt>
+File: Images/cuts.pdf Graphic file (type pdf)
+ <use Images/cuts.pdf>
+Package pdftex.def Info: Images/cuts.pdf used on input line 99.
+(pdftex.def)             Requested size: 316.75441pt x 178.23424pt.
+
+Overfull \hbox (19.01535pt too wide) in paragraph at lines 110--110
+[] 
+ []
+
+[46] [47 <./Images/cuts.pdf>] [48] [49]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 189.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\to' on input line 189.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 189.
+
+[50] <Images/qg_qg_scattering.png, id=1326, 1607.50563pt x 465.74pt>
+File: Images/qg_qg_scattering.png Graphic file (type png)
+
+<use Images/qg_qg_scattering.png>
+Package pdftex.def Info: Images/qg_qg_scattering.png used on input line 204.
+(pdftex.def)             Requested size: 401.87543pt x 116.43471pt.
+ [51 <./Images/qg_qg_scattering.png>] [52]
+[53]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 280.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\to' on input line 280.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 280.
+
+<Images/MRK_diagram.png, id=1361, 641.89813pt x 797.98125pt>
+File: Images/MRK_diagram.png Graphic file (type png)
+
+<use Images/MRK_diagram.png>
+Package pdftex.def Info: Images/MRK_diagram.png used on input line 296.
+(pdftex.def)             Requested size: 192.57092pt x 239.39621pt.
+ [54]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 309.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\to' on input line 309.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 309.
+
+[55 <./Images/MRK_diagram.png>]
+<Images/gluon_emission.png, id=1380, 1370.11874pt x 392.96812pt>
+File: Images/gluon_emission.png Graphic file (type png)
+
+<use Images/gluon_emission.png>
+Package pdftex.def Info: Images/gluon_emission.png used on input line 315.
+(pdftex.def)             Requested size: 411.03879pt x 117.89134pt.
+
+<Images/eikonal.pdf, id=1384, 185.76501pt x 111.39125pt>
+File: Images/eikonal.pdf Graphic file (type pdf)
+
+<use Images/eikonal.pdf>
+Package pdftex.def Info: Images/eikonal.pdf used on input line 333.
+(pdftex.def)             Requested size: 278.6468pt x 167.08646pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--341
+
+ []
+
+[56 <./Images/gluon_emission.png>] [57 <./Images/eikonal.pdf>] [58]
+<Images/hej_amp.png, id=1431, 581.67313pt x 455.7025pt>
+File: Images/hej_amp.png Graphic file (type png)
+
+<use Images/hej_amp.png>
+Package pdftex.def Info: Images/hej_amp.png used on input line 402.
+(pdftex.def)             Requested size: 203.58864pt x 159.49826pt.
+ [59] [60 <./Images/hej_amp.png>]
+<Images/real_correction.pdf, id=1456, 240.23802pt x 138.80919pt>
+File: Images/real_correction.pdf Graphic file (type pdf)
+
+<use Images/real_correction.pdf>
+Package pdftex.def Info: Images/real_correction.pdf used on input line 440.
+(pdftex.def)             Requested size: 240.23743pt x 138.80884pt.
+ [61] [62 <./Images/real_correction.pdf>]
+[63] <Images/monte_carlo.pdf, id=1511, 367.59593pt x 371.27226pt>
+File: Images/monte_carlo.pdf Graphic file (type pdf)
+
+<use Images/monte_carlo.pdf>
+Package pdftex.def Info: Images/monte_carlo.pdf used on input line 509.
+(pdftex.def)             Requested size: 183.7975pt x 185.63567pt.
+ [64] [65 <./Images/monte_carlo.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 594--597
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--614
+
+ []
+
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 640--643
+
+ []
+
+[67] [68] <Images/running_alphas.png, id=1572, 1342.01375pt x 844.15375pt>
+File: Images/running_alphas.png Graphic file (type png)
+
+<use Images/running_alphas.png>
+Package pdftex.def Info: Images/running_alphas.png used on input line 676.
+(pdftex.def)             Requested size: 402.60724pt x 253.24808pt.
+ [69] [70 <./Images/running_alphas.png>]
+[71]
+Underfull \hbox (badness 10000) in paragraph at lines 716--721
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--721
+
+ []
+
+<Images/wjets_HEJ.png, id=1612, 1064.97874pt x 680.04062pt>
+File: Images/wjets_HEJ.png Graphic file (type png)
+
+<use Images/wjets_HEJ.png>
+Package pdftex.def Info: Images/wjets_HEJ.png used on input line 724.
+(pdftex.def)             Requested size: 425.98395pt x 272.01143pt.
+
+Overfull \hbox (13.41898pt too wide) in paragraph at lines 724--725
+ [][] 
+ []
+
+[72] <Images/4jet_hej.pdf, id=1629, 569.12625pt x 327.2225pt>
+File: Images/4jet_hej.pdf Graphic file (type pdf)
+
+<use Images/4jet_hej.pdf>
+Package pdftex.def Info: Images/4jet_hej.pdf used on input line 734.
+(pdftex.def)             Requested size: 455.30162pt x 261.77835pt.
+
+Overfull \hbox (42.73665pt too wide) in paragraph at lines 734--735
+ [][] 
+ []
+
+<Images/hej_powheg_agree.pdf, id=1633, 433.62pt x 433.62pt>
+File: Images/hej_powheg_agree.pdf Graphic file (type pdf)
+
+<use Images/hej_powheg_agree.pdf>
+Package pdftex.def Info: Images/hej_powheg_agree.pdf used on input line 751.
+(pdftex.def)             Requested size: 346.89647pt x 346.89647pt.
+ [73 <./Images/wjets_HEJ.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 756--98
+
+ []
+
+[74 <./Images/4jet_hej.pdf>] [75 <./Images/hej_powheg_agree.pdf>]
+\openout2 = `chapter3/chapter3.aux'.
+
+
+(./chapter3/chapter3.tex
+Chapter 3.
+[76
+
+
+
+] <Images/uno.pdf, id=1921, 306.14758pt x 202.22763pt>
+File: Images/uno.pdf Graphic file (type pdf)
+ <use Images/uno.pdf>
+Package pdftex.def Info: Images/uno.pdf used on input line 29.
+(pdftex.def)             Requested size: 214.30183pt x 141.55836pt.
+
+[77] [78 <./Images/uno.pdf>] [79]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 84.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\to' on input line 84.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 84.
+
+<Images/g_q_qbar_imp.pdf, id=1971, 136.30504pt x 107.55272pt>
+File: Images/g_q_qbar_imp.pdf Graphic file (type pdf)
+
+<use Images/g_q_qbar_imp.pdf>
+Package pdftex.def Info: Images/g_q_qbar_imp.pdf used on input line 97.
+(pdftex.def)             Requested size: 136.3047pt x 107.55244pt.
+
+<Images/qg_qQQbar_s.pdf, id=1972, 283.56088pt x 142.62794pt>
+File: Images/qg_qQQbar_s.pdf Graphic file (type pdf)
+
+<use Images/qg_qQQbar_s.pdf>
+Package pdftex.def Info: Images/qg_qQQbar_s.pdf used on input line 104.
+(pdftex.def)             Requested size: 226.849pt x 114.10251pt.
+
+<Images/qg_qQQbar_u.pdf, id=1973, 262.21002pt x 137.4729pt>
+File: Images/qg_qQQbar_u.pdf Graphic file (type pdf)
+
+<use Images/qg_qQQbar_u.pdf>
+Package pdftex.def Info: Images/qg_qQQbar_u.pdf used on input line 105.
+(pdftex.def)             Requested size: 209.76828pt x 109.97847pt.
+
+Overfull \hbox (24.0523pt too wide) in paragraph at lines 104--105
+ [][][][] 
+ []
+
+<Images/qg_qQQbar_t.pdf, id=1974, 219.04465pt x 121.0912pt>
+File: Images/qg_qQQbar_t.pdf Graphic file (type pdf)
+
+<use Images/qg_qQQbar_t.pdf>
+Package pdftex.def Info: Images/qg_qQQbar_t.pdf used on input line 106.
+(pdftex.def)             Requested size: 219.04411pt x 121.0909pt.
+
+<Images/qg_qQQbar_cross.pdf, id=1975, 160.77284pt x 127.49301pt>
+File: Images/qg_qQQbar_cross.pdf Graphic file (type pdf)
+
+<use Images/qg_qQQbar_cross.pdf>
+Package pdftex.def Info: Images/qg_qQQbar_cross.pdf used on input line 107.
+(pdftex.def)             Requested size: 160.77243pt x 127.49269pt.
+
+<Images/qg_qQQbar_cross2.pdf, id=1976, 153.1856pt x 120.75996pt>
+File: Images/qg_qQQbar_cross2.pdf Graphic file (type pdf)
+
+<use Images/qg_qQQbar_cross2.pdf>
+Package pdftex.def Info: Images/qg_qQQbar_cross2.pdf used on input line 108.
+(pdftex.def)             Requested size: 153.18521pt x 120.75966pt.
+ [80] [81 <./Images/g_q_qbar_imp.pdf>]
+[82 <./Images/qg_qQQbar_s.pdf> <./Images/qg_qQQbar_u.pdf> <./Images/qg_qQQbar_t
+.pdf> <./Images/qg_qQQbar_cross.pdf> <./Images/qg_qQQbar_cross2.pdf>]
+Overfull \hbox (0.556pt too wide) detected at line 153
+\OML/cmm/m/it/12 iM[] \OT1/cmr/m/n/12 = [] [] [] \OML/cmm/m/it/12 "[]\OT1/cmr/m
+/n/12 (\OML/cmm/m/it/12 p[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :
+ []
+
+[83] [84]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 216.
+
+Overfull \hbox (2.5997pt too wide) in paragraph at lines 216--216
+\OT1/cmr/m/n/12 wrong 
+ []
+
+
+Overfull \hbox (7.1691pt too wide) in paragraph at lines 216--216
+\OT1/cmr/m/n/12 rewrite 
+ []
+
+
+Overfull \hbox (2.5997pt too wide) in paragraph at lines 216--216
+\OT1/cmr/m/n/12 wrong 
+ []
+
+
+Overfull \hbox (7.1691pt too wide) in paragraph at lines 216--216
+\OT1/cmr/m/n/12 rewrite 
+ []
+
+
+Overfull \hbox (2.5997pt too wide) in paragraph at lines 216--216
+\OT1/cmr/m/n/12 wrong 
+ []
+
+
+Overfull \hbox (7.1691pt too wide) in paragraph at lines 216--216
+\OT1/cmr/m/n/12 rewrite 
+ []
+
+
+Overfull \hbox (2.5997pt too wide) in paragraph at lines 216--216
+\OT1/cmr/m/n/12 wrong 
+ []
+
+
+Overfull \hbox (7.1691pt too wide) in paragraph at lines 216--216
+\OT1/cmr/m/n/12 rewrite 
+ []
+
+
+Overfull \hbox (41.55692pt too wide) in paragraph at lines 226--226
+[] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\to' on input line 236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 236.
+
+[85] <Images/qq_qqqq_eff.pdf, id=2177, 144.61017pt x 144.48761pt>
+File: Images/qq_qqqq_eff.pdf Graphic file (type pdf)
+
+<use Images/qq_qqqq_eff.pdf>
+Package pdftex.def Info: Images/qq_qqqq_eff.pdf used on input line 246.
+(pdftex.def)             Requested size: 144.6098pt x 144.48724pt.
+
+<Images/4j_p1_emission.pdf, id=2179, 236.45639pt x 132.4709pt>
+File: Images/4j_p1_emission.pdf Graphic file (type pdf)
+
+<use Images/4j_p1_emission.pdf>
+Package pdftex.def Info: Images/4j_p1_emission.pdf used on input line 258.
+(pdftex.def)             Requested size: 153.69482pt x 86.10506pt.
+
+<Images/4j_pa_emission.pdf, id=2180, 238.80106pt x 125.65796pt>
+File: Images/4j_pa_emission.pdf Graphic file (type pdf)
+
+<use Images/4j_pa_emission.pdf>
+Package pdftex.def Info: Images/4j_pa_emission.pdf used on input line 259.
+(pdftex.def)             Requested size: 155.21884pt x 81.6767pt.
+
+<Images/4j_p4_emission.pdf, id=2181, 240.50482pt x 122.30513pt>
+File: Images/4j_p4_emission.pdf Graphic file (type pdf)
+
+<use Images/4j_p4_emission.pdf>
+Package pdftex.def Info: Images/4j_p4_emission.pdf used on input line 260.
+(pdftex.def)             Requested size: 156.32628pt x 79.49738pt.
+
+Overfull \hbox (52.67497pt too wide) in paragraph at lines 258--260
+ [][][][][][] 
+ []
+
+<Images/4j_pb_emission.pdf, id=2182, 231.76067pt x 119.05269pt>
+File: Images/4j_pb_emission.pdf Graphic file (type pdf)
+
+<use Images/4j_pb_emission.pdf>
+Package pdftex.def Info: Images/4j_pb_emission.pdf used on input line 261.
+(pdftex.def)             Requested size: 150.64264pt x 77.38333pt.
+
+<Images/4j_middle_qqg.pdf, id=2183, 225.97343pt x 119.60616pt>
+File: Images/4j_middle_qqg.pdf Graphic file (type pdf)
+
+<use Images/4j_middle_qqg.pdf>
+Package pdftex.def Info: Images/4j_middle_qqg.pdf used on input line 262.
+(pdftex.def)             Requested size: 146.88098pt x 77.74307pt.
+
+<Images/4jet_qprop.pdf, id=2184, 212.23822pt x 175.38916pt>
+File: Images/4jet_qprop.pdf Graphic file (type pdf)
+
+<use Images/4jet_qprop.pdf>
+Package pdftex.def Info: Images/4jet_qprop.pdf used on input line 263.
+(pdftex.def)             Requested size: 137.95319pt x 114.00159pt.
+
+Overfull \hbox (22.91183pt too wide) in paragraph at lines 261--263
+ [][][][][][] 
+ []
+
+<Images/4jet_qprop_crossed.pdf, id=2185, 206.2126pt x 179.2298pt>
+File: Images/4jet_qprop_crossed.pdf Graphic file (type pdf)
+
+<use Images/4jet_qprop_crossed.pdf>
+Package pdftex.def Info: Images/4jet_qprop_crossed.pdf used on input line 264.
+(pdftex.def)             Requested size: 134.03659pt x 116.49797pt.
+ [86 <./Images/qq_qqqq_eff.pdf>] [87 <./Images/4j_p1_emission.pdf> <./Images/4j
+_pa_emission.pdf> <./Images/4j_p4_emission.pdf> <./Images/4j_pb_emission.pdf> <
+./Images/4j_middle_qqg.pdf> <./Images/4jet_qprop.pdf> <./Images/4jet_qprop_cros
+sed.pdf>] [88]pdfTeX warning (ext4): destination with the same identifier (name
+{equation.3.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.357 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.3.3.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.357 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.3.3.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.357 \end{align}
+                  [89] [90]
+Overfull \hbox (3.91911pt too wide) in paragraph at lines 395--395
+[] 
+ []
+
+<Images/qg_qqqx.pdf, id=2416, 794.97pt x 614.295pt>
+File: Images/qg_qqqx.pdf Graphic file (type pdf)
+ <use Images/qg_qqqx.pdf>
+Package pdftex.def Info: Images/qg_qqqx.pdf used on input line 411.
+(pdftex.def)             Requested size: 357.7332pt x 276.43019pt.
+
+[91] <Images/qg_qQQx_sqqx.pdf, id=2424, 794.97pt x 614.295pt>
+File: Images/qg_qQQx_sqqx.pdf Graphic file (type pdf)
+
+<use Images/qg_qQQx_sqqx.pdf>
+Package pdftex.def Info: Images/qg_qQQx_sqqx.pdf used on input line 418.
+(pdftex.def)             Requested size: 357.7332pt x 276.43019pt.
+ [92 <./Images/qg_qqqx.pdf, page is rotated 90 degrees> <./Images/qg_qQQx_sqqx.
+pdf, page is rotated 90 degrees>]
+<Images/qQ_qqqxQ.pdf, id=2438, 794.97pt x 614.295pt>
+File: Images/qQ_qqqxQ.pdf Graphic file (type pdf)
+ <use Images/qQ_qqqxQ.pdf>
+Package pdftex.def Info: Images/qQ_qqqxQ.pdf used on input line 439.
+(pdftex.def)             Requested size: 357.7332pt x 276.43019pt.
+
+<Images/qQ_qqqxQ_sqqx.pdf, id=2439, 794.97pt x 614.295pt>
+File: Images/qQ_qqqxQ_sqqx.pdf Graphic file (type pdf)
+
+<use Images/qQ_qqqxQ_sqqx.pdf>
+Package pdftex.def Info: Images/qQ_qqqxQ_sqqx.pdf used on input line 446.
+(pdftex.def)             Requested size: 357.7332pt x 276.43019pt.
+ [93 <./Images/qQ_qqqxQ.pdf, page is rotated 90 degrees>] [94 <./Images/qQ_qqqx
+Q_sqqx.pdf, page is rotated 90 degrees>]
+<Images/gg_gQQx_sqqx_simplecf.pdf, id=2458, 716.30054pt x 510.84332pt>
+File: Images/gg_gQQx_sqqx_simplecf.pdf Graphic file (type pdf)
+
+<use Images/gg_gQQx_sqqx_simplecf.pdf>
+Package pdftex.def Info: Images/gg_gQQx_sqqx_simplecf.pdf used on input line 46
+8.
+(pdftex.def)             Requested size: 322.33226pt x 229.87737pt.
+
+<Images/qg_qqqxg_sqq_simplecf.pdf, id=2461, 720.05853pt x 507.1072pt>
+File: Images/qg_qqqxg_sqq_simplecf.pdf Graphic file (type pdf)
+
+<use Images/qg_qqqxg_sqq_simplecf.pdf>
+Package pdftex.def Info: Images/qg_qqqxg_sqq_simplecf.pdf used on input line 47
+7.
+(pdftex.def)             Requested size: 338.42755pt x 238.34041pt.
+ [95 <./Images/gg_gQQx_sqqx_simplecf.pdf, page is rotated 90 degrees>]
+<Images/gg_gqqxg_sqq_simplecf.pdf, id=2482, 794.97pt x 614.295pt>
+File: Images/gg_gqqxg_sqq_simplecf.pdf Graphic file (type pdf)
+
+<use Images/gg_gqqxg_sqq_simplecf.pdf>
+Package pdftex.def Info: Images/gg_gqqxg_sqq_simplecf.pdf used on input line 48
+4.
+(pdftex.def)             Requested size: 373.63596pt x 288.71869pt.
+ [96 <./Images/qg_qqqxg_sqq_simplecf.pdf, page is rotated 90 degrees> <./Images
+/gg_gqqxg_sqq_simplecf.pdf, page is rotated 90 degrees>] <Images/qg_qgQQx_sqq.p
+df, id=2507, 794.97pt x 614.295pt>
+File: Images/qg_qgQQx_sqq.pdf Graphic file (type pdf)
+
+<use Images/qg_qgQQx_sqq.pdf>
+Package pdftex.def Info: Images/qg_qgQQx_sqq.pdf used on input line 508.
+(pdftex.def)             Requested size: 357.7332pt x 276.43019pt.
+ [97]
+<Images/qQ_qgqqxQ_sqq.pdf, id=2516, 794.97pt x 614.295pt>
+File: Images/qQ_qgqqxQ_sqq.pdf Graphic file (type pdf)
+
+<use Images/qQ_qgqqxQ_sqq.pdf>
+Package pdftex.def Info: Images/qQ_qgqqxQ_sqq.pdf used on input line 529.
+(pdftex.def)             Requested size: 349.78789pt x 270.29063pt.
+ [98 <./Images/qg_qgQQx_sqq.pdf, page is rotated 90 degrees>] <Images/qQ_qqqxgQ
+_sqq.pdf, id=2525, 794.97pt x 614.295pt>
+File: Images/qQ_qqqxgQ_sqq.pdf Graphic file (type pdf)
+
+<use Images/qQ_qqqxgQ_sqq.pdf>
+Package pdftex.def Info: Images/qQ_qqqxgQ_sqq.pdf used on input line 536.
+(pdftex.def)             Requested size: 349.78789pt x 270.29063pt.
+ [99 <./Images/qQ_qgqqxQ_sqq.pdf, page is rotated 90 degrees> <./Images/qQ_qqqx
+gQ_sqq.pdf, page is rotated 90 degrees>] [100]
+Overfull \hbox (8.79686pt too wide) in paragraph at lines 549--549
+[][][][]\OT1/cmr/m/n/12 Include 
+ []
+
+
+Overfull \hbox (8.79686pt too wide) in paragraph at lines 549--549
+[][][][]\OT1/cmr/m/n/12 Include 
+ []
+
+
+Overfull \hbox (8.79686pt too wide) in paragraph at lines 549--549
+[][][][]\OT1/cmr/m/n/12 Include 
+ []
+
+
+Overfull \hbox (8.79686pt too wide) in paragraph at lines 549--549
+[][][][]\OT1/cmr/m/n/12 Include 
+ []
+
+<Images/m12_qqx0.pdf, id=2547, 569.12625pt x 387.4475pt>
+File: Images/m12_qqx0.pdf Graphic file (type pdf)
+
+<use Images/m12_qqx0.pdf>
+Package pdftex.def Info: Images/m12_qqx0.pdf used on input line 556.
+(pdftex.def)             Requested size: 227.64647pt x 154.97624pt.
+
+<Images/m12_qqx1.pdf, id=2548, 569.12625pt x 387.4475pt>
+File: Images/m12_qqx1.pdf Graphic file (type pdf)
+
+<use Images/m12_qqx1.pdf>
+Package pdftex.def Info: Images/m12_qqx1.pdf used on input line 557.
+(pdftex.def)             Requested size: 227.64647pt x 154.97624pt.
+
+Overfull \hbox (42.72797pt too wide) in paragraph at lines 556--558
+ [][][][] 
+ []
+
+[101 <./Images/m12_qqx0.pdf, page is rotated 90 degrees> <./Images/m12_qqx1.pdf
+, page is rotated 90 degrees>]
+Overfull \hbox (13.04404pt too wide) in paragraph at lines 564--564
+[][][][]\OT1/cmr/m/n/12 newveto  
+ []
+
+
+Overfull \hbox (13.04404pt too wide) in paragraph at lines 564--564
+[][][][]\OT1/cmr/m/n/12 newveto  
+ []
+
+
+Overfull \hbox (13.04404pt too wide) in paragraph at lines 564--564
+[][][][]\OT1/cmr/m/n/12 newveto  
+ []
+
+
+Overfull \hbox (13.04404pt too wide) in paragraph at lines 564--564
+[][][][]\OT1/cmr/m/n/12 newveto  
+ []
+
+<Images/Veto_Plots/pf3a_bare.png, id=2646, 361.35pt x 433.62pt>
+File: Images/Veto_Plots/pf3a_bare.png Graphic file (type png)
+
+<use Images/Veto_Plots/pf3a_bare.png>
+Package pdftex.def Info: Images/Veto_Plots/pf3a_bare.png used on input line 568
+.
+(pdftex.def)             Requested size: 216.81168pt x 260.17401pt.
+
+<Images/Veto_Plots/pf3a_uno.png, id=2647, 361.35pt x 433.62pt>
+File: Images/Veto_Plots/pf3a_uno.png Graphic file (type png)
+
+<use Images/Veto_Plots/pf3a_uno.png>
+Package pdftex.def Info: Images/Veto_Plots/pf3a_uno.png used on input line 569.
+
+(pdftex.def)             Requested size: 216.81168pt x 260.17401pt.
+
+Overfull \hbox (21.05838pt too wide) in paragraph at lines 568--569
+ [][][][] 
+ []
+
+<Images/Veto_Plots/pf3a_qqx.png, id=2648, 361.35pt x 433.62pt>
+File: Images/Veto_Plots/pf3a_qqx.png Graphic file (type png)
+
+<use Images/Veto_Plots/pf3a_qqx.png>
+Package pdftex.def Info: Images/Veto_Plots/pf3a_qqx.png used on input line 570.
+
+(pdftex.def)             Requested size: 216.81168pt x 260.17401pt.
+
+<Images/Veto_Plots/pf3a_uno_qqx.png, id=2649, 361.35pt x 433.62pt>
+File: Images/Veto_Plots/pf3a_uno_qqx.png Graphic file (type png)
+
+<use Images/Veto_Plots/pf3a_uno_qqx.png>
+Package pdftex.def Info: Images/Veto_Plots/pf3a_uno_qqx.png used on input line 
+571.
+(pdftex.def)             Requested size: 216.81168pt x 260.17401pt.
+
+Overfull \hbox (21.05838pt too wide) in paragraph at lines 570--572
+ [][][][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 16.21773pt on input line 574.
+
+) [102] [103 <./Images/Veto_Plots/pf3a_bare.png> <./Images/Veto_Plots/pf3a_uno.
+png> <./Images/Veto_Plots/pf3a_qqx.png> <./Images/Veto_Plots/pf3a_uno_qqx.png>]
+\openout2 = `chapter4/chapter4.aux'.
+
+(./chapter4/chapter4.tex
+Chapter 4.
+[104
+
+
+
+] [105]
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+[106]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 50.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\to' on input line 50.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 50.
+
+<Images/qQh_eff.pdf, id=2701, 248.25829pt x 123.30235pt>
+File: Images/qQh_eff.pdf Graphic file (type pdf)
+
+<use Images/qQh_eff.pdf>
+Package pdftex.def Info: Images/qQh_eff.pdf used on input line 60.
+(pdftex.def)             Requested size: 248.25766pt x 123.30203pt.
+
+
+Package natbib Warning: Citation `Tkachov:1981' on page 107 undefined on input 
+line 65.
+
+[107]
+Overfull \hbox (29.57501pt too wide) in paragraph at lines 91--91
+[] 
+ []
+
+[108 <./Images/qQh_eff.pdf>] [109]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 124.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\to' on input line 124.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 124.
+
+<Images/qgh_impact_factor.pdf, id=2753, 259.96825pt x 181.73405pt>
+File: Images/qgh_impact_factor.pdf Graphic file (type pdf)
+
+<use Images/qgh_impact_factor.pdf>
+Package pdftex.def Info: Images/qgh_impact_factor.pdf used on input line 135.
+(pdftex.def)             Requested size: 259.96759pt x 181.7336pt.
+
+<Images/qgh_pa_t.pdf, id=2756, 317.09647pt x 153.3493pt>
+File: Images/qgh_pa_t.pdf Graphic file (type pdf)
+
+<use Images/qgh_pa_t.pdf>
+Package pdftex.def Info: Images/qgh_pa_t.pdf used on input line 148.
+(pdftex.def)             Requested size: 237.82176pt x 115.01169pt.
+
+<Images/qgh_middle.pdf, id=2757, 250.06264pt x 146.43367pt>
+File: Images/qgh_middle.pdf Graphic file (type pdf)
+
+<use Images/qgh_middle.pdf>
+Package pdftex.def Info: Images/qgh_middle.pdf used on input line 149.
+(pdftex.def)             Requested size: 187.54651pt x 109.82497pt.
+
+Overfull \hbox (12.8033pt too wide) in paragraph at lines 148--149
+ [][][][] 
+ []
+
+<Images/box.pdf, id=2758, 214.70744pt x 116.4107pt>
+File: Images/box.pdf Graphic file (type pdf)
+ <use Images/box.pdf>
+Package pdftex.def Info: Images/box.pdf used on input line 150.
+(pdftex.def)             Requested size: 161.03018pt x 87.3078pt.
+
+<Images/qgh_s.pdf, id=2759, 266.85558pt x 135.57008pt>
+File: Images/qgh_s.pdf Graphic file (type pdf)
+ <use Images/qgh_s.pdf>
+Package pdftex.def Info: Images/qgh_s.pdf used on input line 151.
+(pdftex.def)             Requested size: 200.14119pt x 101.6773pt.
+
+<Images/qg_qgh_u.pdf, id=2760, 233.82095pt x 167.59203pt>
+File: Images/qg_qgh_u.pdf Graphic file (type pdf)
+
+<use Images/qg_qgh_u.pdf>
+Package pdftex.def Info: Images/qg_qgh_u.pdf used on input line 152.
+(pdftex.def)             Requested size: 175.36528pt x 125.6937pt.
+ [110] [111 <./Images/qgh_impact_factor.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 183--186
+
+ []
+
+[112 <./Images/qgh_pa_t.pdf> <./Images/qgh_middle.pdf> <./Images/box.pdf> <./Im
+ages/qgh_s.pdf> <./Images/qg_qgh_u.pdf>]
+Overfull \hbox (10.54205pt too wide) in paragraph at lines 210--210
+[] 
+ []
+
+[113] [114] [115] [116]pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.4.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.320 \begin{equation}
+                      
+Overfull \hbox (20.09729pt too wide) in paragraph at lines 325--325
+[] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.2.
+2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.326 \begin{equation}
+                      
+Overfull \hbox (31.88057pt too wide) in paragraph at lines 331--331
+[] 
+ []
+
+[117]
+Overfull \hbox (29.81578pt too wide) in paragraph at lines 347--347
+[] 
+ []
+
+[118]
+Overfull \hbox (1.49527pt too wide) in paragraph at lines 386--386
+[] 
+ []
+
+[119]pdfTeX warning (ext4): destination with the same identifier (name{equation
+.4.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.391 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.4.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.394 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.4.2.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.397 \begin{equation}
+                       [120]pdfTeX warning (ext4): destination with the same id
+entifier (name{equation.4.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.418 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.4.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.421 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.4.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.435 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.4.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.438 \begin{equation}
+                       [121]
+Underfull \hbox (badness 10000) in paragraph at lines 464--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--469
+
+ []
+
+[122]
+Overfull \hbox (20.79134pt too wide) in paragraph at lines 480--481
+[]\OT1/cmr/m/n/12 where we have in-tro-duced the no-ta-tion $\OML/cmm/m/it/12 F
+[] \OT1/cmr/m/n/12 = []$, $\OML/cmm/m/it/12 F[] \OT1/cmr/m/n/12 = []$
+ []
+
+[123]
+Underfull \hbox (badness 10000) in paragraph at lines 497--500
+
+ []
+
+[124]pdfTeX warning (ext4): destination with the same identifier (name{equation
+.4.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.517 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.4.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.517 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.4.2.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.517 \end{align}
+                  <Images/qg_qgH_central.pdf, id=3047, 794.97pt x 614.295pt>
+File: Images/qg_qgH_central.pdf Graphic file (type pdf)
+
+<use Images/qg_qgH_central.pdf>
+Package pdftex.def Info: Images/qg_qgH_central.pdf used on input line 524.
+(pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.2.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.536 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.4.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.536 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.4.2.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.536 \end{align}
+                  [125]
+<Images/qg_qgH_outside.pdf, id=3055, 794.97pt x 614.295pt>
+File: Images/qg_qgH_outside.pdf Graphic file (type pdf)
+
+<use Images/qg_qgH_outside.pdf>
+Package pdftex.def Info: Images/qg_qgH_outside.pdf used on input line 543.
+(pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
+
+<Images/qg_qgH_compare_central.pdf, id=3058, 794.97pt x 614.295pt>
+File: Images/qg_qgH_compare_central.pdf Graphic file (type pdf)
+
+<use Images/qg_qgH_compare_central.pdf>
+Package pdftex.def Info: Images/qg_qgH_compare_central.pdf used on input line 5
+52.
+(pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
+ [126 <./Images/qg_qgH_central.pdf, page is rotated 90 degrees>]
+<Images/qg_qgH_compare_outside.pdf, id=3067, 794.97pt x 614.295pt>
+File: Images/qg_qgH_compare_outside.pdf Graphic file (type pdf)
+
+<use Images/qg_qgH_compare_outside.pdf>
+Package pdftex.def Info: Images/qg_qgH_compare_outside.pdf used on input line 5
+59.
+(pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
+ [127 <./Images/qg_qgH_outside.pdf, page is rotated 90 degrees>]
+Overfull \vbox (30.36316pt too high) has occurred while \output is active []
+
+
+[128 <./Images/qg_qgH_compare_central.pdf, page is rotated 90 degrees> <./Image
+s/qg_qgH_compare_outside.pdf, page is rotated 90 degrees>]pdfTeX warning (ext4)
+: destination with the same identifier (name{equation.4.2.1}) has been already 
+used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.578 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.4.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.578 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.4.2.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.578 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.4.2.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.578 \end{align}
+                  <Images/ug_nextfor.pdf, id=3086, 794.97pt x 614.295pt>
+File: Images/ug_nextfor.pdf Graphic file (type pdf)
+
+<use Images/ug_nextfor.pdf>
+Package pdftex.def Info: Images/ug_nextfor.pdf used on input line 585.
+(pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
+ [129]pdfTeX warning (ext4): destination with the same identifier (name{equatio
+n.4.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.599 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.4.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.599 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.4.2.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.599 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.4.2.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.599 \end{align}
+                 
+</Users/jcockburn/FO_SVN/ug_cen.pdf, id=3094, 794.97pt x 614.295pt>
+File: /Users/jcockburn/FO_SVN/ug_cen.pdf Graphic file (type pdf)
+
+<use /Users/jcockburn/FO_SVN/ug_cen.pdf>
+Package pdftex.def Info: /Users/jcockburn/FO_SVN/ug_cen.pdf used on input line 
+604.
+(pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
+ [130 <./Images/ug_nextfor.pdf, page is rotated 90 degrees>] <Images/gg_nextfor
+.pdf, id=3109, 794.97pt x 614.295pt>
+File: Images/gg_nextfor.pdf Graphic file (type pdf)
+
+<use Images/gg_nextfor.pdf>
+Package pdftex.def Info: Images/gg_nextfor.pdf used on input line 614.
+(pdftex.def)             Requested size: 373.63596pt x 288.71869pt.
+
+<Images/gg_cen1.pdf, id=3110, 794.97pt x 614.295pt>
+File: Images/gg_cen1.pdf Graphic file (type pdf)
+ <use Images/gg_cen1.pdf>
+Package pdftex.def Info: Images/gg_cen1.pdf used on input line 621.
+(pdftex.def)             Requested size: 373.63596pt x 288.71869pt.
+
+[131 </Users/jcockburn/FO_SVN/ug_cen.pdf, page is rotated 90 degrees>]
+Overfull \vbox (20.70706pt too high) has occurred while \output is active []
+
+
+[132 <./Images/gg_nextfor.pdf, page is rotated 90 degrees> <./Images/gg_cen1.pd
+f, page is rotated 90 degrees>]
+<Images/gg_cen2.pdf, id=3128, 794.97pt x 614.295pt>
+File: Images/gg_cen2.pdf Graphic file (type pdf)
+ <use Images/gg_cen2.pdf>
+Package pdftex.def Info: Images/gg_cen2.pdf used on input line 628.
+(pdftex.def)             Requested size: 341.83044pt x 264.1417pt.
+
+<Images/gg_nextback.pdf, id=3129, 794.97pt x 614.295pt>
+File: Images/gg_nextback.pdf Graphic file (type pdf)
+
+<use Images/gg_nextback.pdf>
+Package pdftex.def Info: Images/gg_nextback.pdf used on input line 636.
+(pdftex.def)             Requested size: 341.83044pt x 264.1417pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--647
+
+ []
+
+[133 <./Images/gg_cen2.pdf, page is rotated 90 degrees> <./Images/gg_nextback.p
+df, page is rotated 90 degrees>] [134]
+<Images/ptH_gu.pdf, id=3148, 569.12625pt x 387.4475pt>
+File: Images/ptH_gu.pdf Graphic file (type pdf)
+ <use Images/ptH_gu.pdf>
+Package pdftex.def Info: Images/ptH_gu.pdf used on input line 655.
+(pdftex.def)             Requested size: 426.84364pt x 290.5849pt.
+
+Overfull \hbox (14.27867pt too wide) in paragraph at lines 655--656
+ [][] 
+ []
+
+<Images/ydiff_gu.pdf, id=3149, 569.12625pt x 387.4475pt>
+File: Images/ydiff_gu.pdf Graphic file (type pdf)
+
+<use Images/ydiff_gu.pdf>
+Package pdftex.def Info: Images/ydiff_gu.pdf used on input line 662.
+(pdftex.def)             Requested size: 426.84364pt x 290.5849pt.
+
+Overfull \hbox (14.27867pt too wide) in paragraph at lines 662--663
+ [][] 
+ []
+
+[135]
+Overfull \vbox (10.83948pt too high) has occurred while \output is active []
+
+
+[136 <./Images/ptH_gu.pdf, page is rotated 90 degrees> <./Images/ydiff_gu.pdf, 
+page is rotated 90 degrees>]
+<Images/xsec_breakdown_ggh.pdf, id=3249, 569.12625pt x 387.4475pt>
+File: Images/xsec_breakdown_ggh.pdf Graphic file (type pdf)
+
+<use Images/xsec_breakdown_ggh.pdf>
+Package pdftex.def Info: Images/xsec_breakdown_ggh.pdf used on input line 671.
+(pdftex.def)             Requested size: 426.84364pt x 290.5849pt.
+
+Overfull \hbox (14.27867pt too wide) in paragraph at lines 671--672
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 672--672
+[][]|\OT1/cmr/m/it/10.95 Cross sec-tion break-down in $\OML/cmm/m/it/10.95 gg \
+OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 ggH$ \OT1/cmr/m/it/10.95 into for-ward
+ Higgs
+ []
+
+<Images/ptH_gg.pdf, id=3250, 569.12625pt x 387.4475pt>
+File: Images/ptH_gg.pdf Graphic file (type pdf)
+ <use Images/ptH_gg.pdf>
+Package pdftex.def Info: Images/ptH_gg.pdf used on input line 678.
+(pdftex.def)             Requested size: 398.38567pt x 271.2114pt.
+
+[137 <./Images/xsec_breakdown_ggh.pdf, page is rotated 90 degrees>]
+<Images/ydiff_gg.pdf, id=3298, 569.12625pt x 387.4475pt>
+File: Images/ydiff_gg.pdf Graphic file (type pdf)
+
+<use Images/ydiff_gg.pdf>
+Package pdftex.def Info: Images/ydiff_gg.pdf used on input line 685.
+(pdftex.def)             Requested size: 398.38567pt x 271.2114pt.
+ [138 <./Images/ptH_gg.pdf, page is rotated 90 degrees> <./Images/ydiff_gg.pdf,
+ page is rotated 90 degrees>]
+<Images/ptH_3j.pdf, id=3391, 569.12625pt x 387.4475pt>
+File: Images/ptH_3j.pdf Graphic file (type pdf)
+ <use Images/ptH_3j.pdf>
+Package pdftex.def Info: Images/ptH_3j.pdf used on input line 694.
+(pdftex.def)             Requested size: 409.77058pt x 278.96198pt.
+
+<Images/largestproppt.pdf, id=3392, 569.12625pt x 387.4475pt>
+File: Images/largestproppt.pdf Graphic file (type pdf)
+
+<use Images/largestproppt.pdf>
+Package pdftex.def Info: Images/largestproppt.pdf used on input line 701.
+(pdftex.def)             Requested size: 409.77058pt x 278.96198pt.
+) [139 <./Images/ptH_3j.pdf, page is rotated 90 degrees>] [140 <./Images/larges
+tproppt.pdf, page is rotated 90 degrees>]
+\openout2 = `chapter5/chapter5.aux'.
+
+
+(./chapter5/chapter5.tex
+Chapter 5.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 3--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--101
+
+ []
+
+[141
+
+
+
+] [142] [143]
+\openout2 = `appendix/appendixB.aux'.
+
+ (./appendix/appendixB.tex
+Appendix A.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\to' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+[144
+
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.A.0
+.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.50 \begin{equation}
+                     
+Overfull \hbox (41.67598pt too wide) in paragraph at lines 61--61
+[] 
+ []
+
+[145]pdfTeX warning (ext4): destination with the same identifier (name{equation
+.A.0.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 \begin{equation}
+                     
+Overfull \hbox (28.11227pt too wide) in paragraph at lines 72--72
+[] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.A.0.
+3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.73 \begin{equation}
+                      [146]pdfTeX warning (ext4): destination with the same ide
+ntifier (name{equation.A.0.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 \begin{equation}
+                     
+Overfull \hbox (35.22101pt too wide) in paragraph at lines 92--92
+[] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.A.0.
+5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.93 \begin{equation}
+                     
+Overfull \hbox (16.26807pt too wide) in paragraph at lines 103--103
+[] 
+ []
+
+[147]pdfTeX warning (ext4): destination with the same identifier (name{equation
+.A.0.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.104 \begin{equation}
+                      
+Overfull \hbox (41.99844pt too wide) in paragraph at lines 126--126
+[] 
+ []
+
+[148]
+Overfull \hbox (59.26811pt too wide) in paragraph at lines 142--142
+[] 
+ []
+
+[149]) [150] (./master.bbl
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no — in font cmr12!
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
+ [151
+
+
+
+]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [152]
+[153])
+
+Package natbib Warning: There were undefined citations.
+
+[154]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+ (./master.aux (./chapter1/chapter1.aux) (./chapter2/chapter2.aux)
+(./chapter3/chapter3.aux) (./chapter4/chapter4.aux) (./chapter5/chapter5.aux)
+(./appendix/appendixB.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+
+
+Package rerunfilecheck Warning: File `master.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `master.out':
+(rerunfilecheck)             Before: 1BD9087EE41028313E7AA0B2507053A7;4079
+(rerunfilecheck)             After:  B710A784D7CA50E606FB3E020C55EE21;4079.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+ ) 
+Here is how much of TeX's memory you used:
+ 22742 strings out of 493014
+ 410625 string characters out of 6133351
+ 508143 words of memory out of 5000000
+ 25067 multiletter control sequences out of 15000+600000
+ 25953 words of font info for 106 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,29n,89p,2577b,710s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.53} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.50} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.48} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.55} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.54} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.52} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.49} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.36} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.74} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on master.pdf (169 pages, 3045355 bytes).
+PDF statistics:
+ 3799 PDF objects out of 4296 (max. 8388607)
+ 2761 compressed objects within 28 object streams
+ 725 named destinations out of 1000 (max. 500000)
+ 840 words of extra memory for PDF output out of 10000 (max. 10000000)
+

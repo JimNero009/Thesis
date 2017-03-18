@@ -1,0 +1,64 @@
+As briefly touched upon before, QCD is a gauge theory with gauge group $SU(3)$. What this means is that, for an operator $U$ belonging to $SU(3)$, the transformation $\psi \to U\psi$ leaves the Lagrangian invariant. Notice that our current Lagrangian already trivially satisfies this for a $global$ $SU(3)$ gauge transformation. If we strengthen our requirement and require local gauge invariance such that $U = U(x)$, then our Lagrangian is no longer invariant under that transformation;
+
+\begin{equation}
+\begin{split}
+\mathscr{L}'& = \bar{\psi}(x)U^\dagger(x)(i \slashed{\partial} - m) U(x)\psi(x)\\
+& = \bar{\psi}(x)(i \slashed{\partial} - m)\psi(x) + i \bar{\psi}(x) U^\dagger(x)\gamma^\mu\left[\partial_\mu U(x) \right]\psi(x).
+\end{split}
+\end{equation}
+
+Clearly, this we require something extra to recover our invariance. An extra field $A^\mu$ that transforms in such a way as to cancel off this extra term would do this. We therefore rewrite our Lagrangian;
+
+\begin{equation}
+\mathscr{L} = \mathscr{L} - i \bar{\psi} (x) g_s \gamma^\mu A_\mu(x) \psi(x),
+\end{equation} 
+
+where $g_s$ is a coupling analogous to electric charge in Quantum Electrodynamics (QED) and is interpreted as the coupling strength of the strong force. This addition will guarantee local gauge invariance so long as $A^\mu(x)$ transforms as;
+
+\begin{equation}
+A_\mu \to U \left(A_\mu - \frac{i}{g_s} U^\dagger \left[\partial_\mu U \right] \right)U^\dagger.
+\label{agaugetrans}
+\end{equation}
+
+It is conventional at this point to define a \emph{covariant derivative};
+
+\begin{equation}
+D_\mu \equiv \partial_\mu - i g_s A_\mu(x),
+\end{equation}
+
+such that we can write our Lagrangian more compactly as;
+
+\begin{equation}
+\mathscr{L} = \bar{\psi}(x)(i \slashed{D}(x) - m) \psi(x).
+\end{equation}
+
+As it stands, the field that we put in couples to our fermionic content but has no kinematic term and so cannot propagate freely. We should add in terms to do this in a way that does not break the gauge invariance we just created. In particular, this means a mass term $\sim m A_\mu A_\nu$ is not present. We can conclude from this that our gauge field has massless carriers, so we can look to QED for inspiration of how to construct a kinetic term. In QED, the correct equations of motion (i.e. Maxwell's equations) are recovered if the Lagrangian contains a term like $F^{\mu \nu} F_{\mu \nu}$, with the \emph{field strength tensor} defined as;
+
+\begin{equation}
+F^{\mu \nu} = \partial ^\mu A^\nu - \partial^\mu A^\mu. 
+\end{equation}
+
+One might naively expect that we should copy this and claim that as our kinetic term. However, for QCD that term is \emph{not} gauge invariant because of a property of $SU(3)$ that we have not yet looked at; namely, $SU(3)$ is non-Abelian (whereas QED has the gauge group $U(1)$, which is Abelian). To see how the gauge invariance is not preserved with this form in QCD (and subsequently, find a way to restore it) it is instructive to work explicitly with the $SU(3)$ group. In particular, we can write;
+
+\begin{equation}
+U(x) = \exp \left[- i \theta_a (x) \frac{\lambda_a}{2} \right].
+\end{equation}
+
+We require the subscript $a$ because actually there are $3^2 - 1 = 8$ different generators $\lambda_a$ and we need to differentiate one from the other. Note that this does not conflict with any of the discussion before because we can just repeat the process 8 times;
+
+\begin{equation}
+A_\mu (x) = \sum_{a=1}^8 t_a A_\mu^a(x), \hspace{10 pt} t_a = \frac{\lambda_a}{2}.
+\end{equation}
+
+For brevity, we will work with $A_\mu ^a$ rather than the full $A_\mu$. Taking an infinitesimal gauge transformation, our explicit calculation for how $A^\mu_a t^a$ transforms (i.e., taking equation \ref{agaugetrans} and keeping terms linear in $\theta$);
+
+\begin{equation}
+\begin{split}
+(A_\mu^a t_a)' &\approx (1- i \theta_a t ^a)\left(A_\mu^b t_b - \frac{i}{g_s}(1 + i \theta_b t^b)\partial_\mu (1 - i \theta_c t^c)\right)(1 + i \theta_d t^d) \\
+&= A_\mu^a t_a  + i A_\mu ^b t_b \theta_d t^d - i \theta_a t^a A_\mu^b t_b - \frac{1}{g_s} (\partial_\mu \theta_a) t^a \\
+&= A_\mu^a t_a + i A_\mu^b \theta^c \left[ t_b, t_c \right] - \frac{1}{g_s} (\partial_\mu \theta_a) t^a \\
+&= A_\mu^a t_a -\frac{1}{g_s}(\partial_\mu \theta^a)t_a + f^{abc}  \theta^b A_\mu^c. 
+\end{split}
+\end{equation} 
+
+The term proportional to $f^{abc}$ came from the commutator of group generators and the fact that it is non-zero is the new feature of non-Abelian gauge theory. We see precisely that it is this term that breaks our gauge invariance in our QCD-like field strength tensor by performing the gauge transform on the object;

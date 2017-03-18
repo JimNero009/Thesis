@@ -1,0 +1,54 @@
+\BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{Declaration}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{Acknowledgements}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Background and Theoretical Basis}{}% 4
+\BOOKMARK [1][-]{section.1.1}{LHC and the Standard Model}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{QCD}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.2.1}{Lagrangian Formalism and Dirac Fermions}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.2}{Gauge Symmetry}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.3}{QCD Lagrangian}{section.1.2}% 9
+\BOOKMARK [1][-]{section.1.3}{From Lagrangians to Scattering Amplitudes}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.3.1}{Path Integral Formulation}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.2}{LSZ Formula}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.3}{Correlation Functions from Path Integrals}{section.1.3}% 13
+\BOOKMARK [2][-]{subsection.1.3.4}{Calculating a Scattering Amplitude}{section.1.3}% 14
+\BOOKMARK [1][-]{section.1.4}{Feynman Rules \(in QCD\)}{chapter.1}% 15
+\BOOKMARK [2][-]{subsection.1.4.1}{qQ qQ at Leading Order}{section.1.4}% 16
+\BOOKMARK [1][-]{section.1.5}{Cross Sections in Proton-Proton Collisions}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.6}{Spinor Helicity}{chapter.1}% 18
+\BOOKMARK [0][-]{chapter.2}{High Energy Jets}{}% 19
+\BOOKMARK [1][-]{section.2.1}{The Problem with Perturbation Theory in the High Energy Limit}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.1.1}{qQ qQ at LO and NLO in the High Energy Limit}{section.2.1}% 21
+\BOOKMARK [1][-]{section.2.2}{HEJ Amplitudes}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.1}{qg qg in the High Energy Limit}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.2}{Regge Theory and the Connection to High Energy 2 n Amplitudes}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.3}{qQ qgQ in the High Energy Limit}{section.2.2}% 25
+\BOOKMARK [1][-]{section.2.3}{Resummation Technique}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.3.1}{Lipatov Ansatz}{section.2.3}% 27
+\BOOKMARK [2][-]{subsection.2.3.2}{Combining Real and Virtual Corrections at All Orders}{section.2.3}% 28
+\BOOKMARK [1][-]{section.2.4}{Monte Carlo Implementation}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.2.4.1}{The Motivation Behind Monte Carlo}{section.2.4}% 30
+\BOOKMARK [2][-]{subsection.2.4.2}{Monte Carlo in High Energy Jets}{section.2.4}% 31
+\BOOKMARK [2][-]{subsection.2.4.3}{Concerning Partons and Jets}{section.2.4}% 32
+\BOOKMARK [2][-]{subsection.2.4.4}{Scale Variations}{section.2.4}% 33
+\BOOKMARK [1][-]{section.2.5}{Experimental Analyses}{chapter.2}% 34
+\BOOKMARK [0][-]{chapter.3}{Beyond Leading Log with High Energy Jets}{}% 35
+\BOOKMARK [1][-]{section.3.1}{Motivations for NLL}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.2}{Unordered Emissions in Pure Jets}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.3}{Calculations of NLL Partonic Subprocesses}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.1}{Calculation of qg qQ in the High Energy Limit}{section.3.3}% 39
+\BOOKMARK [2][-]{subsection.3.3.2}{Calculation of qq' qQq' in the High Energy Limit}{section.3.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.3}{Checks and Verifications of Amplitudes}{section.3.3}% 41
+\BOOKMARK [1][-]{section.3.4}{Computational Aspects}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.5}{Results}{chapter.3}% 43
+\BOOKMARK [0][-]{chapter.4}{Higgs Plus Jets with Finite Quark Mass Effects}{}% 44
+\BOOKMARK [1][-]{section.4.1}{The Infinite Top Mass Limit}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.2}{Calculations of H + jets with Finite Quark Mass Effects}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.2.1}{qQ qHQ}{section.4.2}% 47
+\BOOKMARK [2][-]{subsection.4.2.2}{gq Hgq}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.3}{Checks and Verifications of Amplitudes}{section.4.2}% 49
+\BOOKMARK [1][-]{section.4.3}{Computational Aspects}{chapter.4}% 50
+\BOOKMARK [1][-]{section.4.4}{Results}{chapter.4}% 51
+\BOOKMARK [0][-]{chapter.5}{Conclusions}{}% 52
+\BOOKMARK [0][-]{appendix.A}{Form of the H Functions in the gq Hgq Box Integral}{}% 53
+\BOOKMARK [0][-]{section*.76}{Bibliography}{}% 54

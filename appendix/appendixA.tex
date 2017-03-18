@@ -1,0 +1,93 @@
+\chapter{Spinor Algebra}
+\label{app:spinor}
+
+Since there are many points in this thesis where spinor algebra is used, we provide here a short review of the important properties of it. Our starting point is the Dirac equation;
+
+\begin{equation}
+(i \gamma^\mu \partial_\mu - m) \psi(x) = 0.
+\end{equation}
+
+The $\gamma^\mu$ are a set of four 4-by-4 matrices in spinor space and $\psi$ is a four-component spinor. In the derivation of this equation, we find that the gamma matrices are anti-commuting;
+
+\begin{equation}
+\{ \gamma^\mu, \gamma^\nu \} = 2 \eta^{\mu \nu}.
+\end{equation}
+
+This is the only restriction on these matrices and so there are a number of equivalent forms for them. We will use the following convention; 
+
+\begin{subequations}
+\begin{align}
+\gamma^0 &= 
+ \begin{pmatrix}
+  0 & 0 & 1 & 0\\
+  0 & 0 & 0 & 1\\
+  1 & 0 & 0 & 0\\
+  0 & 1 & 0 & 0
+ \end{pmatrix},\\
+ \gamma^1 &= 
+ \begin{pmatrix}
+  0 & 0 & 0 & -1\\
+  0 & 0 & -1 & 0\\
+  0 & 1 & 0 & 0\\
+  1 & 0 & 0 & 0
+ \end{pmatrix},\\
+ \gamma^2 &= 
+ \begin{pmatrix}
+  0 & 0 & 0 & i\\
+  0 & 0 & -i & 0\\
+  0 & -i & 0 & 0\\
+  i & 0 & 0 & 0
+ \end{pmatrix},\\
+ \gamma^3 &= 
+ \begin{pmatrix}
+  0 & 0 & -1 & 0\\
+  0 & 0 & 0 & 1\\
+  1 & 0 & 0 & 0\\
+  0 & -1 & 0 & 0
+ \end{pmatrix}.
+ \end{align}
+ \end{subequations}
+ 
+We will also define the fifth gamma matrix $\gamma^5 = i \gamma^0 \gamma^1 \gamma^2 \gamma^3$. This finds use in the projection operator which can be applied to the Dirac spinor to pick out a certain helicity state; 
+
+\begin{equation}
+P_{\pm} = (1 \pm \gamma^5).
+\end{equation}
+
+In searching for plane wave solutions of the Dirac equation, we find four independent solutions;
+
+\begin{subequations}
+\begin{align}
+u^{(1)} &= N
+ \begin{pmatrix}
+  1 \\
+  0 \\
+  \frac{p_z}{E+m} \\
+  \frac{p_\perp}{E+m} 
+ \end{pmatrix},\\
+u^{(2)} &= N
+ \begin{pmatrix}
+  0 \\
+  1 \\
+  \frac{p_\perp^*}{E+m} \\
+  \frac{-p_z}{E+m} 
+ \end{pmatrix},\\
+v^{(1)} &= N
+ \begin{pmatrix}
+   \frac{p_\perp^*}{E+m} \\
+  \frac{-p_z}{E+m}  \\
+ 0\\
+ 1
+ \end{pmatrix},\\
+v^{(2)} &= -N
+ \begin{pmatrix}
+  \frac{p_z}{E+m} \\
+  \frac{p_\perp}{E+m} \\
+  1 \\
+  0
+ \end{pmatrix},
+ \end{align}
+ \end{subequations}
+
+where $N$ is an overall normalisation used to fix the value of $u^\dagger u$ to anything that is desired. We will use the normalisation $u^\dagger u = 2E$ implicitly throughout this thesis. This is useful because the massless limit of these solutions can then be taken without any difficulty and indeed we will always take this limit. 
+

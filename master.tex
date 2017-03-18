@@ -1,0 +1,120 @@
+% Remove the oneside option below for double sided printing (e.g. for final (post-viva) submission)
+\documentclass[a4paper,12pt,oneside,openright]{book}
+
+% Preamble commands go here
+\usepackage{float}
+\usepackage{customisations}
+%\usepackage{subcaption}
+\usepackage{slashed}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{bbold}
+\usepackage{todonotes}
+\usepackage{enumitem}
+\usepackage{array}
+
+\newcommand{\bra}[2][]{\mathinner{\langle #2\rvert}_{#1}}
+\newcommand{\ket}[2][]{\mathinner{\lvert#2\rangle}_{\hspace{-0.1em}#1}}
+\newcommand{\ketbra}[3][]{\mathinner{\lvert#2\rangle\langle #3\rvert}_{#1}}
+\newcommand\matel[4][]{\mathinner{\langle#2\vert#3\vert#4\rangle}_{#1}}
+
+%% Some of the below packages may be useful to thesis writers in Physics
+%% Googling `latex <packagename>' will usually give you some documentation
+% \usepackage[load-configurations=abbreviations]{siunitx} % siunitx typesets physical units in a consistent manner
+\usepackage{booktabs} % booktabs provides professional formatting commands for tables
+\usepackage{amsmath} % amsmath provides extra maths symbols
+\usepackage{textcomp} % textcomp provides extra text symbols (like a degrees celsius symbol)
+% \usepackage{tikz} % tikz is a package for drawing diagrams and adding annotations to figures
+% \usepackage{threeparttable} % threeparttable allows for adding notes to tables
+% \usepackage{eps2pdf} % eps2pdf allows background transformation of eps files to pdfs so they 
+%						work seamlessly with pdflatex. If using this with the LaTeX editor Kile,
+%						you need to add --shell-escape before '%source', in
+%						Settings -> Configure Kile... -> Tools -> Build -> build_pdflatex
+\usepackage{notoccite}
+% End preamble
+
+% REPLACE THESE with your thesis title, your name and the date of submission of the thesis
+\title{Next-to-Leading Log and Finite Quark Mass Effects with High Energy Jets at the LHC}
+\author{James D Cockburn}
+\date{2017} % of submission
+
+\begin{document}
+\interfootnotelinepenalty=10000
+\def\VSpace{10.0ex}
+
+% Thesis front matter - title page, abstract, acknowledgements, declaration and table of contents
+% See customisations.sty to modify the title page or declaration
+\singlespacing
+\maketitlepage
+\frontmatter
+\eighteenptleading
+
+\input{thesis-frontmatter/lay}
+\pagenumbering{roman}
+\setcounter{page}{1}
+\input{thesis-frontmatter/abstract}
+
+\singlespacing
+% Uncomment this line if you need to declare published work which forms part of the thesis
+%\declarationpublications{\cite{Conway2000}}
+\makedeclaration
+%\section*{Publication List} 
+%None to date, plans for an NLL paper in the near future and a finite quark mass in Higgs plus jets one before the end of my PhD. 
+
+\input{thesis-frontmatter/acknowledgements}
+
+\cleardoublepage
+\phantomsection
+%\addcontentsline{toc}{chapter}{\contentsname}
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\makeatletter
+     \renewcommand*\l@figure{\@dottedtocline{1}{1em}{3.2em}}
+\makeatother
+
+\cleardoublepage
+\phantomsection
+%\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+\makeatletter
+     \renewcommand*\l@figure{\@dottedtocline{1}{1em}{3.2em}}
+\makeatother
+
+\cleardoublepage
+\phantomsection
+%\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+\listoftodos
+
+% Include main matter here
+\mainmatter
+\eighteenptleading
+\setcounter{page}{1}
+\include{chapter1/chapter1}
+\include{chapter2/chapter2}
+\include{chapter3/chapter3}
+\include{chapter4/chapter4}
+\include{chapter5/chapter5}
+
+\appendix
+\addtocontents{toc}{\protect\tocappendix}
+%\include{appendix/appendixA}
+\include{appendix/appendixB}
+
+\backmatter
+
+\singlespace
+
+\phantomsection
+\addcontentsline{toc}{chapter}{\bibname}
+% Choose a bibliography style to suit your taste here
+% This one was downloaded from http://web.reed.edu/cis/help/latex/bibtexstyles.html (June 2012)
+%\bibliographystyle{ChicagoReedweb}
+\bibliographystyle{acm}
+\bibliography{/Users/jcockburn/Documents/Work/PhD/HEJ,/Users/jcockburn/Documents/Work/PhD/Finite_Mass,/Users/jcockburn/Documents/Work/PhD/Regge,/Users/jcockburn/Documents/Work/PhD/Background_Physics,/Users/jcockburn/Documents/Work/PhD/Books}
+
+\end{document}
