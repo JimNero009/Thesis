@@ -3,7 +3,7 @@
 %%% See <http://www.astro.gla.ac.uk/users/norman/distrib/urlbst/>
 %%% Added webpage entry type, and url and lastchecked fields.
 %%% Original headers follow...
-
+%%% Modified
 %%
 %% This is file `ChicagoNB.bst',
 %% generated with the docstrip utility.
