@@ -218,14 +218,16 @@ We should check at this point that our expression is indeed still gauge invarian
 \begin{equation}
 \begin{split}
 Q^{\mu \nu}p_{b, \nu} &= -\frac{C_1}{\hat{t}_2} \left(\bar{u}_2 \gamma^\mu \slashed{p}_3 \slashed{p_b} u_3 \right) + \frac{C_2}{\tilde{t}_2} \left( \bar{u}_2 \slashed{p}_b \slashed{p}_2 \gamma^\mu u_3 \right) + i  \frac{C_t}{s_{23}} \left(\hat{t}_1  \matel{2}{\mu}{3} + V^{\mu \rho \nu}_{3g}p_{b \nu}  \matel{2}{\rho}{3} \right) \\
-&= -\frac{C_1}{\hat{t}_2} s_{3b} \matel{2}{\mu}{3} + \frac{C_2}{\tilde{t}_2} s_{2b} \matel{2}{\mu}{3} + i \matel{2}{\mu}{3}\frac{C_t}{s_{23}}(\hat{t}_1 + (s_{2b} + s_{3b}) - 2p_b^\mu p_b^\rho + 2 p_b^\rho p_b^\mu) \\
-&= \frac{\matel{2}{\mu}{3}}{s_{23}}(C_1 s_{23} - C_2 s_{23} + i C_t(\hat{t}_1 + s_{2b} + s_{3b})) \\
-&= i C_t \frac{\matel{2}{\mu}{3}}{s_{23}}(-s_{23} + (-s_{2b} - s_{3b} + s_{23} + s_{2b} + s_{3b})) \\
+&= -\frac{C_1}{\hat{t}_2} s_{3b} \matel{2}{\mu}{3} + \frac{C_2}{\tilde{t}_2} s_{2b} \matel{2}{\mu}{3} + i \matel{2}{\mu}{3}\frac{C_t}{s_{23}}(\hat{t}_1 + (s_{2b} + s_{3b})\eta^{\mu \rho} - \\
+&(p_2+p_3+p_b)^\mu p_b^\rho + 2p_b^\mu p_b^\rho) \\
+&= \frac{\matel{2}{\mu}{3}}{s_{23}}(C_1 s_{23} - C_2 s_{23} + i C_t(\hat{t}_1 + (s_{2b} + s_{3b})-2(p_2+p_3+p_b)^\mu p_b^\rho + 2p_b^\mu p_b^\rho)) \\
+&= i C_t \frac{\matel{2}{\mu}{3}}{s_{23}}(-s_{23} + (-s_{2b} - s_{3b} + s_{23} + s_{2b} + s_{3b})-2(p_2+p_3+p_b)^\mu p_b^\rho + 2p_b^\mu p_b^\rho)) \\
+&\approx  i C_t \frac{\matel{2}{\mu}{3}}{s_{23}}(-2p_b^\mu p_b^\rho + 2p_b^\mu p_b^\rho)) \\
 &= 0,
 \end{split}
 \end{equation}
 
-and therefore the vertex (and thus the amplitude) is, indeed, a gauge invariant quantity. We see, however, that the effective vertex is not truly factorised since there is a clear dependence on $p_a$. We therefore choose to do our calculations in a gauge where the gluon polarisation vector is orthogonal to $p_a$ and we have;
+where we have had to make the high energy approximation $p_b \sim p_2 + p_3$. Therefore, so long as we always approximate the three gluon vertex in this manner (this is where the `offending' term came from), the effective vertex is, indeed, a gauge invariant quantity. It may seem, however, that the effective vertex is not truly factorised since there is a clear dependence on $p_a$. Because the complete term goes like $p_a^\mu/s_{ab}$, it is actually independent of $p_a$\footnote{An easy way to convince oneself of this is to work in light-cone co-ordinates and see that the $p_a^+$ scale factors out on the top and bottom of the expression.}. We still have freedom to make a gauge choice to do our calculations in, however, and a good choice will be the gauge where the gluon polarisation vector is orthogonal to $p_a$ and we have;
 
 \begin{equation}
 Q^{\mu \nu}_{gauge} = -\frac{C_1}{t_2} \left(\bar{u}_2 \gamma^\mu (\slashed{p}_3-\slashed{p}_b)\gamma^\nu u_3 \right) + \frac{C_2}{\tilde{t}_2} \left( \bar{u}_2 \gamma^\nu (\slashed{p}_2-\slashed{p}_b) \gamma^\mu u_3 \right) + i  \frac{C_t}{s_{23}} V^{\mu \rho \nu}_{3g}  \matel{2}{\rho}{3}.
