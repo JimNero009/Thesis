@@ -342,7 +342,7 @@ We are then in a position to combine all graphs together and derive our effectiv
 
 \begin{equation}
 \begin{split}
-X^{\mu \nu} &=  \frac{C_1}{s_{23}}\left(\eta^{\mu \nu}\left(2 p_a^\sigma \left( \frac{\hat{t}_1}{s_{a2}+s_{a3}} \right) - 2 p_b^\sigma \left(\frac{\hat{t}_3}{s_{b_2}+s_{b3}} \right) \right)+ V_{3g}^{\mu \nu \sigma} \right)\matel{2}{\sigma}{3} \\
+X^{\mu \nu} &=  \frac{C_1}{s_{23}}\left(\eta^{\mu \nu}\left(2 p_a^\sigma \left( \frac{q_1^2}{s_{a2}+s_{a3}} \right) - 2 p_b^\sigma \left(\frac{q_3^2}{s_{b_2}+s_{b3}} \right) \right)+ V_{3g}^{\mu \nu \sigma} \right)\matel{2}{\sigma}{3} \\
 &+ \frac{i C_2}{\hat{t}_2} X_{qprop}^{\mu \nu} - \frac{i C_3}{\tilde{t}_2} X_{crossed}^{\mu \nu},
 \end{split}
 \end{equation}
@@ -354,8 +354,8 @@ where we have defined the following expressions:
 V_{3g}^{\mu \nu \sigma} &= (q_1 + p_2 + p_3)^\nu \eta^{\mu \sigma} + (q_3 - p_2 -p_3)^\mu \eta^{\sigma \nu} - (q_1 + q_3)^\sigma \eta^{\mu \nu} \\
 C_2 &= T^g_{1a}T^g_{2q}T^{g'}_{q3}T^{g'}_{4b} \\
 C_3 &= T^g_{1a}T^{g'}_{2q}T^g_{q3}T^{g'}_{4b} \\
-X_{qprop}^{\mu \nu} &= \bar{u}_2 \gamma^\mu (\slashed{p}_a - \slashed{p}_1 - \slashed{p}_2)\gamma^\nu u_3 \\
-X_{crossed}^{\mu \nu} &=\bar{u}_2 \gamma^\nu (\slashed{p}_a - \slashed{p}_1 - \slashed{p}_3)\gamma^\mu u_3.
+X_{qprop}^{\mu \nu} &= \bar{u}_2 \gamma^\mu (\slashed{q}_1 - \slashed{p}_2)\gamma^\nu u_3 \\
+X_{crossed}^{\mu \nu} &=\bar{u}_2 \gamma^\nu (\slashed{q}_1 - \slashed{p}_3)\gamma^\mu u_3.
 \end{align}
 \end{subequations}
 
@@ -372,12 +372,12 @@ with:
 
 \begin{equation}
 \begin{split}
-X_{sym}^\sigma &= p_a^\sigma \left( \frac{\hat{t}_1}{s_{a2}+s_{a3}} \right) + p_1^\sigma \left( \frac{\hat{t}_1}{s_{12}+s_{13}} \right) \\
-&- p_b^\sigma \left( \frac{\hat{t}_3}{s_{b2}+s_{b3}} \right) - p_4^\sigma \left( \frac{\hat{t}_3}{s_{42}+s_{43}} \right).
+X_{sym}^\sigma &= p_a^\sigma \left( \frac{q_1^2}{s_{a2}+s_{a3}} \right) + p_1^\sigma \left( \frac{q_1^2}{s_{12}+s_{13}} \right) \\
+&- p_b^\sigma \left( \frac{q_3^2}{s_{b2}+s_{b3}} \right) - p_4^\sigma \left( \frac{q_3^2}{s_{42}+s_{43}} \right).
 \end{split}
 \end{equation}
 
-We have therefore mathematically created both the effective vertices we required for the resummed description of these partonic configurations. 
+We have intentionally used the notation of $q^2$ rather than $\hat{t}$ to make it clear that this invariant is the invariant formed from the mass of the propagator entering into the effective vertex. Once extra emissions are added, the $\hat{t}$ notation can be misleading. With this, we now have the complete expression for the effective central $q\bar{q}$ vertex. 
 
 \subsection{Checks and Verifications of Amplitudes}
 

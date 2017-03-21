@@ -41,16 +41,16 @@
 \contentsline {subsection}{\numberline {3.3.3}Checks and Verifications of Amplitudes}{90}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Computational Aspects}{100}{section.3.4}
 \contentsline {section}{\numberline {3.5}Results}{101}{section.3.5}
-\contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{104}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{104}{section.4.1}
-\contentsline {section}{\numberline {4.2}Calculations of $H$ + jets with Finite Quark Mass Effects}{107}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{107}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}$gq \to Hgq$}{110}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Checks and Verifications of Amplitudes}{125}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Computational Aspects}{134}{section.4.3}
-\contentsline {section}{\numberline {4.4}Results}{134}{section.4.4}
-\contentsline {chapter}{\numberline {5}Conclusions}{141}{chapter.5}
-\contentsline {chapter}{\numberline {A}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{144}{appendix.A}
+\contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{105}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{105}{section.4.1}
+\contentsline {section}{\numberline {4.2}Calculations of $H$ + jets with Finite Quark Mass Effects}{108}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{108}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}$gq \to Hgq$}{111}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Checks and Verifications of Amplitudes}{126}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Computational Aspects}{135}{section.4.3}
+\contentsline {section}{\numberline {4.4}Results}{135}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusions}{142}{chapter.5}
+\contentsline {chapter}{\numberline {A}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{145}{appendix.A}
 \tocappendix 
-\contentsline {chapter}{Bibliography}{151}{section*.77}
+\contentsline {chapter}{Bibliography}{152}{section*.77}
 \contentsfinish 
