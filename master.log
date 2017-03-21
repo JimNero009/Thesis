@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.29)  21 MAR 2017 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.29)  21 MAR 2017 14:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1894,6 +1894,9 @@ Overfull \hbox (42.72797pt too wide) in paragraph at lines 558--560
  []
 
 
+LaTeX Warning: Marginpar on page 102 moved.
+
+
 Overfull \hbox (13.04404pt too wide) in paragraph at lines 566--566
 [][][][]\OT1/cmr/m/n/12 newveto  
  []
@@ -1994,7 +1997,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 50.
 
-<Images/qQh_eff.pdf, id=2705, 248.25829pt x 123.30235pt>
+<Images/qQh_eff.pdf, id=2708, 248.25829pt x 123.30235pt>
 File: Images/qQh_eff.pdf Graphic file (type pdf)
 
 <use Images/qQh_eff.pdf>
@@ -2023,21 +2026,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 124.
 
-<Images/qgh_impact_factor.pdf, id=2757, 259.96825pt x 181.73405pt>
+<Images/qgh_impact_factor.pdf, id=2760, 259.96825pt x 181.73405pt>
 File: Images/qgh_impact_factor.pdf Graphic file (type pdf)
 
 <use Images/qgh_impact_factor.pdf>
 Package pdftex.def Info: Images/qgh_impact_factor.pdf used on input line 135.
 (pdftex.def)             Requested size: 259.96759pt x 181.7336pt.
 
-<Images/qgh_pa_t.pdf, id=2760, 317.09647pt x 153.3493pt>
+<Images/qgh_pa_t.pdf, id=2763, 317.09647pt x 153.3493pt>
 File: Images/qgh_pa_t.pdf Graphic file (type pdf)
 
 <use Images/qgh_pa_t.pdf>
 Package pdftex.def Info: Images/qgh_pa_t.pdf used on input line 148.
 (pdftex.def)             Requested size: 237.82176pt x 115.01169pt.
 
-<Images/qgh_middle.pdf, id=2761, 250.06264pt x 146.43367pt>
+<Images/qgh_middle.pdf, id=2764, 250.06264pt x 146.43367pt>
 File: Images/qgh_middle.pdf Graphic file (type pdf)
 
 <use Images/qgh_middle.pdf>
@@ -2048,19 +2051,19 @@ Overfull \hbox (12.8033pt too wide) in paragraph at lines 148--149
  [][][][] 
  []
 
-<Images/box.pdf, id=2762, 214.70744pt x 116.4107pt>
+<Images/box.pdf, id=2765, 214.70744pt x 116.4107pt>
 File: Images/box.pdf Graphic file (type pdf)
  <use Images/box.pdf>
 Package pdftex.def Info: Images/box.pdf used on input line 150.
 (pdftex.def)             Requested size: 161.03018pt x 87.3078pt.
 
-<Images/qgh_s.pdf, id=2763, 266.85558pt x 135.57008pt>
+<Images/qgh_s.pdf, id=2766, 266.85558pt x 135.57008pt>
 File: Images/qgh_s.pdf Graphic file (type pdf)
  <use Images/qgh_s.pdf>
 Package pdftex.def Info: Images/qgh_s.pdf used on input line 151.
 (pdftex.def)             Requested size: 200.14119pt x 101.6773pt.
 
-<Images/qg_qgh_u.pdf, id=2764, 233.82095pt x 167.59203pt>
+<Images/qg_qgh_u.pdf, id=2767, 233.82095pt x 167.59203pt>
 File: Images/qg_qgh_u.pdf Graphic file (type pdf)
 
 <use Images/qg_qgh_u.pdf>
@@ -2178,7 +2181,7 @@ ame{equation.4.2.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.517 \end{align}
-                  <Images/qg_qgH_central.pdf, id=3051, 794.97pt x 614.295pt>
+                  <Images/qg_qgH_central.pdf, id=3054, 794.97pt x 614.295pt>
 File: Images/qg_qgH_central.pdf Graphic file (type pdf)
 
 <use Images/qg_qgH_central.pdf>
@@ -2200,14 +2203,14 @@ ame{equation.4.2.3}) has been already used, duplicate ignored
                    \relax 
 l.536 \end{align}
                   [126]
-<Images/qg_qgH_outside.pdf, id=3059, 794.97pt x 614.295pt>
+<Images/qg_qgH_outside.pdf, id=3062, 794.97pt x 614.295pt>
 File: Images/qg_qgH_outside.pdf Graphic file (type pdf)
 
 <use Images/qg_qgH_outside.pdf>
 Package pdftex.def Info: Images/qg_qgH_outside.pdf used on input line 543.
 (pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
 
-<Images/qg_qgH_compare_central.pdf, id=3062, 794.97pt x 614.295pt>
+<Images/qg_qgH_compare_central.pdf, id=3065, 794.97pt x 614.295pt>
 File: Images/qg_qgH_compare_central.pdf Graphic file (type pdf)
 
 <use Images/qg_qgH_compare_central.pdf>
@@ -2215,7 +2218,7 @@ Package pdftex.def Info: Images/qg_qgH_compare_central.pdf used on input line 5
 52.
 (pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
  [127 <./Images/qg_qgH_central.pdf, page is rotated 90 degrees>]
-<Images/qg_qgH_compare_outside.pdf, id=3071, 794.97pt x 614.295pt>
+<Images/qg_qgH_compare_outside.pdf, id=3074, 794.97pt x 614.295pt>
 File: Images/qg_qgH_compare_outside.pdf Graphic file (type pdf)
 
 <use Images/qg_qgH_compare_outside.pdf>
@@ -2248,7 +2251,7 @@ ame{equation.4.2.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.578 \end{align}
-                  <Images/ug_nextfor.pdf, id=3091, 794.97pt x 614.295pt>
+                  <Images/ug_nextfor.pdf, id=3094, 794.97pt x 614.295pt>
 File: Images/ug_nextfor.pdf Graphic file (type pdf)
 
 <use Images/ug_nextfor.pdf>
@@ -2275,7 +2278,7 @@ ame{equation.4.2.4}) has been already used, duplicate ignored
                    \relax 
 l.599 \end{align}
                  
-</Users/jcockburn/FO_SVN/ug_cen.pdf, id=3099, 794.97pt x 614.295pt>
+</Users/jcockburn/FO_SVN/ug_cen.pdf, id=3102, 794.97pt x 614.295pt>
 File: /Users/jcockburn/FO_SVN/ug_cen.pdf Graphic file (type pdf)
 
 <use /Users/jcockburn/FO_SVN/ug_cen.pdf>
@@ -2283,14 +2286,14 @@ Package pdftex.def Info: /Users/jcockburn/FO_SVN/ug_cen.pdf used on input line
 604.
 (pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
  [131 <./Images/ug_nextfor.pdf, page is rotated 90 degrees>] <Images/gg_nextfor
-.pdf, id=3113, 794.97pt x 614.295pt>
+.pdf, id=3116, 794.97pt x 614.295pt>
 File: Images/gg_nextfor.pdf Graphic file (type pdf)
 
 <use Images/gg_nextfor.pdf>
 Package pdftex.def Info: Images/gg_nextfor.pdf used on input line 614.
 (pdftex.def)             Requested size: 373.63596pt x 288.71869pt.
 
-<Images/gg_cen1.pdf, id=3114, 794.97pt x 614.295pt>
+<Images/gg_cen1.pdf, id=3117, 794.97pt x 614.295pt>
 File: Images/gg_cen1.pdf Graphic file (type pdf)
  <use Images/gg_cen1.pdf>
 Package pdftex.def Info: Images/gg_cen1.pdf used on input line 621.
@@ -2302,13 +2305,13 @@ Overfull \vbox (20.70706pt too high) has occurred while \output is active []
 
 [133 <./Images/gg_nextfor.pdf, page is rotated 90 degrees> <./Images/gg_cen1.pd
 f, page is rotated 90 degrees>]
-<Images/gg_cen2.pdf, id=3132, 794.97pt x 614.295pt>
+<Images/gg_cen2.pdf, id=3135, 794.97pt x 614.295pt>
 File: Images/gg_cen2.pdf Graphic file (type pdf)
  <use Images/gg_cen2.pdf>
 Package pdftex.def Info: Images/gg_cen2.pdf used on input line 628.
 (pdftex.def)             Requested size: 341.83044pt x 264.1417pt.
 
-<Images/gg_nextback.pdf, id=3133, 794.97pt x 614.295pt>
+<Images/gg_nextback.pdf, id=3136, 794.97pt x 614.295pt>
 File: Images/gg_nextback.pdf Graphic file (type pdf)
 
 <use Images/gg_nextback.pdf>
@@ -2321,7 +2324,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 643--647
 
 [134 <./Images/gg_cen2.pdf, page is rotated 90 degrees> <./Images/gg_nextback.p
 df, page is rotated 90 degrees>] [135]
-<Images/ptH_gu.pdf, id=3152, 569.12625pt x 387.4475pt>
+<Images/ptH_gu.pdf, id=3155, 569.12625pt x 387.4475pt>
 File: Images/ptH_gu.pdf Graphic file (type pdf)
  <use Images/ptH_gu.pdf>
 Package pdftex.def Info: Images/ptH_gu.pdf used on input line 655.
@@ -2331,7 +2334,7 @@ Overfull \hbox (14.27867pt too wide) in paragraph at lines 655--656
  [][] 
  []
 
-<Images/ydiff_gu.pdf, id=3153, 569.12625pt x 387.4475pt>
+<Images/ydiff_gu.pdf, id=3156, 569.12625pt x 387.4475pt>
 File: Images/ydiff_gu.pdf Graphic file (type pdf)
 
 <use Images/ydiff_gu.pdf>
@@ -2348,7 +2351,7 @@ Overfull \vbox (10.83948pt too high) has occurred while \output is active []
 
 [137 <./Images/ptH_gu.pdf, page is rotated 90 degrees> <./Images/ydiff_gu.pdf, 
 page is rotated 90 degrees>]
-<Images/xsec_breakdown_ggh.pdf, id=3253, 569.12625pt x 387.4475pt>
+<Images/xsec_breakdown_ggh.pdf, id=3256, 569.12625pt x 387.4475pt>
 File: Images/xsec_breakdown_ggh.pdf Graphic file (type pdf)
 
 <use Images/xsec_breakdown_ggh.pdf>
@@ -2366,14 +2369,14 @@ OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 ggH$ \OT1/cmr/m/it/10.95 into for-ward
  Higgs
  []
 
-<Images/ptH_gg.pdf, id=3254, 569.12625pt x 387.4475pt>
+<Images/ptH_gg.pdf, id=3257, 569.12625pt x 387.4475pt>
 File: Images/ptH_gg.pdf Graphic file (type pdf)
  <use Images/ptH_gg.pdf>
 Package pdftex.def Info: Images/ptH_gg.pdf used on input line 678.
 (pdftex.def)             Requested size: 398.38567pt x 271.2114pt.
 
 [138 <./Images/xsec_breakdown_ggh.pdf, page is rotated 90 degrees>]
-<Images/ydiff_gg.pdf, id=3302, 569.12625pt x 387.4475pt>
+<Images/ydiff_gg.pdf, id=3305, 569.12625pt x 387.4475pt>
 File: Images/ydiff_gg.pdf Graphic file (type pdf)
 
 <use Images/ydiff_gg.pdf>
@@ -2384,13 +2387,13 @@ Package pdftex.def Info: Images/ydiff_gg.pdf used on input line 685.
 
 LaTeX Warning: Marginpar on page 140 moved.
 
-<Images/ptH_3j.pdf, id=3395, 569.12625pt x 387.4475pt>
+<Images/ptH_3j.pdf, id=3400, 569.12625pt x 387.4475pt>
 File: Images/ptH_3j.pdf Graphic file (type pdf)
  <use Images/ptH_3j.pdf>
 Package pdftex.def Info: Images/ptH_3j.pdf used on input line 694.
 (pdftex.def)             Requested size: 409.77058pt x 278.96198pt.
 
-<Images/largestproppt.pdf, id=3396, 569.12625pt x 387.4475pt>
+<Images/largestproppt.pdf, id=3401, 569.12625pt x 387.4475pt>
 File: Images/largestproppt.pdf Graphic file (type pdf)
 
 <use Images/largestproppt.pdf>
@@ -2548,15 +2551,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
 (./appendix/appendixB.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
-Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: BF7B0177C6297255A2EB0E50AE6A374B;4079.
+
+
+Package rerunfilecheck Warning: File `master.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `master.out':
+(rerunfilecheck)             Before: BF7B0177C6297255A2EB0E50AE6A374B;4079
+(rerunfilecheck)             After:  5B1BA3F0F87E76FC066AF8BF7017FA25;4079.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 22745 strings out of 493014
- 410717 string characters out of 6133351
- 508348 words of memory out of 5000000
- 25076 multiletter control sequences out of 15000+600000
+ 22760 strings out of 493014
+ 410997 string characters out of 6133351
+ 511743 words of memory out of 5000000
+ 25084 multiletter control sequences out of 15000+600000
  25953 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,29n,89p,2577b,710s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2599,6 +2612,24 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
+pdfTeX warning (dest): name{section*.74} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.54} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.75} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.56} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.53} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.77} has been referenced but does not exist
+, replaced by a fixed one
+
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
@@ -2626,10 +2657,10 @@ mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on master.pdf (170 pages, 3048483 bytes).
+Output written on master.pdf (170 pages, 3048979 bytes).
 PDF statistics:
- 3798 PDF objects out of 4296 (max. 8388607)
- 2759 compressed objects within 28 object streams
- 719 named destinations out of 1000 (max. 500000)
+ 3807 PDF objects out of 4296 (max. 8388607)
+ 2768 compressed objects within 28 object streams
+ 726 named destinations out of 1000 (max. 500000)
  840 words of extra memory for PDF output out of 10000 (max. 10000000)
 

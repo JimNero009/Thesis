@@ -52,5 +52,5 @@
 \contentsline {chapter}{\numberline {5}Conclusions}{142}{chapter.5}
 \contentsline {chapter}{\numberline {A}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{145}{appendix.A}
 \tocappendix 
-\contentsline {chapter}{Bibliography}{152}{section*.77}
+\contentsline {chapter}{Bibliography}{152}{section*.78}
 \contentsfinish 
