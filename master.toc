@@ -38,7 +38,7 @@
 \contentsline {section}{\numberline {3.3}Calculations of NLL Partonic Subprocesses}{80}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Calculation of $qg \to qQ\mathaccentV {bar}016{Q}$ in the High Energy Limit}{80}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Calculation of $qq' \to qQ\mathaccentV {bar}016{Q}q'$ in the High Energy Limit}{86}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Checks and Verifications of Amplitudes}{90}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Checks and Verifications of Amplitudes}{91}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Computational Aspects}{100}{section.3.4}
 \contentsline {section}{\numberline {3.5}Results}{101}{section.3.5}
 \contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{105}{chapter.4}
@@ -52,5 +52,5 @@
 \contentsline {chapter}{\numberline {5}Conclusions}{142}{chapter.5}
 \contentsline {chapter}{\numberline {A}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{145}{appendix.A}
 \tocappendix 
-\contentsline {chapter}{Bibliography}{152}{section*.78}
+\contentsline {chapter}{Bibliography}{152}{section*.77}
 \contentsfinish 
