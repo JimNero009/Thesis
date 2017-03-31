@@ -390,8 +390,8 @@ is an \emph{effective} or \emph{Lipatov} vertex describing the emission of a glu
 
 \begin{equation}
 \begin{split}
-|\bar{M}^t_{f_1 f_2 \to f_1 g ... g f_2}|^2 &= \frac{1}{4 (N_C^2 - 1)} ||S_{f_1 f_2 \to f_1 f_2} ||^2 \left(g_s^2 C_{f_1} \frac{1}{t_1} \right) \left(g_s^2 C_{f_2} \frac{1}{t_{n-1}} \right) \\
-& \prod_{i=1}^{n-2} \left(\frac{-g_s^2 C_{A}}{t_i t_{i+1}} V^\mu (q_i, q_{i+1}) V_\mu (q_i, q_{i+1})  \right),
+|\bar{M}^t_{f_1 f_2 \to f_1 g ... g f_2}|^2 &= \frac{1}{4 (N_C^2 - 1)} ||S_{f_1 f_2 \to f_1 f_2} ||^2 \left(g_s^2 C_{f_1} \frac{1}{\hat{t}_1} \right) \left(g_s^2 C_{f_2} \frac{1}{\hat{t}_{n-1}} \right) \\
+& \prod_{i=1}^{n-2} \left(\frac{-g_s^2 C_{A}}{\hat{t}_i \hat{t}_{i+1}} V^\mu (q_i, q_{i+1}) V_\mu (q_i, q_{i+1})  \right),
  \end{split}
 \end{equation}
 
@@ -418,7 +418,7 @@ M_{qQ \to qQ}^{LO + virt} = M_{qQ \to qQ}^{LO} \times \exp \left[\hat{\alpha}(q_
 where we have related $\Delta y$ to the log as previously shown. The ansatz then goes further to say that this exponentiation holds in the MRK limit for any number of $t$-channel propagators present at the leading order, such that the virtual corrections are obtained by making the substitution;
 
 \begin{equation}
-\frac{1}{t_i} \to \frac{1}{t_i} \exp \left[\hat{\alpha}(q_{i,\perp}) \Delta y_{i,i+1} \right].
+\frac{1}{\hat{t}_i} \to \frac{1}{\hat{t}_i} \exp \left[\hat{\alpha}(q_{i,\perp}) \Delta y_{i,i+1} \right].
 \end{equation}
 
 In the appropriate limit, this ansatz has been proved to the sub-leading level \cite{Bogdan2006,Fadin2005,Fadin2004,Fadin2006}. However, by inspection of the $\hat{\alpha}$ function given in equation \ref{eqn:nlocorr}, we see that it is clearly divergent; for small values of $k_\perp$ in the integration region, the integrand tends to infinity. Such a divergence is called an \emph{infrared divergence} and is a common problem in particle physics amplitudes involving massless particles. The problem arises because virtual corrections are not the only corrections we need to consider to an amplitude. We can also have the case where a real emission has taken place but at an energy scale small enough that only a detector with infinite resolution could have detected it. Since such a detector cannot exist, there is no way of differentiating between a `pure' $qQ \to qQ$ scattering and another one accompanied by the emission of a low energy (or `soft') gluon. Such contributions are also divergent, but in such a way that when combined with the divergence in the virtual corrections, the divergence is cancelled away. We will show precisely how this happens in the next part. For now, we choose to use the technique of \emph{dimensional regularisation} to rewrite our $\hat{\alpha}$ function in a more convenient way - that is, a way that makes the divergence clear. The formalism works by extending the dimensionality of the two-dimensional perpendicular component integral to $2 + 2 \varepsilon$ dimensions. This will allow us to write the result as an expansion in $\varepsilon$, which will manifest our divergence as a term proportional to $\varepsilon^{-1}$. We must eventually take the limit $\varepsilon \to 0$, but we will see how this prescription allows us to remove the divergences from our theory in a neat and systematic way before we do so. A further note is that this dimensional shift also slightly alters the overall energy dimension of the integral and so we must introduce a scale $\mu$ to absorb this effect. The upshot is that we perform the integral in this convention and end up with; %\todo{I should do this for my own sanity and understanding}
