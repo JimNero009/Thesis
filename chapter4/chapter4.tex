@@ -3,7 +3,7 @@
 %Chapter about work on getting the impact factor in $qg \to qgH$ relaxing our assumption that the Higgs is far from the gluon in rapidity and keeping the full dependence on the top mass. Focus on how the HE and infinite top mass limits commute, so this is `simple' to include. Also include interference with bottom quark loops. References to \cite{Duca2003}, \cite{DelDuca2001}, \cite{Hahn1999}. Approximately 40\% done, since the document describing how the amplitude is derived is still being written. 
 
 It was briefly discussed that the addition of particles not charged under QCD such as the $W^\pm$, $Z$ and Higgs bosons are included in HEJ by deriving an expression for the emission of the boson that does not interfere with the general factorisation process. In this chapter, we look more closely at how this is done for the case of the Higgs boson (or simply `$H$') in a collection of limits. We will begin with the limit where the Higgs boson is emitted far apart from all other partons in rapidity and where the top quark mass is taken to infinity (the `infinite top mass limit'). Then we will relax the rapidity assumption on the Higgs and allow it to be produced close to an extremal parton in rapidity. Once this is established, we will consider the same rapidity situations but where we no longer use the infinite top mass limit and this will constitute the author's own work. By the end of the chapter, we will have an expression that allows for the Leading Log resummation of Higgs plus at least two jets processes with full quark mass dependence, a calculation that is unique to HEJ.   
-\todo{Add new reference for bottom mass}
+%\todo{Add new reference for bottom mass}
 \section{The Infinite Top Mass Limit}
 %HEJ `doesn't care' about whether the infinite top mass limit is implemented or not, so keeping full generality is `easy'. Discussion of why interference effects between top/bottom quark loops might be important (see, for example, \cite{Grazzini2013}).
 %\todo{Also mention that it is important to describe tails correctly because of VBF cuts}
@@ -41,7 +41,7 @@ The generalisation to multiple gluon emissions and different initial states foll
 
 The infinite top mass limit is remarkably successful for predictions of inclusive variables like total cross sections. The reason for this is that the expansion of this effective coupling is a power series in $\frac{m_H^2}{4 m_t^2} \sim 0.13$ and we essentially assume the top mass is the most relevant scale in the problem. It was checked that even the addition of a large dijet invariant mass in the amplitude had little effect \cite{Duca2003}. However, if the transverse scales start to become larger than the top mass (in particular, the transverse scales of the gluons entering the effective vertex), there is significant deviation between the result obtained in the full and effective theories \cite{Duca2003}. \\
 \\
-For HEJ, the infinite top mass limit was included because the expressions are simpler, but note that the factorisation of amplitudes will still occur whether or not this limit is taken. Therefore, any derived vertices for Higgs production with the full quark mass included can still be implemented in a straightforward way. Furthermore, as soon as the vertex including the full quark mass is derived, we can trivially add in the effect of more than one quark loop (for example, where a bottom quark runs in it). Such interference effects have been shown to produce interesting effects at small $p_T$ scales \cite{Grazzini2013}. For these reasons, we decided to implement the effect of finite quark masses in the HEJ formalism. 
+For HEJ, the infinite top mass limit was included because the expressions are simpler, but note that the factorisation of amplitudes will still occur whether or not this limit is taken. Therefore, any derived vertices for Higgs production with the full quark mass included can still be implemented in a straightforward way. Furthermore, as soon as the vertex including the full quark mass is derived, we can trivially add in the effect of more than one quark loop (for example, where a bottom quark runs in it). Such interference effects have been shown to produce interesting effects at small $p_T$ scales \cite{Grazzini2013, Lindert20017}. For these reasons, we decided to implement the effect of finite quark masses in the HEJ formalism. 
 
 \section{Calculations of $H$ + jets with Finite Quark Mass Effects}
 
@@ -686,24 +686,39 @@ We should also remember that, given kinematical constraints on the energy of the
 \caption{Comparison of infinite top mass, finite top mass and finite top + bottom mass cross sections in $gg \to ggH$, binned in rapidity difference between the gluon and up quark.}
 \label{fig:ydiff_gg}
 \end{figure}
-\todo{All analysis plots need labels on axes}
+%\todo{All analysis plots need labels on axes}
 We also investigate the effect of adding a third jet so as to look at a $gg \to gggH$ analysis. An interesting plot to show is that again of the Higgs $p_T$ as shown in figure \ref{fig:pth_gg_gggH}. We see there is a significant difference between the infinite top mass results and the finite top mass results in all bins - strikingly, at low Higgs $p_T$. This would seem to contradict our prediction that low transverse scales lead mean that the effective theory is valid. The problem is that, in a three jet event, you can manufacture a situation whereby there is a large hierarchy between the transverse scales that enter the Higgs vertex. If instead we plot the cross section as a function of the largest transverse scale that enters into this vertex, we should then once more again see the agreement in the low $p_T$ end. Figure \ref{fig:maxprop} shows this clearly. %\todo{Run analysis with full pp to H}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.72]{Images/ptH_3j.pdf}
 \caption{Comparison of infinite top mass, finite top mass and finite top + bottom mass cross sections in $gg \to gggH$, binned in Higgs $p_T$. }
 \label{fig:pth_gg_gggH}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.72]{Images/largestproppt.pdf}
 \caption{Comparison of infinite top mass, finite top mass and finite top + bottom mass cross sections in $gg \to gggH$, binned in the maximum $p_T$ of a gluon entering into the Higgs vertex. }
 \label{fig:maxprop}
 \end{figure}
 
-Unfortunately, there has so far not been many analyses of Higgs plus jets physics from the LHC and so we are not able to compare our new predictions against real data yet. We are, however, now in a prime position to provide predictions for any such data when it arrives. 
+Unfortunately, there has so far not been many analyses of Higgs plus jets physics from the LHC and so we are not able to compare our new predictions against real data. We are, however, now in a prime position to provide predictions for any such data when it arrives. We conclude this section instead with an inclusive Higgs plus dijets prediction and again point out the difference between the full $m_t$ and infinite $m_t$ approaches. The $p_T$ spectra of the Higgs for this case is plotted in figure \ref{fig:hjj_ptH}, along with the ratio of the finite $m_t$ and finite $m_t + m_b$ lines to the infinite $m_t$ line. We see clearly that the distribution obtained with the effective theory is much different. The same is true if we look at the $\Delta$ y distribution, shown in figure \ref{fig:hjj_dy}. 
 
+\begin{figure}[t]
+\centering
+\includegraphics[scale=0.64]{Images/Higgs_Plots/pth_compare_all.pdf}
+\caption{Comparison of infinite top mass, finite top mass and finite top + bottom mass cross sections in $pp \to H+\geq2j$, binned in the $p_T$ of the Higgs.}
+\label{fig:hjj_ptH}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[scale=0.64]{Images/Higgs_Plots/dyfb_compare_all.pdf}
+\caption{Comparison of infinite top mass, finite top mass and finite top + bottom mass cross sections in $pp \to H+\geq2j$, binned in the rapidity difference between the most forward/backward jets.}
+\label{fig:hjj_dy}
+\end{figure}
+
+In all of these distributions, we see that the addition of a bottom loop is having a small overall effect. This would suggest that the Higgs + 1 jet studies of, for example, \cite{Lindert2017} and \cite{Grazzini2013} where a sizeable difference was seen is an effect of having only one jet accompanying the Higgs. 
 
 %\todo{Mention no compare with data because lack of it}
