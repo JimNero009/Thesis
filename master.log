@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.29)  3 APR 2017 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.29)  5 APR 2017 12:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1078,7 +1078,7 @@ l.8
 
 
 
-] <Images/SM.png, id=677, 2007.5pt x 1507.6325pt>
+] <Images/SM.png, id=673, 2007.5pt x 1507.6325pt>
 File: Images/SM.png Graphic file (type png)
  <use Images/SM.png>
 Package pdftex.def Info: Images/SM.png used on input line 11.
@@ -1136,7 +1136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 609--612
 
  []
 
-[23] <Images/feyndiags.pdf, id=892, 572.72858pt x 293.37776pt>
+[23] <Images/feyndiags.pdf, id=888, 572.72858pt x 293.37776pt>
 File: Images/feyndiags.pdf Graphic file (type pdf)
 
 <use Images/feyndiags.pdf>
@@ -1148,7 +1148,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 635--638
  []
 
 [24] [25 <./Images/feyndiags.pdf>]
-<Images/ferm_prop.pdf, id=925, 171.88757pt x 48.61151pt>
+<Images/ferm_prop.pdf, id=921, 171.88757pt x 48.61151pt>
 File: Images/ferm_prop.pdf Graphic file (type pdf)
 
 <use Images/ferm_prop.pdf>
@@ -1159,14 +1159,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 656--658
 
  []
 
-<Images/gluon_prop.pdf, id=926, 161.71306pt x 63.03128pt>
+<Images/gluon_prop.pdf, id=922, 161.71306pt x 63.03128pt>
 File: Images/gluon_prop.pdf Graphic file (type pdf)
 
 <use Images/gluon_prop.pdf>
 Package pdftex.def Info: Images/gluon_prop.pdf used on input line 670.
 (pdftex.def)             Requested size: 113.19836pt x 44.12158pt.
 
-<Images/3g_vert.pdf, id=927, 181.46295pt x 155.94983pt>
+<Images/3g_vert.pdf, id=923, 181.46295pt x 155.94983pt>
 File: Images/3g_vert.pdf Graphic file (type pdf)
 
 <use Images/3g_vert.pdf>
@@ -1177,7 +1177,7 @@ Overfull \hbox (3.25244pt too wide) in paragraph at lines 683--684
 [][] 
  []
 
-<Images/4g_vert.pdf, id=928, 200.20667pt x 213.62259pt>
+<Images/4g_vert.pdf, id=924, 200.20667pt x 213.62259pt>
 File: Images/4g_vert.pdf Graphic file (type pdf)
 
 <use Images/4g_vert.pdf>
@@ -1188,7 +1188,7 @@ Overfull \hbox (16.37296pt too wide) in paragraph at lines 698--699
 [][] 
  []
 
-<Images/qg_vert.pdf, id=929, 190.73196pt x 110.78539pt>
+<Images/qg_vert.pdf, id=925, 190.73196pt x 110.78539pt>
 File: Images/qg_vert.pdf Graphic file (type pdf)
 
 <use Images/qg_vert.pdf>
@@ -1224,7 +1224,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 730.
 
-<Images/qQ_t.pdf, id=931, 294.51189pt x 210.63715pt>
+<Images/qQ_t.pdf, id=927, 294.51189pt x 210.63715pt>
 File: Images/qQ_t.pdf Graphic file (type pdf)
  <use Images/qQ_t.pdf>
 Package pdftex.def Info: Images/qQ_t.pdf used on input line 736.
@@ -1232,7 +1232,7 @@ Package pdftex.def Info: Images/qQ_t.pdf used on input line 736.
 
 [26 <./Images/qQ_t.pdf>] [27 <./Images/ferm_prop.pdf> <./Images/gluon_prop.pdf>
  <./Images/3g_vert.pdf> <./Images/4g_vert.pdf> <./Images/qg_vert.pdf>] [28]
-[29] [30] [31] <Images/PDF.png, id=1145, 629.35126pt x 406.01688pt>
+[29] [30] [31] <Images/PDF.png, id=1141, 629.35126pt x 406.01688pt>
 File: Images/PDF.png Graphic file (type png)
 
 <use Images/PDF.png>
@@ -1351,7 +1351,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 44.
 
-<Images/ud_ud_plots.pdf, id=1235, 794.97pt x 614.295pt>
+<Images/ud_ud_plots.pdf, id=1231, 794.97pt x 614.295pt>
 File: Images/ud_ud_plots.pdf Graphic file (type pdf)
 
 <use Images/ud_ud_plots.pdf>
@@ -1375,7 +1375,7 @@ l.62
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.62 
-     ] <Images/qQ_nlo.pdf, id=1245, 502.27306pt x 487.2846pt>
+     ] <Images/qQ_nlo.pdf, id=1241, 502.27306pt x 487.2846pt>
 File: Images/qQ_nlo.pdf Graphic file (type pdf)
 
 <use Images/qQ_nlo.pdf>
@@ -1383,7 +1383,7 @@ Package pdftex.def Info: Images/qQ_nlo.pdf used on input line 65.
 (pdftex.def)             Requested size: 401.819pt x 389.82822pt.
  [44 <./Images/ud_ud_plots.pdf, page is rotated 90 degrees>] [45 <./Images/qQ_n
 lo.pdf>]
-<Images/cuts.pdf, id=1281, 316.7552pt x 178.23468pt>
+<Images/cuts.pdf, id=1277, 316.7552pt x 178.23468pt>
 File: Images/cuts.pdf Graphic file (type pdf)
  <use Images/cuts.pdf>
 Package pdftex.def Info: Images/cuts.pdf used on input line 99.
@@ -1406,7 +1406,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 189.
 
-[50] <Images/qg_qg_scattering.png, id=1345, 1607.50563pt x 465.74pt>
+[50] <Images/qg_qg_scattering.png, id=1341, 1607.50563pt x 465.74pt>
 File: Images/qg_qg_scattering.png Graphic file (type png)
 
 <use Images/qg_qg_scattering.png>
@@ -1426,7 +1426,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 280.
 
-<Images/MRK_diagram.png, id=1380, 641.89813pt x 797.98125pt>
+<Images/MRK_diagram.png, id=1376, 641.89813pt x 797.98125pt>
 File: Images/MRK_diagram.png Graphic file (type png)
 
 <use Images/MRK_diagram.png>
@@ -1446,14 +1446,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 309.
 
 [55 <./Images/MRK_diagram.png>]
-<Images/gluon_emission.png, id=1399, 1370.11874pt x 392.96812pt>
+<Images/gluon_emission.png, id=1395, 1370.11874pt x 392.96812pt>
 File: Images/gluon_emission.png Graphic file (type png)
 
 <use Images/gluon_emission.png>
 Package pdftex.def Info: Images/gluon_emission.png used on input line 315.
 (pdftex.def)             Requested size: 411.03879pt x 117.89134pt.
 
-<Images/eikonal.pdf, id=1403, 185.76501pt x 111.39125pt>
+<Images/eikonal.pdf, id=1399, 185.76501pt x 111.39125pt>
 File: Images/eikonal.pdf Graphic file (type pdf)
 
 <use Images/eikonal.pdf>
@@ -1465,21 +1465,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--341
  []
 
 [56 <./Images/gluon_emission.png>] [57 <./Images/eikonal.pdf>] [58]
-<Images/hej_amp.png, id=1451, 581.67313pt x 455.7025pt>
+<Images/hej_amp.png, id=1447, 581.67313pt x 455.7025pt>
 File: Images/hej_amp.png Graphic file (type png)
 
 <use Images/hej_amp.png>
 Package pdftex.def Info: Images/hej_amp.png used on input line 402.
 (pdftex.def)             Requested size: 203.58864pt x 159.49826pt.
  [59] [60 <./Images/hej_amp.png>]
-<Images/real_correction.pdf, id=1475, 240.23802pt x 138.80919pt>
+<Images/real_correction.pdf, id=1471, 240.23802pt x 138.80919pt>
 File: Images/real_correction.pdf Graphic file (type pdf)
 
 <use Images/real_correction.pdf>
 Package pdftex.def Info: Images/real_correction.pdf used on input line 440.
 (pdftex.def)             Requested size: 240.23743pt x 138.80884pt.
  [61] [62 <./Images/real_correction.pdf>]
-[63] <Images/monte_carlo.pdf, id=1530, 367.59593pt x 371.27226pt>
+[63] <Images/monte_carlo.pdf, id=1526, 367.59593pt x 371.27226pt>
 File: Images/monte_carlo.pdf Graphic file (type pdf)
 
 <use Images/monte_carlo.pdf>
@@ -1500,7 +1500,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 640--643
 
  []
 
-[67] [68] <Images/running_alphas.png, id=1591, 1342.01375pt x 844.15375pt>
+[67] [68] <Images/running_alphas.png, id=1587, 1342.01375pt x 844.15375pt>
 File: Images/running_alphas.png Graphic file (type png)
 
 <use Images/running_alphas.png>
@@ -1517,7 +1517,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 716--721
 
  []
 
-<Images/wjets_HEJ.png, id=1631, 1064.97874pt x 680.04062pt>
+<Images/wjets_HEJ.png, id=1627, 1064.97874pt x 680.04062pt>
 File: Images/wjets_HEJ.png Graphic file (type png)
 
 <use Images/wjets_HEJ.png>
@@ -1528,7 +1528,7 @@ Overfull \hbox (13.41898pt too wide) in paragraph at lines 724--725
  [][] 
  []
 
-[72] <Images/4jet_hej.pdf, id=1647, 569.12625pt x 327.2225pt>
+[72] <Images/4jet_hej.pdf, id=1643, 569.12625pt x 327.2225pt>
 File: Images/4jet_hej.pdf Graphic file (type pdf)
 
 <use Images/4jet_hej.pdf>
@@ -1539,7 +1539,7 @@ Overfull \hbox (42.73665pt too wide) in paragraph at lines 734--735
  [][] 
  []
 
-<Images/hej_powheg_agree.pdf, id=1651, 433.62pt x 433.62pt>
+<Images/hej_powheg_agree.pdf, id=1647, 433.62pt x 433.62pt>
 File: Images/hej_powheg_agree.pdf Graphic file (type pdf)
 
 <use Images/hej_powheg_agree.pdf>
@@ -1560,7 +1560,7 @@ Chapter 3.
 
 
 
-] <Images/uno.pdf, id=1939, 306.14758pt x 202.22763pt>
+] <Images/uno.pdf, id=1935, 306.14758pt x 202.22763pt>
 File: Images/uno.pdf Graphic file (type pdf)
  <use Images/uno.pdf>
 Package pdftex.def Info: Images/uno.pdf used on input line 29.
@@ -1579,21 +1579,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 84.
 
-<Images/g_q_qbar_imp.pdf, id=1989, 136.30504pt x 107.55272pt>
+<Images/g_q_qbar_imp.pdf, id=1985, 136.30504pt x 107.55272pt>
 File: Images/g_q_qbar_imp.pdf Graphic file (type pdf)
 
 <use Images/g_q_qbar_imp.pdf>
 Package pdftex.def Info: Images/g_q_qbar_imp.pdf used on input line 97.
 (pdftex.def)             Requested size: 136.3047pt x 107.55244pt.
 
-<Images/qg_qQQbar_s.pdf, id=1990, 283.56088pt x 142.62794pt>
+<Images/qg_qQQbar_s.pdf, id=1986, 283.56088pt x 142.62794pt>
 File: Images/qg_qQQbar_s.pdf Graphic file (type pdf)
 
 <use Images/qg_qQQbar_s.pdf>
 Package pdftex.def Info: Images/qg_qQQbar_s.pdf used on input line 104.
 (pdftex.def)             Requested size: 226.849pt x 114.10251pt.
 
-<Images/qg_qQQbar_u.pdf, id=1991, 262.21002pt x 137.4729pt>
+<Images/qg_qQQbar_u.pdf, id=1987, 262.21002pt x 137.4729pt>
 File: Images/qg_qQQbar_u.pdf Graphic file (type pdf)
 
 <use Images/qg_qQQbar_u.pdf>
@@ -1604,21 +1604,21 @@ Overfull \hbox (24.0523pt too wide) in paragraph at lines 104--105
  [][][][] 
  []
 
-<Images/qg_qQQbar_t.pdf, id=1992, 219.04465pt x 121.0912pt>
+<Images/qg_qQQbar_t.pdf, id=1988, 219.04465pt x 121.0912pt>
 File: Images/qg_qQQbar_t.pdf Graphic file (type pdf)
 
 <use Images/qg_qQQbar_t.pdf>
 Package pdftex.def Info: Images/qg_qQQbar_t.pdf used on input line 106.
 (pdftex.def)             Requested size: 219.04411pt x 121.0909pt.
 
-<Images/qg_qQQbar_cross.pdf, id=1993, 160.77284pt x 127.49301pt>
+<Images/qg_qQQbar_cross.pdf, id=1989, 160.77284pt x 127.49301pt>
 File: Images/qg_qQQbar_cross.pdf Graphic file (type pdf)
 
 <use Images/qg_qQQbar_cross.pdf>
 Package pdftex.def Info: Images/qg_qQQbar_cross.pdf used on input line 107.
 (pdftex.def)             Requested size: 160.77243pt x 127.49269pt.
 
-<Images/qg_qQQbar_cross2.pdf, id=1994, 153.1856pt x 120.75996pt>
+<Images/qg_qQQbar_cross2.pdf, id=1990, 153.1856pt x 120.75996pt>
 File: Images/qg_qQQbar_cross2.pdf Graphic file (type pdf)
 
 <use Images/qg_qQQbar_cross2.pdf>
@@ -1650,28 +1650,28 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 243.
 
-<Images/qq_qqqq_eff.pdf, id=2195, 144.61017pt x 144.48761pt>
+<Images/qq_qqqq_eff.pdf, id=2191, 144.61017pt x 144.48761pt>
 File: Images/qq_qqqq_eff.pdf Graphic file (type pdf)
 
 <use Images/qq_qqqq_eff.pdf>
 Package pdftex.def Info: Images/qq_qqqq_eff.pdf used on input line 253.
 (pdftex.def)             Requested size: 144.6098pt x 144.48724pt.
  [86 <./Images/qq_qqqq_eff.pdf>]
-<Images/4j_p1_emission.pdf, id=2208, 236.45639pt x 132.4709pt>
+<Images/4j_p1_emission.pdf, id=2204, 236.45639pt x 132.4709pt>
 File: Images/4j_p1_emission.pdf Graphic file (type pdf)
 
 <use Images/4j_p1_emission.pdf>
 Package pdftex.def Info: Images/4j_p1_emission.pdf used on input line 265.
 (pdftex.def)             Requested size: 153.69482pt x 86.10506pt.
 
-<Images/4j_pa_emission.pdf, id=2209, 238.80106pt x 125.65796pt>
+<Images/4j_pa_emission.pdf, id=2205, 238.80106pt x 125.65796pt>
 File: Images/4j_pa_emission.pdf Graphic file (type pdf)
 
 <use Images/4j_pa_emission.pdf>
 Package pdftex.def Info: Images/4j_pa_emission.pdf used on input line 266.
 (pdftex.def)             Requested size: 155.21884pt x 81.6767pt.
 
-<Images/4j_p4_emission.pdf, id=2210, 240.50482pt x 122.30513pt>
+<Images/4j_p4_emission.pdf, id=2206, 240.50482pt x 122.30513pt>
 File: Images/4j_p4_emission.pdf Graphic file (type pdf)
 
 <use Images/4j_p4_emission.pdf>
@@ -1682,21 +1682,21 @@ Overfull \hbox (52.67497pt too wide) in paragraph at lines 265--267
  [][][][][][] 
  []
 
-<Images/4j_pb_emission.pdf, id=2211, 231.76067pt x 119.05269pt>
+<Images/4j_pb_emission.pdf, id=2207, 231.76067pt x 119.05269pt>
 File: Images/4j_pb_emission.pdf Graphic file (type pdf)
 
 <use Images/4j_pb_emission.pdf>
 Package pdftex.def Info: Images/4j_pb_emission.pdf used on input line 268.
 (pdftex.def)             Requested size: 150.64264pt x 77.38333pt.
 
-<Images/4j_middle_qqg.pdf, id=2212, 225.97343pt x 119.60616pt>
+<Images/4j_middle_qqg.pdf, id=2208, 225.97343pt x 119.60616pt>
 File: Images/4j_middle_qqg.pdf Graphic file (type pdf)
 
 <use Images/4j_middle_qqg.pdf>
 Package pdftex.def Info: Images/4j_middle_qqg.pdf used on input line 269.
 (pdftex.def)             Requested size: 146.88098pt x 77.74307pt.
 
-<Images/4jet_qprop.pdf, id=2213, 212.23822pt x 175.38916pt>
+<Images/4jet_qprop.pdf, id=2209, 212.23822pt x 175.38916pt>
 File: Images/4jet_qprop.pdf Graphic file (type pdf)
 
 <use Images/4jet_qprop.pdf>
@@ -1707,7 +1707,7 @@ Overfull \hbox (22.91183pt too wide) in paragraph at lines 268--270
  [][][][][][] 
  []
 
-<Images/4jet_qprop_crossed.pdf, id=2214, 206.2126pt x 179.2298pt>
+<Images/4jet_qprop_crossed.pdf, id=2210, 206.2126pt x 179.2298pt>
 File: Images/4jet_qprop_crossed.pdf Graphic file (type pdf)
 
 <use Images/4jet_qprop_crossed.pdf>
@@ -1736,28 +1736,28 @@ Overfull \hbox (3.91911pt too wide) in paragraph at lines 402--402
 [] 
  []
 
-[91] <Images/qg_qqqx.pdf, id=2442, 794.97pt x 614.295pt>
+[91] <Images/qg_qqqx.pdf, id=2438, 794.97pt x 614.295pt>
 File: Images/qg_qqqx.pdf Graphic file (type pdf)
 
 <use Images/qg_qqqx.pdf>
 Package pdftex.def Info: Images/qg_qqqx.pdf used on input line 418.
 (pdftex.def)             Requested size: 357.7332pt x 276.43019pt.
 
-<Images/qg_qQQx_sqqx.pdf, id=2443, 794.97pt x 614.295pt>
+<Images/qg_qQQx_sqqx.pdf, id=2439, 794.97pt x 614.295pt>
 File: Images/qg_qQQx_sqqx.pdf Graphic file (type pdf)
 
 <use Images/qg_qQQx_sqqx.pdf>
 Package pdftex.def Info: Images/qg_qQQx_sqqx.pdf used on input line 425.
 (pdftex.def)             Requested size: 357.7332pt x 276.43019pt.
  [92 <./Images/qg_qqqx.pdf, page is rotated 90 degrees>] <Images/qQ_qqqxQ.pdf, 
-id=2454, 794.97pt x 614.295pt>
+id=2450, 794.97pt x 614.295pt>
 File: Images/qQ_qqqxQ.pdf Graphic file (type pdf)
 
 <use Images/qQ_qqqxQ.pdf>
 Package pdftex.def Info: Images/qQ_qqqxQ.pdf used on input line 446.
 (pdftex.def)             Requested size: 357.7332pt x 276.43019pt.
  [93 <./Images/qg_qQQx_sqqx.pdf, page is rotated 90 degrees>] <Images/qQ_qqqxQ_
-sqqx.pdf, id=2463, 794.97pt x 614.295pt>
+sqqx.pdf, id=2459, 794.97pt x 614.295pt>
 File: Images/qQ_qqqxQ_sqqx.pdf Graphic file (type pdf)
 
 <use Images/qQ_qqqxQ_sqqx.pdf>
@@ -1765,7 +1765,7 @@ Package pdftex.def Info: Images/qQ_qqqxQ_sqqx.pdf used on input line 453.
 (pdftex.def)             Requested size: 357.7332pt x 276.43019pt.
  [94 <./Images/qQ_qqqxQ.pdf, page is rotated 90 degrees> <./Images/qQ_qqqxQ_sqq
 x.pdf, page is rotated 90 degrees>]
-<Images/gg_gQQx_sqqx_simplecf.pdf, id=2476, 716.30054pt x 510.84332pt>
+<Images/gg_gQQx_sqqx_simplecf.pdf, id=2472, 716.30054pt x 510.84332pt>
 File: Images/gg_gQQx_sqqx_simplecf.pdf Graphic file (type pdf)
 
 <use Images/gg_gQQx_sqqx_simplecf.pdf>
@@ -1773,7 +1773,7 @@ Package pdftex.def Info: Images/gg_gQQx_sqqx_simplecf.pdf used on input line 47
 5.
 (pdftex.def)             Requested size: 322.33226pt x 229.87737pt.
 
-<Images/qg_qqqxg_sqq_simplecf.pdf, id=2479, 720.05853pt x 507.1072pt>
+<Images/qg_qqqxg_sqq_simplecf.pdf, id=2475, 720.05853pt x 507.1072pt>
 File: Images/qg_qqqxg_sqq_simplecf.pdf Graphic file (type pdf)
 
 <use Images/qg_qqqxg_sqq_simplecf.pdf>
@@ -1781,7 +1781,7 @@ Package pdftex.def Info: Images/qg_qqqxg_sqq_simplecf.pdf used on input line 48
 4.
 (pdftex.def)             Requested size: 338.42755pt x 238.34041pt.
  [95]
-<Images/gg_gqqxg_sqq_simplecf.pdf, id=2486, 794.97pt x 614.295pt>
+<Images/gg_gqqxg_sqq_simplecf.pdf, id=2482, 794.97pt x 614.295pt>
 File: Images/gg_gqqxg_sqq_simplecf.pdf Graphic file (type pdf)
 
 <use Images/gg_gqqxg_sqq_simplecf.pdf>
@@ -1791,21 +1791,21 @@ Package pdftex.def Info: Images/gg_gqqxg_sqq_simplecf.pdf used on input line 49
  [96 <./Images/gg_gQQx_sqqx_simplecf.pdf, page is rotated 90 degrees> <./Images
 /qg_qqqxg_sqq_simplecf.pdf, page is rotated 90 degrees>] [97 <./Images/gg_gqqxg
 _sqq_simplecf.pdf, page is rotated 90 degrees>] <Images/qg_qgQQx_sqq.pdf, id=25
-31, 794.97pt x 614.295pt>
+27, 794.97pt x 614.295pt>
 File: Images/qg_qgQQx_sqq.pdf Graphic file (type pdf)
 
 <use Images/qg_qgQQx_sqq.pdf>
 Package pdftex.def Info: Images/qg_qgQQx_sqq.pdf used on input line 515.
 (pdftex.def)             Requested size: 357.7332pt x 276.43019pt.
  [98 <./Images/qg_qgQQx_sqq.pdf, page is rotated 90 degrees>] <Images/qQ_qgqqxQ
-_sqq.pdf, id=2542, 794.97pt x 614.295pt>
+_sqq.pdf, id=2538, 794.97pt x 614.295pt>
 File: Images/qQ_qgqqxQ_sqq.pdf Graphic file (type pdf)
 
 <use Images/qQ_qgqqxQ_sqq.pdf>
 Package pdftex.def Info: Images/qQ_qgqqxQ_sqq.pdf used on input line 536.
 (pdftex.def)             Requested size: 349.78789pt x 270.29063pt.
 
-<Images/qQ_qqqxgQ_sqq.pdf, id=2543, 794.97pt x 614.295pt>
+<Images/qQ_qqqxgQ_sqq.pdf, id=2539, 794.97pt x 614.295pt>
 File: Images/qQ_qqqxgQ_sqq.pdf Graphic file (type pdf)
 
 <use Images/qQ_qqqxgQ_sqq.pdf>
@@ -1813,7 +1813,7 @@ Package pdftex.def Info: Images/qQ_qqqxgQ_sqq.pdf used on input line 543.
 (pdftex.def)             Requested size: 349.78789pt x 270.29063pt.
  [99 <./Images/qQ_qgqqxQ_sqq.pdf, page is rotated 90 degrees>] [100 <./Images/q
 Q_qqqxgQ_sqq.pdf, page is rotated 90 degrees>]
-[101] <Images/mfb_3jinc_bare_breakdown.pdf, id=2569, 650.43pt x 361.35pt>
+[101] <Images/mfb_3jinc_bare_breakdown.pdf, id=2565, 650.43pt x 361.35pt>
 File: Images/mfb_3jinc_bare_breakdown.pdf Graphic file (type pdf)
 
 <use Images/mfb_3jinc_bare_breakdown.pdf>
@@ -1825,7 +1825,7 @@ Overfull \hbox (75.25633pt too wide) in paragraph at lines 563--563
  [][] 
  []
 
-<Images/mfb_3jinc_resummed_breakdown.pdf, id=2570, 650.43pt x 361.35pt>
+<Images/mfb_3jinc_resummed_breakdown.pdf, id=2566, 650.43pt x 361.35pt>
 File: Images/mfb_3jinc_resummed_breakdown.pdf Graphic file (type pdf)
 
 <use Images/mfb_3jinc_resummed_breakdown.pdf>
@@ -1853,7 +1853,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 569--572
 
  []
 
-[102] <Images/Veto_Plots/pf6_bare.png, id=2579, 325.215pt x 433.62pt>
+[102] <Images/Veto_Plots/pf6_bare.png, id=2575, 325.215pt x 433.62pt>
 File: Images/Veto_Plots/pf6_bare.png Graphic file (type png)
 
 <use Images/Veto_Plots/pf6_bare.png>
@@ -1861,14 +1861,14 @@ Package pdftex.def Info: Images/Veto_Plots/pf6_bare.png used on input line 575.
 
 (pdftex.def)             Requested size: 195.1305pt x 260.17401pt.
 
-<Images/Veto_Plots/pf6_uno.png, id=2580, 325.215pt x 433.62pt>
+<Images/Veto_Plots/pf6_uno.png, id=2576, 325.215pt x 433.62pt>
 File: Images/Veto_Plots/pf6_uno.png Graphic file (type png)
 
 <use Images/Veto_Plots/pf6_uno.png>
 Package pdftex.def Info: Images/Veto_Plots/pf6_uno.png used on input line 576.
 (pdftex.def)             Requested size: 195.1305pt x 260.17401pt.
 
-<Images/Veto_Plots/pf6_qqx.png, id=2581, 325.215pt x 433.62pt>
+<Images/Veto_Plots/pf6_qqx.png, id=2577, 325.215pt x 433.62pt>
 File: Images/Veto_Plots/pf6_qqx.png Graphic file (type png)
 
 <use Images/Veto_Plots/pf6_qqx.png>
@@ -1879,7 +1879,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 577--577
 [][]|\OT1/cmr/m/it/10 Sub-leading par-tonic pro-cesses
  []
 
-<Images/Veto_Plots/pf6_uno_qqx.png, id=2582, 325.215pt x 433.62pt>
+<Images/Veto_Plots/pf6_uno_qqx.png, id=2578, 325.215pt x 433.62pt>
 File: Images/Veto_Plots/pf6_uno_qqx.png Graphic file (type png)
 
 <use Images/Veto_Plots/pf6_uno_qqx.png>
@@ -1890,48 +1890,40 @@ Package pdftex.def Info: Images/Veto_Plots/pf6_uno_qqx.png used on input line 5
 
 LaTeX Warning: Float too large for page by 16.21773pt on input line 581.
 
-<Images/Veto_Plots/pf3a_bare.png, id=2585, 361.35pt x 433.62pt>
+<Images/Veto_Plots/pf3a_bare.png, id=2581, 361.35pt x 578.16pt>
 File: Images/Veto_Plots/pf3a_bare.png Graphic file (type png)
 
 <use Images/Veto_Plots/pf3a_bare.png>
 Package pdftex.def Info: Images/Veto_Plots/pf3a_bare.png used on input line 585
 .
-(pdftex.def)             Requested size: 216.81168pt x 260.17401pt.
+(pdftex.def)             Requested size: 180.67456pt x 289.07928pt.
 
-<Images/Veto_Plots/pf3a_uno.png, id=2586, 361.35pt x 433.62pt>
+<Images/Veto_Plots/pf3a_uno.png, id=2582, 361.35pt x 578.16pt>
 File: Images/Veto_Plots/pf3a_uno.png Graphic file (type png)
 
 <use Images/Veto_Plots/pf3a_uno.png>
 Package pdftex.def Info: Images/Veto_Plots/pf3a_uno.png used on input line 586.
 
-(pdftex.def)             Requested size: 216.81168pt x 260.17401pt.
+(pdftex.def)             Requested size: 180.67456pt x 289.07928pt.
 
-Overfull \hbox (21.05838pt too wide) in paragraph at lines 585--586
- [][][][] 
- []
-
-<Images/Veto_Plots/pf3a_qqx.png, id=2587, 361.35pt x 433.62pt>
+<Images/Veto_Plots/pf3a_qqx.png, id=2583, 361.35pt x 578.16pt>
 File: Images/Veto_Plots/pf3a_qqx.png Graphic file (type png)
 
 <use Images/Veto_Plots/pf3a_qqx.png>
 Package pdftex.def Info: Images/Veto_Plots/pf3a_qqx.png used on input line 587.
 
-(pdftex.def)             Requested size: 216.81168pt x 260.17401pt.
+(pdftex.def)             Requested size: 180.67456pt x 289.07928pt.
 
-<Images/Veto_Plots/pf3a_uno_qqx.png, id=2588, 361.35pt x 433.62pt>
+<Images/Veto_Plots/pf3a_uno_qqx.png, id=2584, 361.35pt x 578.16pt>
 File: Images/Veto_Plots/pf3a_uno_qqx.png Graphic file (type png)
 
 <use Images/Veto_Plots/pf3a_uno_qqx.png>
 Package pdftex.def Info: Images/Veto_Plots/pf3a_uno_qqx.png used on input line 
 588.
-(pdftex.def)             Requested size: 216.81168pt x 260.17401pt.
-
-Overfull \hbox (21.05838pt too wide) in paragraph at lines 587--589
- [][][][] 
- []
+(pdftex.def)             Requested size: 180.67456pt x 289.07928pt.
 
 
-LaTeX Warning: Float too large for page by 16.21773pt on input line 591.
+LaTeX Warning: Float too large for page by 33.22826pt on input line 591.
 
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 595.
@@ -1975,28 +1967,28 @@ Overfull \hbox (5.53717pt too wide) in paragraph at lines 595--595
 \OT1/cmr/m/n/12 belling  
  []
 
-<Images/4j_plots/pf4_bare.png, id=2593, 505.89pt x 650.43pt>
+<Images/4j_plots/pf4_bare.png, id=2589, 505.89pt x 650.43pt>
 File: Images/4j_plots/pf4_bare.png Graphic file (type png)
 
 <use Images/4j_plots/pf4_bare.png>
 Package pdftex.def Info: Images/4j_plots/pf4_bare.png used on input line 599.
 (pdftex.def)             Requested size: 202.3524pt x 260.16739pt.
 
-<Images/4j_plots/pf4_uno.png, id=2594, 505.89pt x 650.43pt>
+<Images/4j_plots/pf4_uno.png, id=2590, 505.89pt x 650.43pt>
 File: Images/4j_plots/pf4_uno.png Graphic file (type png)
 
 <use Images/4j_plots/pf4_uno.png>
 Package pdftex.def Info: Images/4j_plots/pf4_uno.png used on input line 600.
 (pdftex.def)             Requested size: 202.3524pt x 260.16739pt.
 
-<Images/4j_plots/pf4_qqx.png, id=2595, 505.89pt x 650.43pt>
+<Images/4j_plots/pf4_qqx.png, id=2591, 505.89pt x 650.43pt>
 File: Images/4j_plots/pf4_qqx.png Graphic file (type png)
 
 <use Images/4j_plots/pf4_qqx.png>
 Package pdftex.def Info: Images/4j_plots/pf4_qqx.png used on input line 601.
 (pdftex.def)             Requested size: 202.3524pt x 260.16739pt.
 
-<Images/4j_plots/pf4_qqx_uno.png, id=2596, 505.89pt x 650.43pt>
+<Images/4j_plots/pf4_qqx_uno.png, id=2592, 505.89pt x 650.43pt>
 File: Images/4j_plots/pf4_qqx_uno.png Graphic file (type png)
 
 <use Images/4j_plots/pf4_qqx_uno.png>
@@ -2054,7 +2046,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 50.
 
-<Images/qQh_eff.pdf, id=2717, 248.25829pt x 123.30235pt>
+<Images/qQh_eff.pdf, id=2713, 248.25829pt x 123.30235pt>
 File: Images/qQh_eff.pdf Graphic file (type pdf)
 
 <use Images/qQh_eff.pdf>
@@ -2083,21 +2075,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 124.
 
-<Images/qgh_impact_factor.pdf, id=2769, 259.96825pt x 181.73405pt>
+<Images/qgh_impact_factor.pdf, id=2765, 259.96825pt x 181.73405pt>
 File: Images/qgh_impact_factor.pdf Graphic file (type pdf)
 
 <use Images/qgh_impact_factor.pdf>
 Package pdftex.def Info: Images/qgh_impact_factor.pdf used on input line 135.
 (pdftex.def)             Requested size: 259.96759pt x 181.7336pt.
 
-<Images/qgh_pa_t.pdf, id=2772, 317.09647pt x 153.3493pt>
+<Images/qgh_pa_t.pdf, id=2768, 317.09647pt x 153.3493pt>
 File: Images/qgh_pa_t.pdf Graphic file (type pdf)
 
 <use Images/qgh_pa_t.pdf>
 Package pdftex.def Info: Images/qgh_pa_t.pdf used on input line 148.
 (pdftex.def)             Requested size: 237.82176pt x 115.01169pt.
 
-<Images/qgh_middle.pdf, id=2773, 250.06264pt x 146.43367pt>
+<Images/qgh_middle.pdf, id=2769, 250.06264pt x 146.43367pt>
 File: Images/qgh_middle.pdf Graphic file (type pdf)
 
 <use Images/qgh_middle.pdf>
@@ -2108,19 +2100,19 @@ Overfull \hbox (12.8033pt too wide) in paragraph at lines 148--149
  [][][][] 
  []
 
-<Images/box.pdf, id=2774, 214.70744pt x 116.4107pt>
+<Images/box.pdf, id=2770, 214.70744pt x 116.4107pt>
 File: Images/box.pdf Graphic file (type pdf)
  <use Images/box.pdf>
 Package pdftex.def Info: Images/box.pdf used on input line 150.
 (pdftex.def)             Requested size: 161.03018pt x 87.3078pt.
 
-<Images/qgh_s.pdf, id=2775, 266.85558pt x 135.57008pt>
+<Images/qgh_s.pdf, id=2771, 266.85558pt x 135.57008pt>
 File: Images/qgh_s.pdf Graphic file (type pdf)
  <use Images/qgh_s.pdf>
 Package pdftex.def Info: Images/qgh_s.pdf used on input line 151.
 (pdftex.def)             Requested size: 200.14119pt x 101.6773pt.
 
-<Images/qg_qgh_u.pdf, id=2776, 233.82095pt x 167.59203pt>
+<Images/qg_qgh_u.pdf, id=2772, 233.82095pt x 167.59203pt>
 File: Images/qg_qgh_u.pdf Graphic file (type pdf)
 
 <use Images/qg_qgh_u.pdf>
@@ -2238,7 +2230,7 @@ ame{equation.4.2.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.517 \end{align}
-                  <Images/qg_qgH_central.pdf, id=3062, 794.97pt x 614.295pt>
+                  <Images/qg_qgH_central.pdf, id=3058, 794.97pt x 614.295pt>
 File: Images/qg_qgH_central.pdf Graphic file (type pdf)
 
 <use Images/qg_qgH_central.pdf>
@@ -2260,14 +2252,14 @@ ame{equation.4.2.3}) has been already used, duplicate ignored
                    \relax 
 l.536 \end{align}
                   [129]
-<Images/qg_qgH_outside.pdf, id=3071, 794.97pt x 614.295pt>
+<Images/qg_qgH_outside.pdf, id=3067, 794.97pt x 614.295pt>
 File: Images/qg_qgH_outside.pdf Graphic file (type pdf)
 
 <use Images/qg_qgH_outside.pdf>
 Package pdftex.def Info: Images/qg_qgH_outside.pdf used on input line 543.
 (pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
 
-<Images/qg_qgH_compare_central.pdf, id=3074, 794.97pt x 614.295pt>
+<Images/qg_qgH_compare_central.pdf, id=3070, 794.97pt x 614.295pt>
 File: Images/qg_qgH_compare_central.pdf Graphic file (type pdf)
 
 <use Images/qg_qgH_compare_central.pdf>
@@ -2275,7 +2267,7 @@ Package pdftex.def Info: Images/qg_qgH_compare_central.pdf used on input line 5
 52.
 (pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
  [130 <./Images/qg_qgH_central.pdf, page is rotated 90 degrees>]
-<Images/qg_qgH_compare_outside.pdf, id=3084, 794.97pt x 614.295pt>
+<Images/qg_qgH_compare_outside.pdf, id=3080, 794.97pt x 614.295pt>
 File: Images/qg_qgH_compare_outside.pdf Graphic file (type pdf)
 
 <use Images/qg_qgH_compare_outside.pdf>
@@ -2308,7 +2300,7 @@ ame{equation.4.2.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.578 \end{align}
-                  <Images/ug_nextfor.pdf, id=3103, 794.97pt x 614.295pt>
+                  <Images/ug_nextfor.pdf, id=3099, 794.97pt x 614.295pt>
 File: Images/ug_nextfor.pdf Graphic file (type pdf)
 
 <use Images/ug_nextfor.pdf>
@@ -2335,7 +2327,7 @@ ame{equation.4.2.4}) has been already used, duplicate ignored
                    \relax 
 l.599 \end{align}
                  
-</Users/jcockburn/FO_SVN/ug_cen.pdf, id=3110, 794.97pt x 614.295pt>
+</Users/jcockburn/FO_SVN/ug_cen.pdf, id=3106, 794.97pt x 614.295pt>
 File: /Users/jcockburn/FO_SVN/ug_cen.pdf Graphic file (type pdf)
 
 <use /Users/jcockburn/FO_SVN/ug_cen.pdf>
@@ -2343,14 +2335,14 @@ Package pdftex.def Info: /Users/jcockburn/FO_SVN/ug_cen.pdf used on input line
 604.
 (pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
  [134 <./Images/ug_nextfor.pdf, page is rotated 90 degrees>] <Images/gg_nextfor
-.pdf, id=3124, 794.97pt x 614.295pt>
+.pdf, id=3120, 794.97pt x 614.295pt>
 File: Images/gg_nextfor.pdf Graphic file (type pdf)
 
 <use Images/gg_nextfor.pdf>
 Package pdftex.def Info: Images/gg_nextfor.pdf used on input line 614.
 (pdftex.def)             Requested size: 373.63596pt x 288.71869pt.
 
-<Images/gg_cen1.pdf, id=3125, 794.97pt x 614.295pt>
+<Images/gg_cen1.pdf, id=3121, 794.97pt x 614.295pt>
 File: Images/gg_cen1.pdf Graphic file (type pdf)
  <use Images/gg_cen1.pdf>
 Package pdftex.def Info: Images/gg_cen1.pdf used on input line 621.
@@ -2362,13 +2354,13 @@ Overfull \vbox (20.70706pt too high) has occurred while \output is active []
 
 [136 <./Images/gg_nextfor.pdf, page is rotated 90 degrees> <./Images/gg_cen1.pd
 f, page is rotated 90 degrees>]
-<Images/gg_cen2.pdf, id=3144, 794.97pt x 614.295pt>
+<Images/gg_cen2.pdf, id=3140, 794.97pt x 614.295pt>
 File: Images/gg_cen2.pdf Graphic file (type pdf)
  <use Images/gg_cen2.pdf>
 Package pdftex.def Info: Images/gg_cen2.pdf used on input line 628.
 (pdftex.def)             Requested size: 341.83044pt x 264.1417pt.
 
-<Images/gg_nextback.pdf, id=3145, 794.97pt x 614.295pt>
+<Images/gg_nextback.pdf, id=3141, 794.97pt x 614.295pt>
 File: Images/gg_nextback.pdf Graphic file (type pdf)
 
 <use Images/gg_nextback.pdf>
@@ -2381,7 +2373,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 643--647
 
 [137 <./Images/gg_cen2.pdf, page is rotated 90 degrees> <./Images/gg_nextback.p
 df, page is rotated 90 degrees>] [138]
-<Images/ptH_gu.pdf, id=3164, 569.12625pt x 387.4475pt>
+<Images/ptH_gu.pdf, id=3160, 569.12625pt x 387.4475pt>
 File: Images/ptH_gu.pdf Graphic file (type pdf)
  <use Images/ptH_gu.pdf>
 Package pdftex.def Info: Images/ptH_gu.pdf used on input line 655.
@@ -2391,7 +2383,7 @@ Overfull \hbox (14.27867pt too wide) in paragraph at lines 655--656
  [][] 
  []
 
-<Images/ydiff_gu.pdf, id=3165, 569.12625pt x 387.4475pt>
+<Images/ydiff_gu.pdf, id=3161, 569.12625pt x 387.4475pt>
 File: Images/ydiff_gu.pdf Graphic file (type pdf)
 
 <use Images/ydiff_gu.pdf>
@@ -2408,7 +2400,7 @@ Overfull \vbox (10.83948pt too high) has occurred while \output is active []
 
 [140 <./Images/ptH_gu.pdf, page is rotated 90 degrees> <./Images/ydiff_gu.pdf, 
 page is rotated 90 degrees>]
-<Images/xsec_breakdown_ggh.pdf, id=3264, 569.12625pt x 387.4475pt>
+<Images/xsec_breakdown_ggh.pdf, id=3260, 569.12625pt x 387.4475pt>
 File: Images/xsec_breakdown_ggh.pdf Graphic file (type pdf)
 
 <use Images/xsec_breakdown_ggh.pdf>
@@ -2426,14 +2418,14 @@ OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 ggH$ \OT1/cmr/m/it/10.95 into for-ward
  Higgs
  []
 
-<Images/ptH_gg.pdf, id=3265, 569.12625pt x 387.4475pt>
+<Images/ptH_gg.pdf, id=3261, 569.12625pt x 387.4475pt>
 File: Images/ptH_gg.pdf Graphic file (type pdf)
  <use Images/ptH_gg.pdf>
 Package pdftex.def Info: Images/ptH_gg.pdf used on input line 678.
 (pdftex.def)             Requested size: 398.38567pt x 271.2114pt.
 
 [141 <./Images/xsec_breakdown_ggh.pdf, page is rotated 90 degrees>]
-<Images/ydiff_gg.pdf, id=3313, 569.12625pt x 387.4475pt>
+<Images/ydiff_gg.pdf, id=3309, 569.12625pt x 387.4475pt>
 File: Images/ydiff_gg.pdf Graphic file (type pdf)
 
 <use Images/ydiff_gg.pdf>
@@ -2441,20 +2433,20 @@ Package pdftex.def Info: Images/ydiff_gg.pdf used on input line 685.
 (pdftex.def)             Requested size: 398.38567pt x 271.2114pt.
  [142 <./Images/ptH_gg.pdf, page is rotated 90 degrees> <./Images/ydiff_gg.pdf,
  page is rotated 90 degrees>]
-<Images/ptH_3j.pdf, id=3408, 569.12625pt x 387.4475pt>
+<Images/ptH_3j.pdf, id=3403, 569.12625pt x 387.4475pt>
 File: Images/ptH_3j.pdf Graphic file (type pdf)
  <use Images/ptH_3j.pdf>
 Package pdftex.def Info: Images/ptH_3j.pdf used on input line 694.
 (pdftex.def)             Requested size: 409.77058pt x 278.96198pt.
 
-<Images/largestproppt.pdf, id=3409, 569.12625pt x 387.4475pt>
+<Images/largestproppt.pdf, id=3404, 569.12625pt x 387.4475pt>
 File: Images/largestproppt.pdf Graphic file (type pdf)
 
 <use Images/largestproppt.pdf>
 Package pdftex.def Info: Images/largestproppt.pdf used on input line 701.
 (pdftex.def)             Requested size: 409.77058pt x 278.96198pt.
  [143 <./Images/ptH_3j.pdf, page is rotated 90 degrees>] <Images/Higgs_Plots/pt
-h_compare_all.pdf, id=3459, 650.43pt x 433.62pt>
+h_compare_all.pdf, id=3455, 650.43pt x 433.62pt>
 File: Images/Higgs_Plots/pth_compare_all.pdf Graphic file (type pdf)
 
 <use Images/Higgs_Plots/pth_compare_all.pdf>
@@ -2466,7 +2458,7 @@ Overfull \hbox (3.7088pt too wide) in paragraph at lines 710--711
  [][] 
  []
 
-<Images/Higgs_Plots/dyfb_compare_all.pdf, id=3460, 650.43pt x 433.62pt>
+<Images/Higgs_Plots/dyfb_compare_all.pdf, id=3456, 650.43pt x 433.62pt>
 File: Images/Higgs_Plots/dyfb_compare_all.pdf Graphic file (type pdf)
 
 <use Images/Higgs_Plots/dyfb_compare_all.pdf>
@@ -2636,12 +2628,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `master.out' has not changed.
 (rerunfilecheck)             Checksum: 1CFE78EAF1D8811EA83663A387502FA4;4083.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
  22756 strings out of 493014
  411525 string characters out of 6133351
- 500248 words of memory out of 5000000
+ 496429 words of memory out of 5000000
  25076 multiletter control sequences out of 15000+600000
  25953 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2713,10 +2709,10 @@ mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016
 2016/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on master.pdf (174 pages, 3240732 bytes).
+Output written on master.pdf (174 pages, 3261056 bytes).
 PDF statistics:
- 3871 PDF objects out of 4296 (max. 8388607)
- 2838 compressed objects within 29 object streams
+ 3867 PDF objects out of 4296 (max. 8388607)
+ 2834 compressed objects within 29 object streams
  730 named destinations out of 1000 (max. 500000)
  890 words of extra memory for PDF output out of 10000 (max. 10000000)
 
