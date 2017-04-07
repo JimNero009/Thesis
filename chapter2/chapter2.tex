@@ -126,7 +126,7 @@ which allows us to switch our integration variables to $\rho, \lambda$ and $k_\p
 \begin{equation}
 \begin{split}
 \text{Im}(M_{NLO,1}) & = \frac{g_s^4 \hat{s}}{ 4 \pi^2} \int d \rho \hspace{2pt} d \lambda \hspace{2pt} d^2 k_\perp \hspace{1pt} \delta(-\hat{s}(1-\rho) \lambda + |k_\perp|^2) \\
-& \delta(\hat{s}(1+ \lambda) \rho + |k_\perp|^2) \frac{\hat{s}}{|k_\perp|^2} \frac{\hat{s}}{|k_\perp - q_\perp|^2}  \\
+& \times \delta(\hat{s}(1+ \lambda) \rho + |k_\perp|^2) \frac{\hat{s}}{|k_\perp|^2} \frac{\hat{s}}{|k_\perp - q_\perp|^2}  \\
 & \approx \frac{g_s^4 \hat{s}^3}{ 4 \pi^2} \int d \rho \hspace{2pt} d \lambda \hspace{2pt} d^2 k_\perp \hspace{1pt} \delta(-\hat{s} \lambda + |k_\perp|^2) \delta(\hat{s} \rho + |k_\perp|^2) \frac{1}{|k_\perp|^2} \frac{1}{|k_\perp - q_\perp|^2}  \\
 &= \frac{g_s^4 \hat{s}}{ 4 \pi^2} \int d \rho \hspace{2pt} d \lambda \hspace{2pt} d^2 k_\perp \hspace{1pt} \delta(-\lambda + |k_\perp|^2/\hat{s}) \delta(\rho + |k_\perp|^2/\hat{s}) \frac{1}{|k_\perp|^2} \frac{1}{|k_\perp - q_\perp|^2} \\
 &= \frac{g_s^4 \hat{s}}{ 4 \pi^2} \int d^2 k_\perp \hspace{1pt}  \frac{1}{|k_\perp|^2} \frac{1}{|k_\perp - q_\perp|^2}.
@@ -275,7 +275,7 @@ Of course, this equality only holds in the full High Energy limit and so we shou
 \tilde{C}_A = \frac{1}{2} \left(C_A - \frac{1}{C_A} \right) \left(\frac{p_b^-}{p_2^-} + \frac{p_2^-}{p_b^-} \right).
 \end{equation}
 
-It is clear that this tends to $C_A$ in the limit where $p_2^- \sim p_b^-$. By using this multiplication factor instead of the straight $C_A$ allows for the approximation to be more accurate away from the strict high energy limit and we therefore employ this in the rest of this thesis (and, indeed, in the HEJ formalism itself). 
+It is clear that this tends to $C_A$ in the limit where $p_2^- \sim p_b^-$. Using this multiplication factor instead of the straight $C_A$ allows for the approximation to be more accurate away from the strict high energy limit and we therefore employ it in the rest of this thesis (and, indeed, in the HEJ formalism itself). 
 
 \subsection{Regge Theory and the Connection to High Energy $2 \to n$ Amplitudes} 
 
@@ -374,7 +374,7 @@ C_1 - C_2 &= t^g_{b2} t^e_{1q} t^g_{qa} - t^g_{b2} t^g_{1q} t^e_{qa} \\
 \end{split}
 \end{equation}
 
-and similarly $C_3 - C_4 = iC_t$. The sum of all the diagrams are then proportional to the same colour factor and to the $qQ \to qQ$ amplitude. Putting everything together, we can then write;
+and similarly $C_3 - C_4 = iC_t$. The sum of all the diagrams is then proportional to the same colour factor and to the $qQ \to qQ$ amplitude. Putting everything together, we can then write;
 
 \begin{equation}
 M_{qQ \to qgQ} = g_s^3 C_t \varepsilon^*_\rho \frac{\matel{1}{\mu}{a} \matel{3}{\mu}{b}}{q_1^2 q_2^2} V^\rho (q_1, q_2),
@@ -696,7 +696,7 @@ d_{iB} &= k_{i \perp}^{2p}.
 \end{split}
 \end{equation}
 
-The parameter $R$ scales the $d_{ij}$ with respect to $d_{iB}$ such that any pair of final jets $a, b$ are at least separated by $\Delta_{ab} = R$. For this reason, we often refer to $R$ as a `jet radius'. The value of $p$ can be chosen to govern the relative power of energy and geometrical scales in the distance parameter. There are three main algorithms which has three different choices for $p$; the kT algorithm with $p =2$, the Cambridge/Aachen with $p=0$ and the anti-kT with $p = -2$. There are reasons why one might want to use one over the other and so one would wish for a simple way of changing between conventions in any computer program one wants to run. Fortunately, the \emph{FastJet} library \cite{Cacciari2012} does precisely this. For the user, the only requirement is to specify which algorithm is to be used at the start of the calculation. Any further calculations involving the jet objects are easily handled within the defined classes in the package. 
+The parameter $R$ scales the $d_{ij}$ with respect to $d_{iB}$ such that any pair of final jets $a, b$ are at least separated by $\Delta_{ab} = R$. For this reason, we often refer to $R$ as a `jet radius'. The value of $p$ can be chosen to govern the relative power of energy and geometrical scales in the distance parameter. There are three main algorithms which has three different choices for $p$; the kT algorithm with $p =1$, the Cambridge/Aachen with $p=0$ and the anti-kT with $p = -1$. There are reasons why one might want to use one over the other and so one would wish for a simple way of changing between conventions in any computer program one wants to run. Fortunately, the \emph{FastJet} library \cite{Cacciari2012} does precisely this. For the user, the only requirement is to specify which algorithm is to be used at the start of the calculation. Any further calculations involving the jet objects are easily handled within the defined classes in the package. 
 
 \subsection{Scale Variations}
 

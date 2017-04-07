@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{Alwall2007}
+{\sc Alwall, J., Demin, P., {De Visscher}, S., Frederix, R., Herquet, M.,
+  Maltoni, F., Plehn, T., Rainwater, D.~L., and Stelzer, T.}
+\newblock {MadGraph/MadEvent v4: The new web generation}.
+
 \bibitem{Alwall2011}
 {\sc Alwall, J., Herquet, M., Maltoni, F., Mattelaer, O., and Stelzer, T.}
 \newblock {MadGraph 5: Going Beyond}.
@@ -93,6 +98,12 @@
 {\sc Cacciari, M., Salam, G.~P., and Soyez, G.}
 \newblock {FastJet user manual}.
 \newblock {\em The European Physical Journal C 72}, 3 (mar 2012), 1896.
+
+\bibitem{Chetyrkin1981}
+{\sc Chetyrkin, K.~G., and Tkachov, F.~V.}
+\newblock {Integration by parts: The algorithm to calculate beta-functions in 4
+  loops}.
+\newblock {\em Nuclear Physics, Section B 192}, 1 (nov 1981), 159--204.
 
 \bibitem{Chatrchyan2012a}
 {\sc CMS}.

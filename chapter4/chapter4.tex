@@ -41,7 +41,7 @@ The generalisation to multiple gluon emissions and different initial states foll
 
 The infinite top mass limit is remarkably successful for predictions of inclusive variables like total cross sections. The reason for this is that the expansion of this effective coupling is a power series in $\frac{m_H^2}{4 m_t^2} \sim 0.13$ and we essentially assume the top mass is the most relevant scale in the problem. It was checked that even the addition of a large dijet invariant mass in the amplitude had little effect \cite{Duca2003}. However, if the transverse scales start to become larger than the top mass (in particular, the transverse scales of the gluons entering the effective vertex), there is significant deviation between the result obtained in the full and effective theories \cite{Duca2003}. \\
 \\
-For HEJ, the infinite top mass limit was included because the expressions are simpler, but note that the factorisation of amplitudes will still occur whether or not this limit is taken. Therefore, any derived vertices for Higgs production with the full quark mass included can still be implemented in a straightforward way. Furthermore, as soon as the vertex including the full quark mass is derived, we can trivially add in the effect of more than one quark loop (for example, where a bottom quark runs in it). Such interference effects have been shown to produce interesting effects at small $p_T$ scales \cite{Grazzini2013, Lindert20017}. For these reasons, we decided to implement the effect of finite quark masses in the HEJ formalism. 
+For HEJ, the infinite top mass limit was included because the expressions are simpler, but note that the factorisation of amplitudes will still occur whether or not this limit is taken. Therefore, any derived vertices for Higgs production with the full quark mass included can still be implemented in a straightforward way. Furthermore, as soon as the vertex including the full quark mass is derived, we can trivially add in the effect of more than one quark loop (for example, where a bottom quark runs in it). Such interference effects have been shown to produce interesting effects at small $p_T$ scales \cite{Grazzini2013, Lindert2017}. For these reasons, we decided to implement the effect of finite quark masses in the HEJ formalism. 
 
 \section{Calculations of $H$ + jets with Finite Quark Mass Effects}
 
@@ -62,7 +62,7 @@ V^{\mu \nu}_{H, m_t}(q_1, q_2) = -\frac{4 g_s^2 m_t^2}{v} \left[\eta^{\mu \nu}A_
 \label{fig:qQh_eff}
 \end{figure}
 
-where $v$ is the Higgs vacuum expectation value ($\approx 246$ GeV) and $A_1, A_2$ depend on a combination of scalar integrals which appear via the integral reduction technique \cite{Tkachov:1981}. We first define \footnote{The integral $B_0$ is actually divergent in 4 dimensions, but will always appear in combinations such that this divergence cancels in later functions.};
+where $v$ is the Higgs vacuum expectation value ($\approx 246$ GeV) and $A_1, A_2$ depend on a combination of scalar integrals which appear via the integral reduction technique \cite{Chetyrkin1981}. We first define\footnote{The integral $B_0$ is actually divergent in 4 dimensions, but will always appear in combinations such that this divergence cancels in later functions.};
 
 \begin{equation}
 \begin{split}
@@ -481,15 +481,15 @@ where we have introduced the notation $F_{Ta} = \frac{F_T(0,(p_a-p_H)^2,m_H^2)}{
 
 \begin{equation}
 \begin{split}
-A_{+-} &=F[T^a,T^1]\frac{\matel{2}{\mu}{b}}{\hat{t}_2} \bigg[\sqrt{\frac{2p_1^+}{p_a^+}}\frac{\varepsilon_{H,\mu}^{+,*}(p_1) \hat{t}_2}{[a1]} - \sqrt{\frac{2p_a^+}{p_1^+}}\frac{\varepsilon_{H,\mu}^{+}(p_a)\hat{t}_2}{[a1} \\
+A_{+-} &=F[T^a,T^1]\frac{\matel{2}{\mu}{b}}{\hat{t}_2} \bigg[\sqrt{\frac{2p_1^+}{p_a^+}}\frac{\varepsilon_{H,\mu}^{+,*}(p_1) \hat{t}_2}{[a1]} - \sqrt{\frac{2p_a^+}{p_1^+}}\frac{\varepsilon_{H,\mu}^{+}(p_a)\hat{t}_2}{[a1]} \\
 &+ \frac{\matel{1^+}{H}{a^+}}{\sqrt{2}[a1]}\varepsilon_{H,\mu}^+(p_a) + \frac{\matel{1^+}{H}{a^+}}{[a 1]}\varepsilon^{+,*}_{H,\mu}(p_1) \\
 &- \frac{\sqrt{2} F_{Ta} p_a \cdot p_1 \matel{1^+}{H}{a^+}}{[a1]}\varepsilon^{+,*}_\mu (p_1) - \frac{\sqrt{2} F_{T1} p_a \cdot p_1 \matel{1^+}{H}{a^+}}{[a1]}\varepsilon^+_\mu (p_a)  \\ 
 & -\frac{\matel{1^+}{H}{a^+}}{\sqrt{2} [a1]} \varepsilon^{+,*}_\mu(p_1) R H_4 + \frac{\matel{1^+}{H}{a^+}}{\sqrt{2} [a1]} \varepsilon^{+}_\mu(p_a)R H_5 \\
  &+ \frac{\matel{1^+}{H}{a^+}^2}{2 [a 1]^2}\left \{ p_{a,\mu} R H_{10} - p_{1,\mu}RH_{12}\right \} \\
- &+ e^{i \phi} R H_1 p_1^\mu - e^{i \phi} R H_2 p_a^\mu + 2 e^{i \phi} F_{T1} p_1\cdot p_H p_a^\mu - 2 e^{i \phi}F_{Ta} p_a \cdot p_H p_1^\mu \\
- &- e^{i \phi} (p_a + p_1)^\mu F_{\alpha} \frac{(p_1-pa)\cdot(p_a-p_1-p_H)}{(p_a-p_1)^2} \\
- &+ e^{i \phi} (p_a - p_1 - p_H) \cdot (p_a + p_1) \frac{(p_1-p_a)}{(p_a-p_1)^2} F_\alpha \\
- &- e^{i \phi} F_\beta (p_a-p_1-p_H)^2 (p_a + p_1)^\mu 
+ &+ e^{i \phi} R H_1 p_{1,\mu} - e^{i \phi} R H_2 p_{a,\mu} + 2 e^{i \phi} F_{T1} p_1\cdot p_H p_{a,\mu} - 2 e^{i \phi}F_{Ta} p_a \cdot p_H p_{1,\mu} \\
+ &- e^{i \phi} (p_a + p_1)_\mu F_{\alpha} \frac{(p_1-p_a)\cdot(p_a-p_1-p_H)}{(p_a-p_1)^2} \\
+ &+ e^{i \phi} (p_a - p_1 - p_H) \cdot (p_a + p_1) \frac{(p_1-p_a)_\mu}{(p_a-p_1)^2} F_\alpha \\
+ &- e^{i \phi} F_\beta (p_a-p_1-p_H)^2 (p_a + p_1)_\mu 
   \bigg]
 \end{split}
 \end{equation}
@@ -507,7 +507,7 @@ With both the helicity conserving and non-conserving vertices found, we are able
 
 \subsection{Checks and Verifications of Amplitudes}
 
-Given recent advances in MadGraph, we are able to check our result against a full LO implementation, complete with finite top mass effects. We first decide to check a phase space configuration where the Higgs boson is kept central in rapidity and the two extremal jets are allowed to move further and further apart. The precise momentum configuration used is; 
+Given recent advances in MadGraph \cite{Alwall2007}, we are able to check our result against a full LO implementation, complete with finite top mass effects. We first decide to check a phase space configuration where the Higgs boson is kept central in rapidity and the two extremal jets are allowed to move further and further apart. The precise momentum configuration used is; 
 
 \begin{subequations}
 \begin{align}
@@ -601,7 +601,7 @@ p_3 &= (40 \cosh(-\Delta),40,0,40 \sinh(-\Delta)).
 
 \begin{figure}[t]
 \centering
-\includegraphics[scale=0.5]{/Users/jcockburn/FO_SVN/ug_cen.pdf}
+\includegraphics[scale=0.5]{Images/ug_cen.pdf}
 \caption{Comparison between the HEJ effective vertex and the full LO result of the $gu \to gHgu$ amplitude for a central H with an infinite top mass.}
 \label{fig:ug_cen}
 \end{figure}
@@ -669,7 +669,7 @@ We should also remember that, given kinematical constraints on the energy of the
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.75]{Images/xsec_breakdown_ggh.pdf}
-\caption{Cross section breakdown in $gg \to ggH$ into forward Higgs production. backward Higgs production and central Higgs with infinite top mass.}
+\caption{Cross section breakdown in $gg \to ggH$ into forward Higgs production, backward Higgs production and central Higgs with infinite top mass.}
 \label{fig:gg_crosssection}
 \end{figure}
 
@@ -703,7 +703,7 @@ We also investigate the effect of adding a third jet so as to look at a $gg \to 
 \label{fig:maxprop}
 \end{figure}
 
-Unfortunately, there has so far not been many analyses of Higgs plus jets physics from the LHC and so we are not able to compare our new predictions against real data. We are, however, now in a prime position to provide predictions for any such data when it arrives. We conclude this section instead with an inclusive Higgs plus dijets prediction and again point out the difference between the full $m_t$ and infinite $m_t$ approaches. The $p_T$ spectra of the Higgs for this case is plotted in figure \ref{fig:hjj_ptH}, along with the ratio of the finite $m_t$ and finite $m_t + m_b$ lines to the infinite $m_t$ line. We see clearly that the distribution obtained with the effective theory is much different. The same is true if we look at the $\Delta$ y distribution, shown in figure \ref{fig:hjj_dy}. 
+Unfortunately, there has so far not been many analyses of Higgs plus jets physics from the LHC and so we are not able to compare our new predictions against real data. We are, however, now in a prime position to provide predictions for any such data when it arrives. We conclude this section instead with an inclusive Higgs plus dijets prediction and again point out the difference between the full $m_t$ and infinite $m_t$ approaches. The $p_T$ spectra of the Higgs for this case is plotted in figure \ref{fig:hjj_ptH}, along with the ratio of the finite $m_t$ and finite $m_t + m_b$ lines to the infinite $m_t$ line. We see clearly that the distribution obtained with the effective theory is much different. The same is true if we look at the $\Delta y$ distribution, shown in figure \ref{fig:hjj_dy}. 
 
 \begin{figure}[t]
 \centering
