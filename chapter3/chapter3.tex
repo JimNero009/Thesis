@@ -4,7 +4,7 @@ Now that the driving principles behind HEJ have been explained, we move on to di
 
 \section{Motivations for NLL}
 
-There are a few reasons one might consider trying to go beyond Leading Log with the formalism. Firstly, since it has been proved that the Lipatov ansatz is valid at the NLL level \cite{Fadin2006}, any sub-leading amplitude that still factors out into a product of $t$-channel poles can be resummed in precisely the same way as before; there is no added complication to the resummation procedure itself. The formalism thus lends itself naturally and readily to this extension. Secondly, by having access to these sub-leading terms we also expect to reduce the scale variation bands on our calculation, since these variations are directly related to how much `control' we have over higher order terms. In order to claim full NLL accuracy, we must have;
+There are a few reasons one might consider trying to go beyond Leading Log with the formalism. Firstly, since it has been proved that the Lipatov ansatz is valid at the NLL \todo{but do we actually use that ansatz?} level \cite{Fadin2006}, any sub-leading amplitude that still factors out into a product of $t$-channel poles can be resummed in precisely the same way as before; there is no added complication to the resummation procedure itself. The formalism thus lends itself naturally and readily to this extension. Secondly, by having access to these sub-leading terms we also expect to reduce the scale variation bands on our calculation, since these variations are directly related to how much `control' we have over higher order terms. In order to claim full NLL accuracy, we must have;
 
 \begin{enumerate}
 \item{Calculations of FKL amplitudes but with the rapidity ordering of one emitted gluon disturbed. We call such contributions `unordered' processes.}
@@ -31,26 +31,26 @@ M_{qQ \to gqQ}^{uno} \sim \frac{j^\mu_{uno}(p_a,p_1,p_{uno})j_\mu(p_b,p_2)}{\hat
 \label{fig:uno}
 \end{figure}
 
-where $y_{uno} \sim y_1, y_1 \gg y_2$. In essence, we collapse the gluon emission to a point along the usual current such that there is only one suitable $t$-channel pole to be resummed as opposed to the two we would get if the gluon was emitted in the FKL ordering - it is thus clear to see why this is a sub-leading log contribution. Diagrammatically, we can show this like the schematic drawing in figure \ref{fig:uno}. We should also keep in mind that when it comes to discussing the colour properties of this amplitude that it will be more complicated than the FKL case and the result will have to be treated more carefully in this regard. To derive the form of the uno current, we will simply recalculate the $qQ \to gqQ$ amplitude but with the consideration that the rapidity of the gluon is no longer far away form the rapidity of the forward quark current. What this will essentially mean is that the kinematic arguments for dropping some terms like we did in section 2.2.3 will no longer be valid. We will therefore start by writing the full LO result for this amplitude (where we will write $p_{uno} = p_g$ for brevity);
+where $y_{uno} \sim y_1, y_1 \gg y_2$. Throughout the following sections, we will make clear where $t$-channel poles appear by employing the notation $\hat{t}_i = p_a - \sum_j^i p_j$ which will \emph{always} be factored out of the final expression. We will also from time to time make use of the notation $t_{ij}$ which is to be interpreted as $(p_i-p_j)^2 = -s_{ij}$.  Returning to the unordered amplitude and in essence, we collapse the gluon emission to a point along the usual current such that there is only one suitable $t$-channel pole to be resummed as opposed to the two we would get if the gluon was emitted in the FKL ordering - it is thus clear to see why this is a sub-leading log contribution. Diagrammatically, we can show this like the schematic drawing in figure \ref{fig:uno}. We should also keep in mind that when it comes to discussing the colour properties of this amplitude that it will be more complicated than the FKL case and the result will have to be treated more carefully in this regard. To derive the form of the uno current, we will simply recalculate the $qQ \to gqQ$ amplitude but with the consideration that the rapidity of the gluon is no longer far away form the rapidity of the forward quark current. What this will essentially mean is that the kinematic arguments for dropping some terms like we did in section 2.2.3 will no longer be valid. We will therefore start by writing the full LO result for this amplitude (where we will write $p_{uno} = p_g$ for brevity);
 
 \begin{equation}
 \begin{split}
 M_{qQ \to gqQ}^{LO} &= (ig_s)^3 T^c_{1i}T_{ia}^d T^d_{2b} \varepsilon_{\nu}(p_g) \frac{\matel{1}{\nu}{g}\matel{g}{\mu}{a} + 2p_1^\nu \matel{1}{\mu}{a}}{s_{1g}\hat{t}_2}\matel{2}{\mu}{b} \\
  &- (ig_s)^3 T^d_{1i}T_{ia}^c T^d_{2b} \varepsilon_{\nu}(p_g) \frac{2p_a^\nu \matel{1}{\mu}{a} - \matel{1}{\mu}{g}\matel{g}{\nu}{a}}{s_{ag}\hat{t}_2}\matel{2}{\mu}{b} \\
- &+ (ig_s)^3 T^c_{2i}T_{ib}^d T^d_{1a} \varepsilon_{\nu}(p_g) \frac{\matel{2}{\nu}{g}\matel{g}{\mu}{b} + 2p_2^\nu \matel{2}{\mu}{b}}{s_{2g}\hat{t}_1}\matel{1}{\mu}{a} \\
-  &- (ig_s)^3 T^d_{2i}T_{ib}^c T^d_{1a} \varepsilon_{\nu}(p_g) \frac{2p_b^\nu \matel{2}{\mu}{b} - \matel{2}{\mu}{g}\matel{g}{\nu}{b}}{s_{bg}\hat{t}_1}\matel{1}{\mu}{a} \\
-  &-g_s^3 f^{dec}T^d_{1a}T^e_{2b} \varepsilon_\nu(p_g) \frac{\matel{1}{\rho}{a}\matel{2}{\mu}{b}}{\hat{t}_1 \hat{t}_2}(2p_g^\mu \eta^{\nu \rho} - 2p_g^\rho \eta^{\mu \nu} - (q_1 + q_2)^\nu \eta^{\mu \rho}).
+ &+ (ig_s)^3 T^c_{2i}T_{ib}^d T^d_{1a} \varepsilon_{\nu}(p_g) \frac{\matel{2}{\nu}{g}\matel{g}{\mu}{b} + 2p_2^\nu \matel{2}{\mu}{b}}{s_{2g}t_{a1}}\matel{1}{\mu}{a} \\
+  &- (ig_s)^3 T^d_{2i}T_{ib}^c T^d_{1a} \varepsilon_{\nu}(p_g) \frac{2p_b^\nu \matel{2}{\mu}{b} - \matel{2}{\mu}{g}\matel{g}{\nu}{b}}{s_{bg}t_{a1}}\matel{1}{\mu}{a} \\
+  &-g_s^3 f^{dec}T^d_{1a}T^e_{2b} \varepsilon_\nu(p_g) \frac{\matel{1}{\rho}{a}\matel{2}{\mu}{b}}{t_{a1} \hat{t}_2}(2p_g^\mu \eta^{\nu \rho} - 2p_g^\rho \eta^{\mu \nu} - (q_1 + q_2)^\nu \eta^{\mu \rho}),
 \end{split}
 \end{equation}
 
-With the full expression available, we can investigate which terms we can still drop in this new limit $y_g \sim y_1 \gg y_2$. We see that the first term in the third line and the second term in the fourth are the only ones we can drop because (depending on helicities) the $\mu$ contraction will give something that scales as $\sqrt{s_{ag}}$ or $\sqrt{s_{g1}}$ which are now small invariants in comparison to everything else. By dropping these terms, all remaining terms are proportional to $\matel{2}{\mu}{b}$ and so by comparison to equation \ref{eqn:uno}, the sum of the terms multiplying this current is what will give us our unordered current. However, to be truly consistent with the factorised picture, we must factorise out the colour factor $T^d_{2b}$ from this amplitude as well. This is already the case for the first, second and last lines and now that we have dropped terms for the other two lines we can use the still valid limit $p_2 \sim p_b$ to yield;
+where $q_1 = p_a - p_1 = p_2 - p_b + p_g$ and $q_2 = p_2 - p_b = p_a - p_1 - p_g$. With the full expression available, we can investigate which terms we can still drop in this new limit $y_g \sim y_1 \gg y_2$. We see that the first term in the third line and the second term in the fourth are the only ones we can drop because (depending on helicities) the $\mu$ contraction will give something that scales as $\sqrt{s_{ag}}$ or $\sqrt{s_{g1}}$ which are now small invariants in comparison to everything else. By dropping these terms, all remaining terms are proportional to $\matel{2}{\mu}{b}$ and so by comparison to equation \ref{eqn:uno}, the sum of the terms multiplying this current is what will give us our unordered current. However, to be truly consistent with the factorised picture, we must factorise out the colour factor $T^d_{2b}$ from this amplitude as well. This is already the case for the first, second and last lines and now that we have dropped terms for the other two lines we can use the still valid limit $p_2 \sim p_b$ to yield;
 
 \begin{equation}
 \begin{split}
-& -ig_s^3 \matel{1}{\mu}a{} \matel{2}{\mu}{b} \varepsilon_\nu(p_g) \left(\frac{2p_2^\nu}{\hat{t}_1 s_{2g}} - \frac{2p_b^\nu}{\hat{t}_1s_{bg}} \right) \\
-& \approx -i g_s^3 \matel{1}{\mu}{a} \matel{2}{\mu}{b} \varepsilon_\nu(p_g) \frac{1}{\hat{t}_1}\frac{2p_b^\nu}{s_{bg}} T^d_{1a}\left(T^c_{2i}T^d_{ib} - T^d_{2i}T^c_{ib}\right)  \\
-&= g_s^3 \matel{1}{\mu}{a} \matel{2}{\mu}{b} \varepsilon_\nu(p_g) \frac{1}{\hat{t}_1} \frac{2 p_b^\nu}{s_{bg}} f^{cde}T^d_{1a}T^e_{2b} \\
-&= g_s^3 \matel{1}{\mu}{a} \matel{2}{\mu}{b} \varepsilon_\nu(p_g) f^{cde}T^d_{1a}T^e_{2b} \frac{1}{\hat{t}_1} \left(\frac{p_b^\nu}{s_{bg}}+\frac{p_2^\nu}{s_{2g}} \right),
+& -ig_s^3 \matel{1}{\mu}a{} \matel{2}{\mu}{b} \varepsilon_\nu(p_g) \left(\frac{2p_2^\nu}{t_{a1} s_{2g}} - \frac{2p_b^\nu}{t_{a1} s_{bg}} \right) \\
+& \approx -i g_s^3 \matel{1}{\mu}{a} \matel{2}{\mu}{b} \varepsilon_\nu(p_g) \frac{1}{t_{a1}}\frac{2p_b^\nu}{s_{bg}} T^d_{1a}\left(T^c_{2i}T^d_{ib} - T^d_{2i}T^c_{ib}\right)  \\
+&= g_s^3 \matel{1}{\mu}{a} \matel{2}{\mu}{b} \varepsilon_\nu(p_g) \frac{1}{t_{a1}} \frac{2 p_b^\nu}{s_{bg}} f^{cde}T^d_{1a}T^e_{2b} \\
+&= g_s^3 \matel{1}{\mu}{a} \matel{2}{\mu}{b} \varepsilon_\nu(p_g) f^{cde}T^d_{1a}T^e_{2b} \frac{1}{t_{a1}} \left(\frac{p_b^\nu}{s_{bg}}+\frac{p_2^\nu}{s_{2g}} \right),
 \end{split}
 \end{equation}
 
@@ -65,21 +65,22 @@ where;
 \begin{split}
 U_1^{\mu \nu} &= \frac{1}{s_{1g}}(j^\nu_{1g}j^\mu_{ga} + 2 p_1^\nu j^\mu_{1a}) \\
 U_2^{\mu \nu} &= -\frac{1}{s_{ag}}(2j^\mu_{1a}p_a^\nu - j^\mu_{1g}j^\nu_{ga}) \\
-L^{\mu \nu} &= \frac{1}{\hat{t}_1} \left(-2p^\mu_g j^\nu_{1a} + 2 p_g \cdot j_{1a}\eta^{\mu \nu} + (q_1 + q_2)^\nu j^{\mu}_{1a} + \hat{t}_2 j^\mu_{1a} \left(\frac{p_2^\nu}{s_{2g}} + \frac{p_b^\nu}{s_{gb}} \right) \right).
+L^{\mu \nu} &= \frac{1}{t_{a1}} \left(-2p^\mu_g j^\nu_{1a} + 2 p_g \cdot j_{1a}\eta^{\mu \nu} + (q_1 + q_2)^\nu j^{\mu}_{1a} + q_2^2 j^\mu_{1a} \left(\frac{p_2^\nu}{s_{2g}} + \frac{p_b^\nu}{s_{gb}} \right) \right).
 \end{split}
 \end{equation}
 
-The three colour factors are not independent here, so we can combine them and then we can extract the uno current by inspection;
+%The three colour factors are not independent here, so we can combine them and then we can extract the uno current by inspection; \todo{Skip this?}
 
-\begin{equation}
-j^\mu_{uno}(p_1, p_a, p_g) = i \varepsilon_\nu(p_g) \left(T^c_{1i}T^d_{ia}\left(U_1^{\mu \nu} - L^{\mu \nu}\right) + T^d_{1i}T^c_{1a}\left(U_2^{\mu \nu} + L^{\mu \nu}\right) \right).
-\end{equation}
 
-Gauge invariance of this expression has been checked by replacing the polarisation vector with the gluon momentum and seeing that the expression gives zero. This current can then be used as a basis for all unordered amplitudes, with further emissions added on via the Lipatov vertex and other incoming states accounted for by colour Casamir multiplications. One thing to note, however, is that the leg that the unordered current is dependent on cannot be a gluon, since a trivial rewriting of momenta in that case will lead back to the FKL ordering. 
+%\begin{equation}
+%j^\mu_{uno}(p_1, p_a, p_g) = i \varepsilon_\nu(p_g) \left(T^c_{1i}T^d_{ia}\left(U_1^{\mu \nu} - L^{\mu \nu}\right) + T^d_{1i}T^c_{1a}\left(U_2^{\mu \nu} + L^{\mu \nu}\right) \right).
+%\end{equation}
+
+Gauge invariance of this expression has been checked by replacing the polarisation vector with the gluon momentum and seeing that the expression gives zero, in accordance with the Ward Identity. This current can then be used as a basis for all unordered amplitudes, with further emissions added on via the Lipatov vertex and other incoming states accounted for by colour Casamir multiplications. One thing to note, however, is that the leg that the unordered current is dependent on cannot be a gluon, since a trivial rewriting of momenta in that case will lead back to the FKL ordering. 
 
 \section{Calculations of NLL Partonic Subprocesses}
 
-It was discussed in chapter two that the leading amplitudes in the High Energy limit are given by those that involve the maximal number of gluon exchanges in the $t$-channel by analysis of Regge Theory. To access the sub-leading partonic configurations, we simply replace one gluon propagator by one quark propagator in these FKL amplitudes (whilst keeping the strict rapidity ordering). There are two distinct possibilities we can imagine - we can either replace the first or last propagator in the chain or one in the middle along the chain. We can assign the nomenclature `extremal' and `central' to the two cases respectively. The simplest case of an extremal process is $qg \to qQ\bar{Q}$ and for the central case it is $qq' \to qQ\bar{Q}q'$. Once we have expressions for these amplitudes in our language, we can build up all other related amplitudes by once more multiplying in Lipatov vertices and multiplying by ratios of colour factors. 
+It was discussed in chapter two that the dominant amplitudes in the High Energy limit are given by those that involve the maximal number of gluon exchanges in the $t$-channel by analysis of Regge Theory. To access the sub-leading partonic configurations, we simply replace one gluon propagator by one quark propagator in these FKL amplitudes (whilst keeping the strict rapidity ordering). There are two distinct possibilities we can imagine - we can either replace the first or last propagator in the chain or one in the middle along the chain. We can assign the nomenclature `extremal' and `central' to the two cases respectively. The simplest case of an extremal process is $qg \to qQ\bar{Q}$ and for the central case it is $qq' \to qQ\bar{Q}q'$. From analysis of these amplitudes, we can derive the `building blocks' that will allow us to build up other, related amplitudes by multiplication of Lipatov vertices and colour factors. 
 
 \subsection{Calculation of $qg \to qQ\bar{Q}$ in the High Energy Limit}
 
@@ -111,7 +112,7 @@ where $Q^{\mu \nu}$ is an effective vertex that encapsulates the effect of the e
 \end{figure}
 
 
-The technique for this is as follows. We will first study the complete amplitude for $qg \to qQ\bar{Q}$, for which there are five contributing diagrams as shown in figure \ref{fig:qg_qQQ_graphs}. After we have the full LO expression, we will make some approximations based on the High Energy behaviour of the process to bring the entire amplitude into the desired form. During this approximation stage, we must remember to take care to maintain gauge invariance. 
+The technique for this is as follows. We will first study the complete amplitude for $qg \to qQ\bar{Q}$, for which there are five contributing diagrams as shown in figure \ref{fig:qg_qQQ_graphs}. After we have the full LO expression, we will make some approximations based on the High Energy behaviour of the process to bring the entire amplitude into the desired form. During this approximation stage, we must remember to take care to maintain gauge invariance since our final expression will be applied in all of phase space. We remind the reader at this point that, in the massless quark limit, $u^\pm(p) = v^\mp(p)$ and so the notation $\matel{p}{\mu}{k}$ can refer to $\bar{u}_p \gamma^\mu v_k$ or $\bar{u}_p \gamma^\mu u_k$ interchangeably, where the suppressed helicity indices are taken such that they conform to the definition above. 
 
 We will begin with the diagram shown in the top left and then proceed from left to right and top to bottom. Using the Feynman rules, we see this contribution is;
 
@@ -131,52 +132,55 @@ iM_2 = \frac{-i g_s^3 T^b_{1q}T^g_{qa}T^g_{23}}{s_{1b}s_{23}} \left[ \bar{u}_1 \
 The next diagram involves a three-gluon vertex and by invoking the Feynman rules we get;
 
 \begin{equation}
-iM_3 = \left[\bar{u}_1(-i g_s \gamma^\mu T^g_{1a}) u_a \right] \frac{-i \eta_{\mu \nu}}{\hat{t}_1} \left[\bar{u}_2 (-i g_s \gamma^\rho T^{g'}_{23}) u_3 \right] \frac{- i \eta_{\beta \rho}}{s_{23}} (-g_s f^{g g' b})V_{3g}^{\nu  \beta \alpha} \varepsilon_\alpha(p_b),
+iM_3 = \left[\bar{u}_1(-i g_s \gamma^\mu T^g_{1a}) u_a \right] \frac{-i \eta_{\mu \nu}}{\hat{t}_1} \left[\bar{u}_2 (-i g_s \gamma^\rho T^{g'}_{23}) v_3 \right] \frac{- i \eta_{\beta \rho}}{s_{23}} (-g_s f^{g g' b})V_{3g}^{\nu  \beta \alpha} \varepsilon_\alpha(p_b),
 \end{equation}
 
-where;
+where
 
 \begin{equation}
-V_{3g}^{\nu \beta \alpha} = (p_a - p_1 +p_2 + p_3)^\alpha \eta^{\nu \beta} - (p_2 + p_3 + p_b)^\nu \eta^{\beta \alpha} + (p_b -p_a + p_1)^\beta \eta^{ \alpha \nu}. 
+\begin{split}
+V_{3g}^{\nu \beta \alpha} &= (q_1+q_2)^\alpha \eta^{\nu \beta} - (q_2+p_b)^\nu \eta^{\beta \alpha} + (p_b-q_1)^\beta \eta^{ \alpha \nu} \\
+&= (2p_2 + 2p_3)^\alpha \eta^{\nu \beta} - (2p_b)^\nu \eta^{\beta \alpha} + (2p_b)^\beta \eta^{ \alpha \nu},
+\end{split}
 \end{equation}
 
-Algebraic manipulation of this expression leads to;
+once terms that are zero when contracted with terms outside of the three-gluon vertex are removed. Algebraic manipulation of this expression leads to;
 
 \begin{equation}
-iM_3 = \frac{-g_s^3 T^g_{1a} T^{g'}_{23} f^{g g' b}}{t_1 s_{23}}  \matel{1}{\nu}{a} \matel{2}{\beta}{3} V_{3g}^{\nu \beta \alpha}\epsilon_\alpha(p_b).
+iM_3 = \frac{-g_s^3 T^g_{1a} T^{g'}_{23} f^{g g' b}}{\hat{t}_1 s_{23}}  \matel{1}{\nu}{a} \matel{2}{\beta}{3} V_{3g}^{\nu \beta \alpha}\epsilon_\alpha(p_b).
 \end{equation}
 
-Finally, we have the last two diagrams that involve both a $t$-channel gluon and quark propagator. For the first, we have:
+Finally, we have the last two diagrams that involve both a $t$-channel gluon and quark propagator. For the first, we have \todo{remove all semicolons leading into equations}
 
 \begin{equation}
-iM_4 = \left[\bar{u}_1 (-i g_s \gamma^\mu T^g_{1a}) u_a \right] \frac{-i \eta_{\mu \nu}}{\hat{t}_1} \left[\bar{u}_2 (-i g_s \gamma^\nu T^g_{2q}) \frac{-i (\slashed{p}_3 - \slashed{p}_b )}{\hat{t}_2} (-i g_s \gamma^\rho T^b_{q3})u_3 \right] \varepsilon_\rho (p_b).
+iM_4 = \left[\bar{u}_1 (-i g_s \gamma^\mu T^g_{1a}) u_a \right] \frac{-i \eta_{\mu \nu}}{\hat{t}_1} \left[\bar{u}_2 (-i g_s \gamma^\nu T^g_{2q}) \frac{-i (\slashed{p}_3 - \slashed{p}_b )}{t_{3b}} (-i g_s \gamma^\rho T^b_{q3})v_3 \right] \varepsilon_\rho (p_b).
 \end{equation}
 
 Note the minus sign in the propagator; this is because the Feynman rule for the quark propagator requires that the momentum flows in the same direction as the charge. This can be written:
 
 \begin{equation}
-iM_4 = \frac{-i g_s^3 T^g_{1a}T^b_{q3}T^g_{2q}}{\hat{t}_1 \hat{t}_2} \matel{1}{\nu}{a}\left[\bar{u}_2 \gamma^\nu (\slashed{p}_3 - \slashed{p}_b) \gamma^\rho u_3 \right] \varepsilon_\rho (p_b).
+iM_4 = \frac{-i g_s^3 T^g_{1a}T^b_{q3}T^g_{2q}}{\hat{t}_1 t_{3b}} \matel{1}{\nu}{a}\left[\bar{u}_2 \gamma^\nu (\slashed{p}_3 - \slashed{p}_b) \gamma^\rho v_3 \right] \varepsilon_\rho (p_b).
 \end{equation}
 
 A similar analysis yields for the last diagram (no minus sign from the fermion propagator this time);
 
 \begin{equation}
-iM_5 = \frac{i g_s^3 T^g_{1a}T^b_{2q}T^g_{q3}}{\hat{t}_1 \tilde{t}_2} \matel{1}{\nu}{a}\left[\bar{u}_2 \gamma^\rho (\slashed{p}_2 - \slashed{p}_b) \gamma^\nu u_3 \right] \varepsilon_\rho (p_b),
+iM_5 = \frac{i g_s^3 T^g_{1a}T^b_{2q}T^g_{q3}}{\hat{t}_1 t_{b2}} \matel{1}{\nu}{a}\left[\bar{u}_2 \gamma^\rho (\slashed{p}_2 - \slashed{p}_b) \gamma^\nu v_3 \right] \varepsilon_\rho (p_b).
 \end{equation}
 
-with $\tilde{t}_2 = (p_2 - p_b)^2$. We now have expressions that, when summed, will give the exact, LO result for the process $qg \to qQ\bar{Q}$. Now we must approximate in order to factorise the $t$-channel pole. No approximation is required for $M_3, M_4$ or $M_5$ since the $t$-channel pole is immediately explicit. $M_1$ and $M_2$, however, need special attention. The problematic part is the square brackets of, for example, $M_1$ which we can rewrite using the completeness relation;
+We now have expressions that, when summed, will give the exact, LO result for the process $qg \to qQ\bar{Q}$. Now we must approximate in order to factorise the $t$-channel pole. No approximation is required for $M_3, M_4$ or $M_5$ since the $t$-channel pole is immediately explicit. $M_1$ and $M_2$, however, need special attention. The problematic part is the square brackets of, for example, $M_1$ which we can rewrite using the completeness relation;
 
 \begin{equation}
 \bar{u}_1 \gamma^\nu (\slashed{p}_a + \slashed{p}_b) \gamma^\mu u_a = \matel{1}{\nu}{a}2 p_a^\mu + \matel{1}{\nu}{b} \matel{b}{\mu}{a},
 \end{equation}
 
-where the spinor brackets have no helicity index written to indicate that the expansion is valid for both negative and positive helicities. The $\nu$ index is contracted with the quark current $\matel{2}{\nu}{b}$. Depending on the helicity choices, the second term after contraction behaves either like $\sqrt{s_{b3} s_{12}}$ or $\sqrt{s_{13} s_{b2}}$. Similarly, the first term behaves either like $\sqrt{s_{a3} s_{12}}$ or $\sqrt{s_{13} s_{a2}}$. The relative size of these terms is then $\sqrt{s_{b3}/s_{a3}}$ or $\sqrt{s_{b2}/s_{a2}}$. In the High Energy limit, it is clear that both $s_{a3}$ and $s_{a2}$ both are large. Also, since we are dealing with the case where the $q\bar{q}$ pair is emitted close in rapidity to one end of the chain, we can reasonably assume that $s_{b3}$ and $s_{b2}$ do not have to be large. We can therefore drop the second term with respect to the first and thus;
+where we continue our notation of not assigning a helicity index to the spinor brackets to indicate that the expansion is valid for both negative and positive helicities. The $\nu$ index is contracted with the quark current $\matel{2}{\nu}{b}$. Depending on the helicity choices, the second term after contraction behaves either like $\sqrt{s_{b3} s_{12}}$ or $\sqrt{s_{13} s_{b2}}$. Similarly, the first term behaves either like $\sqrt{s_{a3} s_{12}}$ or $\sqrt{s_{13} s_{a2}}$. The relative size of these terms is then $\sqrt{s_{b3}/s_{a3}}$ or $\sqrt{s_{b2}/s_{a2}}$. In the High Energy limit, it is clear that both $s_{a3}$ and $s_{a2}$ are large. Also, since we are dealing with the case where the $q\bar{q}$ pair is emitted close in rapidity to one end of the chain, we can reasonably assume that $s_{b3}$ and $s_{b2}$ do not have to be large. We can therefore drop the second term with respect to the first and thus;
 
 \begin{equation}
 iM_1 \approx \frac{i g_s^3 T^g_{1q}T^b_{qa}T^g_{23}}{s_{ab}s_{23}} \left[ 2p_a^\mu \matel{1}{\nu}{a} \right] \matel{2}{\nu}{3} \varepsilon_\mu (p_b).
 \end{equation}
 
-A similar arguement holds for $M_2$ and so;
+A similar argument holds for $M_2$ and so;
 
 \begin{equation}
 iM_2 \approx \frac{-i g_s^3 T^b_{1q}T^g_{qa}T^g_{23}}{s_{1b}s_{23}} \left[ 2p_1^\mu \matel{1}{\nu}{a} \right] \matel{2}{\nu}{3} \varepsilon_\mu (p_b).
@@ -194,12 +198,12 @@ This is the same colour factor as that of the diagram involving a $t$-channel gl
 i(M_1 + M_2) \to \frac{- g_s^3 C_t}{s_{ab}s_{23}}2p_a^\mu \matel{1}{\nu}{a} \matel{2}{\nu}{3} \varepsilon_\mu (p_b),
 \end{equation}
 
-and so we have now factored out the quark current in all the amplitudes. If we now combine all the amplitudes together, then we get the form of $Q^{\mu \nu}$ to be:
+and so we have now factored out the quark current in all the amplitudes. If we now combine all the amplitudes together, then we get the form of $Q^{\mu \nu}$ to be
 
 \begin{equation}
 \begin{split}
-Q^{\mu \nu} &= -\frac{C_1}{\hat{t}_2} \left(\bar{u}_2 \gamma^\mu (\slashed{p}_3-\slashed{p}_b)\gamma^\nu u_3 \right) + \frac{C_2}{\tilde{t}_2} \left( \bar{u}_2 \gamma^\nu (\slashed{p}_2-\slashed{p}_b) \gamma^\mu u_3 \right) \\
-&+ i  \frac{C_t}{s_{23}} \left(\frac{2 \hspace{2pt} p_a^\nu \hspace{2pt} \hat{t}_1}{s_{ab}}  \matel{2}{\mu}{3} + V^{\mu \rho \nu}_{3g}  \matel{2}{\rho}{3} \right),
+Q^{\mu \nu} &= -\frac{C_1}{t_{b3}} \left(\bar{u}_2 \gamma^\mu (\slashed{p}_3-\slashed{p}_b)\gamma^\nu v_3 \right) + \frac{C_2}{t_{b2}} \left( \bar{u}_2 \gamma^\nu (\slashed{p}_2-\slashed{p}_b) \gamma^\mu v_3 \right) \\
+&+ i  \frac{C_t}{s_{23}} \left(\frac{2 \hspace{2pt} p_a^\nu \hspace{2pt} q_1^2}{s_{ab}}  \matel{2}{\mu}{3} + V^{\mu \rho \nu}_{3g}  \matel{2}{\rho}{3} \right),
 \end{split}
 \end{equation}
 
@@ -213,32 +217,30 @@ C_t &= f^{gbc}T^c_{1a}T^g_{23}.
 \end{align}
 \end{subequations}
 
-We should check at this point that our expression is indeed still gauge invariant after having made these approximations. The simplest way to check is to make use of the Ward Identity, which implies $Q^{\mu \nu} p_{b, \nu} = 0$. Explicitly; 
+We should check at this point that our expression is indeed still gauge invariant after having made these approximations. The simplest way to check is to make use of the Ward Identity, which implies $Q^{\mu \nu} p_{b, \nu} = 0$ when gauge invariance is satisfied. Explicitly; 
 
 \begin{equation}
 \begin{split}
-Q^{\mu \nu}p_{b, \nu} &= -\frac{C_1}{\hat{t}_2} \left(\bar{u}_2 \gamma^\mu \slashed{p}_3 \slashed{p_b} u_3 \right) + \frac{C_2}{\tilde{t}_2} \left( \bar{u}_2 \slashed{p}_b \slashed{p}_2 \gamma^\mu u_3 \right) + i  \frac{C_t}{s_{23}} \left(\hat{t}_1  \matel{2}{\mu}{3} + V^{\mu \rho \nu}_{3g}p_{b \nu}  \matel{2}{\rho}{3} \right) \\
-&= -\frac{C_1}{\hat{t}_2} s_{3b} \matel{2}{\mu}{3} + \frac{C_2}{\tilde{t}_2} s_{2b} \matel{2}{\mu}{3} + i \frac{C_t}{s_{23}}(\hat{t}_1 \matel{2}{\mu}{3} + (s_{2b} + s_{3b})\matel{2}{\mu}{3} - \\
-&(p_2+p_3+p_b)^\mu p_b^\rho\matel{2}{\rho}{3} + 2p_b^\mu p_b^\rho \matel{2}{\rho}{3}) \\
-&= \frac{\matel{2}{\mu}{3}}{s_{23}}(C_1 s_{23} - C_2 s_{23} + i C_t(\hat{t}_1 + (s_{2b} + s_{3b})) \\
-&+ i\matel{2}{\rho}{3} \frac{C_t}{s_{23}}(-(p_2+p_3+p_b)^\mu p_b^\rho + 2p_b^\mu p_b^\rho) \\
+Q^{\mu \nu}p_{b, \nu} &= -\frac{C_1}{t_{b3}} \left(\bar{u}_2 \gamma^\mu \slashed{p}_3 \slashed{p_b} v_3 \right) + \frac{C_2}{t_{b2}} \left( \bar{u}_2 \slashed{p}_b \slashed{p}_2 \gamma^\mu v_3 \right) + i  \frac{C_t}{s_{23}} \left(q_1^2  \matel{2}{\mu}{3} + V^{\mu \rho \nu}_{3g}p_{b \nu}  \matel{2}{\rho}{3} \right) \\
+&= -\frac{C_1}{t_{b3}} s_{3b} \matel{2}{\mu}{3} + \frac{C_2}{t_{b2}} s_{2b} \matel{2}{\mu}{3} + i \frac{C_t}{s_{23}}(q_1^2 \matel{2}{\mu}{3} + (s_{2b} + s_{3b})\matel{2}{\mu}{3} - \\
+&2p_b^\mu p_b^\rho\matel{2}{\rho}{3} + 2p_b^\mu p_b^\rho \matel{2}{\rho}{3}) \\
+&= \frac{\matel{2}{\mu}{3}}{s_{23}}(C_1 s_{23} - C_2 s_{23} + i C_t(q_1^2 + (s_{2b} + s_{3b})) \\
+&+ i\matel{2}{\rho}{3} \frac{C_t}{s_{23}}(-2p_b^\mu p_b^\rho + 2p_b^\mu p_b^\rho) \\
 &= i C_t \frac{\matel{2}{\mu}{3}}{s_{23}}(-s_{23} + (-s_{2b} - s_{3b} + s_{23} + s_{2b} + s_{3b})) \\
-&+i\matel{2}{\rho}{3} \frac{C_t}{s_{23}}(-(p_2+p_3+p_b)^\mu p_b^\rho + 2p_b^\mu p_b^\rho)) \\
-&\approx  i C_t \frac{\matel{2}{\rho}{3}}{s_{23}}(-2p_b^\mu p_b^\rho + 2p_b^\mu p_b^\rho)) \\
 &= 0,
 \end{split}
 \end{equation}
 
-where we have had to make the high energy approximation $p_b \sim p_2 + p_3$. Therefore, so long as we always approximate the three gluon vertex in this manner (this is where the `offending' term came from), the effective vertex is, indeed, a gauge invariant quantity. It may seem, however, that the effective vertex is not truly factorised since there is a clear instance of $p_a$ in the vertex. Because the complete term goes like $p_a^\mu/s_{ab}$, it is actually independent of $p_a$\footnote{An easy way to convince oneself of this is to work in light-cone co-ordinates and see that the $p_a^+$ scale factors out on the top and bottom of the expression.}. We still have freedom to make a gauge choice to do our calculations in, however, and a good choice will be the gauge where the gluon polarisation vector is orthogonal to $p_a$ and we have;
+where we have used the result $C_1 - C_2 = -iC_t$. We therefore conclude that the effective vertex is gauge invariant in all of phase space. It may seem, however, that the effective vertex is not truly factorised since there is a clear instance of $p_a$ in the vertex. Because the complete term goes like $p_a^\mu/s_{ab}$, it is actually independent of $p_a$\footnote{An easy way to convince oneself of this is to work in light-cone co-ordinates and see that the $p_a^+$ scale factors out on the top and bottom of the expression.}. We still have freedom to make a gauge choice for our calculations, however, and a good choice will be the gauge where the gluon polarisation vector is orthogonal to $p_a$ and we have; %\todo{Am I going to change this given I can symmetrise the pa term?}
 
 \begin{equation}
 \begin{split}
-Q^{\mu \nu}_{gauge} &= -\frac{C_1}{\hat{t}_2} \left(\bar{u}_2 \gamma^\mu (\slashed{p}_3-\slashed{p}_b)\gamma^\nu u_3 \right) + \frac{C_2}{\tilde{t}_2} \left( \bar{u}_2 \gamma^\nu (\slashed{p}_2-\slashed{p}_b) \gamma^\mu u_3 \right)  \\
+Q^{\mu \nu}_{gauge} &= -\frac{C_1}{t_{b3}} \left(\bar{u}_2 \gamma^\mu (\slashed{p}_3-\slashed{p}_b)\gamma^\nu v_3 \right) + \frac{C_2}{t_{b2}} \left( \bar{u}_2 \gamma^\nu (\slashed{p}_2-\slashed{p}_b) \gamma^\mu v_3 \right)  \\
 &+ i  \frac{C_t}{s_{23}} \left((2p_2+2p_3)^\nu \eta^{\mu \rho} - 2p_b^\mu \eta^{\nu \rho} + 2p_b^\rho \eta^{\nu \mu} \right) \matel{2}{\rho}{3},
 \end{split}
 \end{equation}
 
-completing our calculation for the basis HEJ amplitude in the case of an extremal $q \bar{q}$ process.
+completing our calculation for the basis HEJ amplitude in the case of an extremal $q \bar{q}$ process. As mentioned before, since there are only two independent colour factors in this expression we could rewrite the expression in terms of $C_1$ and $C_2$ only, but the author is of the opinion that this modularisation is more computationally beneficial. One other interesting point to note is that this effective vertex can be shown to be equal to the unordered vertex via crossing symmetry. The full calculation of this is shown in Appendix \ref{app:crossing}. \todo{Move checks and verifications to here?}
 
 \subsection{Calculation of $qq' \to qQ\bar{Q}q'$ in the High Energy Limit}
 
@@ -257,7 +259,7 @@ M_{qq' \to qQ\bar{Q}q'} \sim \frac{\matel{1}{\mu}{a}X^{\mu \nu} \matel{4}{\nu}{b
 There are a total of 7 diagrams to calculate here, shown in figure \ref{fig:qq_qQQq_graphs}. Once more, we will calculate the diagrams starting with the one in the top left and proceeding left to right. The expression for the first diagram is;
 
 \begin{equation}
-iM_1 = \frac{- i g_s^4 T^e_{1q}T^g_{qa}T^e_{23}T^g_{4b}}{s_{23} \hat{t}_3} \left[ \bar{u}_1 \gamma^\mu \frac{(\slashed{p}_1+\slashed{p}_2 + \slashed{p}_3)}{(p_1 + p_2 + p_3)^2} \gamma^\rho u_a \right] \left[\bar{u}_2 \gamma_\mu u_3 \right] \left[ \bar{u}_4 \gamma_\rho u_b \right].
+iM_1 = \frac{- i g_s^4 T^e_{1q}T^g_{qa}T^e_{23}T^g_{4b}}{s_{23} \hat{t}_3} \left[ \bar{u}_1 \gamma^\mu \frac{(\slashed{p}_1+\slashed{p}_2 + \slashed{p}_3)}{(p_1 + p_2 + p_3)^2} \gamma^\rho u_a \right] \left[\bar{u}_2 \gamma_\mu v_3 \right] \left[ \bar{u}_4 \gamma_\rho u_b \right].
 \end{equation}
 
 \begin{figure}[H] 
@@ -308,24 +310,22 @@ The remaining graphs are already $t$-channel factorised and so we know that we c
 \begin{equation}
 \begin{split}
 iM_5 &= \frac{g_s^4 T^g_{1a} f^{geg'}T^{g'}_{4b}T^e_{23}}{\hat{t}_1 s_{23} \hat{t}_3} \left((q_1 + p_2 + p_3)^\lambda \eta^{\nu \sigma} + (q_3 - p_2 -p_3)^\nu \eta^{\sigma \lambda} - (q_1 + q_3)^\sigma \eta^{\nu \lambda} \right) \\
-& \left[\bar{u}_1 \gamma_\nu u_a \right]  \left[\bar{u}_4 \gamma_\lambda u_b \right] \left[\bar{u}_2 \gamma_\sigma u_3 \right].
+& \left[\bar{u}_1 \gamma_\nu u_a \right]  \left[\bar{u}_4 \gamma_\lambda u_b \right] \left[\bar{u}_2 \gamma_\sigma v_3 \right],
 \end{split}
 \end{equation}
 
-The final two diagrams both have quark propagators. They have the exact expressions;
+where $q_1 = p_a - p_1 = p_4 - p_b + p_3 + p_2 $ and $q_3 = p_4 - p_b = p_a - p_1 - p_2 - p_3$. The final two diagrams both have quark propagators. They have the exact expressions;
 
 \begin{equation}
-iM_6 = \frac{i g_s^4 T^g_{1a} T^{g}_{2q} T^{g'}_{q3}  T^{g'}_{4b}}{\hat{t}_1 \hat{t}_2 \hat{t}_3}\left[\bar{u}_1 \gamma^\mu u_a \right] \left[\bar{u}_4 \gamma^\sigma u_b \right] \left[\bar{u}_2 \gamma_\mu(\slashed{p}_a - \slashed{p}_1 -\slashed{p}_2) \gamma_\sigma u_3 \right],
+iM_6 = \frac{i g_s^4 T^g_{1a} T^{g}_{2q} T^{g'}_{q3}  T^{g'}_{4b}}{\hat{t}_1 (p_a-p_1-p_2)^2 \hat{t}_3}\left[\bar{u}_1 \gamma^\mu u_a \right] \left[\bar{u}_4 \gamma^\sigma u_b \right] \left[\bar{u}_2 \gamma_\mu(\slashed{p}_a - \slashed{p}_1 -\slashed{p}_2) \gamma_\sigma v_3 \right],
 \end{equation}
 
 and;
 
 \begin{equation}
-iM_7 = \frac{-i g_s^4 T^g_{1a} T^{g'}_{2q} T^{g}_{q3}  T^{g'}_{4b}}{\hat{t}_1 \tilde{t}_2 \hat{t}_3}\left[\bar{u}_1 \gamma^\mu u_a \right] \left[\bar{u}_4 \gamma^\sigma u_b \right] \left[\bar{u}_2 \gamma_\sigma(\slashed{p}_a - \slashed{p}_1 -\slashed{p}_3) \gamma_\mu u_3 \right],
+iM_7 = \frac{-i g_s^4 T^g_{1a} T^{g'}_{2q} T^{g}_{q3}  T^{g'}_{4b}}{\hat{t}_1 (p_a-p_1-p_3)^2 \hat{t}_3}\left[\bar{u}_1 \gamma^\mu u_a \right] \left[\bar{u}_4 \gamma^\sigma u_b \right] \left[\bar{u}_2 \gamma_\sigma(\slashed{p}_a - \slashed{p}_1 -\slashed{p}_3) \gamma_\mu v_3 \right],
 \end{equation}
-respectively, where $\tilde{t}_2 = (p_a-p_1-p_3)^2$. 
-
-Since the High Energy limit here still implies $p_a \sim p_1$ and $p_b \sim p_4$, we can approximately combine both $M_1$ with $M_2$ and $M_3$ with $M_4$. Doing the former yields;
+respectively. Since the High Energy limit here still implies $p_a \sim p_1$ and $p_b \sim p_4$, we can approximately combine both $M_1$ with $M_2$ and $M_3$ with $M_4$. Doing the former yields;
 
 \begin{equation}
 i(M_1 + M_2) \approx \frac{ C_1 g_s^4}{s_{23} \hat{t}_3 (s_{a2} + s_{a3})} \matel{1}{\rho}{a} \matel{4}{\rho}{b} \times 2 p_a^\sigma \matel{2}{\sigma}{3},
@@ -348,41 +348,40 @@ We are then in a position to combine all graphs together and derive our effectiv
 \begin{equation}
 \begin{split}
 X^{\mu \nu} &=  \frac{C_1}{s_{23}}\left(\eta^{\mu \nu}\left(2 p_a^\sigma \left( \frac{q_1^2}{s_{a2}+s_{a3}} \right) - 2 p_b^\sigma \left(\frac{q_3^2}{s_{b_2}+s_{b3}} \right) \right)+ V_{3g}^{\mu \nu \sigma} \right)\matel{2}{\sigma}{3} \\
-&+ \frac{i C_2}{\hat{t}_2} X_{qprop}^{\mu \nu} - \frac{i C_3}{\tilde{t}_2} X_{crossed}^{\mu \nu},
+&+ \frac{i C_2}{(p_a-p_1-p_2)^2} X_{qprop}^{\mu \nu} - \frac{i C_3}{(p_a-p_1-p_3)^2} X_{crossed}^{\mu \nu},
 \end{split}
 \end{equation}
 
-where we have defined the following expressions:
+where we have defined the following expressions: %\todo{define the qs}
 
 \begin{subequations}
 \begin{align}
 V_{3g}^{\mu \nu \sigma} &= (q_1 + p_2 + p_3)^\nu \eta^{\mu \sigma} + (q_3 - p_2 -p_3)^\mu \eta^{\sigma \nu} - (q_1 + q_3)^\sigma \eta^{\mu \nu} \\
 C_2 &= T^g_{1a}T^g_{2q}T^{g'}_{q3}T^{g'}_{4b} \\
 C_3 &= T^g_{1a}T^{g'}_{2q}T^g_{q3}T^{g'}_{4b} \\
-X_{qprop}^{\mu \nu} &= \bar{u}_2 \gamma^\mu (\slashed{q}_1 - \slashed{p}_2)\gamma^\nu u_3 \\
-X_{crossed}^{\mu \nu} &=\bar{u}_2 \gamma^\nu (\slashed{q}_1 - \slashed{p}_3)\gamma^\mu u_3.
+X_{qprop}^{\mu \nu} &= \bar{u}_2 \gamma^\mu (\slashed{q}_1 - \slashed{p}_2)\gamma^\nu v_3 \\
+X_{crossed}^{\mu \nu} &=\bar{u}_2 \gamma^\nu (\slashed{q}_1 - \slashed{p}_3)\gamma^\mu v_3.
 \end{align}
 \end{subequations}
 
-In fact, since we assumed $p_a \sim p_1$ and $p_b \sim p_4$ in deriving this form, we can go one step further and reinstate this symmetry so that our final vertex looks like:
+In fact, since we assumed $p_a \sim p_1$ and $p_b \sim p_4$ in deriving this form, we can go one step further and reinstate this symmetry. Such a step is consistent with how we treat the Lipatov vertex and will only affect sub-leading terms. Our final vertex is then;
 
 \begin{equation}
-\begin{split}
-X^{\mu \nu} &= \frac{C_1}{s_{23}} \left(\eta^{\mu \nu} X_{sym}^\sigma + V^{\mu \nu \sigma}_{3g} \right) \matel{2}{\sigma}{3} \\
-&+ \frac{i C_2}{\hat{t}_2} X^{\mu \nu}_{qprop} - \frac{i C_3}{\tilde{t}_2} X^{\mu \nu}_{crossed},
-\end{split}
+%\begin{split}
+X^{\mu \nu} = \frac{C_1}{s_{23}} \left(\eta^{\mu \nu} X_{sym}^\sigma + V^{\mu \nu \sigma}_{3g} \right) \matel{2}{\sigma}{3} + \frac{i C_2}{(p_a-p_1-p_2)^2} X^{\mu \nu}_{qprop} - \frac{i C_3}{(p_a-p_1-p_3)^2} X^{\mu \nu}_{crossed},
+%\end{split}
 \end{equation}
 
 with:
 
 \begin{equation}
-\begin{split}
-X_{sym}^\sigma &= p_a^\sigma \left( \frac{q_1^2}{s_{a2}+s_{a3}} \right) + p_1^\sigma \left( \frac{q_1^2}{s_{12}+s_{13}} \right) \\
-&- p_b^\sigma \left( \frac{q_3^2}{s_{b2}+s_{b3}} \right) - p_4^\sigma \left( \frac{q_3^2}{s_{42}+s_{43}} \right).
-\end{split}
+%\begin{split}
+X_{sym}^\sigma = p_a^\sigma \left( \frac{q_1^2}{s_{a2}+s_{a3}} \right) + p_1^\sigma \left( \frac{q_1^2}{s_{12}+s_{13}} \right) 
+- p_b^\sigma \left( \frac{q_3^2}{s_{b2}+s_{b3}} \right) - p_4^\sigma \left( \frac{q_3^2}{s_{42}+s_{43}} \right).
+%\end{split}
 \end{equation}
 
-We have intentionally used the notation of $q^2$ rather than $\hat{t}$ to make it clear that this invariant is the invariant formed from the mass of the propagator entering into the effective vertex. Once extra emissions are added, the $\hat{t}$ notation can be misleading. With this, we now have the complete expression for the effective central $q\bar{q}$ vertex. 
+We have intentionally used the notation of $q^2$ to make it clear that this invariant is the invariant formed from the mass of the propagator entering into the effective vertex. Once extra emissions are added, the $t_{ij}$ notation can be misleading. With this, we now have the complete expression for the effective central $q\bar{q}$ vertex. Furthermore, we notice again that we can rewrite our colour factors in such a way that the vertex depends only on $C_2$ and $C_3$, but we decide not to for computational ease. 
 
 \subsection{Checks and Verifications of Amplitudes}
 
@@ -547,7 +546,7 @@ In figure \ref{fig:central_gfor} we plot the result for when the gluon is more f
 
 \section{Computational Aspects}
 %\todo{removing from nonFKL, generating all possible processes, making sure matching is done consistently} 
-The plots of the last section all served to convince that the derived amplitudes behaved as expected. The next step is to include them in the full HEJ program correctly. This is a very significant change to the codebase that requires the modification of many files and so a `branch' of the code base was created so that all work can be done independent of other projects going on in the collaboration. Once everything is done and checked, the branch can be `merged' back into the main development code base in a way that does not disrupt any other work done there since the branch was created. The points that need to be considered when adding these amplitudes in are as follows;
+The plots of the last section all served to convince that the derived amplitudes behaved as expected. The next step is to include them in the full HEJ program correctly. This is a very significant change to the codebase that requires the modification of many files and so a `branch' of the code base was created so that all work can be done independently of other projects going on in the collaboration. Once everything is done and checked, the branch can be `merged' back into the main development code base in a way that does not disrupt any other work done there since the branch was created. The points that need to be considered when adding these amplitudes in are as follows;
 \begin{enumerate}
 \item{Correctly removing calls to fixed order non-FKL processes if they are now to be included in the resummation. For example, the code already contains a call to the $qg \to qQ\bar{Q}$ amplitude at leading order for matching purposes. We therefore need to remove calls to these particular subprocesses in that section of the code and we need to remove them only if the user specifies that they wish to include these processes in the resummation (although it will become default for HEJ to include them). }
 \item{Ensuring that all possible processes are generated. Since the HEJ program is a Monte Carlo program, we must ensure that all of these extra NLL processes are `picked'. Since we are requiring a leading order matching, one consideration is that an NLL process should not be picked if the event will not be clustered into at least three jets. Also, given a set number of final state partons and a central $q\bar{q}$ emission, we must make sure that all positions of that emission along that chain are considered. Another point is that the rapidity ordering of the $q\bar{q}$ pair can be either way around and we must include both orderings. Failure to do any of this correctly will mean that the program will be artificially removing physics that we know is there.}
@@ -556,7 +555,7 @@ The plots of the last section all served to convince that the derived amplitudes
 It is absolutely crucial that all of these points are properly addressed and checked and so such a task is necessarily time consuming. After validating these steps by comparisons to old code with certain restraints, we can be confident that everything works as it should. %\todo{Include some comparison here?}
 \section{Results}
 %\todo{Distributions, revisits to previous analyses with these effects added in, etc} 
-One advantage of now being able to resum these partonic subprocesses and unordered events is that it means we have a reduced reliance on fixed order matching codes. Before, all process that were 'non-FKL' had to be included via ta leading order matching. We have shown here that some of these non-FKL process can themselves be resummed and therefore we no longer need to include these processes in the fixed order part. Figure \ref{fig:fklmigration} graphically shows the difference this makes. An analysis was run whereby we require at least three jets in the final state and the cross section broken down into the contribution coming from the resummation and the fixed order. It is desirable if the red line (the resummed contribution) is as close to the black line (the total contribution) as possible and it is clear from this plot that the addition of these partonic subprocesses is helping that in a significant way, reducing the relative contribution of the fixed order processes by a large fraction.  
+One advantage of now being able to resum these partonic subprocesses and unordered events is that it means we have a reduced reliance on fixed order matching codes. Before, all process that were `non-FKL' had to be included via a leading order matching. We have shown here that some of these non-FKL process can themselves be resummed and therefore we no longer need to include these processes in the fixed order part. Figure \ref{fig:fklmigration} graphically shows the difference this makes. An inclusive three jet analysis was run and the total cross section is broken down into the contribution coming from the resummation and the fixed order. It is desirable if the red line (the resummed contribution) is as close to the black line (the total contribution) as possible and it is clear from this plot that the addition of these partonic subprocesses is helping that in a significant way, reducing the relative contribution of the fixed order processes by a large fraction.  
 
 \begin{figure}[t] 
 \centering

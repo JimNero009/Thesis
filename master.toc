@@ -43,7 +43,7 @@
 \contentsline {section}{\numberline {3.5}Results}{101}{section.3.5}
 \contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{108}{chapter.4}
 \contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{108}{section.4.1}
-\contentsline {section}{\numberline {4.2}Calculations of $H$ + jets with Finite Quark Mass Effects}{111}{section.4.2}
+\contentsline {section}{\numberline {4.2}Calculations of $H$ + Jets with Finite Quark Mass Effects}{111}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{111}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}$gq \to Hgq$}{114}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Checks and Verifications of Amplitudes}{129}{subsection.4.2.3}
@@ -52,5 +52,6 @@
 \contentsline {chapter}{\numberline {5}Conclusions}{146}{chapter.5}
 \contentsline {chapter}{\numberline {A}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{149}{appendix.A}
 \tocappendix 
-\contentsline {chapter}{Bibliography}{156}{section*.73}
+\contentsline {chapter}{\numberline {B}Relating the Unordered Vertex to the $q\mathaccentV {bar}016{q}$ Vertex}{156}{appendix.B}
+\contentsline {chapter}{Bibliography}{160}{section*.77}
 \contentsfinish 

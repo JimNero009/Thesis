@@ -41,9 +41,9 @@ The generalisation to multiple gluon emissions and different initial states foll
 
 The infinite top mass limit is remarkably successful for predictions of inclusive variables like total cross sections. The reason for this is that the expansion of this effective coupling is a power series in $\frac{m_H^2}{4 m_t^2} \sim 0.13$ and we essentially assume the top mass is the most relevant scale in the problem. It was checked that even the addition of a large dijet invariant mass in the amplitude had little effect \cite{Duca2003}. However, if the transverse scales start to become larger than the top mass (in particular, the transverse scales of the gluons entering the effective vertex), there is significant deviation between the result obtained in the full and effective theories \cite{Duca2003}. \\
 \\
-For HEJ, the infinite top mass limit was included because the expressions are simpler, but note that the factorisation of amplitudes will still occur whether or not this limit is taken. Therefore, any derived vertices for Higgs production with the full quark mass included can still be implemented in a straightforward way. Furthermore, as soon as the vertex including the full quark mass is derived, we can trivially add in the effect of more than one quark loop (for example, where a bottom quark runs in it). Such interference effects have been shown to produce interesting effects at small $p_T$ scales \cite{Grazzini2013, Lindert2017}. For these reasons, we decided to implement the effect of finite quark masses in the HEJ formalism. 
+For HEJ, the infinite top mass limit was included because the expressions are simpler, but note that the factorisation of amplitudes will still occur whether or not this limit is taken. Therefore, any derived vertices for Higgs production with the full quark mass included can still be implemented in a straightforward way. Furthermore, as soon as the vertex including the full quark mass is derived, we can trivially add in the effect of more than one quark loop (for example, where a bottom quark runs in it). Such interference effects have been shown to produce interesting effects at small $p_T$ scales, at least in process involving the emission of a Higgs boson with one accompanying jet \cite{Grazzini2013, Lindert2017}. For these reasons, we decided to implement the effect of finite quark masses in the HEJ formalism. 
 
-\section{Calculations of $H$ + jets with Finite Quark Mass Effects}
+\section{Calculations of $H$ + Jets with Finite Quark Mass Effects}
 
 As discussed before, there are two rapidity cases to be discussed; the first where the Higgs is emitted centrally and the second where it is emitted close to an external parton. The base amplitude for the first is the $qQ \to qHQ$ amplitude and for the second it is the $gq \to Hgq$ amplitude. We will begin our discussion with the first case, since it will turn out to be remarkably simple. 
 
@@ -137,7 +137,7 @@ M \sim \frac{Z^{\mu}(p_a,p_1,p_H) \matel{2}{\mu}{b}}{\hat{t}_2},
 \label{fig:gqH_imp}
 \end{figure}
 
-assuming that the polarisation vectors of the external gluons have been contracted with the effective vertex. There are 20 leading order diagrams to consider in total, which is reduced to 10 after invoking Furry's Theorem which states that diagrams involving an anti-quark loop can be related to diagrams with a quark loop. A selection of these diagrams is shown in figure \ref{fig:qgh_lo}. We will use \cite{DelDuca2001} as a guide for our work. In particular, we choose to use the following function for our parametrisation of the top-quark triangle loop, keeping full top mass dependence;
+assuming that the polarisation vectors of the external gluons have been contracted with the effective vertex. Here, $\hat{t}_2 = p_2 - p_b$ is the $t$-channel pole we will resum (the definition of $\hat{t}_i$ used in the previous chapter no longer holds here since we have an extra momentum to consider). There are 20 leading order diagrams to consider in total, which is reduced to 10 after invoking Furry's Theorem which states that diagrams involving an anti-quark loop can be related to diagrams with a quark loop. A selection of these diagrams is shown in figure \ref{fig:qgh_lo}. We will use \cite{DelDuca2001} as a guide for our work. In particular, we choose to use the following function for our parametrisation of the top-quark triangle loop, keeping full top mass dependence;
 
 \begin{equation}
 T^{\mu_1 \mu_2} = F_T(q_1^2, q_2^2,(q_1+q_2)^2) T_T^{\mu_1 \mu_2} + F_L(q_1^2, q_2^2,(q_1+q_2)^2) T_L^{\mu_1 \mu_2},
@@ -222,7 +222,7 @@ which tidies up to;
 
 \begin{equation}
 \begin{split}
-A_3 &= \frac{-iF f^{a1t}T^t_{2b}}{(p_a-p_1)^2 t_2} \varepsilon_{\mu_1}(p_a)V_{3g}^{\mu_1 \mu_2 \mu_3}(p_a, -p_1, p_1 - p_a)  \varepsilon_{\mu_2}^*(p_1)\\
+A_3 &= \frac{-iF f^{a1t}T^t_{2b}}{(p_a-p_1)^2 \hat{t}_2} \varepsilon_{\mu_1}(p_a)V_{3g}^{\mu_1 \mu_2 \mu_3}(p_a, -p_1, p_1 - p_a)  \varepsilon_{\mu_2}^*(p_1)\\
 & \cdot T_{\mu_3}^{\hspace{5pt}\mu_5}(p_1-p_a,p_a-p_1-p_H) \matel{2}{\mu_5}{b}.
 \end{split}
 \end{equation}
@@ -299,7 +299,7 @@ J^{\mu \nu \rho} = \eta^{\mu \nu}(H_1 q_1^\rho + H_2 q_2^\rho) + \eta^{\mu \rho}
 \label{eqn:boxes}
 \end{equation}
 
-The full expressions for each of the $H$ functions are very long and so we will leave their forms for Appendix A. A useful study is to investigate the link between the finite and infinite top mass cases for the box diagrams. This will, for example, give us a stringent numerical check on our implementation. In the infinite top mass case, the box diagram goes over to a three gluon vertex diagram multiplied by a factor, since the limit shrinks quark loops. Using this knowledge and applying it to the infinite top mass limit of equation \ref{eqn:boxes} along with the factor $F$, we see that the following must hold; 
+The full expressions for each of the $H$ functions are very long and so we will leave their forms for Appendix \ref{app:boxfunc}. A useful study is to investigate the link between the finite and infinite top mass cases for the box diagrams. This will, for example, give us a stringent numerical check on our implementation. In the infinite top mass case, the box diagram goes over to a three gluon vertex diagram multiplied by a factor, since the limit shrinks quark loops. Using this knowledge and applying it to the infinite top mass limit of equation \ref{eqn:boxes} along with the factor $F$, we see that the following must hold; 
 
 \begin{equation}
 \begin{split}
@@ -339,7 +339,7 @@ M_{gq \to Hgq}^{m_t} = F &\biggl( T^a_{2q}T^1_{qb} \biggl[ \frac{ \bar{u}_2 \gam
 &+ \frac{\bar{u}_2 \gamma^{\mu_1} (\slashed{p}_b - \slashed{p}_1)\gamma^{\mu_2}u_b \varepsilon_{H,\mu_1}(p_a)\varepsilon^*_{\mu_2}(p_1)}{s_{1b}} \biggr] - \\
 &T^1_{2q}T^a_{qb} \biggl[ \frac{\bar{u}_2 \gamma^{\mu_1}(\slashed{p}_a+\slashed{p}_b)\gamma^{\mu_2} u_b \varepsilon_{\mu_2}(p_a)\varepsilon^*_{H,\mu_1}(p_1)}{s_{ab}} \\
 & + \frac{\bar{u}_2 \gamma^{\mu_1}(\slashed{p}_1+\slashed{p}_2)\gamma^{\mu_2}u_b \varepsilon_{\mu_1}^*(p_1) \varepsilon_{H,\mu_2}(p_a)}{s_{12}} \biggr]  \\
- &- [T^a, T^1]_{2b} \frac{\matel{2}{\mu_3}{b}}{t_2} \biggl[ 8 i \pi^2 \varepsilon_{\mu_2}(p_a) \varepsilon^*_{\mu_1}(p_1)J^{\mu_1 \mu_2 \mu_3}(p_1,-p_a,p_a-p_1-p_H) \\
+ &- [T^a, T^1]_{2b} \frac{\matel{2}{\mu_3}{b}}{\hat{t}_2} \biggl[ 8 i \pi^2 \varepsilon_{\mu_2}(p_a) \varepsilon^*_{\mu_1}(p_1)J^{\mu_1 \mu_2 \mu_3}(p_1,-p_a,p_a-p_1-p_H) \\
 &+  \varepsilon_{H,\mu_1}(p_a)V_{3g}^{\mu_1 \mu_2 \mu_3}(p_a-p_H, -p_1, -p_a + p_H + p_1) \varepsilon^*_{\mu_2}(p_1)  \\
 &+  \varepsilon_{\mu_1}(p_a)V_{3g}^{\mu_1 \mu_2 \mu_3}(p_a,-p_1-p_H,-p_a+p_1+p_H)\varepsilon_{H,\mu_2}^*(p_1)  \\
 &+  \frac{\varepsilon_{\mu_1}(p_a)V_{3g}^{\mu_! \mu_2 \mu_4}(p_a,-p_1,p_1-p_a)\varepsilon^*_{\mu_2}(p_1)T_{\mu_4}^{\hspace{10pt} \mu_3}(p_1-p_a,p_a-p_1-p_H)}{(p_a-p_1)^2} \biggr] \biggr).
@@ -564,10 +564,10 @@ In both cases, we see clear agreement between our result and the full LO result 
 The addition of extra emissions is once more done by multiplying Lipatov vertices into the amplitude we have derived. Although some care has to be taken to ensure the correct t-channel momenta are taken, it is relatively straightforward to do this, resulting in a general $gq\to Hg...q$ amplitude (where the ... represent an arbitrary number of gluons) which is simply;
 
 \begin{equation}
-|M_{gq \to Hg...q}^{HE,m_t}|^2 = |M_{gq \to Hgq}^{HE,m_t}|^2 \times \prod_{i=1}^{n-2} \frac{-g_s^2C_A V^\mu V_\mu}{\hat{t}_i^2},
+|M_{gq \to Hg...q}^{HE,m_t}|^2 = |M_{gq \to Hgq}^{HE,m_t}|^2 \times \prod_{i=1}^{n-2} \frac{-g_s^2C_A V^\mu V_\mu}{q_i^2},
 \end{equation}
 
-where $n$ is the number of final state jets. As a check, we will generate more explorer plots for the case of one extra emission. We will choose the process $gu \to Hggu$ with a few different choices for the rapidity of the extra gluon and the Higgs to ensure we are calculating correctly. Our first configuration is used for when the Higgs is being emitted close to the extremal gluon;
+where $n$ is the number of final state jets and $q_i$ is the squared momentum coming into the vertex and is itself resummed. As a check, we will generate more explorer plots for the case of one extra emission. We will choose the process $gu \to Hggu$ with a few different choices for the rapidity of the extra gluon and the Higgs to ensure we are calculating correctly. Our first configuration is used for when the Higgs is being emitted close to the extremal gluon;
 
 \begin{subequations}
 \begin{align}
