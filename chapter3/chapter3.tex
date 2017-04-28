@@ -31,7 +31,7 @@ M_{qQ \to gqQ}^{uno} \sim \frac{j^\mu_{uno}(p_a,p_1,p_{uno})j_\mu(p_b,p_2)}{\hat
 \label{fig:uno}
 \end{figure}
 
-where $y_{uno} \sim y_1, y_1 \gg y_2$. Throughout the following sections, we will make clear where $t$-channel poles appear by employing the notation $\hat{t}_i = p_a - \sum_j^i p_j$ which will \emph{always} be factored out of the final expression. We will also from time to time make use of the notation $t_{ij}$ which is to be interpreted as $(p_i-p_j)^2 = -s_{ij}$.  Returning to the unordered amplitude and in essence, we collapse the gluon emission to a point along the usual current such that there is only one suitable $t$-channel pole to be resummed as opposed to the two we would get if the gluon was emitted in the FKL ordering - it is thus clear to see why this is a sub-leading log contribution. Diagrammatically, we can show this like the schematic drawing in figure \ref{fig:uno}. We should also keep in mind that when it comes to discussing the colour properties of this amplitude that it will be more complicated than the FKL case and the result will have to be treated more carefully in this regard. To derive the form of the uno current, we will simply recalculate the $qQ \to gqQ$ amplitude but with the consideration that the rapidity of the gluon is no longer far away form the rapidity of the forward quark current. What this will essentially mean is that the kinematic arguments for dropping some terms like we did in section 2.2.3 will no longer be valid. We will therefore start by writing the full LO result for this amplitude (where we will write $p_{uno} = p_g$ for brevity);
+where $y_{uno} \sim y_1$ and $y_1 \gg y_2$. Throughout the following sections, we will make clear where $t$-channel poles appear by employing the notation $\hat{t}_i = p_a - \sum_j^i p_j$ which will \emph{always} be factored out of the final expression. We will also from time to time make use of the notation $t_{ij}$ which is to be interpreted as $(p_i-p_j)^2 = -s_{ij}$.  Returning to the unordered amplitude and in essence, we collapse the gluon emission to a point along the usual current such that there is only one suitable $t$-channel pole to be resummed as opposed to the two we would get if the gluon was emitted in the FKL ordering - it is thus clear to see why this is a sub-leading log contribution. Diagrammatically, we can show this like the schematic drawing in figure \ref{fig:uno}. We should also keep in mind that when it comes to discussing the colour properties of this amplitude that it will be more complicated than the FKL case and the result will have to be treated more carefully in this regard. To derive the form of the uno current, we will simply recalculate the $qQ \to gqQ$ amplitude but with the consideration that the rapidity of the gluon is no longer far away form the rapidity of the forward quark current. What this will essentially mean is that the kinematic arguments for dropping some terms like we did in section 2.2.3 will no longer be valid. We will therefore start by writing the full LO result for this amplitude (where we will write $p_{uno} = p_g$ for brevity);
 
 \begin{equation}
 \begin{split}
@@ -240,7 +240,81 @@ Q^{\mu \nu}_{gauge} &= -\frac{C_1}{t_{b3}} \left(\bar{u}_2 \gamma^\mu (\slashed{
 \end{split}
 \end{equation}
 
-completing our calculation for the basis HEJ amplitude in the case of an extremal $q \bar{q}$ process. As mentioned before, since there are only two independent colour factors in this expression we could rewrite the expression in terms of $C_1$ and $C_2$ only, but the author is of the opinion that this modularisation is more computationally beneficial. One other interesting point to note is that this effective vertex can be shown to be equal to the unordered vertex via crossing symmetry. The full calculation of this is shown in Appendix \ref{app:crossing}. \todo{Move checks and verifications to here?}
+completing our calculation for the basis HEJ amplitude in the case of an extremal $q \bar{q}$ process. As mentioned before, since there are only two independent colour factors in this expression we could rewrite the expression in terms of $C_1$ and $C_2$ only, but the author is of the opinion that this modularisation is more computationally beneficial. One other interesting point to note is that this effective vertex can be shown to be related to the unordered vertex via crossing symmetry. The full calculation of this is shown in Appendix \ref{app:crossing}. 
+
+\subsection{Verifications of the Extremal $q\bar{q}$ Vertex}
+
+In order to check the derivation of this vertex, we will explicitly investigate how the amplitudes that contain it behave in the MRK limit. We discussed before that we expect them to be suppressed by the invariant $s_{q\bar{q}}$ with respect to the leading FKL configurations at the $|M|^2$ level. Since the FKL amplitudes behaved as $\hat{s}^2$ at the $|M|^2$ level, we should see a systematic dying off of these new amplitudes if we plot $|M|^2/\hat{s}^2$ and furthermore multiplication of $s_{q \bar{q}}$ should combat this suppression. In these amplitudes, we have a more complicated colour structure than we did before, since the effective vertex depends on three colour factors (although only two are actually independent, of course). At the $|M|^2$ level, we must deal with this correctly when performing the colour sum. This is done by splitting up the vertex into sub-vertices, each one of which being associated with one colour factor. We choose to represent this as
+
+\begin{equation}
+Q^{\mu \nu} = C_1 Q^{\mu \nu}_1 + C_2 Q^{\mu \nu}_2 + C_t Q^{\mu \nu}_t,
+\end{equation}
+
+which will allow us to calculate the squared amplitude in the following way (the colour sum is implicitly performed):
+
+\begin{equation}
+\begin{split}
+|M_{qg \to qQ\bar{Q}}|^2 &\sim \frac{1}{24} \bigg(|C_1 M_{Q_1}|^2 + |C_2 M_{Q_2}|^2 + |C_t M_{Q_t}|^2 \\
+&+ 2 Re(C_1 C_2^\dagger M_{Q_1}M^\dagger_{Q_2}) + 2 Re(C_1 C_t^\dagger M_{Q_1}M^\dagger_{Q_t}) + 2 Re(C_2 C_t^\dagger M_{Q_2}M^\dagger_{Q_t}) \bigg),
+\end{split}
+\end{equation}
+
+where the pre-factor comes from the colour averaging. The helicity sum is performed explicitly and the average brings about a further factor of $1/4$. In order to check how our matrix element performs against the full leading order result (taken from MadGraph), we plot the value of $|M|^2/\hat{s}^2$ through a slice of phase space. The momenta are chosen such that
+
+\begin{equation}
+\begin{split}
+p_1 & = (40 \cosh(\Delta), 0, 40, 40 \sinh(\Delta)), \\
+p_2 & = (40 \sqrt{2}, 40 , -40, 0), \\
+p_3 & = (40 \cosh(-\Delta), -40, 0, 40 \sinh(-\Delta)), 
+\end{split}
+\end{equation}
+
+and the results are plotted in figure \ref{fig:qg_qqqx}. We see that the two calculations follow each other very closely and we also see the suppression at large $\Delta$ as we expected. In figure \ref{fig:qg_qqqx_sqqx}, we multiply this result by $s_{q \bar{q}}$ and show that it is indeed this invariant that is suppressing the amplitude in this regime. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale= 0.45]{Images/qg_qqqx.pdf}
+\caption{Effective vertex approach to the $qg \to qQ\bar{Q}$ amplitude (red) compared to the full LO (green).}
+\label{fig:qg_qqqx}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.45]{Images/qg_qQQx_sqqx.pdf}
+\caption{Effective vertex approach to the $qg \to qQ\bar{Q}$ amplitude (red) compared to the full LO (green) multiplied by the invariant mass of the quark/anti-quark pair.}
+\label{fig:qg_qqqx_sqqx}
+\end{figure}
+
+Given these plots, we are satisfied that the `base' amplitude works as expected. To extend it, we need to be able to generalise it to an arbitrary incoming state and we need also to describe the effect of extra gluon emissions. The first of these, we postulated, can be achieved by a simple multiplication of a colour factor at the $|M|^2$ level. However, we should remember that for the $qg \to qQ\bar{Q}$ case, we must always require that there is a gluon in the initial state since our vertex is an impact factor for the splitting of a gluon into a quark/anti-quark pair. Therefore, the only extension we need to consider (anti-quarks in the initial state require no alteration) is the replacement of the quark in the initial state with a gluon. Our postulate is that;
+
+\begin{equation}
+|M_{gg \to gQ\bar{Q}}|^2 \sim \frac{\tilde{C}_A}{C_F} |M_{qg \to qQ\bar{Q}}|^2,
+\end{equation}
+
+and we plot this result (multiplied by $s_{q\bar{q}}$) along with the full leading order in figure \ref{fig:gg_qqq}. The difference between the two lines is minimal and only in the low $\Delta$ regime where it should be expected to be different.
+
+\begin{figure}[t]
+\centering
+\includegraphics[scale=0.45]{Images/gg_gQQx_sqqx_simplecf.pdf}
+\caption{Effective vertex approach to the $gg \to gQ\bar{Q}$ amplitude (red) compared to the full LO (green) multiplied by the invariant mass of the quark/anti-quark pair.}
+\label{fig:gg_qqq}
+\end{figure}
+
+
+We then move on to discussing how extra gluon emissions are added to the amplitude. Because of the factorisation properties of the High Energy Limit, so long as we assume the extra gluon emissions are far away in rapidity from the partons already in the amplitude, we can simply multiply in a Lipatov vertex, along with a colour factor and then divide by additional $t$-channel poles that will appear. This yields simply
+
+\begin{equation}
+|M_{qg \to q...Q\bar{Q}}|^2 \sim |M_{qg \to qQ\bar{Q}}|^2 \times \prod_{i=1}^{n-3}  C_A \left(\frac{-V(q_i,q_{i+1}) \cdot V(q_i,q_{i+1})}{q_i^2} \right),
+\end{equation}
+
+and once more we plot this result against the full LO calculation in figure \ref{fig:qg_qqq_emis} and show that the agreement is still reasonable. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.45]{Images/qg_qgQQx_sqq.pdf}
+\caption{Effective vertex approach to the $qg \to qgQ\bar{Q}$ amplitude (red) compared to the full LO (green) multiplied by the invariant mass of the quark/anti-quark pair.}
+\label{fig:qg_qqq_emis}
+\end{figure}
 
 \subsection{Calculation of $qq' \to qQ\bar{Q}q'$ in the High Energy Limit}
 
@@ -383,50 +457,9 @@ X_{sym}^\sigma = p_a^\sigma \left( \frac{q_1^2}{s_{a2}+s_{a3}} \right) + p_1^\si
 
 We have intentionally used the notation of $q^2$ to make it clear that this invariant is the invariant formed from the mass of the propagator entering into the effective vertex. Once extra emissions are added, the $t_{ij}$ notation can be misleading. With this, we now have the complete expression for the effective central $q\bar{q}$ vertex. Furthermore, we notice again that we can rewrite our colour factors in such a way that the vertex depends only on $C_2$ and $C_3$, but we decide not to for computational ease. 
 
-\subsection{Checks and Verifications of Amplitudes}
+\subsection{Verifications of the Central $q\bar{q}$ Vertex}
 
-In order to check the derivation of these amplitudes, we will explicitly investigate how they behave in the MRK limit. We discussed before that we expect them to be suppressed by the invariant $s_{q\bar{q}}$ with respect to the leading FKL configurations at the $|M|^2$ level. Since the FKL amplitudes behaved as $\hat{s}^2$ at the $|M|^2$ level, we should see a systematic dying off of these new amplitudes if we plot $|M|^2/\hat{s}^2$ and furthermore multiplication of $s_{q \bar{q}}$ should combat this suppression. In these amplitudes, we have a more complicated colour structure than we did before, with each effective vertex depending on three. At the $|M|^2$ level, we must ensure to deal with this correctly when performing the colour sum. This is done by splitting up the vertices into sub-vertices, each one of which being associated with one colour factor. For example;
-
-\begin{equation}
-Q^{\mu \nu} = C_1 Q^{\mu \nu}_1 + C_2 Q^{\mu \nu}_2 + C_t Q^{\mu \nu}_t,
-\end{equation}
-
-which will allows us to calculate the squared amplitude as (the colour sum is implicitly performed);
-
-\begin{equation}
-\begin{split}
-|M_{qg \to qQ\bar{Q}}|^2 &\sim \frac{1}{24} \bigg(|C_1 M_{Q_1}|^2 + |C_2 M_{Q_2}|^2 + |C_t M_{Q_t}|^2 \\
-&+ 2 Re(C_1 C_2^\dagger M_{Q_1}M^\dagger_{Q_2}) + 2 Re(C_1 C_t^\dagger M_{Q_1}M^\dagger_{Q_t}) + 2 Re(C_2 C_t^\dagger M_{Q_2}M^\dagger_{Q_t}) \bigg),
-\end{split}
-\end{equation}
-
-where the pre-factor comes from the colour averaging factor. We can calculate the $qq' \to qQ\bar{Q}q'$ amplitude in a similar manner. The helicity sum is performed explicitly and the average brings about a further factor of $1/4$ in both cases. In order to check how our matrix element performs against the full leading order result, we plot the value of $|M|^2/\hat{s}^2$ for both approaches (the latter taken from MadGraph) across a slice of phase space. For the $qg \to qQ\bar{Q}$ amplitude, the momenta are chosen such that;
-
-\begin{equation}
-\begin{split}
-p_1 & = (40 \cosh(\Delta), 0, 40, 40 \sinh(\Delta)), \\
-p_2 & = (40 \sqrt{2}, 40 , -40, 0), \\
-p_3 & = (40 \cosh(-\Delta), -40, 0, 40 \sinh(-\Delta)), 
-\end{split}
-\end{equation}
-
-and the results are plotted in figure \ref{fig:qg_qqqx}. We see that the two calculations follow each other very closely and we also see the suppression at large $\Delta$ as we expected. In figure \ref{fig:qg_qqqx_sqqx}, we multiply this result by $s_{q \bar{q}}$ and show that it is indeed this invariant that is suppressing the amplitude in this regime. 
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale= 0.45]{Images/qg_qqqx.pdf}
-\caption{Effective vertex approach to the $qg \to qQ\bar{Q}$ amplitude (red) compared to the full LO (green).}
-\label{fig:qg_qqqx}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.45]{Images/qg_qQQx_sqqx.pdf}
-\caption{Effective vertex approach to the $qg \to qQ\bar{Q}$ amplitude (red) compared to the full LO (green) multiplied by the invariant mass of the quark/anti-quark pair.}
-\label{fig:qg_qqqx_sqqx}
-\end{figure}
-
-We can perform a similar test on the $qq' \to qQ\bar{Q}q'$ amplitude, where we choose the momenta to be;
+As with the previous effective vertex, we take this subsection as an opportunity to check the correctness of our calculation. The calculation is once more practically performed by splitting the effective vertex up into sub-vertices according to the colour factors and explicitly summing the contributions at the $|M|^2$ level. We choose the following parametrisation for the momenta: 
 
 \begin{equation}
 \begin{split}
@@ -438,7 +471,7 @@ p_4 & = (40 \cosh(-\Delta), -40, 0, 40 \sinh(-\Delta)).
 \label{eqn:4jetmom}
 \end{equation}
 
-The comparison between our amplitude and the full leading order is shown in figure \ref{fig:qq_qqqq}. We see once more the good agreement between the two across the phase space as well as suppression at large $\Delta$, which figure \ref{fig:qq_qqqq_sqq} shows is due to $s_{q \bar{q}}$. 
+The comparison between our amplitude and the full leading order is shown in figure \ref{fig:qq_qqqq}. We see once more the good agreement between the two across the phase space as well as the suppression at large $\Delta$, which figure \ref{fig:qq_qqqq_sqq} shows is again due to $s_{q \bar{q}}$. 
 
 \begin{figure}[H]
 \centering
@@ -454,13 +487,7 @@ The comparison between our amplitude and the full leading order is shown in figu
 \label{fig:qq_qqqq_sqq}
 \end{figure}
 
-Given these tests, we are satisfied that these `base' amplitudes work as expected. To extend them, we need to be able to generalise them to an arbitrary incoming state and we need to describe the effect of extra gluon emissions. The first of these, we postulated, can be achieved by a simple multiplication of a colour factor at the $|M|^2$ level and, since this was based on the high energy behaviour of amplitudes, the same idea still applies here. However, for the $qg \to qQ\bar{Q}$ case, we must always require that there is a gluon in the initial state since our vertex is an impact factor for the splitting of a gluon into a quark/anti-quark pair. Therefore, the only extension we need to consider (anti-quarks in the initial state require no alteration) is the replacement of the quark in the initial state with a gluon. Our postulate is that;
-
-\begin{equation}
-|M_{gg \to gQ\bar{Q}}|^2 \sim \frac{\tilde{C}_A}{C_F} |M_{qg \to qQ\bar{Q}}|^2,
-\end{equation}
-
-and we plot this result (multiplied by $s_{q\bar{q}}$) along with the full leading order in figure \ref{fig:gg_qqq}. The difference between the two lines is minimal and only in the low $\Delta$ regime where it should be expected to be different. We conclude that this method of replacing incoming partons does indeed still hold. For completeness, we also check the $qq' \to qQ\bar{Q}q'$ amplitude, where we can have both $qg$ and $gg$ initial states;
+To extend our result to take into account gluons in the initial state, we once more simply multiply by colour factors:
 
 \begin{equation}
 \begin{split}
@@ -469,14 +496,7 @@ and we plot this result (multiplied by $s_{q\bar{q}}$) along with the full leadi
 \end{split}
 \end{equation}
 
-\begin{figure}[t]
-\centering
-\includegraphics[scale=0.45]{Images/gg_gQQx_sqqx_simplecf.pdf}
-\caption{Effective vertex approach to the $gg \to gQ\bar{Q}$ amplitude (red) compared to the full LO (green) multiplied by the invariant mass of the quark/anti-quark pair.}
-\label{fig:gg_qqq}
-\end{figure}
-
-The comparison to the full leading order of these amplitudes (multiplied by $s_{q\bar{q}}$) is shown in figures \ref{fig:qg_qqqg} and \ref{fig:gg_gqqg} respectively. 
+The comparison to the full leading order result for these amplitudes (multiplied by $s_{q\bar{q}}$) is shown in figures \ref{fig:qg_qqqg} and \ref{fig:gg_gqqg} respectively. 
 
 \begin{figure}[H]
 \centering
@@ -492,13 +512,7 @@ The comparison to the full leading order of these amplitudes (multiplied by $s_{
 \label{fig:gg_gqqg}
 \end{figure}
 
-Again, we conclude that the colour factor multiplication is sufficient to approximate the full leading order result. We therefore move on to discussing how extra gluon emissions are added to these amplitudes. Because of the factorisation properties of the High Energy Limit, so long as we assume the extra gluon emissions are far away in rapidity from the partons already in the amplitude, we can simply multiply in a Lipatov vertex, along with a colour factor and then dividing by additional $t$-channel poles that will appear. For the $qg \to qQ\bar{Q}$ case, this yields simply;
-
-\begin{equation}
-|M_{qg \to q...Q\bar{Q}}|^2 \sim |M_{qg \to qQ\bar{Q}}|^2 \times \prod_{i=1}^{n-3}  C_A \left(\frac{-V(q_i,q_{i+1}) \cdot V(q_i,q_{i+1})}{q_i^2} \right),
-\end{equation}
-
-where the set of dots represents the emission of $n-3$ gluons, with $n$ being the total number of final state partons. For the $qq' \to qQ\bar{Q}q'$ amplitude, we can either have the gluon emitted in rapidity between the most forward parton and the quark/anti-quark pair or between the pair and the most backward parton;
+In this case, the addition of extra gluon emissions is slightly more complicated than in the previous case. Any extra emission can take place either before or after the effective central vertex in the rapidity chain. This distinction needs to be kept track of and so our extension is
 
 \begin{equation}
 \begin{split}
@@ -507,16 +521,7 @@ where the set of dots represents the emission of $n-3$ gluons, with $n$ being th
 \end{split}
 \end{equation}
 
-where $n_a$ is the number of gluons more forward in rapidity than the quark/anti-quark pair. We take the simple case of emitting one extra gluon and again compare to the full leading order result to check that the argument we employ holds. In figure \ref{fig:qg_qqq_emis} we plot our effective description for the $qg \to qgQ\bar{Q}$ amplitude with an extra gluon emission and compare with the leading order result. The momenta we use are the same as the momenta in equation \ref{eqn:4jetmom}. 
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.45]{Images/qg_qgQQx_sqq.pdf}
-\caption{Effective vertex approach to the $qg \to qgQ\bar{Q}$ amplitude (red) compared to the full LO (green) multiplied by the invariant mass of the quark/anti-quark pair.}
-\label{fig:qg_qqq_emis}
-\end{figure}
-
-For the case of the central $q\bar{q}$ emission plus an extra gluon emission, we employ the following set of five jet momenta;
+where $n_a$ is the number of gluons more forward in rapidity than the quark/anti-quark pair. We take the simplest case of adding just one extra emission and investigate the amplitude for both options for where this extra emission lies in rapidity. We employ the following set of five jet momenta:
 
 \begin{equation}
 \begin{split}
@@ -528,7 +533,7 @@ p_5 & = (40 \cosh(-\Delta), 0, 40, 40 \sinh(-\Delta)).
 \end{split}
 \end{equation}
 
-In figure \ref{fig:central_gfor} we plot the result for when the gluon is more forward in rapidity than the $q\bar{q}$ pair and in \ref{fig:central_gfor} we have the result for when it is emitted more backward in rapidity. All three of these latest figures show the reasonable agreement with the full result. 
+In figure \ref{fig:central_gfor} we plot the result for when the gluon is more forward in rapidity than the $q\bar{q}$ pair and in figure \ref{fig:central_gback} we have the result for when it is emitted more backward in rapidity. Both of these latest figures show reasonable agreement with the full result. 
 
 \begin{figure}[H]
 \centering
@@ -544,6 +549,37 @@ In figure \ref{fig:central_gfor} we plot the result for when the gluon is more f
 \label{fig:central_gback}
 \end{figure}
 
+\section{Full Phase Space Analyses}
+
+One advantage of now being able to resum these partonic subprocesses and unordered events is that it means we have a reduced reliance on fixed order matching codes. Before, all process that were `non-FKL' had to be included via a leading order matching. We have shown here that some of these non-FKL process can themselves be resummed and therefore we no longer need to include these processes in the fixed order part. In this section, we show the impact of this when we integrate over all of the relevant phase space. An inclusive three jet analysis was run and the total cross section is broken down into the contribution coming from the resummation and the fixed order. In all figures we show here, it is desirable if the red line (the resummed contribution) is as close to the black line (the total contribution) as possible. For completeness, the relevant cuts applied were $p_{T,min} = 30$ GeV, $y_{max} = 4.4$, and $\sqrt{s} = 13$ TeV. In figure \ref{fig:fklmigration}, we show a `before and after' comparison of the $m_{fb}$ distribution. It is clear that that the inclusion of these extra processes dramatically reduces the contribution of fixed order matrix elements across the range, but especially in the low bins. In figure \ref{fig:fklmigration2}, we show the distributions binned instead in the $p_T$ of the hardest jet. There, we see that a significant proportion of the fixed order matrix elements that were very significant in the high $p_T$ region are now included in the resummation. Finally, in figure \ref{fig:fklmigration3} we show the analysis broken up in bins of the rapidity difference between the most forward and backward jets. There, we once more see a substantial improvement across the board. 
+
+\todo{flesh this section out? Is the last graph too much of the same?}
+
+\begin{figure}[H] 
+\centering
+\subfloat{\includegraphics[scale=0.75]{Images/mfb_3jinc_bare_breakdown.pdf}} \\
+\subfloat{\includegraphics[scale=0.75]{Images/mfb_3jinc_resummed_breakdown.pdf}}
+\caption{A breakdown of contributing parts to the jet cross section before (top) and after (bottom) implementing the effective vertex description of the new partonic subprocesses and the unordered events, in bins of the invariant mass between the most forward and backward jets.}
+\label{fig:fklmigration}
+\end{figure}
+
+\begin{figure}[H] 
+\centering
+\subfloat{\includegraphics[scale=0.75]{Images/pt1_3jinc_bare_breakdown.pdf}} \\
+\subfloat{\includegraphics[scale=0.75]{Images/pt1_3jinc_resummed_breakdown.pdf}}
+\caption{A breakdown of contributing parts to the jet cross section before (top) and after (bottom) implementing the effective vertex description of the new partonic subprocesses and the unordered events, in bins of the $p_T$ of the hardest jet.}
+\label{fig:fklmigration2}
+\end{figure}
+
+\begin{figure}[H] 
+\centering
+\subfloat{\includegraphics[scale=0.45]{Images/dyfb_3jinc_bare_breakdown.pdf}} 
+\subfloat{\includegraphics[scale=0.45]{Images/dyfb_3jinc_resummed_breakdown.pdf}}
+\caption{A breakdown of contributing parts to the jet cross section before (left) and after (right) implementing the effective vertex description of the new partonic subprocesses and the unordered events, in bins of the rapidity difference between the most forward and backward jets.}
+\label{fig:fklmigration3}
+\end{figure}
+
+
 \section{Computational Aspects}
 %\todo{removing from nonFKL, generating all possible processes, making sure matching is done consistently} 
 The plots of the last section all served to convince that the derived amplitudes behaved as expected. The next step is to include them in the full HEJ program correctly. This is a very significant change to the codebase that requires the modification of many files and so a `branch' of the code base was created so that all work can be done independently of other projects going on in the collaboration. Once everything is done and checked, the branch can be `merged' back into the main development code base in a way that does not disrupt any other work done there since the branch was created. The points that need to be considered when adding these amplitudes in are as follows;
@@ -553,19 +589,11 @@ The plots of the last section all served to convince that the derived amplitudes
 \item{Checking that the leading order matching at the jet level for the NLL processes is done consistently. For example, imagine we generate a central $q\bar{q}$ emission at the parton level and choose partons $p_i$ and $p_j$ for the pair, where $p_i$ is more forward than and next to $p_j$ in rapidity. In order to properly implement the matching, we require that these cluster into two different jets, $p_i \to j_i$ and $p_j \to j_j$, whereby $j_i$ is more forward than and next to $j_j$ in rapidity. Because of how the clustering works, it is not at all guaranteed that the jets will preserve this rapidity ordering and furthermore that these jets are even still next to each other in rapidity in the chain. All these considerations must be carefully checked. }
 \end{enumerate} 
 It is absolutely crucial that all of these points are properly addressed and checked and so such a task is necessarily time consuming. After validating these steps by comparisons to old code with certain restraints, we can be confident that everything works as it should. %\todo{Include some comparison here?}
-\section{Results}
-%\todo{Distributions, revisits to previous analyses with these effects added in, etc} 
-One advantage of now being able to resum these partonic subprocesses and unordered events is that it means we have a reduced reliance on fixed order matching codes. Before, all process that were `non-FKL' had to be included via a leading order matching. We have shown here that some of these non-FKL process can themselves be resummed and therefore we no longer need to include these processes in the fixed order part. Figure \ref{fig:fklmigration} graphically shows the difference this makes. An inclusive three jet analysis was run and the total cross section is broken down into the contribution coming from the resummation and the fixed order. It is desirable if the red line (the resummed contribution) is as close to the black line (the total contribution) as possible and it is clear from this plot that the addition of these partonic subprocesses is helping that in a significant way, reducing the relative contribution of the fixed order processes by a large fraction.  
 
-\begin{figure}[t] 
-\centering
-\subfloat{\includegraphics[scale=0.75]{Images/mfb_3jinc_bare_breakdown.pdf}} \\
-\subfloat{\includegraphics[scale=0.75]{Images/mfb_3jinc_resummed_breakdown.pdf}}
-\caption{A breakdown of contributing parts to the jet cross section before (top) and after (bottom) implementing the effective vertex description of the new partonic subprocesses and the unordered events, in bins of the invariant mass between the most forward and backward jets.}
-\label{fig:fklmigration}
-\end{figure}
+\section{Comparisons to Data}
+%\todo{Distributions, revisits to previous analyses with these effects added in, etc} 
 %\todo{Label this diagram better. Add new ones from NLL paper?}
-We can also revisit the predictions for previous analyses HEJ was involved him and investigate how these new additions help whilst comparing with real data. For example, in an ATLAS study of dijet production with a central jet veto \cite{Aad2011}. One interesting plot is figure 6 of that paper, which is that of the average number of jets in the `gap', defined as the rapidity region between the dijet system which in this case is given by the two highest $p_T$ jets in a event. There are a total of four different lines which correspond to different rapidity slices shwon in figure \ref{fig:veto}. From the top; $4 \leq \Delta y < 5$, $3 \leq \Delta y < 4$, $2 \leq \Delta y < 3$ and $1 \leq \Delta y < 2$. In order to differentiate them on the graph, these lines are moved up by $3,2,1$ and $0$ respectively. The $x$-axis is $\bar{p}_t$, which is the average of the dijet system's transverse momenta. For the high energy limit HEJ considers, we should not expect this to be a good variable to plot in; the limit depends on all transverse scales being roughly the same order. At high average $p_T$, we can very easily construct a large $p_T$ hierarchy. This is indeed reflected at the right hand side of the figure. It was noted that the analysis might have been better performed by considering only the resummed part of the HEJ calculation, since it is this part that is going to give rise to gap jets. We therefore include both the full and resummed only lines in this figure. In the diagram on the top left, we see a considerable difference between these to lines. By adding these new processes, we make these lines essentially indistinguishable and at the same time capture more bins on the left hand side of the plots, which is the only place we can reasonably expect improvement. \\
+To conclude the chapter, we revisit the predictions for previous analyses HEJ was involved him and investigate how these new additions help whilst comparing with real data. For example, in an ATLAS study of dijet production with a central jet veto \cite{Aad2011}. One interesting plot is figure 6 of that paper, which is that of the average number of jets in the `gap', defined as the rapidity region between the dijet system which in this case is given by the two highest $p_T$ jets in a event. There are a total of four different lines which correspond to different rapidity slices shown in figure \ref{fig:veto}. From the top; $4 \leq \Delta y < 5$, $3 \leq \Delta y < 4$, $2 \leq \Delta y < 3$ and $1 \leq \Delta y < 2$. In order to differentiate them on the graph, these lines are moved up by $3,2,1$ and $0$ respectively. The $x$-axis is $\bar{p}_t$, which is the average of the dijet system's transverse momenta. For the high energy limit HEJ considers, we should not expect this to be a good variable to plot in; the limit depends on all transverse scales being roughly the same order. At high average $p_T$, we can very easily construct a large $p_T$ hierarchy. This is indeed reflected at the right hand side of the figure. It was noted that the analysis might have been better performed by considering only the resummed part of the HEJ calculation, since it is this part that is going to give rise to gap jets. We therefore include both the full and resummed only lines in this figure. In the diagram on the top left, we see a considerable difference between these to lines. By adding these new processes, we make these lines essentially indistinguishable and at the same time capture more bins on the left hand side of the plots, which is the only place we can reasonably expect improvement. \\
 \\
 Furthermore, in a later dijet veto ATLAS analysis \cite{Aad2014}, it was observed that the predictions from the pure partonic HEJ needed to be interfaced with a parton shower in order to get the best description of the data. Although of course there are regions where a parton shower description is always going to be important, we can investigate to see if NLL effects can push the pure partonic line closer to the data by itself. For example, we can take a look at figure 3a of that paper. This figure plots the `Gap Fraction', defined as the ratio of the cross section for dijet events with no additional jets above a certain scale in the rapidity gap between the two jets to the cross section in total. Such an observable will clearly be sensitive to resummation effects, since we saw earlier that the rapidity gap plays a central role in the derivation of our amplitudes. In figure \ref{fig:newveto3a} we plot a comparison of data to four different HEJ runs, which correspond to the four different combinations of including/not including the unordered/sub-leading partonic processes corrections. For the same reasons as before, we plot both the resummed and full HEJ lines for comparison. The bottom right figure shows that the inclusion of both of these effects leads to a better description of the data everywhere, but in particular we `gain' a few extra bins at the left side of the figure.
 
