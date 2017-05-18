@@ -15,7 +15,7 @@ M(q(p_a) + Q(p_b) \to q(p_1) + Q(p_2) + g(p_g)) = M(q(p_a) + g(-p_g) \to q(p_1) 
 
 This equation is certainly true for the full amplitude. However, it is not so clear that this will hold for our equations involving impact factors, since they explicitly considered limiting arguments on the full amplitudes which may not carry over when this crossing symmetry is applied. We therefore decided to explicitly check to see whether the symmetry holds for our amplitudes, which is equivalent to showing that the unordered vertex transforms into the extremal $q\bar{q}$ vertex under this symmetry. Although it can be done either way around, we decide to start from the unordered vertex and aim for the $q\bar{q}$ vertex. \\
 \\
-We remind ourselves that the final form of the extremal $q\bar{q}$ vertex was \todo{make clearer momentum labelling?}
+We remind ourselves from section 3.3.1 that the final form of the extremal $q\bar{q}$ vertex was
 
 \begin{equation}
 \begin{split}
@@ -24,7 +24,7 @@ Q^{\mu \nu} &= -\frac{C_1}{t_{3b}} \left(\bar{u}_2 \gamma^\mu (\slashed{p}_3-\sl
 \end{split}
 \end{equation}
 
-with $q_1 = p_a - p_1 = p_3 - p_b + p_2$ and where we have reinstated the term we removed when we picked a convenient gauge. The colour factors here are;
+with $q_1 = p_a - p_1 = p_3 - p_b + p_2$ and where we have reinstated the term we removed when we picked a convenient gauge. The colour factors here are
 
 \begin{equation}
 \begin{split}
@@ -34,7 +34,7 @@ C_t &= f^{gbc}T^c_{1a}T^g_{23}.
 \end{split}
 \end{equation}
 
-The unordered effective vertex has the form;
+The unordered effective vertex from section 3.2 has the form
 
 \begin{equation}
 \begin{split}
@@ -43,7 +43,7 @@ j_{uno}^{\mu \nu} &= -i \frac{\tilde{C}_1}{s_{2g}} \left(\matel{2}{\nu}{g}\matel
 \end{split}
 \end{equation}
 
-where we have $q_1 = p_a - p_1 = p_2 - p_b + p_g$, $q_2 = p_2 - p_b = p_a - p_1 - p_g$ and the colour factors are;
+where we have $q_1 = p_a - p_1 = p_2 - p_b + p_g$, $q_2 = p_2 - p_b = p_a - p_1 - p_g$ and the colour factors are
 
 \begin{equation}
 \begin{split}
@@ -53,7 +53,7 @@ where we have $q_1 = p_a - p_1 = p_2 - p_b + p_g$, $q_2 = p_2 - p_b = p_a - p_1 
 \end{split}
 \end{equation}
 
-Before applying crossing symmetry, let us rewrite the uno vertex in a different manner. Firstly, we notice that the last term has been created by symmetrising a high energy approximation. In the extremal $q\bar{q}$, we did not make this symmetrisation \todo{and maybe we actually should - investigating} and so we should undo this here to find equality. Secondly, we can write the spinor chains in the first two terms as terms involving $\slashed{p}$ which will both shorten the expression and provide a more direct similarity to the extremal $q\bar{q}$ amplitude. Thirdly, we will write out in full the $q_1$ and $q_2$ terms, subject to removing terms that will contract to give zero. Doing these steps, we arrive at;
+Before applying crossing symmetry, let us rewrite the uno vertex in a different manner. Firstly, we notice that the last term has been created by symmetrising a high energy approximation. In the extremal $q\bar{q}$, we did not make this symmetrisation \todo{and maybe we actually should - investigating} and so we should undo this here to find equality. Secondly, we can write the spinor chains in the first two terms as terms involving $\slashed{p}$ which will both shorten the expression and provide a more direct similarity to the extremal $q\bar{q}$ amplitude. Thirdly, we will write out in full the $q_1$ and $q_2$ terms, subject to removing terms that will contract to give zero. Doing these steps, we arrive at
 
 \begin{equation}
 \begin{split}
@@ -62,7 +62,7 @@ j_{uno}^{\mu \nu} &= -i \frac{\tilde{C}_1}{s_{2g}} \left(\bar{u}_2 \gamma^\nu (\
 \end{split}
 \end{equation}
 
-The transformation we now apply is $p_g \to -p_b$ and $p_b \to -p_3$. The first transformation relates to taking the gluon from the outgoing state into the incoming state and the second relates to taking the quark from the incoming state to the outgoing state as an anti-quark. The relabelling of the momenta in this fashion is chosen such that the conventions for incoming and outgoing particles are preserved, which will make the relation to the extremal $q\bar{q}$ amplitude much clearer. Applying these rules leads us to;
+The transformation we now apply is $p_g \to -p_b$ and $p_b \to -p_3$. The first transformation relates to taking the gluon from the outgoing state into the incoming state and the second relates to taking the quark from the incoming state to the outgoing state as an anti-quark. The relabelling of the momenta in this fashion is chosen such that the conventions for incoming and outgoing particles are preserved, which will make the relation to the extremal $q\bar{q}$ amplitude much clearer. Applying these rules leads us to
 
 \begin{equation}
 \begin{split}
@@ -71,7 +71,7 @@ j_{uno, crossed}^{\mu \nu} &= i \frac{C_2}{s_{2b}} \left(\bar{u}_2 \gamma^\nu (-
 \end{split}
 \end{equation}
 
-where we have identified that the colour factors after this transformation exactly match the colour factors of the $q\bar{q}$ vertex in the specified way. The final step is to notice that we can transform the spinors depending on $-p_3$ to spinors depending on $+p_3$ by pulling out a phase factor.\todo{Too hand-wavy?- Peskin pg 155} We will define the product of $-i$ with this phase factor as $e^{i \phi}$, such that;
+where we have identified that the colour factors after this transformation exactly match the colour factors of the $q\bar{q}$ vertex in the specified way. The final step is to notice that we can transform the spinors depending on $-p_3$ to spinors depending on $+p_3$ by pulling out a phase factor.\todo{Too hand-wavy?- Peskin pg 155 + Helen's analysis} We will define the product of $-i$ with this phase factor as $e^{i \phi}$, such that
 \begin{equation}
 \begin{split}
 j_{uno, crossed}^{\mu \nu} &= e^{i\phi} \bigg \{ i \frac{C_1}{t_{3b}} \left(\bar{u}_2 \gamma^\mu (\slashed{p}_3 - \slashed{p}_b)\gamma^\nu v_3 \right) - i \frac{C_2}{t_{2b}} \left(\bar{u}_2 \gamma^\nu (\slashed{p}_2 - \slashed{p}_b) \gamma^\mu v_3 \right) -  \\

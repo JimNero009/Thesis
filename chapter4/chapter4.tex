@@ -2,25 +2,25 @@
 
 %Chapter about work on getting the impact factor in $qg \to qgH$ relaxing our assumption that the Higgs is far from the gluon in rapidity and keeping the full dependence on the top mass. Focus on how the HE and infinite top mass limits commute, so this is `simple' to include. Also include interference with bottom quark loops. References to \cite{Duca2003}, \cite{DelDuca2001}, \cite{Hahn1999}. Approximately 40\% done, since the document describing how the amplitude is derived is still being written. 
 
-It was briefly discussed that the addition of particles not charged under QCD, such as the $W^\pm$, $Z$ and Higgs bosons, are included in HEJ by deriving an expression for the emission of the boson that does not interfere with the general factorisation process. In this chapter, we look more closely at how this is done for the case of the Higgs boson (or simply $H$) in various limits. We will begin with the limit where the Higgs boson is emitted far apart from all other partons in rapidity and where the top quark mass is taken to infinity (the `infinite top mass limit'). Then we will relax the rapidity assumption on the Higgs and allow it to be produced close to an extremal parton in rapidity. Once this is established, we will consider the same rapidity situations without using the infinite top mass limit; this will constitute the author's own work. By the end of the chapter, we will have an expression that allows for the Leading Logarithmic resummation of Higgs plus at least two jets processes with full quark mass dependence, a calculation that is unique to HEJ.   
+It was briefly discussed at the end of section 2.3.2 that the addition of particles not charged under QCD, such as the $W^\pm$, $Z$ and Higgs bosons, are included in HEJ by deriving a modified current that encodes the emission of the boson. In this chapter, we look more closely at how this is done for the case of the Higgs boson in various limits. We will begin with the limit where the Higgs boson is emitted far apart from all other partons in rapidity and where the top quark mass is taken to infinity (the `infinite top mass limit'). Then we will relax the rapidity assumption on the Higgs and allow it to be produced close to an extremal parton in rapidity. Once this is established, we will consider the same rapidity situations without using the infinite top mass limit; this will constitute the author's own work. By the end of the chapter, we will have an expression that allows for the Leading Logarithmic resummation of Higgs plus at least two jets processes with full quark mass dependence, a calculation that is unique to HEJ.   
 %\todo{Add new reference for bottom mass}
 \section{The Infinite Top Mass Limit}
 %HEJ `doesn't care' about whether the infinite top mass limit is implemented or not, so keeping full generality is `easy'. Discussion of why interference effects between top/bottom quark loops might be important (see, for example, \cite{Grazzini2013}).
 %\todo{Also mention that it is important to describe tails correctly because of VBF cuts}
 
-If we wish to place a Higgs along a rapidity chain consisting of $t$-channel gluon exchanges, then it stands to reason that we need to couple the Higgs to the gluon in some fashion. However, the Higgs does not couple directly to the gluon because the gluon is a massless particle. Generally, what we need to do is couple the Higgs to a quark loop (the top loop is the most dominant, since the Higgs-quark coupling depends on the mass of the particle) which connects to the gluons in the chain. Loops generally complicate the calculation of an amplitude, so that even the calculation to leading order for this case is more involved than a pure QCD process. This will be demonstrated further in the later sections of this chapter. In order to get around this complication, it is usual to sometimes take the limit where the top mass tends to infinity. This effectively shrinks the quark loop to a point, resulting in an \emph{effective} gluon-gluon-Higgs coupling in our Lagrangian\footnote{There is also a gluon-gluon-Higgs-Higgs interaction, but this thesis only concerns itself with single Higgs production, so we omit it for brevity here.}
+If we wish to place a Higgs boson along a rapidity chain consisting of $t$-channel gluon exchanges, then it stands to reason that we need to couple the Higgs to the gluon in some fashion. However, the Higgs does not couple directly to the gluon because the gluon is a massless particle. Generally, what we need to do is couple the Higgs to a quark loop (the top loop is the most dominant, since the Higgs-quark coupling depends on the mass of the particle) which connects to the gluons in the chain. Loops generally complicate the calculation of an amplitude, so that even the calculation to leading order for this case is more involved than a pure QCD process. This will be demonstrated further in the later sections of this chapter. In order to get around this complication, it is usual to sometimes take the limit where the top mass tends to infinity. This effectively shrinks the quark loop to a point, resulting in an \emph{effective} gluon-gluon-Higgs coupling in our Lagrangian\footnote{There is also a gluon-gluon-Higgs-Higgs interaction, but this thesis only concerns itself with single Higgs production, so we omit it for brevity here.} \todo{rewrite motivation - Jenni not convinced}
 
 \begin{equation}
 \mathscr{L}_{QCD + ggH} = \mathscr{L}_{QCD} + \frac{A}{4} G^{\mu \nu}G_{\mu \nu}H,
 \end{equation}
 
-with $A = \frac{\alpha_s}{3 \pi v}$ \cite{Duca2003}, resulting in the following Feynman rule for the effective $ggH$ vertex \cite{Andersen2009a}
+with $A = \frac{\alpha_s}{3 \pi v}$ \cite{Duca2003} and $G^{\mu \nu}$ is the field tensor for the gluon. This results in the following Feynman rule for the effective $ggH$ vertex \cite{Andersen2009a}
 
 \begin{equation}
 V_H^{\mu \nu}(q_1, q_2) = A \left( \eta^{\mu \nu} q_1 \cdot q_2 - q_1^\nu q_2^\mu \right),
 \end{equation}
 
-where $q_1$ is incoming to the vertex and $q_2$ outgoing. Since the Higgs does not carry colour information, we can simply insert this vertex into our FKL amplitude expression so long as the Higgs is far away from all other particles in rapidity. We encode this by first defining the spinor/Lorentz string
+where $q_1$ is incoming to the vertex and $q_2$ outgoing. Since the Higgs does not carry colour information, we can simply insert this vertex into our FKL amplitude expression so long as the Higgs is far away from all other particles in rapidity. We encode this by first defining the spinor/Lorentz string \todo{extend a little}
 
 \begin{equation}
 S_{qQ \to qHQ}(q_1, q_2) = \matel{1}{\mu}{a} (\eta^{\mu \nu}q_1 \cdot q_2 - q_1^\nu q_2^\mu)\matel{2}{\nu}{b}. 
@@ -30,7 +30,7 @@ With this, we can express the $qQ \to qHQ$ amplitude (summed and averaged over h
 
 \begin{equation}
 \begin{split}
-|M_{qQ \to qHQ}^{HE,ggH}|^2 &= \frac{1}{4(N_C^2 - 1)} ||S_{qQ \to qHQ}(q_1, q_2)||^2 \\
+|M_{qQ \to qHQ}|^2 &= \frac{1}{4(N_C^2 - 1)} ||S_{qQ \to qHQ}(q_1, q_2)||^2 \\
 & \cdot \left(g^2 C_F \frac{1}{\hat{t}_1} \right) \\
 & \cdot \left(\frac{1}{\hat{t}_1} \left(\frac{\alpha_s}{3 \pi v} \right)^2 \frac{1}{\hat{t}_2} \right) \\
 & \cdot \left(g^2 C_F \frac{1}{\hat{t}_2} \right).
@@ -39,17 +39,17 @@ With this, we can express the $qQ \to qHQ$ amplitude (summed and averaged over h
 
 The generalisation to multiple gluon emissions and different initial states follows as before by colour factor multiplications and insertions of Lipatov vertices, though care is needed to keep track of which $t$-channel momenta are flowing into the Higgs vertex and which are flowing into Lipatov vertices. If instead the Higgs is emitted close to an extremal parton, then this decomposition is no longer valid and we have to include the contributions in some other fashion. Such contributions are included via the use of impact factors \cite{Duca2003}, which are strict high energy expressions that encapsulate this effect.  
 
-The infinite top mass limit is remarkably successful for predictions of inclusive variables like total cross sections. The reason for this is that the expansion of this effective coupling is a power series in $\frac{m_H^2}{4 m_t^2} \sim 0.13$ and we assume the top mass is the most relevant scale in the problem. It has been shown that even the addition of a large dijet invariant mass in the amplitude has little effect \cite{Duca2003}. However, if the transverse scales start to become larger than the top mass (in particular, the transverse scales of the gluons entering the effective vertex), there is significant deviation between the result obtained in the full and effective theories \cite{Duca2003}. \\
+The infinite top mass limit is remarkably successful for predictions of inclusive variables like total cross sections. The reason for this is that the expansion of this effective coupling is a power series in $\frac{m_H^2}{4 m_t^2} \sim 0.13$ and we assume the top mass is the most relevant scale in the problem. In \cite{Duca2003}, it was shown that even the addition of a large dijet invariant mass in the amplitude has little effect. However, if the transverse scales start to become larger than the top mass (in particular, the transverse scales of the gluons entering the effective vertex), there is significant deviation between the result obtained in the full and effective theories \cite{Duca2003}. \\
 \\
-For HEJ, the infinite top mass limit was included because the expressions are simpler, but note that the factorisation of amplitudes will still occur whether or not this limit is taken. Therefore, any derived vertices for Higgs production with the full quark mass included can still be implemented in a straightforward way. Furthermore, as soon as the vertex including the full quark mass is derived, we can trivially add in the effect of more than one quark loop (for example, where a bottom quark runs in the loop). Such interference effects have been shown to produce interesting effects at small $p_T$ scales, at least in process involving the emission of a Higgs boson with one accompanying jet \cite{Grazzini2013, Lindert2017}. For these reasons, it is important to include the effect of finite quark masses in the HEJ formalism. 
+For HEJ, the infinite top mass limit was included as a first approximation, but the factorisation of amplitudes will still occur whether or not this limit is taken. Therefore, any derived vertices for Higgs production with the full quark mass included can still be implemented in a straightforward way. Furthermore, as soon as the vertex including the full quark mass is derived, we can trivially add in the effect of more than one quark loop (for example, where a bottom quark runs in the loop). Such interference effects have been shown to produce interesting effects at small $p_T$ scales, at least in processes involving the emission of a Higgs boson with one accompanying jet \cite{Grazzini2013, Lindert2017}. For these reasons, it is important to include the effect of finite quark masses in the HEJ formalism. \todo{mention that going beyond 2 jets is easy}
 
 \section{Calculations of $H$ + Jets with Finite Quark Mass Effects}
 
-As discussed before, there are two rapidity cases to be discussed: the first where the Higgs is emitted centrally and the second where it is emitted close to an external parton. The base amplitude for the first is the $qQ \to qHQ$ amplitude and for the second it is the $gq \to Hgq$ amplitude. We will begin our discussion with the first case, since it will turn out to be remarkably simple. 
+As discussed before, there are two rapidity cases to be discussed: the first where the Higgs is emitted centrally and the second where it is emitted outside an extremal parton. The base amplitude for the first is the $qQ \to qHQ$ amplitude and for the second it is the $gq \to Hgq$ amplitude. We will begin our discussion with the first case, since it will turn out to be remarkably simple. \todo{Jenni not convinced here - discuss}
 
 \subsection{$qQ \to qHQ$}
 
-The HEJ expression for the $qQ \to qHQ$ amplitude with full finite quark mass effects is shown diagrammatically in figure \ref{fig:qQh_eff}. In the previous section, we showed how the amplitude was derived in the infinite top mass limit. Because the factorisation properties of the amplitude are unchanged by moving away from this limit, the extension of this amplitude to the full (finite quark mass dependent) amplitude is found by simply `undoing' the infinite top mass limit in the vertex $V_H^{\mu \nu}$. Such an expression can essentially be looked up, for example in Appendix B of \cite{Duca2003}, so long as care is taken to ensure that incoming and outgoing momenta are labelled correctly. Keeping with the convention before that $q_1$ is incoming and $q_2$ outgoing, the vertex with a finite top mass is
+The expression for the $qQ \to qHQ$ amplitude with full finite quark mass effects is shown diagrammatically in figure \ref{fig:qQh_eff}. In the previous section, we showed how the amplitude was derived in the infinite top mass limit. Because the factorisation properties of the amplitude are unchanged by moving away from this limit, the extension of this amplitude to the full (finite quark mass dependent) amplitude is found by simply `undoing' the infinite top mass limit in the vertex $V_H^{\mu \nu}$. Such an expression can be found, for example in Appendix B of \cite{Duca2003}, so long as care is taken to ensure that incoming and outgoing momenta are labelled correctly. Keeping with the convention before that $q_1$ is incoming and $q_2$ outgoing, the vertex with a finite top mass is
 
 \begin{equation}
 V^{\mu \nu}_{H, m_t}(q_1, q_2) = -\frac{4 g_s^2 m_t^2}{v} \left[\eta^{\mu \nu}A_2(-q_1,q_2) + q_1^\nu q_2^\mu A_1(-q_1,q_2) \right],
@@ -73,7 +73,7 @@ Q &= -q_1 - q_2, \\
 \end{split}
 \label{eqn:scalars}
 \end{equation}
-
+\todo{show example diagrams?}
 which allows us to give the forms of $A_1$ and $A_2$ as
 
 \begin{equation}
@@ -139,7 +139,7 @@ M \sim \frac{Z^{\mu}(p_a,p_1,p_H) \matel{2}{\mu}{b}}{\hat{t}_2},
 \label{fig:gqH_imp}
 \end{figure}
 
-assuming that the polarisation vectors of the external gluons have been contracted with the effective vertex. Here, $\hat{t}_2 = p_2 - p_b$ is the $t$-channel pole we will resum (the definition of $\hat{t}_i$ used in the previous chapter no longer holds here since we have an extra momentum to consider). There are 20 leading order diagrams to consider in total, which is reduced to 10 after invoking Furry's Theorem, \todo{ref furry}which states that diagrams involving an anti-quark loop can be related to diagrams with a quark loop. A selection of these diagrams is shown in figure \ref{fig:qgh_lo}. We will use \cite{DelDuca2001} as a guide for our work. In particular, we choose to use the following function for our parametrisation of the top-quark triangle loop, keeping full top mass dependence:
+assuming that the polarisation vectors of the external gluons have been contracted with the effective vertex. Here, $\hat{t}_2 = p_2 - p_b$ is the $t$-channel pole we will resum (the definition of $\hat{t}_i$ used in the previous chapter no longer holds here since we have an extra momentum to consider). There are 20 leading order diagrams to consider in total, which is reduced to 10 after invoking Furry's Theorem \cite{Atkin2015}, which states that diagrams involving an anti-quark loop can be related to diagrams with a quark loop. A selection of these diagrams is shown in figure \ref{fig:qgh_lo}. We will use \cite{DelDuca2001} as a guide for our work. In particular, we choose to use the following function for our parametrisation of the top-quark triangle loop, keeping full top mass dependence:
 
 \begin{equation}
 T^{\mu_1 \mu_2} = F_T(q_1^2, q_2^2,(q_1+q_2)^2) T_T^{\mu_1 \mu_2} + F_L(q_1^2, q_2^2,(q_1+q_2)^2) T_L^{\mu_1 \mu_2},
@@ -158,16 +158,18 @@ T^{\mu_1 \mu_2} = F_T(q_1^2, q_2^2,(q_1+q_2)^2) T_T^{\mu_1 \mu_2} + F_L(q_1^2, q
 %\todo{Make this nicer, perhaps add a few more. All 10 graphs, maybe? Or 8, if we just have one box.}
 
 where $ T_T^{\mu_1 \mu_2} = q_1 \cdot q_2 \eta^{\mu_1 \mu_2} - q_1^{\mu_2} q_2^{\mu_1} $ and $T_L^{\mu_1 \mu_2} = q_1^2 q_2^2 \eta^{\mu_1 \mu_2} - q_1^2 q_2^{\mu_1} q_2^{\mu_2} - q_2^2 q_1^{\mu_1} q_1^{\mu_2} + q_1 \cdot q_2 q_1^{\mu_1} q_2^{\mu_2}$, and both $q_1$ and $q_2$ are going out from the triangle loop\footnote{In our calculation, we will not conform to this convention and so we will take care with signs here.}. The full forms for the $F_L$ and $F_T$ functions are
-\todo{write Ft!}
+
 \begin{equation}
 \begin{split}
 F_L(q_1^2,q_2^2,Q^2) &= -\frac{1}{2 \text{det} \mathcal{Q}_2} \bigg \{ \left[2-\frac{3 q_1^2 q_2 \cdot Q}{2 \text{det}\mathcal{Q}_2} \right] \left(\tilde{B}_0(q_1)-\tilde{B}_0(Q) \right)\\
 &+ \left[2-\frac{3 q_2^2 q_1 \cdot Q}{2 \text{det}\mathcal{Q}_2} \right] \left(\tilde{B}_0(q_2)-\tilde{B}_0(Q) \right) \\
-&- \left[4m_t^2 + q_1^2 + q_2^2 + Q^2 - \frac{3 q_1^2 q_2^2 Q^2}{\text{det}\mathcal{Q}_2} \right] \tilde{C}_0(q_1,q_2) \bigg \},
+&- \left[4m_t^2 + q_1^2 + q_2^2 + Q^2 - \frac{3 q_1^2 q_2^2 Q^2}{\text{det}\mathcal{Q}_2} \right] \tilde{C}_0(q_1,q_2) - 2 \bigg \}, \\
+F_T(q_1^2, q_2^2, Q^2) &= -\frac{1}{2 \text{det} \mathcal{Q}_2} \bigg \{ Q^2 \left[\tilde{B}_0(q_1) + \tilde{B}_0(q_2) - 2\tilde{B}_0(Q) - 2 q_1 \cdot q_2 \hspace{2pt} \tilde{C}_0(q_1,q_2) \right] \\
+&+ \left(q_1^2-q_2^2 \right) \left(\tilde{B}_0(q_1) - \tilde{B}_0(q_2)\right) \bigg \} - q_1 \cdot q_2 \hspace{2pt} F_L,
 \end{split}
 \end{equation}
 
-where $\text{det} \mathcal{Q}_2 =q_1^2q_2^2 - (q_1 \cdot q_2)^2$. The scalar integrals with the tilde notation are proportional to the scalar integrals shown in equation \ref{eqn:scalars} by the factor $-16i\pi^2$ and the $F_L$ and $F_T$ functions are related to the $A_1$ and $A_2$ of equation \ref{eqn:afuncs} by
+where $\text{det} \mathcal{Q}_2 =q_1^2q_2^2 - (q_1 \cdot q_2)^2$. The scalar integrals with the tilde notation are equal to the scalar integrals shown in equation \ref{eqn:scalars} multiplied by $-16i\pi^2$. The $F_L$ and $F_T$ functions are related to the $A_1$ and $A_2$ of equation \ref{eqn:afuncs} by
 
 \begin{equation}
 \begin{split}
@@ -176,7 +178,7 @@ A_2(q_1,q_2) &= \frac{i}{(4 \pi)^2}\left(F_T(q_1,q_2) q_1 \cdot q_2 + F_L(q_1,q_
 \end{split}
 \end{equation}
 
-An interesting point to notice is that, if one of the momentum $q_1$ or $q_2$ is on-shell, we only get a contribution from the $F_T$ term in $T^{\mu \nu}$. This comes about because the presence of an on-shell momenta must mean that the vertex is going to be contracted with the relevant polarisation vector, \todo{is that clear?}setting the term proportional to $F_L$ to zero. When this happens, we will write $T_R$ in place of $T$ to remind ourselves of this. Finally, since we know that every graph contributes at the same order in $\alpha_s$, has a Yukawa coupling from the top loop and has factors from loop integrals, we conveniently define
+An interesting point to notice is that, if one of the momenta $q_1$ or $q_2$ is on-shell, we only get a contribution from the $F_T$ term in $T^{\mu \nu}$. This comes about because the presence of an on-shell momenta must mean that the vertex is going to be contracted with the relevant polarisation vector, setting the term proportional to $F_L$ to zero. When this happens, we will write $T_R$ in place of $T$ to remind ourselves of this. Finally, since we know that every graph contributes at the same order in $\alpha_s$, has a Yukawa coupling from the top loop and has factors from loop integrals, we conveniently define
 
 \begin{equation}
  F = \frac{4 m_t^2}{v} \alpha_s^2, 
@@ -294,7 +296,7 @@ and for the colour indices we map $a \to 1, b \to a, c\to t$. Finally, we write 
 M^{\mu \nu \rho} = \left(F \times \frac{-16 \pi^2}{2 g_s} \right) f^{a1t}J^{\mu \nu \rho}.
 \end{equation}
 
-A very important thing to notice here is that the paper this result is taken from \todo{reword this = reference actual paper} has loop integrals defined with an overall factor of $\frac{1}{(2 \pi)^4}$, whereas the loops used in LoopTools \cite{Hahn1999} (which is the program we will use in the Monte Carlo integration) and \cite{DelDuca2001} are defined with an overall factor of $\frac{1}{i \pi^2}$. We take care of this by reweighting the LoopTools results when called here. For brevity, we will write the expression for $J$ in terms of the $q_i$ rather than the momenta of the external particles. Lifting the expression from this paper also forces us to use a particular gauge, which is the one where the polarisation vector of the gluon with momentum $p_a$ is perpendicular to $p_1$ and vice versa. Imposing this, the function $J$ is % \todo{Do I need to care about gauge invariance still?}
+A very important thing to notice here is that this result is taken from \cite{Duca2003}, which defines loop integrals with an overall factor of $\frac{1}{(2 \pi)^4}$, whereas the loops defined in LoopTools \cite{Hahn1999} (the program we will use in the Monte Carlo integration) and \cite{DelDuca2001} (the reference for all other parts of the calculation) have an overall factor of $\frac{1}{i \pi^2}$ instead. We take care of this by reweighting the LoopTools results when called here. For brevity, we will write the expression for $J$ in terms of the $q_i$ rather than the momenta of the external particles. Lifting the expression from this paper also forces us to use a particular gauge, which is the one where the polarisation vector of the gluon with momentum $p_a$ is perpendicular to $p_1$ and vice versa. Imposing this, the function $J$ is % \todo{Do I need to care about gauge invariance still?}
 
 \begin{equation}
 J^{\mu \nu \rho} = \eta^{\mu \nu}(H_1 q_1^\rho + H_2 q_2^\rho) + \eta^{\mu \rho}H_4 q^\nu + \eta^{\nu \rho}H_5 q^\mu + H_{10} q_2^\rho q^\mu q^\nu + H_{12} q_1^\rho q^\mu q^\nu.
@@ -354,7 +356,7 @@ This expression has been checked term-by-term with \cite{DelDuca2001} and \cite{
 A_1^{num} = \bar{u}_2 \gamma^{\mu_1}(\slashed{p}_2-\slashed{p}_a)\gamma^{\mu_2}u_b \varepsilon_{\mu_1}(p_a)\varepsilon^*_{H,\mu_2}(p_1).
 \end{equation}
 
-With the completeness relation, we can rewrite the $\slashed{p}$ parts in terms of massless spinors,  $\slashed{p} = \left| p^+ \right> \left<p^+ \right| + \left| p^- \right> \left<p^- \right|$. By considering the action of the projection operator $(1\pm \gamma^5)$ it is simple to see that\todo{is it though?} you only pick out one of these helicity projections, which is the helicity projection corresponding to the helicity of particles $b$ and $2$. Thus we can write the term as
+With the completeness relation, we can rewrite the $\slashed{p}$ parts in terms of massless spinors,  $\slashed{p} = \left| p^+ \right> \left<p^+ \right| + \left| p^- \right> \left<p^- \right|$. By considering the action of the projection operator $(1\pm \gamma^5)$ it is simple to see that you only pick out one of these helicity projections in the spinor chain, which is the helicity projection corresponding to the helicity of particles $b$ and $2$. Thus we can write the term as
 
 \begin{equation}
 A_1^{num} = \left(\matel{2}{\mu_1}{2}\matel{2}{\mu_2}{b} + \matel{2}{\mu_1}{a}\matel{a}{\mu_2}{b}\right)\varepsilon_{\mu_1}(p_a)\varepsilon^*_{H,\mu_2}(p_1).
@@ -650,7 +652,7 @@ Another consideration is how to implement the matching for the finite top mass c
 \section{Results}
 %\todo{Explorer plots, integrated plots, other interesting things to note. Last real section to do! Arggh!}
 
-Our first analysis will be $gu \to guH$, where the gluon is fixed to be the forward moving particle and the $u$ quark is fixed to be moving backwards. The Higgs can then be more forward than the gluon, more backward than the quark or in between the two particles in rapidity. For the forward case, we will use the matrix element derived in \todo{add section here} to describe the process. For the central case, we will use the reweighted $qQ$ amplitude. Although our new matrix element will get this case correct, the reason we do not use it here is in anticipation of our resummation technique. Because we resum $t$-channel gluons, it is important to have a system where we can always unambiguously define what those gluons will be (or, in other words, we must have a consistent `resummation region', which for us will be the rapidity space between the gluon and quark). With our new amplitude, we can only resum the gluon connecting the effective vertex to the quark line, but for the reweighted $qQ$ case, we can resum the gluon from the top quark line to the triangle loop in the middle of the diagram and then from the triangle loop down to the bottom quark line. Choosing which matrix element we use based on the rapidity of the Higgs makes it clear which resummation we will be doing. Finally, since we have not discussed the case where the Higgs is behind the outgoing quark, we will set this process to zero for the time being. \\
+Our first analysis will be $gu \to guH$, where the gluon is fixed to be the forward moving particle and the $u$ quark is fixed to be moving backwards. The Higgs can then be more forward than the gluon, more backward than the quark or in between the two particles in rapidity. For the forward case, we will use the matrix element derived in section 4.2 to describe the process. For the central case, we will use the reweighted $qQ$ amplitude from section 4.1. Although our new matrix element will get this case correct, the reason we do not use it here is in anticipation of our resummation technique. Because we resum $t$-channel gluons, it is important to have a system where we can always unambiguously define what those gluons will be (or, in other words, we must have a consistent `resummation region', which for us will be the rapidity space between the gluon and quark). With our new amplitude, we can only resum the gluon connecting the effective vertex to the quark line, but for the reweighted $qQ$ case, we can resum the gluon from the top quark line to the triangle loop in the middle of the diagram and then from the triangle loop down to the bottom quark line. Choosing which matrix element we use based on the rapidity of the Higgs makes it clear which resummation we will be doing. Finally, since we have not discussed the case where the Higgs is behind the outgoing quark, we will set this process to zero for the time being. \\
 \\
 In the full program, we will use the impact factor already in the program for a Higgs emitted close to a quark line. An interesting plot to look at is the Higgs $p_T$ spectrum. The infinite top mass limit should not do well at high values of Higgs $p_T$, as discussed in \cite{Duca2003}, because it breaks the idea of the top quark mass being the largest relevant scale. This distribution is shown in figure \ref{fig:higgs_pt}. We see the expected behaviour: at large Higgs $p_T$, the results obtained with the effective theory and the theory with finite quark mass effects are very different. \\
 \\

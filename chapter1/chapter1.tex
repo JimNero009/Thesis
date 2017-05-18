@@ -4,7 +4,7 @@ In this section, we present an overview of Particle Physics and Quantum Field Th
 
 \section{The LHC and the Standard Model}
 
-The SM, shown in figure \ref{fig:SM}, is currently our best theoretical model for understanding the fundamental particles of nature and their interactions. It is also one of the most rigorously tested models in the history of physics and to date it has stood up to all the tests thrown at it \cite{Ellis1995}. For instance, the measurement of the anomalous magnetic dipole moment of the electron agrees with that predicted by the model to ten significant figures \cite{Aoyama2012}. Despite these successes, however, we know that the SM cannot be a \emph{complete} model of our universe. For instance, it does not include gravity in its formulation. On top of that, cosmological measurements such as that of the velocities of spinning galaxies and the expansion rate of the universe imply that there is a whole other sector we are currently ignorant of: that of Dark Matter and Dark Energy \cite{Bertone2005}. Indeed, some estimates suggest that approximately 96\% of the universe consists of these mysterious quantities \cite{Jarosik2011}. Clearly, we need to find a way forward in order to develop a theory `Beyond the Standard Model' that can describe them. One possibility is that non-SM particles could interact with SM particles in a manner whereby we would need to be able to calculate SM predictions to a large degree of precision to be able to determine if they are there \todo{reword 'one poss' sentence as it is clumpy}. Theorists and experimentalists must continue to come together in order to face this challenge; theorists by improving how calculations are conducted and experimentalists by reducing experimental uncertainties and collecting ever more data. \\
+The SM, shown in figure \ref{fig:SM}, is currently our best theoretical model for understanding the fundamental particles of nature and their interactions. It is also one of the most rigorously tested models in the history of physics and to date it has stood up to all the tests thrown at it \cite{Ellis1995}. For instance, the measurement of the anomalous magnetic dipole moment of the electron agrees with that predicted by the model to ten significant figures \cite{Aoyama2012}. Despite these successes, however, we know that the SM cannot be a \emph{complete} model of our universe. For instance, it does not include gravity in its formulation. On top of that, cosmological measurements such as that of the velocities of spinning galaxies and the expansion rate of the universe imply that there is a whole other sector we are currently ignorant of: that of Dark Matter and Dark Energy \cite{Bertone2005}. Indeed, some estimates suggest that approximately 96\% of the universe consists of these mysterious quantities \cite{Jarosik2011}. Clearly, we need to find a way forward in order to develop a theory `Beyond the Standard Model' that can describe them. A large number of proposed theories predict that non-SM particles interact with SM particles, but so weakly that very precise measurements of known SM processes must be calculated before we could observe the effects. Theorists and experimentalists must continue to come together in order to face this challenge; theorists by improving how calculations are conducted and experimentalists by reducing experimental uncertainties and collecting ever more data. \\
 
 \begin{figure}[t]
 \centering
@@ -235,8 +235,8 @@ Remembering our need for our Lagrangian to be a Lorenz scalar as well, we are no
 \end{equation}
 
 \section{From Lagrangians to Scattering Amplitudes}
-\todo{reword first sentence}
-In the last section, we showed by considering symmetries we want our theory to have and the equations of motion for our fields that we were able to write down a Lagrangian. What we have not yet explained is why that was useful. Here, we provide an overview of the \emph{path integral formalism} for QFT which will provide us with a way of computing \emph{scattering amplitudes} in our field theory. 
+
+In the last section, we showed by considering symmetries and the equations of motion that it is possible to write down a Lagrangian. What we have not yet explained is why that was useful. Here, we provide an overview of the \emph{path integral formalism} for QFT which will provide us with a way of computing \emph{scattering amplitudes} in our field theory. 
 
 \subsection{Path Integral Formulation}
 
@@ -322,7 +322,7 @@ Putting this in for every matrix element \ref{eqn:meexpn} in \ref{eqn:generalamp
 A(q_a,q_b;T) &= \int \prod_{j=1}^{n-1} \left(\frac{dp_j dq_j}{2 \pi} e^{- i \varepsilon H\left(\frac{q_j + q_{j+1}}{2}, p_i\right)}e^{i p_j(q_{j+1} - q_j)}\right) \\
 &= \int \prod_{j=1}^{n-1} \left(\frac{dp_j dq_j}{2 \pi} \right) \exp \left(i \varepsilon \sum_{j=1}^{n-1} \left[ p_j \left(\frac{q_{j+1}-q_j}{\varepsilon}\right) - H \left( \frac{q_j + q_{j+1}}{2}, p_j \right) \right] \right).
 \end{split}
-\end{equation} \todo{check sum and prod indices}
+\end{equation}
 
 If we now formally take the limit $n \to \infty $ (and so $\varepsilon \to 0$), then $(q_{i+1}-q_i)/\varepsilon \to \dot{q}$, our discrete sum in the exponential becomes an integral with measure $dt$ and our $p_j, q_j$ integrals become \emph{Path Integrals}:
 
@@ -390,11 +390,11 @@ where $\ket{0}$ is the vacuum state with no particles present. The object we are
 \begin{equation}
 \begin{split}
 \left< f | i \right> &= \matel{0}{\hat{a}(\vec{k}_1,\infty) \hat{a}(\vec{k}_2 ,\infty) \hat{a}^\dagger(\vec{p}_1,-\infty) \hat{a}^\dagger(\vec{p}_2 ,-\infty)}{0} \\
-& = \matel{0}{T \left(\hat{a}(\vec{k}_1,\infty) \hat{a}(\vec{k}_2 ,\infty) \hat{a}^\dagger(\vec{p}_1,-\infty) \hat{a}^\dagger(\vec{p}_2 ,-\infty) \right)}{0},
+& = \matel{0}{\hat{\mathcal{T}} \left(\hat{a}(\vec{k}_1,\infty) \hat{a}(\vec{k}_2 ,\infty) \hat{a}^\dagger(\vec{p}_1,-\infty) \hat{a}^\dagger(\vec{p}_2 ,-\infty) \right)}{0},
 \end{split}
 \end{equation}
 
-where $T$ is a time-ordering operator, placing all operators at larger times to the left of the expression. We aim to express this formula in terms of the field $\psi$. In order to do so, consider
+where $\hat{\mathcal{T}}$ is a time-ordering operator, placing all operators at larger times to the left of the expression. We aim to express this formula in terms of the field $\psi$. In order to do so, consider
 
 \begin{equation}
 \begin{split}
@@ -424,7 +424,7 @@ By substituting these results into our expression for $\left<f | i \right>$ we g
 
 \begin{equation}
 \begin{split}
-\left<f | i \right> & =  \left < 0 \right | T \biggl[ \left (\hat{a}^\dagger(\vec{k_1},\infty) + i \int d^4 x_1 \hspace{1pt} \bar{\psi}(x_1) \left(i \overleftarrow{\slashed{\partial}} + m \right) e^{- i k_1 \cdot x_1} u^{(r')}(\vec{k_1}) 
+\left<f | i \right> & =  \left < 0 \right | \hat{\mathcal{T}} \biggl[ \left (\hat{a}^\dagger(\vec{k_1},\infty) + i \int d^4 x_1 \hspace{1pt} \bar{\psi}(x_1) \left(i \overleftarrow{\slashed{\partial}} + m \right) e^{- i k_1 \cdot x_1} u^{(r')}(\vec{k_1}) 
  \right ) \\
   & \times  \left (\hat{a}^\dagger(\vec{k_2},\infty) + i \int d^4 x_2 \hspace{1pt} \bar{\psi}(x_2) \left(i \overleftarrow{\slashed{\partial}} + m \right) e^{- i k_2 \cdot x_2} u^{(s')}(\vec{k_2}) 
  \right ) \\
@@ -442,7 +442,7 @@ All terms containing operators will now act on the vacuum and so drop out of the
 \begin{split}
 \left<f | i\right> &= (i)^4 \int d^4 x_1 d^4 x_2 d^4 y_1 d^4 y_2 e^{i(p_1 \cdot y_1 + p_2 \cdot y_2 - k_1 \cdot x_1 - k_2 \cdot x_2)} \\
 &\times  [\bar{u}^{(r)}(p_1)(- i \overrightarrow{\slashed{\partial}} + m)]_\alpha [\bar{u}^{(s)}(p_2)(- i \overrightarrow{\slashed{\partial}} + m)]_\beta \\
-& \times \matel{0}{T \left(\bar{\psi}_\alpha(y_1) \bar{\psi}_\beta(y_2) \psi_{\alpha'}(x_1) \psi_{\beta'}(x_2) \right)}{0} \\
+& \times \matel{0}{hat{\mathcal{T}} \left(\bar{\psi}_\alpha(y_1) \bar{\psi}_\beta(y_2) \psi_{\alpha'}(x_1) \psi_{\beta'}(x_2) \right)}{0} \\
 & \times [(i \overleftarrow{\slashed{\partial}} + m)u^{(r')}(k_1)]_{\alpha' }[(i \overleftarrow{\slashed{\partial}} + m)u^{(s')}(k_2)]_{\beta'},
 \end{split}
 \end{equation}
@@ -496,19 +496,19 @@ P &= \int \mathcal{D} \phi_1(\vec{x}) \int \mathcal{D} \phi_2(\vec{x})  \\
 \end{split}
 \end{equation}
 
-We can now use the completeness relation on the $\phi_1, \phi_2$ states and are left with \todo{define completeness relation}
+We can now use the completeness relation $\int \mathcal{D} \phi_i(\vec{x}) \ket{\phi_i(\vec{x})} \bra{\phi_i(\vec{x})} = \mathbb{1}$ on the $\phi_1, \phi_2$ states and are left with
 
 \begin{equation}
 P = \matel{\phi_b(\vec{x})}{e^{-i \hat{H}(T - x_2^0)} \hat{\phi}_S(\vec{x_2}) e^{-i\hat{H}(x_2^0 - x_1^0)} \hat{\phi}_S(\vec{x_1}) e^{-i \hat{H}(x_1^0 + T)}}{\phi_a(\vec{x})}.
 \end{equation}
 
-At this point, we recognise that we can relate the Heisenberg operator to the Schr\"odinger operators via $\hat{\phi}_H(x) = e^{i \hat{H} t} \hat{\phi}_S(\vec{x}) e^{-i \hat{H} t}$ and therefore \todo{replace T with curly T for time operator}
+At this point, we recognise that we can relate the Heisenberg operator to the Schr\"odinger operators via $\hat{\phi}_H(x) = e^{i \hat{H} t} \hat{\phi}_S(\vec{x}) e^{-i \hat{H} t}$ and therefore
 
 \begin{equation}
-P = \matel{\phi_b(\vec{x})}{e^{- i \hat{H} T} T \left(\hat{\phi}_H(x_2) \hat{\phi}_H(x_1) \right) e^{-i \hat{H} T}}{\phi_a(\vec{x})},
+P = \matel{\phi_b(\vec{x})}{e^{- i \hat{H} T} \hat{\mathcal{T}} \left(\hat{\phi}_H(x_2) \hat{\phi}_H(x_1) \right) e^{-i \hat{H} T}}{\phi_a(\vec{x})},
 \end{equation}
 
-where the time ordering operator has been inserted so that we are also including the possibility that $x_1^0 > x_2^0$. The last step is to take the limit where $T$ becomes large. Doing this naively, however, will leave us with an ill-defined limit, so we take the limit $T \to \infty(1- i \delta)$ with $\delta$ small and positive. Then
+where the time ordering operator $\hat{\mathcal{T}}$ has been inserted so that we are also including the possibility that $x_1^0 > x_2^0$. The last step is to take the limit where $T$ becomes large. Doing this naively, however, will leave us with an ill-defined limit, so we take the limit $T \to \infty(1- i \delta)$ with $\delta$ small and positive. Then
 
 \begin{equation}
 e^{-i \hat{H} T} \ket{\phi_a} = \sum_n e^{-i \hat{H} T} \ket{n} \left<n | \phi_a \right> \to \sum_n e^{-i E_n (\infty(1 - i \delta))}\ket{n} \left<n | \phi_a \right> = \ket{0} \left<0 | \phi_a \right>,
@@ -517,13 +517,13 @@ e^{-i \hat{H} T} \ket{\phi_a} = \sum_n e^{-i \hat{H} T} \ket{n} \left<n | \phi_a
 where in the last step we have assumed that the vacuum state has zero energy and thus is the only one that survives out of the sum. Therefore
 
 \begin{equation}
-\lim_{T \to \infty(1- i \delta)} P = \matel{0}{ T \left(\hat{\phi}_H(x_2) \hat{\phi}_H(x_1) \right)}{0} \times \left<0 | \phi_a \right>\left<\phi_b | 0 \right>. 
+\lim_{T \to \infty(1- i \delta)} P = \matel{0}{ \hat{\mathcal{T}} \left(\hat{\phi}_H(x_2) \hat{\phi}_H(x_1) \right)}{0} \times \left<0 | \phi_a \right>\left<\phi_b | 0 \right>. 
 \end{equation}
-\todo{check this eq ref}
-Comparing this to \ref{LSZform}, we see that we have reproduced it up to the factors of the overlap between the states $\phi_a, \phi_b$ and the vacuum. We can simply divide these out by evaluating the path integral without the factors of the field. We therefore have the result
+
+Comparing this to equation \ref{LSZform}, we see that we have reproduced the part depending on the time ordered products of fields up to the factors of the overlap between the states $\phi_a, \phi_b$ and the vacuum. We can simply divide these out by evaluating the path integral without the factors of the field. We therefore have the result
 
 \begin{equation}
- \matel{0}{ T \left(\hat{\phi}_H(x_2) \hat{\phi}_H(x_1) \right)}{0} = \lim_{T \to \infty(1 - i \delta)} \frac{\int  \mathcal{D} \phi(x) \hspace{1pt}  \phi(x_1) \phi(x_2) \exp \left( i \int_{-T}^T d^4 x \hspace{1pt} \mathscr{L} \right)}{\int  \mathcal{D} \phi(x) \hspace{1pt} \exp \left( i \int_{-T}^T d^4 x \hspace{1pt} \mathscr{L} \right)}
+ \matel{0}{ \hat{\mathcal{T}} \left(\hat{\phi}_H(x_2) \hat{\phi}_H(x_1) \right)}{0} = \lim_{T \to \infty(1 - i \delta)} \frac{\int  \mathcal{D} \phi(x) \hspace{1pt}  \phi(x_1) \phi(x_2) \exp \left( i \int_{-T}^T d^4 x \hspace{1pt} \mathscr{L} \right)}{\int  \mathcal{D} \phi(x) \hspace{1pt} \exp \left( i \int_{-T}^T d^4 x \hspace{1pt} \mathscr{L} \right)}
 \end{equation}
 
 \subsection{Calculating a Scattering Amplitude}
@@ -555,7 +555,7 @@ We shift our variable to $\tilde{\eta}(k) = \tilde{\phi}(k) + \frac{1}{k^2 - m^2
 S_{0, RS} = \frac{1}{2} \int \frac{d^4 k}{(2 \pi)^4} \left(\tilde{\eta}(k)(k^2 - m^2 + i \delta) \tilde{\eta}(-k) - \frac{\tilde{J}(k)\tilde{J}(-k)}{k^2 - m^2 + i \delta} \right).
 \end{equation}
 
-The only $\eta$ dependence is in the first quadratic term. We recognise this as a Gaussian functional integral over $\eta$ and so will correspond to the overall normalisation of $\mathcal{Z}_0$, which can be adjusted by properly defining the measure of the functional integral such that $\mathcal{Z}_0(J = 0) = 1$. Even if we don't adjust like this, we saw from the previous section that we need a ratio of correlation functions and would cancel out anyway when computing objects that are of interest in scattering amplitudes. We choose to do the adjustment and so \todo{rewrite sentence 'even if we don't...}
+The only $\eta$ dependence is in the first quadratic term. We recognise this as a Gaussian functional integral over $\eta$ and so will correspond to the overall normalisation of $\mathcal{Z}_0$, which can be adjusted by properly defining the measure of the functional integral such that $\mathcal{Z}_0(J = 0) = 1$. In fact, from the previous section we know that the relevant quantity is the ratio of correlation functions and so any overall factors like this normalisation would cancel out in any case. For simplicity and clarity, we choose to do the adjustment and so
 
 \begin{equation}
 \mathcal{Z}_0 = \exp \left( -\frac{i}{2} \int \frac{d^4 k}{(2 \pi)^4} \frac{\tilde{J}(k) \tilde{J}(-k)}{k^2 - m^2 + i \delta} \right).
@@ -597,9 +597,9 @@ We can always split a general Lagrangian $\mathscr{L}$ into a `free' part $\math
 \begin{equation}
 \begin{split}
 \mathcal{Z}(J) &= \int \mathcal{D} \phi e^{i \int d^4 x (\mathscr{L} + J \phi)} \\
-&= \int \mathcal{D} \phi e^{i \int d^4 x \mathscr{L}_1} e^{i \int d^4 x (\mathscr{L}_0 + J \phi)}.
+&= \int \mathcal{D} \phi e^{i \int d^4 x \mathscr{L}_I} e^{i \int d^4 x (\mathscr{L}_0 + J \phi)}.
 \end{split}
-\end{equation} \todo{check l0 and li parts}
+\end{equation}
 
 As an example, we take our interaction Lagrangian to have the form $g \phi^3$. In the generating functional, we can replace instances of $\phi$ with functional derivatives
 
@@ -607,9 +607,9 @@ As an example, we take our interaction Lagrangian to have the form $g \phi^3$. I
 \mathcal{Z}_1 \propto \exp \left( i g \int d^4 y \left(\frac{1}{i} \frac{\delta}{\delta J(y)} \right)^3 \right) \mathcal{Z}_0.
 \end{equation}
 
-This equation cannot be solved exactly, but if $g$ is small enough we can expand the exponential and order-by-order perform the functional derivatives, stopping at some point. In this way, we are considering the interaction term as a perturbation to the free Lagrangian and hence the method is called \emph{perturbation theory}. It should be clear that as the calculation proceeds to higher and higher orders in perturbation theory, the number of terms to deal with gets uncontrollably large. Thankfully, for many processes it is generally true that the first few orders tend to be enough to give us a good description and so higher order terms are not `needed'. However, there are some instances where perturbation theory breaks down and that provides the main motivation for the work in this thesis. \\
+This equation cannot be solved exactly, but if $g$ is small enough we can expand the exponential and order-by-order perform the functional derivatives, stopping at some point. In this way, we are considering the interaction term as a perturbation to the free Lagrangian and hence the method is called \emph{perturbation theory}. It should be clear that as the calculation proceeds to higher and higher orders in perturbation theory, the number of terms to deal with gets uncontrollably large. Thankfully, for many processes it is generally true that the first few orders tend to be enough to give us a good description and so higher order terms are not `needed'. However, there are some instances where perturbation theory breaks down, which we explore in detail in Chapter 2, and that provides the main motivation for the work in this thesis. \\
 \\
-Overlooking that for now, we would appear to have a formula which we can generally apply. This is the case, but having to keep track of all the terms that come from our functional derivatives and distinguishing which of these terms are the same as others is a very time-consuming and error-prone task. Luckily, \emph{Feynman rules} and \emph{Feynman graphs} provide us with an excellent, intuitive tool to deal with perturbation theory. \\ \todo{expand on perturbation theory and breaking down}
+Overlooking that for now, we would appear to have a formula which we can generally apply. This is the case, but having to keep track of all the terms that come from our functional derivatives and distinguishing which of these terms are the same as others is a very time-consuming and error-prone task. Luckily, \emph{Feynman rules} and \emph{Feynman graphs} provide us with an excellent, intuitive tool to deal with perturbation theory. \\
 \\
 The Feynman rules are a set of instructions for drawing a Feynman diagram, which itself represents a mathematical equation that can be written down and evaluated yielding part or possibly all of the transition amplitude $\left<f | i \right>$ at a given order in perturbation theory. The Feynman rules themselves will depend on the Lagrangian of any given theory we are interested in. To demonstrate the procedure for generating Feynman rules and diagrams, let us consider a simple Lagrangian of the form
 
@@ -617,12 +617,12 @@ The Feynman rules are a set of instructions for drawing a Feynman diagram, which
 \mathscr{L}_{example} = \frac{1}{2}\partial_\mu \phi \partial^\mu \phi - \frac{1}{2}m^2 \phi^2 + \frac{g}{3!} \phi^3. 
 \end{equation}
 
-The process then proceeds schematically as follows: \todo{rethink how general and specific considerations are shown here}
+The process then proceeds schematically as follows:
 
 \begin{enumerate}
-\item{Identify the entire field content of the Lagrangian. In this case, we have only one field $\phi$. For each field, identify the propagator terms, which are terms that contain exactly two of the field. For our Lagrangian, these are the first two terms. If such a collection of terms exists, we can represent the propagation of a field from one point to another diagrammatically by some line. For our example, we will simply represent the propagation of $\phi$ from one point to another by a solid black line.}
+\item{Identify the entire field content of the Lagrangian. In this case, we have only one field $\phi$. For each field, identify the propagator terms, which are terms that contain exactly two of the field. For our Lagrangian, these are the first two terms. If such a collection of terms exists, we can represent the propagation of a field from one point to another diagrammatically by some line. With our example, we will simply represent the propagation of $\phi$ from one point to another by a solid black line.}
 \item{All other terms represent interactions, with the number of fields in each term corresponding to the number of fields present in the interaction. Here, we have only one interaction term with three instances of the field $\phi$, which means our only allowed interaction is between three particles of the field $\phi$.}
-\item{Consider the type of process to be described. For instance, we could be interested in working out the transition amplitude for two particles of the field $\phi$ to scatter off each other into again two particles of the field $\phi$ (more compactly, a $2 \to 2$ process).}
+\item{Consider the type of process to be described. For instance, here we could be interested in calculating the transition amplitude for two particles of the field $\phi$ to scatter off each other into again two particles of the field $\phi$ (more compactly, a $2 \to 2$ process).}
 \item{Assuming for the time being we are interested in the lowest order of perturbation theory, draw all possible diagrams with the lowest number of interaction points for the process (also sometimes known as \emph{tree level}), subject to the propagation and interaction rules discussed. We will use the convention where time is flowing from left to right through the diagram. It is almost always more useful to work in momentum space, so also label the particles with some momentum values. }
 \end{enumerate}
 
@@ -731,8 +731,8 @@ Following these rules and adding together all diagrams results in the quantity $
 \end{table}
 
 \subsection{$qQ \to qQ$ at Leading Order}
-\todo{reword first sentence}
-As an explicit exercise in performing QCD calculations with Feynman rules, let us take an example of an up quark scattering off a down quark into again an up quark and a down quark. This process is particularly simple because there is only one contributing Feynman diagram, shown in figure \ref{fig:qQqQ}.
+
+As an explicit exercise in performing QCD calculations with Feynman rules, let us take the example of the elastic scattering of two quarks of different flavours. This process is particularly simple because there is only one contributing Feynman diagram, shown in figure \ref{fig:qQqQ}.
 
 \begin{figure}[t]
 \centering
@@ -750,13 +750,13 @@ iM &= \bar{u}(p_2) (-i g_s t^b \gamma^\nu)u(p_b) \left(\frac{-i \eta_{\mu \nu} \
 \end{split}
 \end{equation}
 
-where we have for now suppressed the colour and spin dependence of the quark spinors. In general, there is no control over the colours and spins of the particles in our experiment and so we should take this into account, by averaging over all initial state spins/colours and summing over all final state spins/colours. From the general laws of Quantum Mechanics \cite{Dirac}, we know that any physical quantity must be proportional to $|M|^2$. Since each helicity and colour configuration are physically distinguishable (that is, they do not interfere with each other quantum mechanically, we are just ignorant of what the states are), this sum/average must be done at the $|M|^2$ level: \todo{explain M notation better}
+where we have for now suppressed the colour and spin dependence of the quark spinors. In general, there is no control over the colours and spins of the particles in our experiment and so we should take this into account, by averaging over all initial state spins/colours and summing over all final state spins/colours. From the general laws of Quantum Mechanics \cite{Dirac}, we know that any physical quantity must be proportional to $|M|^2$. Since each helicity and colour configuration are physically distinguishable (that is, they do not interfere with each other quantum mechanically, we are just ignorant of what the states are), this sum/average must be done at the $|M|^2$ level:
 
 \begin{equation}
-|\bar{M}|^2 = \frac{1}{9} \times \frac{1}{4} \times \frac{g_s^4}{\hat{t}^2} \times \sum_{colours}  \sum_{spins} |\tilde{M}|^2,
+|M|^2 = \frac{1}{9} \times \frac{1}{4} \times \frac{g_s^4}{\hat{t}^2} \times \sum_{colours}  \sum_{spins} |\tilde{M}|^2,
 \end{equation}
 
-where we have stripped some factors that don't depend on the spins/colours out of the matrix elements. We will begin by performing the spin sum. It will be useful to keep track of spinor indices in this calculation, which are implicitly summed over, and introduce the notation $u(p) \equiv u_p$ to get
+where we have extracted some factors that don't depend on spin or colour out of $\tilde{M}$, which represents the pre-averaged matrix element. We will begin by performing the spin sum. It will be useful to keep track of spinor indices in this calculation, which are implicitly summed over, and to  introduce the notation $u(p) \equiv u_p$ to get 
 
 \begin{equation}
 \begin{split}
@@ -847,7 +847,7 @@ where we interpret $x_a, x_b$ as the fraction of the total momentum carried by t
 d \sigma_{pp} = \sum_{f_a, f_b} \int_0^1 dx_a \int_0^1 dx_b f_a(x_a, Q^2) f_b(x_b, Q^2) \times d\hat{\sigma}_{partonic},
 \end{equation}
 
-for some value of $Q^2$. What that value should be, however, is somewhat mysterious -- given a hard scattering, what is the relevant scale at which the PDF is probed? This ambiguity leads to the calculation of \emph{scale variations}, which we will return to in a later chapter. Before that, we must also consider how confinement affects the final state of our scattering. The partonic cross section would lead us to believe that there are free partons after the scattering that we could detect, which goes against the principle of confinement. Indeed, we observe that the final state of partonic scatterings consists of objects called \emph{jets}, which are `cones' of hadrons and other particles caused by the \emph{hadronisation} of the partons produced in a scattering. A further discussion of the difference between partons and jets will also be discussed in a later chapter\todo{which chapter?}, but let us for now consider some `n-jet function' that `passes' an event (i.e. has value equal to 1) if there are $n$ jets present in the final state and `fails' (has value 0) otherwise. Such a function is called an \emph{exclusive} function, because only events with exactly $n$ jets will contribute, but we could also imagine an \emph{inclusive} function that will `pass' events with at least $n$ jets. We could therefore write
+for some value of $Q^2$. What that value should be, however, is somewhat mysterious -- given a hard scattering, what is the relevant scale at which the PDF is probed? This ambiguity leads to the calculation of \emph{scale variations}, which we will return to in a later chapter. Before that, we must also consider how confinement affects the final state of our scattering. The partonic cross section would lead us to believe that there are free partons after the scattering that we could detect, which goes against the principle of confinement. Indeed, we observe that the final state of partonic scatterings consists of objects called \emph{jets}, which are `cones' of hadrons and other particles caused by the \emph{hadronisation} of the partons produced in a scattering. A further discussion of the difference between partons and jets will also be discussed towards the end of chapter 2, but let us for now consider some `n-jet function' that `passes' an event (i.e. has value equal to 1) if there are $n$ jets present in the final state and `fails' (has value 0) otherwise. Such a function is called an \emph{exclusive} function, because only events with exactly $n$ jets will contribute, but we could also imagine an \emph{inclusive} function that will `pass' events with at least $n$ jets. We could therefore write
 
 \begin{equation}
 d \sigma_{pp \to n-jet}^{inc/exc} = \sum_{f_a, f_b} \int_0^1 dx_a \int_0^1 dx_b f_a(x_a, Q^2) f_b(x_b, Q^2) \times d\hat{\sigma}_{partonic} \times \mathcal{J}(\text{n-jet}^{inc/exc}).

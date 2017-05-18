@@ -273,6 +273,7 @@ Of course, this equality only holds in the full High Energy Limit. However, we c
 
 \begin{equation}
 \tilde{C}_A = \frac{1}{2} \left(C_A - \frac{1}{C_A} \right) \left(\frac{p_b^-}{p_2^-} + \frac{p_2^-}{p_b^-} \right).
+\label{eqn:CAM}
 \end{equation}
 
 It is clear that this tends to $C_A$ in the limit where $p_2^- \sim p_b^-$. Using this multiplication factor instead of the straight $C_A$ allows for the approximation to be more accurate away from the strict High Energy Limit and we therefore employ it in the rest of this thesis (and, indeed, in the HEJ formalism itself). 
@@ -298,7 +299,7 @@ M_{Multi-Regge} \sim s_{12}^{\alpha(t_1)} s_{23}^{\alpha(t_2)} \cdots s_{n-1,n}^
 \label{fig:mrk}
 \end{figure}
 
-We have already seen in $qQ \to qQ$ scattering that the amplitude did indeed behave as $s^1$ in the MRK limit. Since our only two choices of particles involved in $t$-channel exchange are the spin-one gluon and the spin-half quark, clearly all leading amplitudes in this limit must only have gluons exchanged. The only thing that can be emitted from a t-channel gluon is another gluon (any quark must be accompanied by an anti-quark, with an intermediate t-channel quark propagator) and so we need only consider extra gluon emissions from our base $2 \to 2$ processes to capture all the leading contributions. Such configurations are also referred to as `Fadin-Kuraev-Lipatov' or simply FKL configurations \todo{cite FKL papers here}, named after the three scientists who developed the formalism. Use of this fact and the study of amplitudes within the strict MRK limit \cite{DelDuca1995, Andersen2009a} show that the analytical form of the amplitude is
+We have already seen in $qQ \to qQ$ scattering that the amplitude did indeed behave as $s^1$ in the MRK limit. Since our only two choices of particles involved in $t$-channel exchange are the spin-one gluon and the spin-half quark, clearly all leading amplitudes in this limit must only have gluons exchanged. The only thing that can be emitted from a t-channel gluon is another gluon (any quark must be accompanied by an anti-quark, with an intermediate t-channel quark propagator) and so we need only consider extra gluon emissions from our base $2 \to 2$ processes to capture all the leading contributions. Such configurations are also referred to as `Fadin-Kuraev-Lipatov' or simply FKL configurations \cite{Kuraev1976}, named after the three scientists who developed the formalism. Use of this fact and the study of amplitudes within the strict MRK limit \cite{DelDuca1995, Andersen2009a} show that the analytical form of the amplitude is
 
 \begin{equation}
 |M^{MRK}_{f_1 f_2 \to f_1 g ... g f_2}|^2 = \left(\frac{4 \hat{s}^2}{N_c^2 - 1} \right) \frac{g^2 C_{f_1}}{|p_{1 \perp}|^2} \left(\prod_{i = 2}^{n-1} \frac{4 g^2 C_A}{|p_{i \perp}|^2} \right)  \frac{g^2 C_{f_2}}{|p_{n \perp}|^2} ,
@@ -384,6 +385,7 @@ where
 
 \begin{equation}
 V^\rho(q_1, q_2) = -(q_1 + q_2)^\rho + p_a^\rho \left( \frac{q_1^2}{p_2 \cdot p_a} + 2 \frac{p_2 \cdot p_b}{p_a \cdot p_b}\right) -  p_b^\rho \left( \frac{q_2^2}{p_2 \cdot p_b} + 2 \frac{p_2 \cdot p_a}{p_a \cdot p_b}\right)
+\label{eqn:lipatov}
 \end{equation}
 
 is an \emph{effective} or \emph{Lipatov} vertex describing the emission of a gluon. Since this vertex was derived by approximating $p_a$ with $p_1$ and $p_b$ with $p_3$, we can symmetrise this vertex in these momenta to `undo' this approximation somewhat\footnote{This symmetrised version is used in practice but adds nothing to the discussion here.}. The important point is that we can now construct an amplitude with any number of extra gluons by simply inserting the relevant number of Lipatov vertices. As previously discussed, the difference between amplitudes with initial state quarks and amplitudes with initial state gluons is an overall colour factor, so a general $2 \to n$ amplitude takes the form
@@ -415,10 +417,11 @@ Earlier, we saw explicitly that the Leading Logarithmic contribution to the NLO 
 M_{qQ \to qQ}^{LO + virt} = M_{qQ \to qQ}^{LO} \times \exp \left[\hat{\alpha}(q_\perp) \Delta y \right],
 \end{equation}
 
-where we have related $\Delta y$ to the logarithm as previously shown \todo{reference where it was shown}. The ansatz then goes further to say that this exponentiation holds in the MRK limit for any number of $t$-channel propagators present at the leading order, such that the virtual corrections are obtained by making the substitution
+where we have related $\Delta y$ to the logarithm as explained at the beginning of section 2.1. The ansatz then goes further to say that this exponentiation holds in the MRK limit for any number of $t$-channel propagators present at the leading order, such that the virtual corrections are obtained by making the substitution
 
 \begin{equation}
 \frac{1}{\hat{t}_i} \to \frac{1}{\hat{t}_i} \exp \left[\hat{\alpha}(q_{i,\perp}) \Delta y_{i,i+1} \right].
+\label{eqn:lipansatz}
 \end{equation}
 
 In the appropriate limit, this ansatz has been proved to the sub-leading level \cite{Bogdan2006,Fadin2005,Fadin2004,Fadin2006}. However, by inspection of the $\hat{\alpha}$ function given in equation \ref{eqn:nlocorr}, we see that it is clearly divergent; for small values of $k_\perp$ in the integration region, the integrand tends to infinity. Such a divergence is called an \emph{infrared divergence} and is a common problem in particle physics amplitudes involving massless particles. The problem arises because virtual corrections are not the only corrections to an amplitude we need to consider. We can also have the case where a real emission has taken place but at an energy scale small enough that only a detector with infinite resolution could have detected it. Since such a detector cannot exist, there is no way of differentiating between a `pure' $qQ \to qQ$ scattering and another one accompanied by the emission of a low energy (or `soft') gluon. Such contributions are also divergent, but in such a way that when combined with the divergence in the virtual corrections, the divergences cancel. We will show precisely how this happens in the next part. For now, we choose to use the technique of \emph{dimensional regularisation} to rewrite our $\hat{\alpha}$ function in a more convenient way that makes the divergence clear. The formalism works by extending the dimensionality of the two-dimensional perpendicular component integral to $2 + 2 \varepsilon$ dimensions. This will allow us to write the result as an expansion in $\varepsilon$, which will manifest our divergence as a term proportional to $\varepsilon^{-1}$. We must eventually take the limit $\varepsilon \to 0$, but we will see how this prescription allows us to remove the divergences from our theory in a neat and systematic way before we do so. A further note is that this dimensional shift also slightly alters the overall energy dimension of the integral and so we must introduce a scale $\mu$ to absorb this effect. The upshot is that we perform the integral in this convention and end up with %\todo{I should do this for my own sanity and understanding}
@@ -645,7 +648,7 @@ and so the problem is clearly suited to evaluation by Monte Carlo methods. The g
 \item{Generate a number of partons for the final state.}
 \item{Pick the flavours for the incoming state.}
 \item{Generate the momenta for all partons.}
-\item{Perform a basic cluster into jets to check whether this event will give something consistent with cuts\todo{define cuts}. If not, throw away the point here.}
+\item{Perform a basic cluster into jets to check whether this event will give something consistent with cuts (a set of kinematical constraints imposed on the analysis). If not, throw away the point here and start again.}
 \item{Calculate the matrix element and multiply by other factors in the integrand.}
 \item{Cluster into jets and check to see if they pass all imposed cuts on the process. If it does, add the calculated point to the estimation of the average.}
 \item{Repeat.}
@@ -693,7 +696,7 @@ In the previous subsection it was remarked that during our Monte Carlo program w
 \label{fig:alphas}
 \end{figure}
 
-There are two broad categories of algorithms: `Cone-Type' and `Sequential Clustering'\todo{add reference}. The first type are heavily disfavoured by the theory community because of their tendency to be infrared unsafe\todo{what does this mean? inf divergent?} and so we will focus on the second type. The general process for this type of algorithm is as follows:
+There are two broad categories of algorithms: `Cone-Type' and `Sequential Clustering' \cite{Atkin2015}. The first type are heavily disfavoured by the theory community because of their tendency to be infrared unsafe (meaning they depend on the low energy physics of the underlying theory) and so we will focus on the second type. The general process for this type of algorithm is as follows:
 
 \begin{enumerate}
 \item{Define some distance measure $d_{ij}$ that can be calculated between each pair of hard partons $i,j$ and a distance $d_{iB}$ between all particles and the beam line.}
@@ -711,7 +714,7 @@ d_{iB} &= k_{i \perp}^{2p}.
 \end{split}
 \end{equation}
 
-The parameter $R$ scales the $d_{ij}$ with respect to $d_{iB}$ such that any pair of final jets $a, b$ are at least separated by $\Delta_{ab} = R$. For this reason, we often refer to $R$ as a `jet radius'. The value of $p$ can be chosen to govern the relative power of energy and geometrical scales in the distance parameter. There are three main algorithms which have three different choices for $p$: the kT algorithm with $p =1$, the Cambridge/Aachen with $p=0$ and the anti-kT with $p = -1$\todo{ref these algs}. There are reasons why one might want to use one over the other and so one would wish for a simple way of changing between conventions in any computer program one wants to run. Fortunately, the \emph{FastJet} library \cite{Cacciari2012} does precisely this. For the user, the only requirement is to specify which algorithm is to be used at the start of the calculation. Any further calculations involving the jet objects are easily handled within the defined classes in the package. 
+The parameter $R$ scales the $d_{ij}$ with respect to $d_{iB}$ such that any pair of final jets $a, b$ are at least separated by $\Delta_{ab} = R$. For this reason, we often refer to $R$ as a `jet radius'. The value of $p$ can be chosen to govern the relative power of energy and geometrical scales in the distance parameter. There are three main algorithms which have three different choices for $p$: the kT algorithm with $p =1$, the Cambridge/Aachen with $p=0$ and the anti-kT with $p = -1$ \cite{Atkin2015}. There are reasons why one might want to use one over the other and so one would wish for a simple way of changing between conventions in any computer program one wants to run. Fortunately, the \emph{FastJet} library \cite{Cacciari2012} does precisely this. For the user, the only requirement is to specify which algorithm is to be used at the start of the calculation. Any further calculations involving the jet objects are easily handled within the defined classes in the package. 
 
 \subsection{Scale Variations}
 
@@ -730,7 +733,7 @@ When calculating scale variations, we take the scale as defined and then vary in
 
 We have spent the best part of this chapter arguing from a theoretical standpoint that the systematic treatment of High Energy logarithms is required for the accurate description of LHC data. We would like to end this chapter by providing plots from actual LHC analyses to see if the experimental data actually agrees with that statement. HEJ has been used in a wide range of experimental analyses \cite{Aad2011, Chatrchyan2012, Chatrchyan2012a,Abazov2013,Aad2014a,Aad2014,Aad2015} and we present a few select plots for discussion here. To understand them all fully, we first need to explain a couple of other features of HEJ we have not yet presented. \\
 \\
-Firstly, HEJ includes a multiplicative matching to full LO calculations for matrix elements up to and including four final state jets. After a process has been clustered into final state jets, the matrix element is recalculated with the jet momenta\footnote{Since some partons may not make it into final state jets, momentum conservation may not necessarily hold here. This is solved by distributing the momenta of partons that are not included into the jets in such a way as to keep it as close as possible to the original jet momenta.\todo{clarify}} along with the full LO matrix element (currently provided by \emph{MadGraph} \cite{Alwall2011}) and the process is multiplied by the ratio of the full LO to our matrix element. We also include full LO matrix elements for non-FKL processes, which we saw are sub-leading in the high energy limit. Including matching in this way allows HEJ to be as competitive as other approaches in areas far away from the high energy limit it is designed for. \\
+Firstly, HEJ includes a multiplicative matching to full LO calculations for matrix elements up to and including four final state jets. After a process has been clustered into final state jets, the matrix element is recalculated with the jet momenta\footnote{Since some partons may not make it into final state jets, momentum conservation may not necessarily hold here. This is solved by distributing the momenta of partons that are not included into the jets in such a way as to keep it as close as possible to the original jet momenta.} along with the full LO matrix element (currently provided by \emph{MadGraph} \cite{Alwall2011}) and the process is multiplied by the ratio of the full LO to our matrix element. We also include full LO matrix elements for non-FKL processes, which we saw are sub-leading in the high energy limit. Including matching in this way allows HEJ to be as competitive as other approaches in areas far away from the high energy limit it is designed for. \\
 \\
 Secondly, it is possible to interface HEJ with the \emph{parton shower} ARIADNE \cite{Andersen2011}. A parton shower is designed to simulate the hadronisation of the event and as such is a completely distinct problem from that of calculating the hard scattering matrix element that HEJ provides. The specifics of the technique are interesting \cite{Hoche2014} but beyond the scope of this thesis. The important point is that a combined HEJ+ARIADNE program can describe the high energy behaviour of the hard scattering element along with the soft behaviour of the parton shower. 
 
@@ -742,7 +745,7 @@ Secondly, it is possible to interface HEJ with the \emph{parton shower} ARIADNE 
 \end{figure} 
 %\todo{The last one looks shit}
 
-Figure \ref{fig:wjet} shows a range of predictions for a $W$ plus at least two jet event, binned in the invariant mass between the most forward and backward jet. The tail of this distribution is precisely where we expect the high energy logarithms to become important. The failure of the fixed order approaches to describe this region well clearly shows that this is indeed the case. The error band on the HEJ prediction is large and comes from the scale variations; the scale variation bands are not included on the other generators in the plot and would be just as large. The exception is the BlackHat line: their scale variation is shown and it is smaller than HEJ's because it is an NLO calculation, whereas HEJ only matches to LO. It is clear even still that only HEJ shows flat behaviour in the ratio plot.\todo{this sentence makes no sense?} Indeed, further investigation in \cite{Andersen2016} showed that this is purely a normalisation effect. 
+Figure \ref{fig:wjet} shows a range of predictions for a $W$ plus at least two jet event, binned in the invariant mass between the most forward and backward jet. The tail of this distribution is precisely where we expect the high energy logarithms to become important. The failure of the fixed order approaches to describe this region well clearly shows that this is indeed the case. The error band on the HEJ prediction is large and comes from the scale variations; the scale variation bands are not included on the other generators in the plot and would be just as large. The exception is the BlackHat line: their scale variation is shown and it is smaller than HEJ's because it is an NLO calculation, whereas HEJ only matches to LO. It is clear from the flatness of HEJ's line in the ratio plot that it is the only prediction tracking the data. Indeed, further investigation in \cite{Andersen2016} showed that the scale variation has the effect of an overall normalisation and has no bearing on the shape.  
 
 \begin{figure}[t]
 \centering
@@ -751,15 +754,7 @@ Figure \ref{fig:wjet} shows a range of predictions for a $W$ plus at least two j
 \label{fig:4jetan}
 \end{figure}
 
-Figure \ref{fig:4jetan} shows the cross-section for a process involving at least four final state jets binned in $H_T$. The interesting feature of this plot is that HEJ continues to match the data out to high values of $H_T$, which correspondingly means high values of $p_\perp$ for the jets. The High Energy limit that inspired HEJ holds only when the $p_\perp$ of the final state particles are all much smaller than the centre of mass energy and therefore should not be expected to provide a good description in the regime probed here. We see that HEJ keeps enough of the full process and this, along with the matching procedure, allows for it to be a useful tool for describing data even away from the limit it was designed for. \todo{sort of problem with losing images here!}
-
-%Figure \ref{fig:vetocos}
-
-%\begin{figure}[t]
-%\centering
-%\includegraphics[scale=0.8]{Images/cos_plot_dijet_veto_rap.pdf} 
-%\label{fig:vetocos}
-%\end{figure}
+Figure \ref{fig:4jetan} shows the cross-section for a process involving at least four final state jets binned in $H_T$. The interesting feature of this plot is that HEJ continues to match the data out to high values of $H_T$, which correspondingly means high values of $p_\perp$ for the jets. The High Energy limit that inspired HEJ holds only when the $p_\perp$ of the final state particles are all much smaller than the centre of mass energy and therefore should not be expected to provide a good description in the regime probed here. We see that HEJ keeps enough of the full process and this, along with the matching procedure, allows for it to be a useful tool for describing data even away from the limit it was designed for.
 
 \begin{figure}[t]
 \centering

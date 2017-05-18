@@ -46,6 +46,11 @@
   value of the fine structure constant.}
 \newblock {\em Physical review letters 109}, 11 (sep 2012), 111807.
 
+\bibitem{Atkin2015}
+{\sc Atkin, R.}
+\newblock {Review of jet reconstruction algorithms}.
+\newblock {\em Journal of Physics: Conference Series 645\/} (2015), 012008.
+
 \bibitem{Aad2011}
 {\sc ATLAS}.
 \newblock {Measurement of dijet production with a veto on additional central
@@ -182,6 +187,11 @@
   in the NLA}.
 \newblock {\em Physics Letters B 639}, 2 (aug 2006), 74--81.
 
+\bibitem{Fadin2003}
+{\sc Fadin, V.~S.}
+\newblock {Multi-{\{}Reggeon{\}} processes in {\{}QCD{\}}}.
+\newblock {\em Phys. Atom. Nucl. 66}, 11 (nov 2003), 2017--2032.
+
 \bibitem{Fadin2005}
 {\sc Fadin, V.~S.}
 \newblock {The gluon Reggeization in perturbative QCD at NLO}, nov 2005.
@@ -233,6 +243,11 @@
   Sky Maps, Systematic Errors, and Basic Results}.
 \newblock {\em The Astrophysical Journal Supplement Series 192}, 2 (feb 2011),
   14.
+
+\bibitem{Kuraev1976}
+{\sc Kuraev, E., Lipatov, L., and Fadin, V.}
+\newblock {Multiregge processes in the Yang-Mills theory}.
+\newblock {\em Sov. Phys. JETP 1263}, 1974 (1976), 443--451.
 
 \bibitem{Lindert2017}
 {\sc Lindert, J.~M., Melnikov, K., Tancredi, L., and Wever, C.}
