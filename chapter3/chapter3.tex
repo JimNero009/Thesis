@@ -8,13 +8,13 @@ There are a few reasons one might consider trying to go beyond LL with the forma
 
 \begin{enumerate}
 \item{Calculations of FKL amplitudes but with the rapidity ordering of one emitted gluon disturbed (one gluon is allowed to be emitted with a rapidity close to that of an extremal parton). We call such contributions `unordered' processes.}
-\item{Implementation of the full form of the next-to-leading expression for $\hat{\alpha}$.}
+%\item{Implementation of the full form of the next-to-leading expression for $\hat{\alpha}$.}
 \item{Corrections to the Lipatov vertex for the emission of gluons.}
 \item{Calculations of inherently non-FKL amplitudes (those which cannot be drawn with only $t$-channel gluon exchanges) that appear at the NLL level.}
 \end{enumerate}
 
 %\todo{talk more about uno here}
-The first point has already been implemented in theory\todo{add ref and rephrase this if I can!} but had not been incorporated into the program. The second point and third points have not yet been attempted but remain long-term goals of the collaboration. This thesis will consider the first and final points, providing a brief overview of the former and a complete description and derivation of the author's individual work for the latter. Including such considerations will mark an important step towards full NLL HEJ and, in the case of the addition of the non-FKL subprocesses, it extends the applicability of HEJ since we will now have a LL description of these events; in conclusion, we will be able to resum more of the contribution to the cross section. 
+The first point has already been implemented in theory\todo{add ref and rephrase this if I can!} but had not been incorporated into the program. The second point has not yet been attempted but remains long-term goals of the collaboration. This thesis will consider the first and final points, providing a brief overview of the former and a complete description and derivation of the author's individual work for the latter. Including such considerations will mark an important step towards full NLL HEJ and, in the case of the addition of the non-FKL subprocesses, it extends the applicability of HEJ since we will now have a LL description of these events; in conclusion, we will be able to resum more of the contribution to the cross section. 
 
 \section{Unordered Emissions in Pure Jets}
 %\todo{Uno section! Or incorporated into last section?}
@@ -515,7 +515,14 @@ The comparison to the full leading order result for these amplitudes (multiplied
 \label{fig:gg_gqqg}
 \end{figure}
 
-In this case, the addition of extra gluon emissions is slightly more complicated than in the previous case. Any extra emission can take place either before or after the effective central vertex in the rapidity chain. This distinction needs to be kept track of and so our extension is \todo{maybe a diagram here}
+In this case, the addition of extra gluon emissions is slightly more complicated than in the previous case. Any extra emission can take place either before or after the effective central vertex in the rapidity chain, as shown in figure \ref{fig:5jet_choice}. This distinction needs to be kept track of and so our extension is
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.75]{Images/5jet_choice.pdf}
+\caption{Extra gluon emissions can be either before (left) or after (right) the central $Q\bar{Q}$ vertex in rapidity.}
+\label{fig:5jet_choice}
+\end{figure}
 
 \begin{equation}
 \begin{split}
@@ -564,13 +571,13 @@ The explorer plots of the last two sections all serve to convince that the deriv
 It is absolutely crucial that all of these points are properly addressed and checked and such a task is necessarily time-consuming. After validating these steps by comparisons to old code with certain constraints, we can be confident that everything works as it should. In the following two sections, we move on to discuss how the inclusion of these NLL processes affects HEJ in practice. 
 
 \section{Full Phase Space Analyses}
-\todo{sums of exclsuive samples, importance at large mom - basically, explain non-FKl relevance}
-One important advantage of now being able to resum these partonic subprocesses and unordered events is that it means we have a reduced reliance on fixed-order matching codes. Before, all process that were `non-FKL' had to be included via leading order matching. We have shown here that some of these non-FKL processes can themselves be resummed and therefore can be removed from the fixed-order samples. In this section, we investigate the impact of this when we integrate over all of the relevant phase space. In the following figures, we show the total cross-section for inclusive 3 jets, broken down into the contribution coming from the resummation and the fixed order. It is desirable in these plots if the red line (the resummed contribution) is as close to the black line (the total contribution) as possible. For completeness, the relevant cuts applied were $p_{T,min} = 30$ GeV, $y_{max} = 4.4$, and $\sqrt{s} = 13$ TeV. \\
-\\
-In figure \ref{fig:fklmigration}, we show a `before and after' comparison of the $m_{fb}$ distribution. It is clear that that the inclusion of these extra processes dramatically reduces the contribution of fixed-order matrix elements across the range, but especially in the low bins. The contribution of the non-FKL processes to the total cross-section in these bins is approximately 43\% in the top plot, which drops to around 15\% in the bottom. In the high bins, the contribution drops from around 15\% to almost zero. \\
-\\
-In figure \ref{fig:fklmigration2}, we show the distributions binned instead in the $p_T$ of the hardest jet. In it, we see that a significant proportion of the fixed order matrix elements that were very significant in the high $p_T$ region (contributing close to 60\% of the cross-section there) are now included in the resummation. The net effect is to reduce the contribution to the total cross-section down to 20\%. \\
-\\
+
+One important advantage of now being able to resum these partonic subprocesses and unordered events is that it means we have a reduced reliance on fixed-order matching codes. In chapter 2, we showed how `non-FKL' contributions are sub-leading in the High Energy Limit. While this is true, there are regions that (for example) the LHC can probe which are clearly not well-described by the High Energy Limit. For instance, we could imagine a region where one parton's $p_T$ is very large, creating a significant $p_T$ hierarchy that the High Energy Limit assumes not to be there. In order for HEJ to be competitive as a prediction over the entirety of the explored phase space, we need to include some description of these types of process, which we do via the inclusion of fixed-order (currently LO) matrix elements. We have shown here that some of these non-FKL processes can themselves be resummed and therefore can be removed from the fixed-order samples. In this section, we investigate the impact of this when we integrate over all of the relevant phase space. In the following figures, we show the total cross-section for inclusive 3 jets, broken down into the contribution coming from the resummation and the fixed order. It is desirable in these plots if the red line (the resummed contribution) is as close to the black line (the total contribution) as possible. For completeness, the relevant cuts applied were $p_{T,min} = 30$ GeV, $y_{max} = 4.4$, and $\sqrt{s} = 13$ TeV. 
+
+In figure \ref{fig:fklmigration}, we show a `before and after' comparison of the $m_{fb}$ distribution. It is clear that that the inclusion of these extra processes dramatically reduces the contribution of fixed-order matrix elements across the range, but especially in the low bins. The contribution of the non-FKL processes to the total cross-section in these bins is approximately 43\% in the top plot, which drops to around 15\% in the bottom. In the high bins, the contribution drops from around 15\% to almost zero. 
+
+In figure \ref{fig:fklmigration2}, we show the distributions binned instead in the $p_T$ of the hardest jet. In it, we see that a significant proportion of the fixed order matrix elements that were very significant in the high $p_T$ region (contributing close to 60\% of the cross-section there) are now included in the resummation. The net effect is to reduce the contribution to the total cross-section down to 20\%. 
+
 Finally, in figure \ref{fig:fklmigration3} we show the analysis broken up in bins of the rapidity difference between the most forward and backward jets. There, we once more see a substantial improvement across the board, with the largest non-FKL percentage contribution of 30\% being reduced to 12\%. In the higher bins, we see again how the non-FKL contributions are tending to zero. 
 
 \begin{figure}[H] 
@@ -600,8 +607,8 @@ Finally, in figure \ref{fig:fklmigration3} we show the analysis broken up in bin
 \section{Comparisons to Data}
 %\todo{Distributions, revisits to previous analyses with these effects added in, etc} 
 %\todo{Label this diagram better. Add new ones from NLL paper?}
-To conclude the chapter, we revisit the predictions for previous analyses HEJ was involved in and investigate how these new additions improve the predictions whilst comparing with real data; for example, in an ATLAS study of dijet production with a central jet veto \cite{Aad2011}. One interesting plot is figure 6 of that paper, which is that of the average number of jets in the `gap', defined as the rapidity region between the dijet system, which in this case is given by the two highest $p_T$ jets in a event. There are a total of four different lines, which correspond to different rapidity slices, shown in figure \ref{fig:veto} which correspond to (starting at the top) $4 \leq \Delta y < 5$, $3 \leq \Delta y < 4$, $2 \leq \Delta y < 3$ and $1 \leq \Delta y < 2$. In order to distinguish them on the graph, these lines are moved up by $3,2,1$ and $0$ units respectively. The $x$-axis is $\bar{p}_T$, which is the average of the dijet system's transverse momenta. For the high energy limit HEJ considers, we should not expect this to be a good variable to plot with respect to; the limit depends on all transverse scales being roughly the same order. At high average $p_T$, we can have a large $p_T$ hierarchy. This is indeed reflected at the right-hand side of the figure. It was noted that the analysis might have been better performed by considering only the resummed part of the HEJ calculation, since it is this part that gives rise to gap jets. We therefore include both the full and resummed-only lines in this figure. In the diagram on the top left, we see a considerable difference between these two predictions. By adding these new processes, we make these lines essentially indistinguishable and at the same time capture more bins on the left-hand side of the plots. It is advantageous for the two lines to come together like this, since it eradicates the need to arbitrarily choose just the resummed predictions over the full prediction. This is a practical consequence of our lesser reliance on fixed order matching in the formalism. Going back to the plot and we see that the addition of these NLL processes still does not tell the whole story; the correct description of the bins on the right-hand side still requires the addition of parton shower effects. Since HEJ and parton showers are designed to describe completely different regions of amplitudes, this is not surprising. \\ 
-\\
+To conclude the chapter, we revisit the predictions for previous analyses HEJ was involved in and investigate how these new additions improve the predictions whilst comparing with real data; for example, in an ATLAS study of dijet production with a central jet veto \cite{Aad2011}. One interesting plot is figure 6 of that paper, which is that of the average number of jets in the `gap', defined as the rapidity region between the dijet system, which in this case is given by the two highest $p_T$ jets in a event. There are a total of four different lines, which correspond to different rapidity slices, shown in figure \ref{fig:veto} which correspond to (starting at the top) $4 \leq \Delta y < 5$, $3 \leq \Delta y < 4$, $2 \leq \Delta y < 3$ and $1 \leq \Delta y < 2$. In order to distinguish them on the graph, these lines are moved up by $3,2,1$ and $0$ units respectively. The $x$-axis is $\bar{p}_T$, which is the average of the dijet system's transverse momenta. For the high energy limit HEJ considers, we should not expect this to be a good variable to plot with respect to; the limit depends on all transverse scales being roughly the same order. At high average $p_T$, we can have a large $p_T$ hierarchy. This is indeed reflected at the right-hand side of the figure. It was noted that the analysis might have been better performed by considering only the resummed part of the HEJ calculation, since it is this part that gives rise to gap jets. We therefore include both the full and resummed-only lines in this figure. In the diagram on the top left, we see a considerable difference between these two predictions. By adding these new processes, we make these lines essentially indistinguishable and at the same time capture more bins on the left-hand side of the plots. It is advantageous for the two lines to come together like this, since it eradicates the need to arbitrarily choose just the resummed predictions over the full prediction. This is a practical consequence of our lesser reliance on fixed order matching in the formalism. Going back to the plot and we see that the addition of these NLL processes still does not tell the whole story; the correct description of the bins on the right-hand side still requires the addition of parton shower effects. Since HEJ and parton showers are designed to describe completely different regions of amplitudes, this is not surprising. 
+
 Furthermore, in a later dijet veto ATLAS analysis \cite{Aad2014}, it was observed that the predictions from the pure partonic HEJ needed to be interfaced with a parton shower in order to get the best description of the data. Although of course there are regions where a parton shower description is always going to be important, we can investigate to see if NLL effects can push the pure partonic line closer to the data by itself. For example, consider figure 3a of \cite{Aad2014}, which plots the `Gap Fraction', defined as
 
 \begin{equation}
@@ -610,7 +617,7 @@ f(Q_0) = \frac{\sigma_{jj}(Q_0)}{\sigma_{jj}},
 
 where $\sigma_{jj}$ is the inclusive dijet cross-section and $\sigma_{jj}(Q_0)$ is the cross-section for dijet production in the absence of additional jets with transverse momentum above the threshold $Q_0$ in the rapidity interval defined by the dijet system. Such an observable will clearly be sensitive to resummation effects, since we saw earlier that the rapidity gap plays a central role in the derivation of our amplitudes. In figure \ref{fig:newveto3a} we plot a comparison of data to four different HEJ runs, which correspond to the four different combinations of including/not including the unordered/sub-leading partonic process corrections. For the same reasons as before, we plot both the resummed and full HEJ lines for comparison. The bottom-right figure shows that the inclusion of both of these effects leads to a better description of the data everywhere, but in particular we gain a few extra bins at the left side of the figure when compared to the top-left.
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
 \subfloat[No NLL corrections.]{\includegraphics[scale=0.6]{Images/Veto_Plots/pf6_bare.png}}
 \subfloat[Unordered corrections.]{\includegraphics[scale=0.6]{Images/Veto_Plots/pf6_uno.png}} \\
@@ -620,7 +627,7 @@ where $\sigma_{jj}$ is the inclusive dijet cross-section and $\sigma_{jj}(Q_0)$ 
 \label{fig:veto}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
 \subfloat[No NLL corrections.]{\includegraphics[scale=0.5]{Images/Veto_Plots/pf3a_bare.png}}
 \subfloat[Unordered corrections.]{\includegraphics[scale=0.5]{Images/Veto_Plots/pf3a_uno.png}} \\
@@ -634,16 +641,21 @@ Finally, we revisit a four-jet ATLAS analysis \cite{Aad2015}. This analysis is s
 
 %\todo{Make last figure prettier - longer, less wide, better labelling}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
 \subfloat[No NLL corrections.]{\includegraphics[scale=0.4]{Images/4j_plots/pf4_bare.png}}
 \subfloat[Unordered corrections.]{\includegraphics[scale=0.4]{Images/4j_plots/pf4_uno.png}} \\
 \subfloat[Sub-leading partonic processes corrections.]{\includegraphics[scale=0.4]{Images/4j_plots/pf4_qqx.png}}
 \subfloat[Both corrections.]{\includegraphics[scale=0.4]{Images/4j_plots/pf4_qqx_uno.png}}
-\caption{Figure 4 of \cite{Aad2015} redone with corrections included and compared.}
+\caption{Figure 4 of \cite{Aad2015} redone with corrections included and compared. These 4-jet events are binned in the leading jet's $p_T$, which extends out to high values ($\approx 3$TeV). Despite this, HEJ tracks the data very well, especially once both the $NLL$ corrections are included.}
 \label{fig:4jet}
 \end{figure}
 
-\todo{add more to last cpation}
+\todo{ratio plot? Also, sort out the formatting}
 
-\todo{add summary of chapter here}
+\section{Summary}
+In this chapter we have presented the beginnings of the work needed to extend HEJ to NLL accuracy. Specifically, we provided details of the calculation of so-called unordered amplitudes, where an FKL amplitude is modified such that an emitted gluon is taken outside of the previously extremal partons. Following on from that, we discussed how some inherently non-FKL amplitudes could also be included in our resummation procedure, by virtue of the fact that the Lipatov ansatz holds at the next-to-leading level.
+
+The derivation of these new amplitudes dominated the subject matter of the chapter and correctness checks such as gauge invariance and limit checks were presented as we went along. Once we were happy that the amplitudes were behaving in the way we expected, there were carefully and correctly incorporated into the HEJ program. Section 3.5 provided details of how this inclusion affected various distributions when integrating over phase space. 
+
+The chapter concluded with comparison to real data. In all cases, it was seen that the addition of the corrections pushed our predictions closer towards the recorded data. We are now in a position to include these NLL processes as part of the standard HEJ package. 

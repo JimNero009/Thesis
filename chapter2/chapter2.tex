@@ -336,8 +336,8 @@ The Eikonal Approximation is a way of simplifying the structure of vertex functi
 \label{fig:eikonal}
 \end{figure}
 
-where in the last line we have used $\bar{u}(p) \slashed{p} = 0$ by virtue of the Dirac equation. A similar result holds if we replace our quarks with gluons as well, so the approximation is `blind' to the spin of the particle emitting the gluon, an effect that allows us to very easily relate quarks and gluons in the High Energy Limit even as the final state multiplicity increases. We then see that the leading terms in the High Energy limit are equivalent to the leading terms in the Eikonal Limit. \\
-\\
+where in the last line we have used $\bar{u}(p) \slashed{p} = 0$ by virtue of the Dirac equation. A similar result holds if we replace our quarks with gluons as well, so the approximation is `blind' to the spin of the particle emitting the gluon, an effect that allows us to very easily relate quarks and gluons in the High Energy Limit even as the final state multiplicity increases. We then see that the leading terms in the High Energy limit are equivalent to the leading terms in the Eikonal Limit. 
+
 Using this approximation, we can calculate the four diagrams with a gluon emitted from the extremal legs straightforwardly. The result of adding all these contributions together gives
 
 \begin{equation}
@@ -607,8 +607,8 @@ with
 \end{align}
 \end{subequations}
 
-It is important to note here that the error estimate here assumes the error is distributed in a Gaussian fashion. We clearly see that it scales as $N^{-\frac{1}{2}}$, which is rather slowly convergent, but the important point is that it is \emph{completely independent of the dimensionality} of the problem.  \\
-\\
+It is important to note here that the error estimate here assumes the error is distributed in a Gaussian fashion. We clearly see that it scales as $N^{-\frac{1}{2}}$, which is rather slowly convergent, but the important point is that it is \emph{completely independent of the dimensionality} of the problem.  
+
 The last step is to increase the domain of integration to the larger area $V_2$ that encapsulates entirely $V_C$:
 
 \begin{equation}
@@ -624,8 +624,8 @@ Then, since in our original problem the integral we are interested in is simply 
 \end{split}
 \end{equation}
 
-which is the statement we started with. \\
-\\
+which is the statement we started with. 
+
 We could imagine extending this experiment in two ways. Firstly, we could be interested in the behaviour of a more complicated function within a volume (i.e., a more complicated $f$). Secondly, we could also think about taking the problem into three dimensions by considering a sphere enclosed within a cube. Indeed, mathematically speaking, we could extend this into as many dimensions as we desire, to the point where we no longer have such an obvious geometric interpretation of the problem. It is precisely the arena of high-dimensionality integration problems with complicated integrands where Monte Carlo techniques come into their own.
 
 \subsection{Monte Carlo in High Energy Jets}
@@ -655,8 +655,8 @@ and so the problem is clearly suited to evaluation by Monte Carlo methods. The g
 
 \end{enumerate}
 
-Such a technique is perfectly acceptable and results can be achieved this way. However, if we are simply generating random numbers flatly in these steps then we are being needlessly inefficient. For example, we see from graphs of Parton Distribution Functions that there are clear areas where the value of it is much larger than at other points. If we simply generate flatly then we equally sample these two regions which will clearly hurt our convergence. Indeed, there is a technique to combat this called \emph{importance sampling}. \\
-\\
+Such a technique is perfectly acceptable and results can be achieved this way. However, if we are simply generating random numbers flatly in these steps then we are being needlessly inefficient. For example, we see from graphs of Parton Distribution Functions that there are clear areas where the value of it is much larger than at other points. If we simply generate flatly then we equally sample these two regions which will clearly hurt our convergence. Indeed, there is a technique to combat this called \emph{importance sampling}. 
+
 Importance sampling is aimed at reducing as much as possible the value of $\sqrt{\left<f \right>^2 - \left<f^2 \right>} \equiv \sigma_{MC}$, also known as the \emph{variance}, which we saw was directly related to the estimate of the error. To see how this achieved, let us consider a one-dimensional integral and utilise our freedom to multiply and divide by another (well-behaved) distribution $q(x)$:
 
 \begin{equation}
@@ -731,10 +731,10 @@ When calculating scale variations, we take the scale as defined and then vary in
 
 \section{Experimental Analyses}
 
-We have spent the best part of this chapter arguing from a theoretical standpoint that the systematic treatment of High Energy logarithms is required for the accurate description of LHC data. We would like to end this chapter by providing plots from actual LHC analyses to see if the experimental data actually agrees with that statement. HEJ has been used in a wide range of experimental analyses \cite{Aad2011, Chatrchyan2012, Chatrchyan2012a,Abazov2013,Aad2014a,Aad2014,Aad2015} and we present a few select plots for discussion here. To understand them all fully, we first need to explain a couple of other features of HEJ we have not yet presented. \\
-\\
-Firstly, HEJ includes a multiplicative matching to full LO calculations for matrix elements up to and including four final state jets. After a process has been clustered into final state jets, the matrix element is recalculated with the jet momenta\footnote{Since some partons may not make it into final state jets, momentum conservation may not necessarily hold here. This is solved by distributing the momenta of partons that are not included into the jets in such a way as to keep it as close as possible to the original jet momenta.} along with the full LO matrix element (currently provided by \emph{MadGraph} \cite{Alwall2011}) and the process is multiplied by the ratio of the full LO to our matrix element. We also include full LO matrix elements for non-FKL processes, which we saw are sub-leading in the high energy limit. Including matching in this way allows HEJ to be as competitive as other approaches in areas far away from the high energy limit it is designed for. \\
-\\
+We have spent the best part of this chapter arguing from a theoretical standpoint that the systematic treatment of High Energy logarithms is required for the accurate description of LHC data. We would like to end this chapter by providing plots from actual LHC analyses to see if the experimental data actually agrees with that statement. HEJ has been used in a wide range of experimental analyses \cite{Aad2011, Chatrchyan2012, Chatrchyan2012a,Abazov2013,Aad2014a,Aad2014,Aad2015} and we present a few select plots for discussion here. To understand them all fully, we first need to explain a couple of other features of HEJ we have not yet presented. 
+
+Firstly, HEJ includes a multiplicative matching to full LO calculations for matrix elements up to and including four final state jets. After a process has been clustered into final state jets, the matrix element is recalculated with the jet momenta\footnote{Since some partons may not make it into final state jets, momentum conservation may not necessarily hold here. This is solved by distributing the momenta of partons that are not included into the jets in such a way as to keep it as close as possible to the original jet momenta.} along with the full LO matrix element (currently provided by \emph{MadGraph} \cite{Alwall2011}) and the process is multiplied by the ratio of the full LO to our matrix element. We also include full LO matrix elements for non-FKL processes, which we saw are sub-leading in the high energy limit. Including matching in this way allows HEJ to be as competitive as other approaches in areas far away from the high energy limit it is designed for. 
+
 Secondly, it is possible to interface HEJ with the \emph{parton shower} ARIADNE \cite{Andersen2011}. A parton shower is designed to simulate the hadronisation of the event and as such is a completely distinct problem from that of calculating the hard scattering matrix element that HEJ provides. The specifics of the technique are interesting \cite{Hoche2014} but beyond the scope of this thesis. The important point is that a combined HEJ+ARIADNE program can describe the high energy behaviour of the hard scattering element along with the soft behaviour of the parton shower. 
 
 \begin{figure}[t]
@@ -763,6 +763,6 @@ Figure \ref{fig:4jetan} shows the cross-section for a process involving at least
 \label{fig:vetoptbar}
 \end{figure}
 
-Figure \ref{fig:vetoptbar} is a plot from an analysis involving a jet veto. A scale (in this case, 30 GeV) is chosen whereby any extra jet emission in a rapidity gap between a defined two-jet system (here, the most forward and backward jets) is vetoed. Such a measurement is useful for testing perturbative predictions on the absence of activity in the gap; for example, we see from our HEJ amplitude that a large $\Delta y$ corresponds to a larger value of the resummation exponential. The predictions for both HEJ and HEJ+ARIADNE are shown for an observable related to the angular decorrelation of the dijet system. It is clear in this case that the best description of data comes from having both the high energy and the parton shower effects included; in the first few bins the partonic HEJ, which only includes the former, overshoots, and the POWHEG line, which only includes the latter, undershoots. \\
-\\
+Figure \ref{fig:vetoptbar} is a plot from an analysis involving a jet veto. A scale (in this case, 30 GeV) is chosen whereby any extra jet emission in a rapidity gap between a defined two-jet system (here, the most forward and backward jets) is vetoed. Such a measurement is useful for testing perturbative predictions on the absence of activity in the gap; for example, we see from our HEJ amplitude that a large $\Delta y$ corresponds to a larger value of the resummation exponential. The predictions for both HEJ and HEJ+ARIADNE are shown for an observable related to the angular decorrelation of the dijet system. It is clear in this case that the best description of data comes from having both the high energy and the parton shower effects included; in the first few bins the partonic HEJ, which only includes the former, overshoots, and the POWHEG line, which only includes the latter, undershoots. 
+
 All of these analyses were performed during the first run of the LHC with a centre-of-mass energy of either 7 or 8 TeV. Run II will provide us with data for events at a centre of mass energy of 13 or 14 TeV and so we expect that the effect of these high energy logarithms will become even more prevalent in future analyses. 

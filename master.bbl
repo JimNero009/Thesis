@@ -1,50 +1,51 @@
 \begin{thebibliography}{10}
 
 \bibitem{Alwall2007}
-{\sc Alwall, J., Demin, P., {De Visscher}, S., Frederix, R., Herquet, M.,
+{\sc Alwall, J., Demin, P., de~Visscher, S., Frederix, R., Herquet, M.,
   Maltoni, F., Plehn, T., Rainwater, D.~L., and Stelzer, T.}
-\newblock {MadGraph/MadEvent v4: The new web generation}.
+\newblock {MadGraph/MadEvent v4: The New Web Generation}.
 
 \bibitem{Alwall2011}
-{\sc Alwall, J., Herquet, M., Maltoni, F., Mattelaer, O., and Stelzer, T.}
-\newblock {MadGraph 5: Going Beyond}.
+{\sc Alwall, J., Herquet, M., Maltoni, F., Mattelaerc, O., and Stelzerd, T.}
+\newblock {MadGraph 5: Going beyond}.
 \newblock {\em Journal of High Energy Physics 2011}, 6 (jun 2011), 128.
+
+\bibitem{Andersen2011a}
+{\sc Andersen, J.~R., Hapola, T., and Smillie, J.~M.}
+\newblock {W plus multiple jets at the LHC with High Energy jets}.
+\newblock {\em Journal of High Energy Physics 2012}, 9 (jun 2012), 10.
 
 \bibitem{Andersen2012}
 {\sc Andersen, J.~R., Hapola, T., and Smillie, J.~M.}
-\newblock {W plus multiple jets at the LHC with high energy jets}.
+\newblock {W plus multiple jets at the LHC with High Energy jets}.
 \newblock {\em Journal of High Energy Physics 2012}, 9 (sep 2012), 47.
 
 \bibitem{Andersen2011}
-{\sc Andersen, J.~R., L{\"{o}}nnblad, L., and Smillie, J.~M.}
+{\sc Andersen, J.~R., Lonnblad, L., and Smillied, J.~M.}
 \newblock {A parton shower for High Energy Jets}.
 \newblock {\em Journal of High Energy Physics 2011}, 7 (jul 2011), 110.
 
 \bibitem{Andersen2016}
 {\sc Andersen, J.~R., Medley, J.~J., and Smillie, J.~M.}
-\newblock {Z/$\gamma$∗ plus multiple hard jets in high energy collisions}.
+\newblock {Z/gamma* plus multiple hard jets in high energy collisions}.
 \newblock {\em Journal of High Energy Physics 2016}, 5 (may 2016), 136.
-
-\bibitem{Andersen2010}
-{\sc Andersen, J.~R., and Smillie, J.~M.}
-\newblock {The Factorisation of the t-channel Pole in Quark-Gluon Scattering}.
-\newblock {\em Physical Review D\/} (oct 2009), 10.
 
 \bibitem{Andersen2009a}
 {\sc Andersen, J.~R., and Smillie, J.~M.}
 \newblock {Constructing all-order corrections to multi-jet rates}.
 \newblock {\em Journal of High Energy Physics 2010}, 1 (jan 2010), 39.
 
-\bibitem{Andersen2011a}
+\bibitem{Andersen2010}
 {\sc Andersen, J.~R., and Smillie, J.~M.}
-\newblock {Multiple jets at the LHC with high energy jets}.
-\newblock {\em Journal of High Energy Physics 2011}, 6 (jun 2011), 10.
+\newblock {Factorization of the t-channel pole in quark-gluon scattering}.
+\newblock {\em Physical Review D - Particles, Fields, Gravitation and Cosmology
+  81}, 11 (oct 2010), 10.
 
 \bibitem{Aoyama2012}
 {\sc Aoyama, T., Hayakawa, M., Kinoshita, T., and Nio, M.}
 \newblock {Tenth-order QED contribution to the electron g-2 and an improved
-  value of the fine structure constant.}
-\newblock {\em Physical review letters 109}, 11 (sep 2012), 111807.
+  value of the fine structure constant}.
+\newblock {\em Physical Review Letters 109}, 11 (sep 2012), 111807.
 
 \bibitem{Atkin2015}
 {\sc Atkin, R.}
@@ -54,43 +55,41 @@
 \bibitem{Aad2011}
 {\sc ATLAS}.
 \newblock {Measurement of dijet production with a veto on additional central
-  jet activity in pp collisions at sqrt s = 7 TeV using the ATLAS detector}.
-\newblock {\em Journal of High Energy Physics 2011}, 9 (sep 2011), 53.
+  jet activity in pp collisions at sqrt s = 7TeV using the ATLAS detector}.
+\newblock {\em Journal of High Energy Physics 2011}, 9 (sep 2011), 1--36.
 
 \bibitem{Aad2012}
 {\sc ATLAS}.
 \newblock {Observation of a new particle in the search for the Standard Model
   Higgs boson with the ATLAS detector at the LHC}.
-\newblock {\em Physics Letters B 716}, 1 (sep 2012), 1--29.
+\newblock {\em Physics Letters, Section B: Nuclear, Elementary Particle and
+  High-Energy Physics 716}, 1 (sep 2012), 1--29.
 
 \bibitem{Aad2014}
 {\sc ATLAS}.
 \newblock {Measurements of jet vetoes and azimuthal decorrelations in dijet
-  events produced in pp collisions at sqrt{\{}s{\}}=7TeV using the ATLAS
-  detector.}
-\newblock {\em The European physical journal. C, Particles and fields 74}, 11
-  (jan 2014), 3117.
+  events produced in pp collisions at sqrt s = 7 TeV using the ATLAS detector}.
+\newblock {\em European Physical Journal C 74}, 11 (jan 2014), 3117.
+
+\bibitem{Aad2015}
+{\sc ATLAS}.
+\newblock {Measurement of four-jet differential cross sections in sqrt s = 8
+  TeV proton-proton collisions using the ATLAS detector}.
+\newblock {\em Journal of High Energy Physics 2015}, 12 (dec 2015), 1--76.
 
 \bibitem{Aad2014a}
 {\sc ATLAS}.
 \newblock {Measurements of the W production cross sections in association with
-  jets with the ATLAS detector.}
-\newblock {\em The European physical journal. C, Particles and fields 75}, 2
-  (jan 2014), 82.
-
-\bibitem{Aad2015}
-{\sc ATLAS}.
-\newblock {Measurement of four-jet differential cross sections in s = 8
-  sqrt{\{}s{\}}=8 TeV proton-proton collisions using the ATLAS detector}.
-\newblock {\em Journal of High Energy Physics 2015}, 12 (dec 2015), 105.
+  jets with the ATLAS detector}.
+\newblock {\em European Physical Journal C 75}, 2 (jan 2015), 82.
 
 \bibitem{Bertone2005}
 {\sc Bertone, G., Hooper, D., and Silk, J.}
-\newblock {Particle dark matter: evidence, candidates and constraints}.
-\newblock {\em Physics Reports 405}, 5 (2005), 279--390.
+\newblock {Particle dark matter: Evidence, candidates and constraints}.
+\newblock {\em Physics Reports 405}, 5-6 (2005), 279--390.
 
 \bibitem{Bogdan2006}
-{\sc Bogdan, A., and Fadin, V.}
+{\sc Bogdan, A.~V., and Fadin, V.~S.}
 \newblock {A proof of the reggeized form of amplitudes with quark exchanges}.
 \newblock {\em Nuclear Physics B 740}, 1-2 (apr 2006), 36--57.
 
@@ -98,16 +97,17 @@
 {\sc Buckley, A., Ferrando, J., Lloyd, S., Nordstrom, K., Page, B., Ruefenacht,
   M., Schoenherr, M., and Watt, G.}
 \newblock {LHAPDF6: parton density access in the LHC precision era}.
+\newblock {\em European Physical Journal C 75}, 3 (dec 2015).
 
 \bibitem{Cacciari2012}
 {\sc Cacciari, M., Salam, G.~P., and Soyez, G.}
 \newblock {FastJet user manual}.
-\newblock {\em The European Physical Journal C 72}, 3 (mar 2012), 1896.
+\newblock {\em The European Physical Journal C 72}, 3 (mar 2011), 1896.
 
 \bibitem{Chetyrkin1981}
 {\sc Chetyrkin, K.~G., and Tkachov, F.~V.}
-\newblock {Integration by parts: The algorithm to calculate beta-functions in 4
-  loops}.
+\newblock {Integration by parts: The algorithm to calculate $\beta$-functions
+  in 4 loops}.
 \newblock {\em Nuclear Physics, Section B 192}, 1 (nov 1981), 159--204.
 
 \bibitem{Chatrchyan2012a}
@@ -120,23 +120,21 @@
 \bibitem{Chatrchyan2012}
 {\sc CMS}.
 \newblock {Ratios of dijet production cross sections as a function of the
-  absolute difference in rapidity between jets in proton–proton collisions at
-  sqrt s = 7 TeV}.
-\newblock {\em The European Physical Journal C 72}, 11 (nov 2012), 2216.
+  absolute difference in rapidity between jets in proton-proton collisions at
+  sqrt s = 7TeV}.
+\newblock {\em European Physical Journal C 72}, 11 (nov 2012), 1--18.
 
 \bibitem{Cutkosky1960}
 {\sc Cutkosky, R.~E.}
-\newblock {Singularities and Discontinuities of Feynman Amplitudes
-  Singularities and Discontinuities of Feynman Amplitudes}.
-\newblock {\em Journal of Mathematical Physics J. Math. Phys. J. Math. Phys. J.
-  Math. Phys. Mass Singularities of Feynman Amplitudes J. Math. Phys 1}, 10
-  (sep 1960), 429--1833.
+\newblock {Singularities and Discontinuities of Feynman Amplitudes}.
+\newblock {\em Journal of Mathematical Physics 1}, 5 (sep 1960), 429--433.
 
 \bibitem{Abazov2013}
 {\sc D0}.
-\newblock {Studies of W boson plus jets production in pp collisions at
-  sqrt[s]=1.96 TeV}.
-\newblock {\em Physical Review D 88}, 9 (nov 2013), 092001.
+\newblock {Studies of W boson plus jets production in pp̄ collisions at
+  √s=1.96 TeV}.
+\newblock {\em Physical Review D - Particles, Fields, Gravitation and Cosmology
+  88}, 9 (nov 2013), 092001.
 
 \bibitem{DelDuca1995}
 {\sc {Del Duca}, V.}
@@ -156,9 +154,9 @@
 \newblock {\em Physical Review D 67}, 7 (apr 2003), 073003.
 
 \bibitem{Dirac}
-{\sc Dirac, P.~A.}
-\newblock {\em {The Principles of Quantum Mechanics}}.
-\newblock No.~4. Birkh{\"{a}}user-Verlag, dec 1958.
+{\sc Dirac, P.}
+\newblock {\em {The Principles of Quantum Mechanics}}, vol.~8.
+\newblock Birkh{\"{a}}user-Verlag, dec 2006.
 
 \bibitem{Dixon1996}
 {\sc Dixon, L.}
@@ -175,51 +173,46 @@
 \newblock {Scattering Amplitudes}.
 \newblock 269.
 
-\bibitem{Hagiwara2002}
-{\sc et~al Hagiwara, K.}
-\newblock {Review of Particle Physics: Particle data group}.
-\newblock {\em Physical Review D - Particles, Fields, Gravitation and Cosmology
-  66}, 1 I (jul 2002), 100011--10001958.
-
-\bibitem{Fadin2006}
-{\sc Fadin, V., Fiore, R., Kozlov, M., and Reznichenko, A.}
-\newblock {Proof of the multi-Regge form of QCD amplitudes with gluon exchanges
-  in the NLA}.
-\newblock {\em Physics Letters B 639}, 2 (aug 2006), 74--81.
-
 \bibitem{Fadin2003}
 {\sc Fadin, V.~S.}
-\newblock {Multi-{\{}Reggeon{\}} processes in {\{}QCD{\}}}.
+\newblock {Multi-Reggeon processes in QCD}.
 \newblock {\em Phys. Atom. Nucl. 66}, 11 (nov 2003), 2017--2032.
 
 \bibitem{Fadin2005}
 {\sc Fadin, V.~S.}
 \newblock {The gluon Reggeization in perturbative QCD at NLO}, nov 2005.
 
+\bibitem{Fadin2006}
+{\sc Fadin, V.~S., Fiore, R., Kozlov, M.~G., and Reznichenko, A.~V.}
+\newblock {Proof of the multi-Regge form of QCD amplitudes with gluon exchanges
+  in the NLA}.
+\newblock {\em Physics Letters, Section B: Nuclear, Elementary Particle and
+  High-Energy Physics 639}, 2 (aug 2006), 74--81.
+
 \bibitem{Fadin2004}
-{\sc Fadin, V.~S., Kozlov, M.~G., and Reznichenko, A.~V.}
-\newblock {Radiative corrections to QCD amplitudes in quasi-multi-Regge
+{\sc Fadin, V.~S., and Lipatov, L.~N.}
+\newblock {Radiative corrections to QCD scattering amplitudes in a multi-Regge
   kinematics}.
-\newblock {\em Physics of Atomic Nuclei 67}, 2 (feb 2004), 359--375.
+\newblock {\em Nuclear Physics, Section B 406}, 1-2 (feb 1993), 259--292.
 
 \bibitem{pomeronbook}
-{\sc Forshaw, J., and Shaw, D.}
-\newblock {\em {Quantum Chromodynamics and the Pomeron}}, vol.~d.
+{\sc Forshaw, J.~R., and Ross, D.~A.}
+\newblock {\em {Quantum chromodynamics and the pomeron}}, vol.~9.
 \newblock 1997.
 
 \bibitem{Grazzini2013}
 {\sc Grazzini, M., and Sargsyan, H.}
 \newblock {Heavy-quark mass effects in Higgs boson production at the LHC}.
-\newblock {\em Journal of High Energy Physics}, June 2013 (jun 2013).
+\newblock {\em Journal of High Energy Physics 2013}, 9 (jun 2013).
 
 \bibitem{Hahn1999}
 {\sc Hahn, T., and P{\'{e}}rez-Victoria, M.}
 \newblock {Automated one-loop calculations in four and D dimensions}.
-\newblock {\em Computer Physics Communications 118}, 2-3 (may 1999), 153--165.
+\newblock {\em Computer Physics Communications 118}, 2 (may 1999), 153--165.
 
 \bibitem{Higgs1964}
 {\sc Higgs, P.~W.}
-\newblock {Broken Symmetries and the Masses of Gauge Bosons}.
+\newblock {Broken symmetries and the masses of gauge bosons}.
 \newblock {\em Physical Review Letters 13}, 16 (oct 1964), 508--509.
 
 \bibitem{Hoche2014}
@@ -239,9 +232,9 @@
   Limon, M., Meyer, S.~S., Nolta, M.~R., Odegard, N., Page, L., Smith, K.~M.,
   Spergel, D.~N., Tucker, G.~S., Weiland, J.~L., Wollack, E., and Wright,
   E.~L.}
-\newblock {Seven-year Wilkinson Microwave Anisotropy Probe (WMAP) Observations:
+\newblock {Seven-Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations:
   Sky Maps, Systematic Errors, and Basic Results}.
-\newblock {\em The Astrophysical Journal Supplement Series 192}, 2 (feb 2011),
+\newblock {\em The Astrophysical Journal Supplement Series 192}, 2 (feb 2010),
   14.
 
 \bibitem{Kuraev1976}
@@ -255,28 +248,35 @@
   LHC}.
 
 \bibitem{PDG}
-{\sc Olive, K., and Group, P.~D.}
+{\sc Olive, K.}
 \newblock {Review of Particle Physics}.
 \newblock {\em Chinese Physics C 40}, 10 (oct 2016), 100001.
 
+\bibitem{Hagiwara2002}
+{\sc {Particle Data Group}}.
+\newblock {Review of Particle Physics}.
+\newblock {\em Physics Letters, Section B: Nuclear, Elementary Particle and
+  High-Energy Physics 667}, 1-5 (jul 2008), 1--6.
+
 \bibitem{Peskin1995}
-{\sc Peskin, M.~E., and Schroeder, D.~V.}
-\newblock {\em {An Introduction To Quantum Field Theory}}, vol.~47.
-\newblock 1995.
+{\sc Peskin, M.~E., Schroeder, D.~V., and Martinec, E.}
+\newblock {\em {An Introduction to Quantum Field Theory}}, vol.~49.
+\newblock 1996.
+
+\bibitem{Soper1997}
+{\sc Placakyte, R., Collaboration, f. t.~H., and Collaboration, f. t.~Z.}
+\newblock {Parton Distribution Functions}.
+\newblock {\em Nuclear Physics B - Proceedings Supplements 53}, 1 (2011),
+  69--80.
 
 \bibitem{Sjostrand2007}
 {\sc Sj{\"{o}}strand, T., Mrenna, S., and Skands, P.}
-\newblock {A Brief Introduction to PYTHIA 8.1}.
+\newblock {A brief introduction to PYTHIA 8.1}.
+\newblock {\em Computer Physics Communications 178}, 11 (oct 2008), 852--867.
 
 \bibitem{Skands2011}
 {\sc Skands, P.}
 \newblock {QCD for Collider Physics}.
-
-\bibitem{Soper1997}
-{\sc Soper, D.~E.}
-\newblock {Parton distribution functions}.
-\newblock {\em Nuclear Physics B - Proceedings Supplements 53}, 1 (1997),
-  69--80.
 
 \bibitem{Srednicki2007}
 {\sc Srednicki, M.}

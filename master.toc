@@ -25,9 +25,9 @@
 \contentsline {subsection}{\numberline {2.2.3}$qQ \to qgQ$ in the High Energy Limit}{55}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Resummation Technique}{59}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Lipatov Ansatz}{59}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Combining Real and Virtual Corrections at All Orders}{61}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Combining Real and Virtual Corrections at All Orders}{60}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Monte Carlo Implementation}{63}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}The Motivation Behind Monte Carlo}{64}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}The Motivation Behind Monte Carlo}{63}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Monte Carlo in High Energy Jets}{67}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Concerning Partons and Jets}{69}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}Scale Variations}{71}{subsection.2.4.4}
@@ -40,20 +40,21 @@
 \contentsline {subsection}{\numberline {3.3.2}Verifications of the Extremal $q\mathaccentV {bar}016{q}$ Vertex}{87}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Calculation of $qq' \to qQ\mathaccentV {bar}016{Q}q'$ in the High Energy Limit}{91}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Verifications of the Central $q\mathaccentV {bar}016{q}$ Vertex}{96}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Computational Aspects}{101}{section.3.4}
-\contentsline {section}{\numberline {3.5}Full Phase Space Analyses}{102}{section.3.5}
-\contentsline {section}{\numberline {3.6}Comparisons to Data}{106}{section.3.6}
-\contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{112}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{112}{section.4.1}
-\contentsline {section}{\numberline {4.2}Calculations of $H$ + Jets with Finite Quark Mass Effects}{115}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{115}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}$gq \to Hgq$}{118}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Checks and Verifications of Amplitudes}{133}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Computational Aspects}{142}{section.4.3}
-\contentsline {section}{\numberline {4.4}Results}{142}{section.4.4}
-\contentsline {chapter}{\numberline {5}Conclusions}{150}{chapter.5}
-\contentsline {chapter}{\numberline {A}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{153}{appendix.A}
+\contentsline {section}{\numberline {3.4}Computational Aspects}{102}{section.3.4}
+\contentsline {section}{\numberline {3.5}Full Phase Space Analyses}{103}{section.3.5}
+\contentsline {section}{\numberline {3.6}Comparisons to Data}{107}{section.3.6}
+\contentsline {section}{\numberline {3.7}Summary}{114}{section.3.7}
+\contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{115}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{115}{section.4.1}
+\contentsline {section}{\numberline {4.2}Calculations of $H$ + Jets with Finite Quark Mass Effects}{118}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{118}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}$gq \to Hgq$}{121}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Checks and Verifications of Amplitudes}{136}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Computational Aspects}{145}{section.4.3}
+\contentsline {section}{\numberline {4.4}Results}{145}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusions}{153}{chapter.5}
+\contentsline {chapter}{\numberline {A}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{156}{appendix.A}
 \tocappendix 
-\contentsline {chapter}{\numberline {B}Relating the Unordered Vertex to the $q\mathaccentV {bar}016{q}$ Vertex}{160}{appendix.B}
-\contentsline {chapter}{Bibliography}{164}{section*.88}
+\contentsline {chapter}{\numberline {B}Relating the Unordered Vertex to the $q\mathaccentV {bar}016{q}$ Vertex}{163}{appendix.B}
+\contentsline {chapter}{Bibliography}{167}{section*.79}
 \contentsfinish 
