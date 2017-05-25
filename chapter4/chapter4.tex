@@ -112,7 +112,7 @@ where the phase factor of $-i$ arises from a difference in convention and is uni
 |M_{qQ \to qHQ}^{HE,ggH}|^2 &= \frac{1}{4(N_C^2 - 1)} ||S_{qQ \to qHQ}^{\hspace{2pt} m_t}(q_1, q_2)||^2 \\
 & \cdot \left(g^2 C_F \frac{1}{\hat{t}_1} \right) \\
 & \cdot \left(\frac{1}{\hat{t}_1} \left(\frac{-4 g_s^2 m_t^2}{v} \right)^2 \frac{1}{\hat{t}_2} \right) \\
-& \cdot \left(g^2 C_F \frac{1}{\hat{t}_2} \right).
+& \cdot \left(g^2 C_F \frac{1}{\hat{t}_2} \right)
 \end{split}
 \end{equation}
 
@@ -121,11 +121,11 @@ with
 \begin{equation}
 S_{qQ \to qHQ}^{\hspace{2pt} m_t}(q_1, q_2) = \matel{1}{\mu}{a} (\eta^{\mu \nu}A_2(-q_1,q_2) + q_1^\nu q_2^\mu A_1(-q_1,q_2))\matel{2}{\nu}{b}. 
 \end{equation}
-%\todo{Finish this off with a plot showing the difference}
+\todo{could show some numerical comparison here}
 
 \subsection{$gq \to Hgq$}
 
-The situation where the Higgs is emitted close to an extremal gluon involves a much more thorough calculation. We will start by finding the general leading order expression and then use knowledge of the high energy limit considered ($y_H \sim y_1 \gg y_2$) to again factorise the expression into the form HEJ requires, shown schematically in figure \ref{fig:gqH_imp} and of the form
+The situation where the Higgs is emitted outside of an extremal gluon involves a much more thorough calculation. We will start by finding the general leading order expression and then use knowledge of the high energy limit considered ($y_H \sim y_1 \gg y_2$) to again factorise the expression into the form HEJ requires, shown schematically in figure \ref{fig:gqH_imp} and of the form
 
 \begin{equation}
 M \sim \frac{Z^{\mu}(p_a,p_1,p_H) \matel{2}{\mu}{b}}{\hat{t}_2},
@@ -139,10 +139,10 @@ M \sim \frac{Z^{\mu}(p_a,p_1,p_H) \matel{2}{\mu}{b}}{\hat{t}_2},
 \label{fig:gqH_imp}
 \end{figure}
 
-assuming that the polarisation vectors of the external gluons have been contracted with the effective vertex. Here, $\hat{t}_2 = p_2 - p_b$ is the $t$-channel pole we will resum (the definition of $\hat{t}_i$ used in the previous chapter no longer holds here since we have an extra momentum to consider). There are 20 leading order diagrams to consider in total, which is reduced to 10 after invoking Furry's Theorem \cite{Atkin2015}, which states that diagrams involving an anti-quark loop can be related to diagrams with a quark loop. A selection of these diagrams is shown in figure \ref{fig:qgh_lo}. We will use \cite{DelDuca2001} as a guide for our work. In particular, we choose to use the following function for our parametrisation of the top-quark triangle loop, keeping full top mass dependence:
+assuming that the polarisation vectors of the external gluons have been contracted with the effective vertex. Here, $\hat{t}_2 = p_2 - p_b$ is the $t$-channel pole we will resum (the definition of $\hat{t}_i$ used in the previous chapter no longer holds here since we have an extra momentum to consider). There are 20 leading order diagrams to consider in total, which is reduced to 10 after invoking Furry's Theorem \cite{Atkin2015}, which states that diagrams involving an anti-quark loop can be related to diagrams with a quark loop. A selection of these diagrams is shown in figure \ref{fig:qgh_lo}. We will use \cite{DelDuca2001} as a guide for our work. We begin by finding a suitable parametrisation for the triangle graphs that appear in the amplitudes. Using Furry's Theorem, we find that we can describe these graphs (one with a quark running around the loop and the other with an anti-quark) using only one object, $T^{\mu_1 \mu_2}(q_1,q_2)$. Gauge invariance of these graphs implies $q_1^{\mu_1} T_{\mu_1 \mu_2} = q_2^{\mu_2}T_{\mu_1 \mu_2} = 0$, and so the generic tensor structure is
 
 \begin{equation}
-T^{\mu_1 \mu_2} = F_T(q_1^2, q_2^2,(q_1+q_2)^2) T_T^{\mu_1 \mu_2} + F_L(q_1^2, q_2^2,(q_1+q_2)^2) T_L^{\mu_1 \mu_2},
+T^{\mu_1 \mu_2} (q_1, q_2) = F_T(q_1^2, q_2^2,(q_1+q_2)^2) T_T^{\mu_1 \mu_2} + F_L(q_1^2, q_2^2,(q_1+q_2)^2) T_L^{\mu_1 \mu_2},
 \end{equation}
 
 \begin{figure}[t] 
@@ -177,14 +177,14 @@ A_1(q_1,q_2) &= \frac{i}{(4 \pi)^2}F_T(q_1,q_2), \\
 A_2(q_1,q_2) &= \frac{i}{(4 \pi)^2}\left(F_T(q_1,q_2) q_1 \cdot q_2 + F_L(q_1,q_2)q_1^2q_2^2 \right).
 \end{split}
 \end{equation}
-
+\todo{should refer to T and L as transverse and longitudinal}
 An interesting point to notice is that, if one of the momenta $q_1$ or $q_2$ is on-shell, we only get a contribution from the $F_T$ term in $T^{\mu \nu}$. This comes about because the presence of an on-shell momenta must mean that the vertex is going to be contracted with the relevant polarisation vector, setting the term proportional to $F_L$ to zero. When this happens, we will write $T_R$ in place of $T$ to remind ourselves of this. Finally, since we know that every graph contributes at the same order in $\alpha_s$, has a Yukawa coupling from the top loop and has factors from loop integrals, we conveniently define
 
 \begin{equation}
  F = \frac{4 m_t^2}{v} \alpha_s^2, 
 \end{equation}
 
-and multiply $F$ into every graph as in \cite{DelDuca2001}. This slightly changes the Feynman rules for QCD that we should use in that all coupling information is now removed.\\
+and multiply $F$ into every graph as in \cite{DelDuca2001}. This slightly changes the Feynman rules for QCD that we should use in that all coupling information is now factored out for convenience.\\
 \\
 We now begin the process of finding the full LO expression. We start with the graph shown in the top left of figure \ref{fig:qgh_lo}, where the Higgs is emitted from the gluon leg with momentum $p_1$. The Feynman rules yield
 
@@ -231,7 +231,7 @@ A_3 &= \frac{-iF f^{a1t}T^t_{2b}}{(p_a-p_1)^2 \hat{t}_2} \varepsilon_{\mu_1}(p_a
 \end{split}
 \end{equation}
 
-All of these three diagrams have fairly complicated forms but are automatically factorised in the form we are searching for and so require no further work. The graph involving a box integral will also have this behaviour, but we leave that calculation until later due to its more complicated nature. We will instead discuss the other four diagrams which involve an $s$ or $u$ channel quark propagator. One such diagram is shown in the middle-right of figure \ref{fig:qgh_lo}. The Feynman rules for this diagram give
+All of these three diagrams have fairly complicated forms but are automatically factorised in the form we are searching for and so require no further approximation. The graph involving a box integral will also have this behaviour as we will see when we calculate it later on in this section. For the moment, we will discuss the other four diagrams which involve an $s$ or $u$ channel quark propagator. One such diagram is shown in the middle-right of figure \ref{fig:qgh_lo}. The Feynman rules for this diagram give
 
 \begin{equation}
 \begin{split}
@@ -265,13 +265,13 @@ A_6 &=-FT^a_{2q}T^1_{qb} \bar{u}_2 \gamma^{\mu_1}\left(\frac{i(\slashed{p}_b - \
 This can be simplified to
 
 \begin{equation}
-A_6 = \frac{F T^a_{2q}T^1_{qb}}{s_{1b}(p_a-p_H)^2} \bar{u}_2 \gamma^{\mu_1} (\slashed{p}_b - \slashed{p}_1)u_b \varepsilon_{\mu_1}^*(p_1)T_{R \hspace{2pt} \mu_2}^{\mu_4}(-p_a,p_a+p_H)\varepsilon_{\mu_4}(p_a).
+A_6 = \frac{F T^a_{2q}T^1_{qb}}{s_{1b}(p_a-p_H)^2} \bar{u}_2 \gamma^{\mu_1} (\slashed{p}_b - \slashed{p}_1) \gamma^\mu_2 u_b \varepsilon_{\mu_1}^*(p_1)T_{R \hspace{2pt} \mu_2}^{\mu_4}(-p_a,p_a+p_H)\varepsilon_{\mu_4}(p_a).
 \end{equation}
 
 The last diagram is the same except with the Higgs emitted from the gluon with momentum $p_1$ and the result is
 
 \begin{equation}
-A_7 = \frac{F T^a_{2q}T^1_{qb}}{s_{2a}(p_1+p_H)^2} \bar{u}_2 \gamma^{\mu_1} (\slashed{p}_2 - \slashed{p}_a)u_b \varepsilon_{\mu_1}(p_a)T_{R \hspace{2pt} \mu_2}^{\hspace{12pt} \mu_4}(-p_1-p_H,p_1)\varepsilon^*_{\mu_4}(p_1)
+A_7 = \frac{F T^a_{2q}T^1_{qb}}{s_{2a}(p_1+p_H)^2} \bar{u}_2 \gamma^{\mu_1} (\slashed{p}_2 - \slashed{p}_a) \gamma^\mu_2 u_b \varepsilon_{\mu_1}(p_a)T_{R \hspace{2pt} \mu_2}^{\hspace{12pt} \mu_4}(-p_1-p_H,p_1)\varepsilon^*_{\mu_4}(p_1)
 \end{equation}
 
 We now return to the box integrals. There are three independent contributions, related to the three different ways the two gluons and one Higgs can be attached to the box. For ease, we use the parametrisation as described in \cite{Duca2003} (not as in \cite{DelDuca2001}, though they are of course related), which writes this part of the amplitude in their notation as
@@ -316,7 +316,7 @@ The full expressions for each of the $H$ functions are very long and are given i
 \end{split}
 \end{equation}
 %\todo{double check this}
-with $A = \frac{\alpha_s}{3 \pi v}$ as before. This was tested numerically in a computer program by setting $M_t = 174000$ and seen to hold. %There is a factor of $\frac{1}{2}$ here that is not immediately seen in \cite{DelDuca2001}, but we are confident of it.
+with $A = \frac{\alpha_s}{3 \pi v}$ as before. This was tested numerically in a computer program by setting $M_t = 17400$ and seen to hold in all cases. %There is a factor of $\frac{1}{2}$ here that is not immediately seen in \cite{DelDuca2001}, but we are confident of it.
 
 We can now combine all graphs together. We have three different colour structures appearing from the individual sub-amplitudes, but we use the fact that $[T^a,T^b] = if^{abc}T^c$ to see that we can reduce this down to two. For the time being, we will keep the amplitudes separated into their `natural' colour factor and then later on use our commutator identities. Before we write the full amplitude, we introduce one more useful piece of notation. Throughout the calculation, we came across many instances where one of the polarisation vectors was contracted with a $T_R$ function from the top loop. It will be useful to define an `effective polarisation vector', which is precisely this contraction along with the propagator invariant. In other words
 
@@ -335,18 +335,18 @@ We can now combine all graphs together. We have three different colour structure
 \end{equation}
 \end{subequations}
 
-Note that the idea of the effective polarisation vector has been taken from \cite{DelDuca2001}, but the forms look quite different due to the differences between incoming/outgoing momenta. The full amplitude is then
+Note that the idea of the effective polarisation vector has been taken from \cite{DelDuca2001}, but the forms look quite different because we have extra minus signs to match outgoing/incoming momentum conventions (\cite{DelDuca2001} takes all momenta incoming whilst we do not). The full amplitude is then
 
 \begin{equation}
 \begin{split}
-M_{gq \to Hgq}^{m_t} = F &\biggl( T^a_{2q}T^1_{qb} \biggl[ \frac{ \bar{u}_2 \gamma^{\mu_1} (\slashed{p}_2 - \slashed{p}_a ) \gamma^{\mu_2} u_b \varepsilon_{\mu_1} (p_a) \varepsilon_{H,\mu_2}^*(p_1)}{s_{2a}} \\
-&+ \frac{\bar{u}_2 \gamma^{\mu_1} (\slashed{p}_b - \slashed{p}_1)\gamma^{\mu_2}u_b \varepsilon_{H,\mu_1}(p_a)\varepsilon^*_{\mu_2}(p_1)}{s_{1b}} \biggr] - \\
-&T^1_{2q}T^a_{qb} \biggl[ \frac{\bar{u}_2 \gamma^{\mu_1}(\slashed{p}_a+\slashed{p}_b)\gamma^{\mu_2} u_b \varepsilon_{\mu_2}(p_a)\varepsilon^*_{H,\mu_1}(p_1)}{s_{ab}} \\
-& + \frac{\bar{u}_2 \gamma^{\mu_1}(\slashed{p}_1+\slashed{p}_2)\gamma^{\mu_2}u_b \varepsilon_{\mu_1}^*(p_1) \varepsilon_{H,\mu_2}(p_a)}{s_{12}} \biggr]  \\
+M_{gq \to Hgq}^{m_t} = F &\biggl( T^a_{2q}T^1_{qb} \biggl[ \frac{ \bar{u}_2 \gamma^{\mu_1} (\slashed{p}_2 - \slashed{p}_a ) \gamma^{\mu_2} u_b \hspace{2pt} \varepsilon_{\mu_1} (p_a) \hspace{2pt} \varepsilon_{H,\mu_2}^*(p_1)}{s_{2a}} \\
+&+ \frac{\bar{u}_2 \gamma^{\mu_1} (\slashed{p}_b - \slashed{p}_1)\gamma^{\mu_2}u_b \hspace{2pt} \varepsilon_{H,\mu_1}(p_a) \hspace{2pt} \varepsilon^*_{\mu_2}(p_1)}{s_{1b}} \biggr] - \\
+&T^1_{2q}T^a_{qb} \biggl[ \frac{\bar{u}_2 \gamma^{\mu_1}(\slashed{p}_a+\slashed{p}_b)\gamma^{\mu_2} u_b \hspace{2pt} \varepsilon_{\mu_2}(p_a) \hspace{2pt} \varepsilon^*_{H,\mu_1}(p_1)}{s_{ab}} \\
+& + \frac{\bar{u}_2 \gamma^{\mu_1}(\slashed{p}_1+\slashed{p}_2)\gamma^{\mu_2}u_b \hspace{2pt} \varepsilon_{\mu_1}^*(p_1) \hspace{2pt} \varepsilon_{H,\mu_2}(p_a)}{s_{12}} \biggr]  \\
  &- [T^a, T^1]_{2b} \frac{\matel{2}{\mu_3}{b}}{\hat{t}_2} \biggl[ 8 i \pi^2 \varepsilon_{\mu_2}(p_a) \varepsilon^*_{\mu_1}(p_1)J^{\mu_1 \mu_2 \mu_3}(p_1,-p_a,p_a-p_1-p_H) \\
-&+  \varepsilon_{H,\mu_1}(p_a)V_{3g}^{\mu_1 \mu_2 \mu_3}(p_a-p_H, -p_1, -p_a + p_H + p_1) \varepsilon^*_{\mu_2}(p_1)  \\
-&+  \varepsilon_{\mu_1}(p_a)V_{3g}^{\mu_1 \mu_2 \mu_3}(p_a,-p_1-p_H,-p_a+p_1+p_H)\varepsilon_{H,\mu_2}^*(p_1)  \\
-&+  \frac{\varepsilon_{\mu_1}(p_a)V_{3g}^{\mu_! \mu_2 \mu_4}(p_a,-p_1,p_1-p_a)\varepsilon^*_{\mu_2}(p_1)T_{\mu_4}^{\hspace{10pt} \mu_3}(p_1-p_a,p_a-p_1-p_H)}{(p_a-p_1)^2} \biggr] \biggr).
+&+  \varepsilon_{H,\mu_1}(p_a)V_{3g}^{\mu_1 \mu_2 \mu_3}(p_a-p_H, -p_1, -p_a + p_H + p_1) \hspace{2pt} \varepsilon^*_{\mu_2}(p_1)  \\
+&+  \varepsilon_{\mu_1}(p_a)V_{3g}^{\mu_1 \mu_2 \mu_3}(p_a,-p_1-p_H,-p_a+p_1+p_H) \hspace{2pt} \varepsilon_{H,\mu_2}^*(p_1)  \\
+&+  \frac{\varepsilon_{\mu_1}(p_a)V_{3g}^{\mu_! \mu_2 \mu_4}(p_a,-p_1,p_1-p_a) \hspace{2pt} \varepsilon^*_{\mu_2}(p_1)T_{\mu_4}^{\hspace{10pt} \mu_3}(p_1-p_a,p_a-p_1-p_H)}{(p_a-p_1)^2} \biggr] \biggr).
 \end{split}
 \end{equation}
 
@@ -369,7 +369,7 @@ We recall at this point a useful parametrisation for the gluon polarisation vect
 \varepsilon_\mu^{\pm}(k,q) = \pm \frac{\matel{q^\mp}{\mu}{k^\mp}}{\sqrt{2} \left<q^\mp | k^\pm \right>},
 \end{equation}
 
-where $k$ is the momentum of the gluon and $q$ is an arbitrary massless reference momentum which reflects our gauge freedom. This notation is useful because it allows us to apply some of the identities established in section 1.6 to perform dot products. As previously discussed, the parametrisation of the box function requires that we choose the following gauge for the gluon polarisation vectors:
+where $k$ is the momentum of the gluon and $q$ is an arbitrary massless reference momentum which reflects our gauge freedom. This notation is useful because it allows us to apply some of the identities established in section 1.6 to perform dot products. As previously discussed, the parametrisation of the box function requires that we choose the following gauge for the gluon polarisation vectors: \todo{repeat condition}
 
 \begin{equation}
 \begin{split}
@@ -378,8 +378,8 @@ where $k$ is the momentum of the gluon and $q$ is an arbitrary massless referenc
 \end{split}
 \end{equation}
 
-Using this, we can perform the $\mu_1$ contraction in \ref{eqn:num} and see that if the spinor chain and the polarisation vector $\varepsilon(p_a)$ have the same helicity, the second term is identically zero. However, if they have opposite helicity, then the dot product goes like $\left<a 1 \right> [ a 2]$. The first term will instead go like $\left<2 1 \right>[a 2]$. We can think of the square and angled brackets as square roots of invariants, so the ratio of these terms is like $\sqrt{s_{a1}/s_{12}}$. 
-Since we are considering the limit where $s_{12}$ is large and $s_{a1}$ not necessarily so, we can then neglect the second term. This will also apply to the $\slashed{p}_a$ part of the third term of the full amplitude; a similar argument can be made for the $\slashed{p}_1$ parts of the second and fourth terms. Thus we can approximate the first four terms as
+Using this, we can perform the $\mu_1$ contraction in equation \ref{eqn:num} and see that if the spinor chain and the polarisation vector $\varepsilon(p_a)$ have the same helicity, the second term is identically zero. However, if they have opposite helicity, then the dot product goes like $\left<a 1 \right> [ a 2]$. The first term will instead go like $\left<2 1 \right>[a 2]$. We can think of the square and angled brackets as square roots of invariants, so the ratio of these terms is like $\sqrt{s_{a1}/s_{12}}$. 
+Since we are considering the limit where $s_{12}$ is large and $s_{a1}$ not necessarily so, we can then neglect the second term. This will also apply to the $\slashed{p}_a$ part of the third term of the full amplitude; a similar argument can be made for the $\slashed{p}_1$ parts of the second and fourth terms. Thus we can approximate the first four terms as \todo{can make scaling argument without reference to specific gauge}
 
 \begin{equation}
 \begin{split}
@@ -389,7 +389,7 @@ T^1_{2q}T^a_{qb} \left[ \frac{\bar{u}_2 \gamma^{\mu_1}\slashed{p}_b \gamma^{\mu_
 \end{split}
 \end{equation}
 
-Because we will be performing contractions and evaluating spinor brackets with the polarisation vectors, we will rewrite them in a different (though of course equivalent) form that conforms with our spinor definitions. The formula we quoted from \cite{Dixon1996} is designed for the case where all momenta are taken as outgoing, so when it comes to writing out these contractions explicitly (not just schematically like we did for the scaling argument) we cannot be confident that the convention is the same. Thus, our polarisation vectors for explicit calculations are  
+Because we will be performing contractions and evaluating spinor brackets with the polarisation vectors, we will rewrite them in a different (though of course equivalent) form that conforms with our spinor definitions. The formula we quoted from \cite{Dixon1996} is designed for the case where all momenta are taken as outgoing, so when it comes to writing out these contractions explicitly (not just schematically like we did for the scaling argument) we cannot be confident that the convention is the same. Thus, our polarisation vectors for explicit calculations are  %\todo{will probably be asked about this}
 
 \begin{subequations}
 \begin{equation}
@@ -416,7 +416,7 @@ T^1_{2q}T^a_{qb} \left[ \frac{\matel{2}{\mu_1}{b}2p_b^{\mu_2}\varepsilon_{\mu_2}
 \end{split}
 \end{equation}
 
-Note that we have not made any choice for the helicity of the quark line $\matel{2}{\mu}{b}$ nor will we need to; we aim to factor out this string from our expression, and the terms $2p_b$ and $2p_2$ will appear regardless of the helicity choice. We will now explicitly calculate the contractions with the polarisation vectors using the same spinor convention as outlined in section 1.6. Since our aim is to remove all $p_b$ and $p_2$ dependence from our effective vertex, it will be useful to consider which spinor bracket combinations are independent of these. Two useful results are (we will assume $p_a$ is moving in the + direction for now, but generalise later)
+Note that we have not made any choice for the helicity of the quark line $\matel{2}{\mu}{b}$ nor will we need to; we aim to factor out this string from our expression, and the terms $2p_b$ and $2p_2$ will appear regardless of the helicity choice. We will now explicitly calculate the contractions with the polarisation vectors using the same spinor convention as outlined in section 1.6. Since our aim is to remove all $p_b$ and $p_2$ dependence from our effective vertex, it will be useful to consider which spinor bracket combinations are independent of these. Two useful results are (we will assume $p_a$ is moving in the + direction for now, but generalise later) %\todo{could reference factorisation of MEs}
 
 \begin{subequations}
 \begin{equation}
@@ -465,11 +465,11 @@ For the helicity non-conserving case, we choose the helicity of the gluon with m
 \tilde{A}_{+-} = \sqrt{2} F [T^a,T^1] \frac{\matel{2}{\mu}{b}}{[a1]} \left(\sqrt{\frac{p_1^+}{p_a^+}}\varepsilon_{H,\mu}^{-,*}(p_1) - \sqrt{\frac{p_a^+}{p_1^+}}\varepsilon_{H,\mu}^{+}(p_a) \right).
 \end{equation}
 
-If instead we chose $p_a$ to be moving in the - direction, we find by direct calculation that we need to multiply $\tilde{A}_{++}$ and the first term of $\tilde{A}_{+-}$ by $-\frac{p_{1,\perp}^*}{|p_{1,\perp}|^2}$, and the second term of $\tilde{A}_{+-}$ by $-\frac{p_{1,\perp}}{|p_{1,\perp}|^2}$. \\
-\\
-We have now achieved our goal of creating a factorised matrix element. Before we write down the explicit expressions, we consider if the form can be simplified. For example, in the helicity conserving case, our gauge actually sets one diagram identically zero. The graph shown in the top right of figure \ref{fig:qgh_lo} has a part which is a three-gluon vertex contracted with symmetric polarisation vectors that depend only on the momenta along the top line. It is easy to show by direct calculation that this yields a result of zero. Because we are going to implement this in a numerical integration program, it is important to find these contributions where the analytical result is zero. If we did not, depending on the accuracy of the calculation, a computer might give you a small (but vitally non-zero) answer that could potentially hurt your integration. \\
-\\
-We now have everything we need to state the result of $gq \to Hgq$ in the limit where the Higgs is emitted close to the gluon in rapidity space. For our High Energy expressions, we will present a form that will conform with equation \ref{eqn:higgseff} by performing some of the index contractions. After some manipulation, we find for the helicity conserving amplitude (we will take $p_a$ to be moving in the + direction, but recall that we know how to immediately get to the situation where it is going in the - direction)
+If instead we chose $p_a$ to be moving in the - direction, we find by direct calculation that we need to multiply $\tilde{A}_{++}$ and the first term of $\tilde{A}_{+-}$ by $-\frac{p_{1,\perp}^*}{|p_{1,\perp}|^2}$, and the second term of $\tilde{A}_{+-}$ by $-\frac{p_{1,\perp}}{|p_{1,\perp}|^2}$. 
+
+We have now achieved our goal of creating a factorised matrix element. Before we write down the explicit expressions, we consider if the form can be simplified. For example, in the helicity conserving case, our gauge actually removes the contribution from one diagram. The graph shown in the top right of figure \ref{fig:qgh_lo} has a part which is a three-gluon vertex contracted with symmetric polarisation vectors that depend only on the momenta along the top line. It is easy to show by direct calculation that this yields a result of zero. Because we are going to implement this in a numerical integration program, it is important to find these contributions where the analytical result is zero. If we did not, depending on the accuracy of the calculation, a computer might give you a small (but vitally non-zero) answer that could lead to instabilities.
+
+We now have everything we need to state the result of $gq \to Hgq$ in the limit where the Higgs is emitted outside of the gluon in rapidity space. For our High Energy expressions, we will present a form that will conform with equation \ref{eqn:higgseff} by performing some of the index contractions. After some manipulation, we find for the helicity conserving amplitude (we will take $p_a$ to be moving in the + direction, but recall that we know how to immediately get to the situation where it is going in the - direction)
 
 \begin{equation}
 \begin{split}
@@ -480,7 +480,7 @@ A_{++} &= F[T^a,T^1]\frac{\matel{2}{\mu}{b}}{\hat{t}_2} \bigg[\sqrt{\frac{2p_1^+
  & + \frac{\matel{1^+}{H}{a^+}^2}{2 \left<1 a \right> [a 1]}\left \{ p_{a,\mu} R H_{10} - p_{1,\mu}RH_{12}\right \} \bigg]
 \end{split}
 \end{equation}
-
+\todo{bigger square brackets, indent signs from equals}
 where $F_{Ta} = \frac{F_T(0,(p_a-p_H)^2,m_H^2)}{(p_a-p_H)^2}$,  $F_{T1} = \frac{F_T((p_1+p_H)^2, 0, m_H^2)}{(p_1+p_H)^2}$ and $R = 8 i \pi^2$. The part in the square brackets can be interpreted (up to some overall constant) as the effective vertex we were searching for, in the helicity conserving case. What remains is the helicity non-conserving case, which is given by
 
 \begin{equation}
@@ -500,7 +500,7 @@ A_{+-} &=F[T^a,T^1]\frac{\matel{2}{\mu}{b}}{\hat{t}_2} \bigg[\sqrt{\frac{2p_1^+}
 
 where $F_\alpha = F_T(p_1-p_a,p_a-p_1-p_H,p_H)$, $F_\beta = F_L(p_1-p_a,p_a-p_1-p_H,p_H)$ and $\varepsilon^{-,*}(p_1) \cdot \varepsilon^+(p_a) = e^{i \phi}$ is a phase factor. \\
 \\
-With both the helicity conserving and non-conserving vertices found, we are able to provide a high energy approximation to the whole amplitude by manually performing the colour/helicity sum/average. The colour sum is simple, since the approximation is proportional only to $f^{a1t} T^t$ and, using the normalisation $Tr(T^a T^b) = \frac{1}{2}\delta^{ab}$, we find that the sum yields an answer of 12. Since we have a quark and gluon incoming, the average factor is $\frac{1}{3 \times 8} = \frac{1}{24}$. For the helicities, there are are total of eight combinations, of which we need only work out four because the other four are related by parity, and we average by a factor of 4.  This gives the full approximation (where the subscripts refer to the helicities of particles with momenta $p_a,p_1,p_2 \hspace{1pt} \& \hspace{1pt} p_b$ respectively and $P$ is the parity operation)
+With both the helicity conserving and non-conserving vertices found, we are able to provide a high energy approximation to the whole amplitude by manually performing the colour/helicity sum/average. The colour sum is simple, since the approximation is proportional only to $f^{a1t} T^t$ and, using the normalisation $\text{tr}(T^a T^b) = \frac{1}{2}\delta^{ab}$, we find that the sum yields an answer of 12. Since we have a quark and gluon incoming, the average factor is $\frac{1}{3 \times 8} = \frac{1}{24}$. For the helicities, there are are total of eight combinations, of which we need only work out four because the other four are related by parity, and we average by a factor of 4.  This gives the full approximation (where the subscripts refer to the helicities of particles with momenta $p_a,p_1,p_2 \hspace{1pt} \& \hspace{1pt} p_b$ respectively and $P$ is the parity operation)
 
 \begin{equation}
 \begin{split}
@@ -529,7 +529,7 @@ This configuration is useful to check against for two reasons. Firstly, it is a 
 \caption{Comparison between the HEJ effective vertex, the full LO result and the result of the $qQ \to qHQ$ LO calculation reweighted by a colour factor for a central $H$ in $gq \to Hgq$ with full top mass dependence.}
 \label{fig:gu_ghu_cen}
 \end{figure}
-%\todo{Make all captions in section nice}
+%\todo{Pale green on plots hard to see}
 Our second phase space parametrisation fixes the Higgs boson to always be close to the gluon in rapidity whilst the two jets move further apart in rapidity. Explicitly 
 
 \begin{subequations}
@@ -549,8 +549,8 @@ In figure \ref{fig:gu_ghu_out}, we plot this new effective vertex approach again
 \label{fig:gu_ghu_out}
 \end{figure}
 
-In both cases, we see clear agreement between our result and the full LO result from MadGraph in the High Energy (high $\Delta$) Limit. We now move on to check the effects of having a finite quark mass as opposed to an infinite one. By simply putting a high value for the top mass in our amplitude (numerically, we see that $m_t = 174000$ is a good choice) we can generate results that correspond to the effective theory where the top mass is treated as an infinite parameter. Additionally, we can very easily add the interference via bottom loops to our result (when working out the amplitudes for helicity configurations, simply add the same amplitude with the bottom mass before squaring it) so we can also see how large an effect this has. We will begin by looking at these three cases with a central Higgs (the first set of momenta), which is plotted in figure \ref{fig:qg_qgh_compare}. We see that there are clear differences between the cases. The finite top mass case is always greater than the infinite top mass case and the addition of the bottom quark makes it larger still. The same comparison for a Higgs close to the gluon (the second set of momenta) is plotted in figure \ref{fig:qg_qgh_compare_out}. In that case, we have slightly different behaviour - the infinite top mass case is still lower, but now the addition of the bottom loop (slightly) decreases the ME from the case where only the top quark is considered. 
-%\todo{Fix diagrams to make them sit nicer}
+In both cases, we see clear agreement between our result and the full LO result from MadGraph in the High Energy (high $\Delta$) Limit and relatively small deviations below this. We now move on to check the effects of having a finite quark mass as opposed to an infinite one. By simply putting a high value for the top mass in our amplitude (numerically, we see that $m_t = 17400$ is a good choice -- higher values are unstable) we can generate results that correspond to the effective theory where the top mass is treated as an infinite parameter. Additionally, we can very easily add the interference via bottom loops to our result (when working out the amplitudes for helicity configurations, simply add the same amplitude with the bottom mass before squaring it) so we can also see how large an effect this has. We will begin by looking at these three cases with a central Higgs (the first set of momenta), which is plotted in figure \ref{fig:qg_qgh_compare}. We see that there are clear differences between the cases. The finite top mass case is always greater than the infinite top mass case and the addition of the bottom quark makes it larger still. The same comparison for a Higgs close to the gluon (the second set of momenta) is plotted in figure \ref{fig:qg_qgh_compare_out}. In that case, we have slightly different behaviour - the infinite top mass case is still lower, but now the addition of the bottom loop (slightly) decreases the ME from the case where only the top quark is considered. 
+\todo{Numerically quantify the difference}
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.5]{Images/qg_qgH_compare_central.pdf}
@@ -565,13 +565,13 @@ In both cases, we see clear agreement between our result and the full LO result 
 \label{fig:qg_qgh_compare_out}
 \end{figure}
 
-The addition of extra emissions is again achieved by multiplying Lipatov vertices into the amplitude we have derived. Although some care has to be taken to ensure the correct t-channel momenta are taken, it is relatively straightforward to do this, resulting in a general $gq\to Hg...q$ amplitude (where the ... represent an arbitrary number of gluons) which is simply
+The addition of extra emissions is again achieved by multiplying Lipatov vertices into the amplitude we have derived. Some care is required to ensure the correct $t$-channel momenta are taken, resulting in a general $gq\to Hg...q$ amplitude (where the ... represent an arbitrary number of gluons) which is simply
 
 \begin{equation}
-|M_{gq \to Hg...q}^{HE,m_t}|^2 = |M_{gq \to Hgq}^{HE,m_t}|^2 \times \prod_{i=1}^{n-2} \frac{-g_s^2C_A V^\mu V_\mu}{q_i^2},
+|M_{gq \to Hg...q}^{HE,m_t}|^2 = |M_{gq \to Hgq}^{HE,m_t}|^2 \times \prod_{i=1}^{n-2} \frac{-g_s^2C_A V^\mu(q_i, q_{i+1}) V_\mu(q_i, q_{i+1})}{q_i^2},
 \end{equation}
 
-where $n$ is the number of final state jets and $q_i$ is the squared momentum coming into the vertex and is itself resummed. As a check, we will generate more explorer plots for the case of one extra emission. We will choose the process $gu \to Hggu$ with a few different choices for the rapidity of the extra gluon and the Higgs to ensure we are calculating correctly. Our first configuration is used for when the Higgs is being emitted close to the extremal gluon
+where $n$ is the number of final state jets and the $q_i$ are the $t$-channel momenta as shown in figure \todo{add figure!}. As a check, we will generate more explorer plots for the case of one extra emission. We will choose the process $gu \to Hggu$ with a few different choices for the rapidity of the extra gluon and the Higgs to ensure we are calculating correctly. Our first configuration is used for when the Higgs is being emitted close to the extremal gluon
 
 \begin{subequations}
 \begin{align}
@@ -582,7 +582,7 @@ p_3 &= (40 \cosh(-\Delta),40,0,40 \sinh(-\Delta)).
 \end{align}
 \end{subequations}
 
-We show $|M|^2/\hat{s}^2$ as a function of $\Delta$ in figure \ref{fig:ug_for} for this configuration. Because the finite $m_t$ result available in MadGraph is numerically unstable at high $\Delta$, we will instead set $m_t$ to $174000$ and compare to the full LO effective theory matrix element, available in earlier versions of MadGraph. 
+We show $|M|^2/\hat{s}^2$ as a function of $\Delta$ in figure \ref{fig:ug_for} for this configuration. Because the finite $m_t$ result available in MadGraph is numerically unstable at high $\Delta$, we will instead set $m_t$ to $17400$ and compare to the full LO effective theory matrix element, available in earlier versions of MadGraph. \todo{could actually show this in a plot}
 
 \begin{figure}[H]
 \centering
@@ -592,7 +592,7 @@ We show $|M|^2/\hat{s}^2$ as a function of $\Delta$ in figure \ref{fig:ug_for} f
 \end{figure}
 %\todo{Swear this looked better before? Regenerate}
 
-The agreement here is good across the phase space. Another slice of phase space we can take is one where all particles gradually move apart in rapidity:
+The agreement here is good across the phase space and almost identical above $\Delta = 6$. Another slice of phase space we can take is one where all particles gradually move apart in rapidity:
 
 \begin{subequations}
 \begin{align}
@@ -610,8 +610,7 @@ p_3 &= (40 \cosh(-\Delta),40,0,40 \sinh(-\Delta)).
 \label{fig:ug_cen}
 \end{figure}
 
-
-The explorer plot for this configuration is shown in figure \ref{fig:ug_cen}. Again, the agreement is good between the two lines. The other configuration to check is the one where the Higgs is more behind the extra emission. This contribution is not there for the $qg$ incoming state (at least, not with this matrix element) but is there for $gg$.  In that case, we can send $p_z \to -p_z$ in $p_2$ and $p_H$ in our momenta sets to probe this matrix element. In figures \ref{fig:gg_ggh_1}, \ref{fig:gg_ggh_2}, \ref{fig:gg_ggh_3} and \ref{fig:gg_ggh_4}, we show $gg \to Hggg$ with the Higgs being more forward, central but more forward than the extra emission, central but more backward than the extra emission and more backward respectively. All plots show agreement in the large $\Delta$ region, as expected, and track the LO result fairly well over the entire range. Confident in our forms for the matrix elements, we can move on to implementing them within the HEJ program and investigating their behaviour over the whole range of integrated phase space.
+The explorer plot for this configuration is shown in figure \ref{fig:ug_cen}. Again, the agreement is good between the two lines across the full range. The other configuration to check is the one where the Higgs boson is more behind the extra emission. This contribution cannot be described by this matrix element for the $gq$ incoming state, but it can describe the process with the $gg$ incoming state.  In that case, we can send $p_z \to -p_z$ in $p_2$ and $p_H$ in our momenta sets to probe this contribution. In figures \ref{fig:gg_ggh_1}, \ref{fig:gg_ggh_2}, \ref{fig:gg_ggh_3} and \ref{fig:gg_ggh_4}, we show $gg \to Hggg$ with the Higgs being more forward, central but more forward than the extra emission, central but more backward than the extra emission and more backward respectively. All plots show agreement in the large $\Delta$ region, as expected, and track the LO result fairly well over the entire range. For small values of $\Delta$, the deviation of our result from the full LO result is quite pronounced. This is typical of the $gg$ incoming state for all HEJ matrix elements \todo{ref const paper} since there are contributions from diagrams that are strongly suppressed in the high $\Delta$ limit (and therefore dropped in the derivation of our amplitudes) but are quite important at low $\Delta$. Confident in our forms for the matrix elements, we can move on to implementing them within the HEJ program and investigating their behaviour over the whole range of integrated phase space.
 
 \begin{figure}[t]
 \centering
@@ -641,22 +640,22 @@ The explorer plot for this configuration is shown in figure \ref{fig:ug_cen}. Ag
 \caption{Comparison between the HEJ effective vertex and the full LO result of the $gg \to gggH$ amplitude for a backward $H$ with an infinite top mass.}
 \label{fig:gg_ggh_4}
 \end{figure}
-
+\todo{also need the write the final expr with vcs. describe matching there also}
 \section{Computational Aspects}
 
 The addition of this new amplitude into the HEJ program is a much simpler task than it was for the NLL processes. Since we already have the amplitude in terms of the impact factors for the infinite top mass cases, the implementation is a case of adding the option to run with this finite top mass element instead. However, in order to calculate the scalar integrals in this amplitude, a HEJ interface to LoopTools is required. This is achieved in the program by setting a special instruction in the makefile; this way, if a user is not interested in using HEJ to generate for these types of events, they do not need LoopTools on their system. On the other hand, with the setting of a few library paths and setting the value for the special flag, LoopTools is quickly and simply added to the program such that running these new amplitudes can be performed `out of the box'. \\
 \\
-Another consideration is how to implement the matching for the finite top mass case. Given the length of time it would take to evaluate the matrix element with the full top mass included (especially in the three jet case), it would not be wise to do the matching in this manner. Instead, since the infinite top mass elements are much quicker to evaluate, the matching is implemented by applying the finite top mass limit to the HEJ amplitude and dividing that by the full LO result in the effective theory. This yields an acceptable compromise, however it would clearly be ideal to match to the full result if the amount of time needed to do so was significantly reduced. This latter point is one motivation behind the development of the `inverse HEJ' technique. Since there are many resummation processes that can map to one jet process, the idea is to instead generate the jet level matrix element and work backwards from that to generate many resummation points to evaluate: hence, `inverse'. This will drastically reduce the amount of calls made to the full finite top mass LO element and thus allow us to include this matching. 
+Another consideration is how to implement the matching for the finite top mass case. Given the length of time it would take to evaluate the matrix element with the full top mass included (especially in the three jet case), it would not be feasible for realistic analyses. Instead, since the infinite top mass elements are much quicker to evaluate, the matching is implemented by applying the infinite top mass limit to the HEJ amplitude and dividing that by the full LO result in the effective theory. This yields an acceptable compromise as the correction of the Born approximation should be independent of the $m_t$ effects, but it would clearly be ideal to match to the full result if the amount of time needed to do so was significantly reduced. This latter point is one motivation behind the development of the `inverse HEJ' technique. Since there are many resummation processes that can map to one jet process, the idea is to instead generate the jet level matrix element and work backwards from that to generate many resummation points to evaluate: hence, `inverse'. This will drastically reduce the amount of calls made to the full finite top mass LO matrix element and thus allow us to include this matching. 
 %\todo{Make this a bit meatier. Include matching only to inf. Inverse HEJ?}
 
 \section{Results}
 %\todo{Explorer plots, integrated plots, other interesting things to note. Last real section to do! Arggh!}
 
-Our first analysis will be $gu \to gu + H$, where the gluon is fixed to be the forward moving particle and the $u$ quark is fixed to be moving backwards. The Higgs can then be more forward than the gluon ($Hgu$), more backward than the quark ($guH$) or in between the two particles in rapidity ($gHu$). For the forward case, we will use the matrix element derived in section 4.2 to describe the process. For the central case, we will use the reweighted $qQ$ amplitude from section 4.1. Although our new matrix element will get this case correct, the reason we do not use it here is in anticipation of our resummation technique. Because we resum $t$-channel gluons, it is important to have a system where we can always unambiguously define what those gluons will be (or, in other words, we must have a consistent `resummation region', which for us will be the rapidity space between the gluon and quark). With our new amplitude, we can only resum the gluon connecting the effective vertex to the quark line, but for the reweighted $qQ$ case, we can resum the gluon from the top quark line to the triangle loop in the middle of the diagram and then from the triangle loop down to the bottom quark line. Choosing which matrix element we use based on the rapidity of the Higgs makes it clear which resummation we will be doing. Finally, since we have not discussed the case where the Higgs is behind the outgoing quark, we will set this process to zero for the time being (though in the full HEJ program, this is of course properly incorporated with the appropriate impact factor). 
+Our first integrated distributions will be for the $gu \to gu + H$ process, where we restrict ourselves to the case where the gluon is the forward-moving particle and the $u$ quark is the backward-moving particle. The Higgs can then be more forward than the gluon ($Hgu$), more backward than the quark ($guH$) or in between the two particles in rapidity ($gHu$). For the forward case, we will use the matrix element derived in section 4.2 to describe the process. For the central case, we will use the reweighted $qQ$ amplitude from section 4.1. Although our new matrix element will get this case correct, the reason we do not use it here is in anticipation of our resummation technique. Because we resum $t$-channel gluons, it is important to have a system where we can always unambiguously define what those gluons will be (or, in other words, we must have a consistent `resummation region', which for us will be the rapidity space between the gluon and quark). With our new amplitude, we can only resum the gluon connecting the effective vertex to the quark line, but for the reweighted $qQ$ case, we can resum the gluon from the top quark line to the triangle loop in the middle of the diagram and then from the triangle loop down to the bottom quark line. Choosing which matrix element we use based on the rapidity of the Higgs makes it clear which resummation we will be doing. Finally, since we have not discussed the case where the Higgs is behind the outgoing quark, we will set this process to zero for the time being (though in the full HEJ program, this is of course properly incorporated with the appropriate impact factor). \todo{jenni question - why set to zero?}
 
 An interesting plot to look at is the Higgs $p_T$ spectrum. The infinite top mass limit should not do well at high values of Higgs $p_T$, as discussed in \cite{Duca2003}, because it breaks the idea of the top quark mass being the largest relevant scale. This distribution is shown in figure \ref{fig:higgs_pt}. We see the expected behaviour: at large Higgs $p_T$, the results obtained with the effective theory and the theory with finite quark mass effects are very different. 
 
-Another interesting distribution to look at is the rapidity difference between the gluon and the quark. One could expect that the presence of a large rapidity gap (and so a large dijet invariant mass) might break the infinite top mass limit, but \cite{Duca2003} showed this not to be the case. The distribution shown in figure \ref{fig:higgs_ydiff} agrees with their conclusion. 
+Another interesting distribution to look at is the rapidity difference between the gluon and the quark. One could expect that the presence of a large rapidity gap (and so a large dijet invariant mass) might break the infinite top mass limit, but \cite{Duca2003} showed this not to be the case. The distribution shown in figure \ref{fig:higgs_ydiff} also shows little difference and hence agrees with their conclusion. \todo{comment more about the size difference of including/not including mb - pt shows same as rap?}
 
 \begin{figure}[t]
 \centering
@@ -672,7 +671,7 @@ Another interesting distribution to look at is the rapidity difference between t
 \label{fig:higgs_ydiff}
 \end{figure}
 
-We should also remember that, given kinematical constraints on the energy of the collider, the high $\Delta_y$ region must come with relatively low transverse scales, so it further lends support to the idea that the transverse scales are the defining ones in terms of how accurate the effective theory is. We can do the same analysis with a $gg$ incoming state, which in the high energy regime is just the $qg$ amplitude reweighted by a colour factor. In this case, the Higgs can be either forward of a forward-moving gluon, backward of a backward-moving one or in-between. We can describe all of these configurations: the first with our new amplitude, the latter with a reweighted $qQ$ amplitude and the second with our new matrix element, so long as we account for phase differences in some calculations (all derived results were explicitly considering that the Higgs is emitted forward). If this is considered correctly, then the contribution to the cross-section coming from a forward Higgs should be equal (up to statistical fluctuations) to that coming from a backward Higgs. We show that this is the case in figure \ref{fig:gg_crosssection}, where the green and blue lines are so close together as to be essentially indistinguishable. The results for the Higgs $p_T$ and $\Delta y_{12}$ distributions are essentially the same as the $gq$ case and we present them here for completeness in figures \ref{fig:pth_gg} and \ref{fig:ydiff_gg}. 
+We should also remember that, given kinematical constraints on the energy of the collider, the high $\Delta_y$ region must come with relatively low transverse scales, so it further lends support to the idea that the transverse scales are the defining ones in terms of how accurate the effective theory is. We can do the same analysis with a $gg$ incoming state, which in the high energy regime is just the $qg$ amplitude reweighted by a colour factor. In this case, the Higgs can be either forward of a forward-moving gluon, backward of a backward-moving one or in-between. We can describe all of these configurations: the first with our new amplitude, the latter with a reweighted $qQ$ amplitude and the second with our new matrix element, so long as we account for phase differences in some calculations (all derived results were explicitly considering that the Higgs is emitted forward). If this is considered correctly, then the contribution to the cross-section coming from a forward Higgs should be equal (up to statistical fluctuations) to that coming from a backward Higgs. We show that this is the case in figure \ref{fig:gg_crosssection}, where the green and blue lines are so close together as to be essentially indistinguishable. The results for the Higgs $p_T$ and $\Delta y_{12}$ distributions are extremely similar to the $gq$ case and we present them here for completeness in figures \ref{fig:pth_gg} and \ref{fig:ydiff_gg}. \todo{talk about backward results in new all-order section so no need to squeeze here} \todo{mention peaks more to the left?}
 
 \begin{figure}[t]
 \centering
@@ -711,7 +710,7 @@ We also investigate the effect of adding a third jet so as to perform a $gg \to 
 \label{fig:maxprop}
 \end{figure}
 
-Unfortunately, there have so far not been many analyses of Higgs plus jets physics from the LHC and so we are not able to compare our new predictions against real data. We are, however, now in a prime position to provide predictions for any such data when it arrives. We conclude this section instead with an inclusive Higgs plus dijets prediction and again point out the difference between the full $m_t$ and infinite $m_t$ approaches. The $p_T$ spectra of the Higgs for this case is plotted in figure \ref{fig:hjj_ptH}, along with the ratio of the finite $m_t$ and finite $m_t + m_b$ lines to the infinite $m_t$ line. We see clearly that the distribution obtained with the effective theory is significantly different. The same is true if we look at the $\Delta y$ distribution, shown in figure \ref{fig:hjj_dy}. 
+Unfortunately, there have so far not been many analyses of Higgs plus jets physics from the LHC and so we are not able to compare our new predictions against real data. We are, however, now in a prime position to provide predictions for any such data when it arrives. We conclude this section instead with an inclusive Higgs plus dijets prediction and again point out the difference between the full $m_t$ and infinite $m_t$ approaches. The $p_T$ spectra of the Higgs for this case is plotted in figure \ref{fig:hjj_ptH}, along with the ratio of the finite $m_t$ and finite $m_t + m_b$ lines to the infinite $m_t$ line. We see clearly that the distribution obtained with the effective theory is significantly different. The same is true if we look at the $\Delta y$ distribution, shown in figure \ref{fig:hjj_dy}. \todo{more specific - no gg fusion analyses, but there are weak h+dijet studies i could reference}
 
 \begin{figure}[t]
 \centering
@@ -727,6 +726,8 @@ Unfortunately, there have so far not been many analyses of Higgs plus jets physi
 \label{fig:hjj_dy}
 \end{figure}
 
-In all of these distributions, we see that the addition of a bottom loop has a small overall effect. This would suggest that the Higgs + 1 jet studies of, for example, \cite{Lindert2017} and \cite{Grazzini2013}, where a sizeable difference was seen, is an effect of having only one jet accompanying the Higgs. 
+In all of these distributions, we see that the addition of a bottom loop has a small overall effect. This would suggest that the Higgs + 1 jet studies of \cite{Lindert2017} and \cite{Grazzini2013}, where a sizeable difference was seen, is an effect of having only one jet accompanying the Higgs. 
+
+\todo{short summary. drive home the facts that we are the only ones that can do finite mt+finite mb above 2 (or is it 3?) jets}
 
 %\todo{Mention no compare with data because lack of it}
