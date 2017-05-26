@@ -1,20 +1,15 @@
 \chapter{Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}
 \label{app:boxfunc}
 
-In the $gq \to Hgq$ amplitude with full finite quark masses included, the box integral in the gauge where the gluon polarisation vectors are orthogonal to both the incoming and the outgoing gluon momenta can be parametrised as;
-
+In section 4.2.2, we discussed the $gq \to Hgq$ amplitude with full finite quark masses included. Such an amplitude contained so-called box diagrams, which we parameterised in the following way \cite{Duca2003}:
 \begin{equation}
 M^{\mu \nu \rho} = \frac{g_s^3 m_t^2}{v} 2i f^{bac}J^{\mu \nu \rho},
 \end{equation}
-
-with;
-
+where
 \begin{equation}
 J^{\mu \nu \rho} = \eta^{\mu \nu}(H_1 k_1^\rho + H_2 k_2^\rho) + \eta^{\mu \rho}H_4 k^\nu + \eta^{\nu \rho}H_5 k^\mu + H_{10}k_2^\rho k^\mu k^\nu + H_{12}k_1^\rho k^\mu k^\nu,
 \end{equation}
-
-with the convention that all the $k$s are taken as outgoing. We have that $k_1^\mu$ and $k_2^\mu$ are the momenta corresponding to the on-shell gluons with colour indices $a,b$ and $k = -k_1 -k_2 -k_H$ with colour index $c$. Not all of the $H$ functions above are independent, though;
-
+with the convention that all the $k$s are taken as outgoing. We have that $k_1^\mu$ and $k_2^\mu$ are the momenta corresponding to the on-shell gluons with colour indices $a,b$ and $k = -k_1 -k_2 -k_H$ with colour index $c$. Not all of the $H$ functions above are independent:
 \begin{equation}
 \begin{split}
 H_2 &= -H_1(k_1 \leftrightarrow k_2) \\
@@ -22,9 +17,7 @@ H_5 &= -H_4(k_1 \leftrightarrow k_2) \\
 H_{12} &= -H_{10}(k_1 \leftrightarrow k_2).
 \end{split}
 \end{equation}
-
-We will therefore only give the forms for $H_1$,$H_4$ and $H_{10}$. Since there are three distinct orderings for the box diagram, we present this in the form $H_i = E_i + F_i + G_i$, where each term is a function of the scalar integrals;
-
+We will therefore only give the forms for $H_1$,$H_4$ and $H_{10}$. Since there are three distinct orderings for the box diagram, we present this in the form $H_i = E_i + F_i + G_i$, where each term is a function of the scalar integrals
 \begin{equation}
 \begin{split}
 B_0(k) &= \int \frac{d^4 q}{(2 \pi)^4} \frac{1}{(q^2-m_t^2)((q+k)^2-m_t^2)}, \\
@@ -33,9 +26,7 @@ D_0(p,k,v) &= \int \frac{d^4 q}{(2 \pi)^4} \biggl[ \frac{1}{(q^2-m_t^2)((q+p)^2-
 & \times \frac{1}{((q+p+k+v)^2-m_t^2)} \biggr].
 \end{split}
 \end{equation}
-
-The $B_0$ integral is divergent in four dimensions but will always appear in combinations such that the divergence is cancelled. We will also define;
-
+The $B_0$ integral is divergent in four dimensions but will always appear in combinations such that the divergence is cancelled. We will also define
 \begin{equation}
 \begin{split}
 s_{ij} &= (k_i + k_j)^2, \\
@@ -44,8 +35,7 @@ S_i &= 2 k_i \cdot k, \\
 \Sigma &= 4 s_{12}s_{34} - (S_1 + S_2)^2.
 \end{split}
 \end{equation}
-
-In terms of these variables, we obtain;
+The $E_i, F_i$ and $G_i$ are defined as \cite{Duca2003}:
 \begin{subequations}
 \begin{equation}
 \begin{split}
@@ -149,5 +139,4 @@ G_{10} &= -D_0(1,34,2) \left(1+\frac{4S_1m_t^2}{\Delta} \right)\\
 \end{split}
 \end{equation}
 \end{subequations}
-
-where we have used the notation $ij$ to mean $k_i + k_j$ in writing out the scalar integral arguments. 
+where the arguments of the scalar integrals are written with the number of the parton momentum for notational brevity. A combined number means that the momenta are added: for example, $C_0(12, 34) \equiv C_0(k_1+k_2, k_3 + k_4)$.

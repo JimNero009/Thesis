@@ -2,30 +2,23 @@
 \label{app:crossing}
 
 A fundamental symmetry of QFTs is crossing symmetry which relates amplitudes involving outgoing particles with amplitudes with incoming anti-particles and vice versa. For example, given a theory that involves a scalar particle $\phi$ and its anti-particle $\bar{\phi}$, we have that 
-
 \begin{equation}
 M(\phi(p) + \ldots \to \ldots) = M(\ldots \to \ldots + \bar{\phi}(-p)).
 \end{equation}
-
 With this argument, we might expect that the unordered amplitude $qQ \to qQg$ is related to our result for $qg \to qQ\bar{Q}$, since we get there by moving the gluon from the final to the initial state and the quark from the initial to the final (thereby also converting it to an anti-quark). To put it another way
-
 \begin{equation}
 M(q(p_a) + Q(p_b) \to q(p_1) + Q(p_2) + g(p_g)) = M(q(p_a) + g(-p_g) \to q(p_1) + Q(p_2) + \bar{Q}(-p_b)).
 \end{equation}
-
 This equation is certainly true for the full amplitude. However, it is not so clear that this will hold for our equations involving impact factors, since they explicitly considered limiting arguments on the full amplitudes which may not carry over when this crossing symmetry is applied. Here we explicitly check to see whether the symmetry holds for our amplitudes, which is equivalent to showing that the unordered vertex transforms into the extremal $q\bar{q}$ vertex under this symmetry. Although it can be done either way around, we decide to start from the unordered vertex and aim for the $q\bar{q}$ vertex. 
 
 We remind ourselves from section 3.3.1 that the final form of the extremal $q\bar{q}$ vertex was \todo{couple of diagrams for mom labelling}
-
 \begin{equation}
 \begin{split}
 Q^{\mu \nu} &= -\frac{C_1}{t_{3b}} \left(\bar{u}_2 \gamma^\mu (\slashed{p}_3-\slashed{p}_b)\gamma^\nu v_3 \right) + \frac{C_2}{t_{2b}} \left( \bar{u}_2 \gamma^\nu (\slashed{p}_2-\slashed{p}_b) \gamma^\mu v_3 \right)  \\
 &+ i  \frac{C_t}{s_{23}} \left[\left((2p_2+2p_3)^\nu \eta^{\mu \rho} - 2p_b^\mu \eta^{\nu \rho} + 2p_b^\rho \eta^{\nu \mu} \right) \matel{2}{\rho}{3} + \frac{2 p_a^\nu q_1^2}{s_{ab}} \matel{2}{\mu}{3} \right],
 \end{split}
 \end{equation}
-
-with $q_1 = p_a - p_1 = p_3 - p_b + p_2$ and where we have reinstated the term we removed when we picked a convenient gauge. The colour factors here are
-
+with $q_1 = p_a - p_1 = p_3 - p_b + p_2$ and where we have reinstated the term we removed when we picked a convenient gauge for generality. The colour factors here are
 \begin{equation}
 \begin{split}
 C_1 &= T^g_{1a} T^b_{q3}T^g_{2q}, \\
@@ -33,18 +26,14 @@ C_2 &= T^g_{1a} T^b_{2q}T^g_{q3}, \\
 C_t &= f^{gbc}T^c_{1a}T^g_{23}.
 \end{split}
 \end{equation}
-
 The unordered effective vertex from section 3.2 has the form
-
 \begin{equation}
 \begin{split}
 j_{uno}^{\mu \nu} &= -i \frac{\tilde{C}_1}{s_{2g}} \left(\matel{2}{\nu}{g}\matel{g}{\mu}{b} + 2p_2^\nu \matel{2}{\mu}{b} \right) + i \frac{\tilde{C}_2}{s_{bg}} \left(2p_b^\nu \matel{2}{\mu}{b} - \matel{2}{\mu}{g} \matel{g}{\nu}{b} \right) \\
 &+ \frac{\tilde{C}_t}{s_{b2}} \left[\matel{2}{\rho}{b} \left(2p_g^\rho \eta^{\mu \nu} - 2 p_g^\mu \eta^{\nu \rho} - (q_1 + q_2)^\nu \eta^{\mu \rho} \right) + \frac{q_1^2}{2} \matel{2}{\mu}{b} \left(\frac{p_1^\nu}{p_g \cdot p_1} + \frac{p_a^\nu}{p_g \cdot p_a} \right) \right],
 \end{split}
 \end{equation}
-
 where we have $q_1 = p_a - p_1 = p_2 - p_b + p_g$, $q_2 = p_2 - p_b = p_a - p_1 - p_g$ and the colour factors are
-
 \begin{equation}
 \begin{split}
 \tilde{C}_1 &= T_{2i}^g T_{ib}^d d^d_{1a} \\
@@ -52,25 +41,20 @@ where we have $q_1 = p_a - p_1 = p_2 - p_b + p_g$, $q_2 = p_2 - p_b = p_a - p_1 
 \tilde{C}_t &= f^{gde}T^e_{2b}T^d_{1a}.
 \end{split}
 \end{equation}
-
 Before applying crossing symmetry, let us rewrite the uno vertex in a different manner. Firstly, we notice that the last term has been created by symmetrising a high energy approximation. In the extremal $q\bar{q}$, we did not make this symmetrisation and so we should undo this here to find equality. Secondly, we can write the spinor chains in the first two terms as terms involving $\slashed{p}$ which will both shorten the expression and provide a more direct similarity to the extremal $q\bar{q}$ amplitude. Thirdly, we will write out in full the $q_1$ and $q_2$ terms, subject to removing terms that will contract to give zero. Doing these steps, we arrive at
-
 \begin{equation}
 \begin{split}
 j_{uno}^{\mu \nu} &= -i \frac{\tilde{C}_1}{s_{2g}} \left(\bar{u}_2 \gamma^\nu (\slashed{p}_g + \slashed{p}_2) \gamma^\mu u_b \right) + i \frac{\tilde{C}_2}{s_{bg}} \left(\bar{u}_2 \gamma^\mu (\slashed{p}_g - \slashed{p}_b)\gamma^\nu u_b \right) \\
 &+ \frac{\tilde{C}_t}{s_{b2}} \left[\matel{2}{\rho}{b} \left(2p_g^\rho \eta^{\mu \nu} - 2 p_g^\mu \eta^{\nu \rho} - (2p_2 - 2p_b)^\nu \eta^{\mu \rho} \right) + q_1^2 \matel{2}{\mu}{b} \left(\frac{2p_a^\nu}{s_{ga}} \right) \right].
 \end{split}
 \end{equation}
-
 The transformation we now apply is $p_g \to -p_b$ and $p_b \to -p_3$. The first transformation relates to taking the gluon from the outgoing state into the incoming state and the second relates to taking the quark from the incoming state to the outgoing state as an anti-quark. The relabelling of the momenta in this fashion is chosen such that the conventions for incoming and outgoing particles are preserved, which will make the relation to the extremal $q\bar{q}$ amplitude much clearer. Applying these rules leads us to
-
 \begin{equation}
 \begin{split}
 j_{uno, crossed}^{\mu \nu} &= i \frac{C_2}{s_{2b}} \left(\bar{u}_2 \gamma^\nu (-\slashed{p}_b + \slashed{p}_2) \gamma^\mu v_{-3} \right) - i \frac{C_1}{s_{3b}} \left(\bar{u}_2 \gamma^\mu (-\slashed{p}_b + \slashed{p}_3)\gamma^\nu v_{-3} \right) \\
 &- \frac{C_t}{s_{23}} \left[\matel{2}{\rho}{-3} \left(-2p_b^\rho \eta^{\mu \nu} + 2 p_b^\mu \eta^{\nu \rho} - (2p_2 + 2p_3)^\nu \eta^{\mu \rho} \right) - q_1^2 \matel{2}{\mu}{-3} \left(\frac{2p_a^\nu}{s_{ab}} \right) \right],
 \end{split}
 \end{equation}
-
 where we have identified that the colour factors after this transformation exactly match the colour factors of the $q\bar{q}$ vertex in the specified way. The final step is to notice that we can transform the spinors depending on $-p_3$ to spinors depending on $+p_3$ by pulling out a phase factor. We will define the product of $-i$ with this phase factor as $e^{i \phi}$, such that
 \begin{equation}
 \begin{split}
@@ -78,7 +62,4 @@ j_{uno, crossed}^{\mu \nu} &= e^{i\phi} \bigg \{ i \frac{C_1}{t_{3b}} \left(\bar
 & +i \frac{C_t}{s_{23}} \left[\matel{2}{\rho}{3} \left(2p_b^\rho \eta^{\mu \nu} - 2 p_b^\mu \eta^{\nu \rho} + (2p_2 + 2p_3)^\nu \eta^{\mu \rho} \right) + q_1^2 \matel{2}{\mu}{3} \left(\frac{2p_a^\nu}{s_{ab}} \right) \right] \bigg \},
 \end{split}
 \end{equation}
-
 which is precisely the extremal $q\bar{q}$ vertex up to an overall, irrelevant phase factor. 
-
-

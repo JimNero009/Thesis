@@ -3,7 +3,7 @@
 \BOOKMARK [0][-]{chapter*.5}{Acknowledgements}{}% 3
 \BOOKMARK [0][-]{chapter.1}{Background and Theoretical Basis}{}% 4
 \BOOKMARK [1][-]{section.1.1}{The LHC and the Standard Model}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.2}{QCD}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Quantum Chromodynamics}{chapter.1}% 6
 \BOOKMARK [2][-]{subsection.1.2.1}{Lagrangian Formalism and Dirac Fermions}{section.1.2}% 7
 \BOOKMARK [2][-]{subsection.1.2.2}{Gauge Symmetry}{section.1.2}% 8
 \BOOKMARK [2][-]{subsection.1.2.3}{QCD Lagrangian}{section.1.2}% 9
@@ -15,7 +15,7 @@
 \BOOKMARK [1][-]{section.1.4}{Feynman Rules \(in QCD\)}{chapter.1}% 15
 \BOOKMARK [2][-]{subsection.1.4.1}{qQ qQ at Leading Order}{section.1.4}% 16
 \BOOKMARK [1][-]{section.1.5}{Cross-Sections in Proton-Proton Collisions}{chapter.1}% 17
-\BOOKMARK [1][-]{section.1.6}{Spinor Helicity}{chapter.1}% 18
+\BOOKMARK [1][-]{section.1.6}{Spinor Helicity Formalism}{chapter.1}% 18
 \BOOKMARK [0][-]{chapter.2}{High Energy Jets}{}% 19
 \BOOKMARK [1][-]{section.2.1}{The Problem with Perturbation Theory in the High Energy Limit}{chapter.2}% 20
 \BOOKMARK [2][-]{subsection.2.1.1}{qQ qQ at LO and NLO in the High Energy Limit}{section.2.1}% 21
@@ -41,7 +41,7 @@
 \BOOKMARK [2][-]{subsection.3.3.3}{Calculation of qq' qQq' in the High Energy Limit}{section.3.3}% 41
 \BOOKMARK [2][-]{subsection.3.3.4}{Verifications of the Central q Vertex}{section.3.3}% 42
 \BOOKMARK [1][-]{section.3.4}{Computational Aspects}{chapter.3}% 43
-\BOOKMARK [1][-]{section.3.5}{Full Phase Space Analyses}{chapter.3}% 44
+\BOOKMARK [1][-]{section.3.5}{Full Phase Space Analysis}{chapter.3}% 44
 \BOOKMARK [1][-]{section.3.6}{Comparisons to Data}{chapter.3}% 45
 \BOOKMARK [1][-]{section.3.7}{Summary}{chapter.3}% 46
 \BOOKMARK [0][-]{chapter.4}{Higgs Plus Jets with Finite Quark Mass Effects}{}% 47
@@ -50,9 +50,10 @@
 \BOOKMARK [2][-]{subsection.4.2.1}{qQ qHQ}{section.4.2}% 50
 \BOOKMARK [2][-]{subsection.4.2.2}{gq Hgq}{section.4.2}% 51
 \BOOKMARK [2][-]{subsection.4.2.3}{Checks and Verifications of Amplitudes}{section.4.2}% 52
-\BOOKMARK [1][-]{section.4.3}{Computational Aspects}{chapter.4}% 53
-\BOOKMARK [1][-]{section.4.4}{Results}{chapter.4}% 54
-\BOOKMARK [0][-]{chapter.5}{Conclusions}{}% 55
-\BOOKMARK [0][-]{appendix.A}{Form of the H Functions in the gq Hgq Box Integral}{}% 56
-\BOOKMARK [0][-]{appendix.B}{Relating the Unordered Vertex to the q Vertex}{}% 57
-\BOOKMARK [0][-]{section*.95}{Bibliography}{}% 58
+\BOOKMARK [1][-]{section.4.3}{The All-Order Amplitude}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.4}{Computational Aspects}{chapter.4}% 54
+\BOOKMARK [1][-]{section.4.5}{Results}{chapter.4}% 55
+\BOOKMARK [0][-]{chapter.5}{Conclusions}{}% 56
+\BOOKMARK [0][-]{appendix.A}{Relating the Unordered Vertex to the q Vertex}{}% 57
+\BOOKMARK [0][-]{appendix.B}{Form of the H Functions in the gq Hgq Box Integral}{}% 58
+\BOOKMARK [0][-]{section*.87}{Bibliography}{}% 59

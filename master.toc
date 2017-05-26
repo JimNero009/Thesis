@@ -3,58 +3,59 @@
 \contentsline {chapter}{Acknowledgements}{iv}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Background and Theoretical Basis}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The LHC and the Standard Model}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}QCD}{3}{section.1.2}
+\contentsline {section}{\numberline {1.2}Quantum Chromodynamics}{3}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Lagrangian Formalism and Dirac Fermions}{3}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Gauge Symmetry}{6}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Gauge Symmetry}{5}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}QCD Lagrangian}{8}{subsection.1.2.3}
 \contentsline {section}{\numberline {1.3}From Lagrangians to Scattering Amplitudes}{10}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Path Integral Formulation}{11}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}LSZ Formula}{14}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Correlation Functions from Path Integrals}{17}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Calculating a Scattering Amplitude}{20}{subsection.1.3.4}
-\contentsline {section}{\numberline {1.4}Feynman Rules (in QCD)}{22}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}$qQ \to qQ$ at Leading Order}{27}{subsection.1.4.1}
-\contentsline {section}{\numberline {1.5}Cross-Sections in Proton-Proton Collisions}{30}{section.1.5}
-\contentsline {section}{\numberline {1.6}Spinor Helicity}{33}{section.1.6}
-\contentsline {chapter}{\numberline {2}High Energy Jets}{40}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Problem with Perturbation Theory in the High Energy Limit}{40}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}$qQ \to qQ$ at LO and NLO in the High Energy Limit}{42}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}HEJ Amplitudes}{49}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}$qg \to qg$ in the High Energy Limit}{49}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Regge Theory and the Connection to High Energy $2 \to n$ Amplitudes}{53}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}$qQ \to qgQ$ in the High Energy Limit}{55}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Resummation Technique}{59}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Lipatov Ansatz}{59}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Combining Real and Virtual Corrections at All Orders}{60}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Monte Carlo Implementation}{63}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}The Motivation Behind Monte Carlo}{63}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Monte Carlo in High Energy Jets}{67}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Concerning Partons and Jets}{69}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Scale Variations}{71}{subsection.2.4.4}
-\contentsline {section}{\numberline {2.5}Experimental Analyses}{72}{section.2.5}
-\contentsline {chapter}{\numberline {3}Beyond Leading Log with High Energy Jets}{76}{chapter.3}
-\contentsline {section}{\numberline {3.1}Motivations for NLL}{76}{section.3.1}
-\contentsline {section}{\numberline {3.2}Unordered Emissions in Pure Jets}{77}{section.3.2}
-\contentsline {section}{\numberline {3.3}Calculations of NLL Partonic Subprocesses}{80}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Calculation of $qg \to qQ\mathaccentV {bar}016{Q}$ in the High Energy Limit}{81}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Verifications of the Extremal $q\mathaccentV {bar}016{q}$ Vertex}{87}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Calculation of $qq' \to qQ\mathaccentV {bar}016{Q}q'$ in the High Energy Limit}{91}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Verifications of the Central $q\mathaccentV {bar}016{q}$ Vertex}{96}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Computational Aspects}{102}{section.3.4}
-\contentsline {section}{\numberline {3.5}Full Phase Space Analyses}{103}{section.3.5}
-\contentsline {section}{\numberline {3.6}Comparisons to Data}{107}{section.3.6}
-\contentsline {section}{\numberline {3.7}Summary}{114}{section.3.7}
-\contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{115}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{115}{section.4.1}
-\contentsline {section}{\numberline {4.2}Calculations of $H$ + Jets with Finite Quark Mass Effects}{118}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{118}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}$gq \to Hgq$}{121}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Checks and Verifications of Amplitudes}{136}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Computational Aspects}{145}{section.4.3}
-\contentsline {section}{\numberline {4.4}Results}{146}{section.4.4}
-\contentsline {chapter}{\numberline {5}Conclusions}{153}{chapter.5}
-\contentsline {chapter}{\numberline {A}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{156}{appendix.A}
+\contentsline {subsection}{\numberline {1.3.1}Path Integral Formulation}{10}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}LSZ Formula}{13}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Correlation Functions from Path Integrals}{16}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Calculating a Scattering Amplitude}{18}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}Feynman Rules (in QCD)}{20}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}$qQ \to qQ$ at Leading Order}{23}{subsection.1.4.1}
+\contentsline {section}{\numberline {1.5}Cross-Sections in Proton-Proton Collisions}{27}{section.1.5}
+\contentsline {section}{\numberline {1.6}Spinor Helicity Formalism}{30}{section.1.6}
+\contentsline {chapter}{\numberline {2}High Energy Jets}{36}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Problem with Perturbation Theory in the High Energy Limit}{36}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}$qQ \to qQ$ at LO and NLO in the High Energy Limit}{38}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}HEJ Amplitudes}{44}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}$qg \to qg$ in the High Energy Limit}{44}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Regge Theory and the Connection to High Energy $2 \to n$ Amplitudes}{47}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}$qQ \to qgQ$ in the High Energy Limit}{49}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Resummation Technique}{53}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Lipatov Ansatz}{53}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Combining Real and Virtual Corrections at All Orders}{54}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Monte Carlo Implementation}{56}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}The Motivation Behind Monte Carlo}{56}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Monte Carlo in High Energy Jets}{59}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Concerning Partons and Jets}{61}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Scale Variations}{63}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Experimental Analyses}{64}{section.2.5}
+\contentsline {chapter}{\numberline {3}Beyond Leading Log with High Energy Jets}{69}{chapter.3}
+\contentsline {section}{\numberline {3.1}Motivations for NLL}{69}{section.3.1}
+\contentsline {section}{\numberline {3.2}Unordered Emissions in Pure Jets}{70}{section.3.2}
+\contentsline {section}{\numberline {3.3}Calculations of NLL Partonic Subprocesses}{73}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Calculation of $qg \to qQ\mathaccentV {bar}016{Q}$ in the High Energy Limit}{74}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Verifications of the Extremal $q\mathaccentV {bar}016{q}$ Vertex}{79}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Calculation of $qq' \to qQ\mathaccentV {bar}016{Q}q'$ in the High Energy Limit}{83}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Verifications of the Central $q\mathaccentV {bar}016{q}$ Vertex}{87}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Computational Aspects}{93}{section.3.4}
+\contentsline {section}{\numberline {3.5}Full Phase Space Analysis}{94}{section.3.5}
+\contentsline {section}{\numberline {3.6}Comparisons to Data}{98}{section.3.6}
+\contentsline {section}{\numberline {3.7}Summary}{104}{section.3.7}
+\contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{105}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{105}{section.4.1}
+\contentsline {section}{\numberline {4.2}Calculations of $H$ + Jets with Finite Quark Mass Effects}{108}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{108}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}$gq \to Hgq$}{110}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Checks and Verifications of Amplitudes}{124}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}The All-Order Amplitude}{133}{section.4.3}
+\contentsline {section}{\numberline {4.4}Computational Aspects}{133}{section.4.4}
+\contentsline {section}{\numberline {4.5}Results}{134}{section.4.5}
+\contentsline {chapter}{\numberline {5}Conclusions}{141}{chapter.5}
+\contentsline {chapter}{\numberline {A}Relating the Unordered Vertex to the $q\mathaccentV {bar}016{q}$ Vertex}{144}{appendix.A}
 \tocappendix 
-\contentsline {chapter}{\numberline {B}Relating the Unordered Vertex to the $q\mathaccentV {bar}016{q}$ Vertex}{163}{appendix.B}
-\contentsline {chapter}{Bibliography}{167}{section*.95}
+\contentsline {chapter}{\numberline {B}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{147}{appendix.B}
+\contentsline {chapter}{Bibliography}{153}{section*.87}
 \contentsfinish 
