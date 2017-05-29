@@ -43,19 +43,20 @@
 \contentsline {section}{\numberline {3.4}Computational Aspects}{93}{section.3.4}
 \contentsline {section}{\numberline {3.5}Full Phase Space Analysis}{94}{section.3.5}
 \contentsline {section}{\numberline {3.6}Comparisons to Data}{98}{section.3.6}
-\contentsline {section}{\numberline {3.7}Summary}{104}{section.3.7}
-\contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{105}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{105}{section.4.1}
-\contentsline {section}{\numberline {4.2}Calculations of $H$ + Jets with Finite Quark Mass Effects}{108}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{108}{subsection.4.2.1}
+\contentsline {section}{\numberline {3.7}Summary}{103}{section.3.7}
+\contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{104}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{104}{section.4.1}
+\contentsline {section}{\numberline {4.2}Calculations of $H$ + Jets with Finite Quark Mass Effects}{107}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{107}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}$gq \to Hgq$}{110}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Checks and Verifications of Amplitudes}{124}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}The All-Order Amplitude}{133}{section.4.3}
+\contentsline {section}{\numberline {4.3}Final Exentions and the All-Order Amplitude}{132}{section.4.3}
 \contentsline {section}{\numberline {4.4}Computational Aspects}{133}{section.4.4}
 \contentsline {section}{\numberline {4.5}Results}{134}{section.4.5}
-\contentsline {chapter}{\numberline {5}Conclusions}{141}{chapter.5}
-\contentsline {chapter}{\numberline {A}Relating the Unordered Vertex to the $q\mathaccentV {bar}016{q}$ Vertex}{144}{appendix.A}
+\contentsline {section}{\numberline {4.6}Summary}{141}{section.4.6}
+\contentsline {chapter}{\numberline {5}Conclusions}{143}{chapter.5}
+\contentsline {chapter}{\numberline {A}Relating the Unordered Vertex to the $q\mathaccentV {bar}016{q}$ Vertex}{146}{appendix.A}
 \tocappendix 
-\contentsline {chapter}{\numberline {B}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{147}{appendix.B}
-\contentsline {chapter}{Bibliography}{153}{section*.87}
+\contentsline {chapter}{\numberline {B}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{149}{appendix.B}
+\contentsline {chapter}{Bibliography}{155}{section*.78}
 \contentsfinish 

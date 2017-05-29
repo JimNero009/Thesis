@@ -83,6 +83,12 @@
   jets with the ATLAS detector}.
 \newblock {\em European Physical Journal C 75}, 2 (jan 2015), 82.
 
+\bibitem{ATLAS2016}
+{\sc ATLAS}.
+\newblock {Search for Higgs boson production via weak boson fusion and decaying
+  to b ¯ b in association with a high-energy photon using the ATLAS detector}.
+\newblock {\em ATLAS-CONF-2016-063}, August (2016), 1--18.
+
 \bibitem{Bertone2005}
 {\sc Bertone, G., Hooper, D., and Silk, J.}
 \newblock {Particle dark matter: Evidence, candidates and constraints}.
@@ -152,6 +158,12 @@
 \newblock {Kinematical limits on Higgs boson production via gluon fusion in
   association with jets}.
 \newblock {\em Physical Review D 67}, 7 (apr 2003), 073003.
+
+\bibitem{DelDuca2001a}
+{\sc {Del Duca}, V., Kilgore, W., Oleari, C., Schmidt, C.~R., and Zeppenfeld,
+  D.}
+\newblock {Higgs production plus two jets at hadron colliders}.
+\newblock 5.
 
 \bibitem{Dirac}
 {\sc Dirac, P.}
@@ -246,6 +258,10 @@
 {\sc Lindert, J.~M., Melnikov, K., Tancredi, L., and Wever, C.}
 \newblock {Top-bottom interference effects in Higgs plus jet production at the
   LHC}.
+
+\bibitem{Neumann2016}
+{\sc Neumann, T., and Williams, C.}
+\newblock {The Higgs boson at high p T}.
 
 \bibitem{PDG}
 {\sc Olive, K.}
