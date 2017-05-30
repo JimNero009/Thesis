@@ -5,7 +5,7 @@
 We have shown how we can calculate physical quantities in a QFT by treating the interaction terms in a Lagrangian as a perturbation to the free Lagrangian. The expansion parameter is the strength of the coupling, usually denoted by $g_s$ in QCD, and if this parameter is small enough\footnote{At the level of the physical cross section, because of the combination of phase space and Fermi's Golden Rule factors, it is often said that the relevant parameter is actually $\alpha_s = g_s^2/4 \pi$, which is even smaller.}, we can expect that the first few orders of perturbation theory should give us an accurate result. This implicitly assumes, however, that each term in the perturbative series is itself quite small. If these terms were too large, then we would run the risk of the perturbative series being non-convergent and so never be able to have a good description of the process. The natural question to ask is whether it is generally true that the terms in the perturbative series are small enough. We will see in this chapter that this is not always the case and how a technique known as \emph{resummation} can take this into account. 
 
 \section{The Problem with Perturbation Theory in the High Energy Limit}
-In order to proceed, we must define what is meant by the High Energy limit. For a $2 \to n$ process, we define it as the limit where the invariant mass between any two particles is large and all transverse momenta in the problem are fixed and much smaller. Formally;
+In order to proceed, we must define what is meant by the High Energy limit. For a $2 \to n$ process, we define it as the limit where the invariant mass between any two particles is large and where all transverse momenta in the problem are fixed and much smaller. Formally;
 \begin{equation}
 \forall_{i,j}:  \hspace{5pt} s_{ij} \to \infty, \hspace{5pt} |p_{i \perp}| \sim |p_{j \perp}|,
 \end{equation}
@@ -29,7 +29,7 @@ with $\Delta y = y_1 - y_2$ and $\Delta \phi = \phi_1 - \phi_2$. Since the MRK l
 \hat{u} &= (p_a - p_2)^2 \approx (p_1 - p_2)^2 = -\hat{s}.
 \end{align}
 \end{subequations}
-We conclude from this that (since all transverse momenta are assumed to have approximately equal magnitude) it is the quantity $\frac{\hat{s}}{-\hat{t}} \approx \exp(\Delta y)$ that is the relevant variable for high energy scattering. Alternatively, we take $\Delta y$ to be the relevant variable and relate this to $\log(\frac{\hat{s}}{-\hat{t}})$ -- this is the basis for what we will call the \emph{Leading Logarithmic} approach to scattering amplitudes. 
+We conclude from this that (since all transverse momenta are assumed to have approximately equal magnitude) it is the quantity $\frac{\hat{s}}{-\hat{t}} \approx \exp(\Delta y)$ that is the relevant variable for high energy scattering. Alternatively, we take $\Delta y$ to be the relevant variable and relate this to $\log(\frac{\hat{s}}{-\hat{t}})$ -- this is the basis for what is known as the \emph{Leading Logarithmic} approach to scattering amplitudes. 
 
 \subsection{$qQ \to qQ$ at LO and NLO in the High Energy Limit}
 
@@ -37,7 +37,7 @@ Since we already have the full leading order result as given in equation \ref{eq
 \begin{equation}
 |M_{qQ\to qQ}^{MRK}|^2 = g_s^4 \times \frac{8}{9} \times \frac{\hat{s}^2}{|k_{1 \perp}|^2 |k_{2 \perp}|^2}.
 \end{equation}
-We see that we lose some information about the amplitude (we `lost' $\hat{u}$, which we saw came from the scattering of opposite helicity quarks and approximated the full $\hat{t}$) but it is the correct expression in the relevant limit, as shown in figure \ref{fig:qQ_LO_MRK}, where we plot the full LO and MRK limit of the $ud \to ud$ amplitude. The momenta are parametrised such that $p_1 =  \left(40 \cosh(\Delta), 40, 0, 40 \sinh(\Delta) \right)$ and $p_2 =  \left(40 \cosh(-\Delta), -40, 0, 40 \sinh(-\Delta) \right)$. We also deduce that $M \sim \hat{s}$, a scaling relationship that we will return to later.
+We see that we lose some information about the amplitude (we `lost' $\hat{u}$, which we saw came from the scattering of opposite helicity quarks, and approximated the full $\hat{t}$) but it is the correct expression in the relevant limit, as shown in figure \ref{fig:qQ_LO_MRK}, where we plot the full LO result and MRK limit of the $ud \to ud$ amplitude. The momenta are parametrised such that $p_1 =  \left(40 \cosh(\Delta), 40, 0, 40 \sinh(\Delta) \right)$ and $p_2 =  \left(40 \cosh(-\Delta), -40, 0, 40 \sinh(-\Delta) \right)$. We also deduce that $M \sim \hat{s}$, a scaling relationship that we will return to later.
 
 \begin{figure}[t]
 \centering
@@ -92,7 +92,7 @@ This is a general statement about the full scattering amplitude. However, if we 
 \end{equation}
 In the MRK limit, the leading order matrix element depended on $\hat{s}$ and $k_\perp$ as
 \begin{equation}
-M_{LO, MRK} \sim g_s^2 \frac{2 \hat{s}}{|k_\perp|^2},
+M_{MRK} \sim g_s^2 \frac{2 \hat{s}}{|k_\perp|^2},
 \end{equation}
 so it would be useful to write our integration over $k^\mu$ in terms of an explicit integration over $k_\perp$. We can do this by using a Sudakov parametrisation
 \begin{equation}
@@ -284,7 +284,7 @@ The form of the approximation makes it clear that the (kinematic part of the) am
 \begin{equation}
 M_{3g} \sim \matel{1}{\mu}{a} (- g_s)(\eta^{\mu \rho}(q_1 + p_2)^\nu + \eta^{\rho \nu}(-p_2 + q_2)^\mu + \eta^{\nu \mu}(-q_2 - q_1)^\rho) \matel{3}{\nu}{b} \varepsilon^*_\rho,
 \end{equation}
-where $q_1 = p_a - p_1$ and $q_2 = p_a - p_1 -p_2 = p_3 - p_b$. In the high energy limit, we have already discussed how the extremal partons in the amplitude have momenta similar to the incoming particles; in other words, $p_1 \sim p_a$ and $p_3 \sim p_b$. In turn, this means that $\matel{1}{\mu}{a} \sim 2p_a^\mu$ and $\matel{3}{\nu}{b} \sim 2p_b^\nu$. Applying these approximations to our amplitude, we find 
+where $q_1 = p_a - p_1$ and $q_2 = p_a - p_1 -p_2 = p_3 - p_b$. In the High Energy Limit, we have already discussed how the extremal partons in the amplitude have momenta similar to the incoming particles; in other words, $p_1 \sim p_a$ and $p_3 \sim p_b$. In turn, this means that $\matel{1}{\mu}{a} \sim 2p_a^\mu$ and $\matel{3}{\nu}{b} \sim 2p_b^\nu$. Applying these approximations to our amplitude, we find 
 \begin{equation}
 \begin{split}
 M_{3g} &\sim (- g_s)\varepsilon_\rho^*(2p_b^\rho(s_{1a} + 2 s_{a2}) - 2 p_a^\rho (s_{3b} + 2 s_{2b}) + 2 \hat{s} (-q_2 - q_1)^\rho) \\
@@ -330,11 +330,11 @@ where we have introduced the notation $||S_{f_1 f_2 \to f_1 f_2}||^2$ to represe
 
 \section{Resummation Technique}
 
-So far, we have derived an approximation to the LO matrix element for a certain subset of $2 \to n$ processes. We will now show that the form of this approximation allows for the inclusion of the high energy leading logarithmic terms of the amplitude \emph{to all orders in perturbation theory}. 
+So far, we have derived an approximation to the LO matrix element for a certain subset of $2 \to n$ processes. We will now show that the form of this approximation allows for the inclusion of the High Energy leading logarithmic terms of the amplitude \emph{to all orders in perturbation theory}. 
 
 \subsection{Lipatov Ansatz}
 
-Earlier, we saw explicitly that the Leading Logarithmic contribution to the NLO correction for $qQ \to qQ$ scattering was given by multiplying the LO result by a factor as given by equation \ref{eqn:nlocorr}. One of the postulates of the \emph{Lipatov Ansatz} is that this result exponentiates, such that the virtual corrections to this process to all orders are given by
+Earlier, we saw explicitly that the Leading Logarithmic contribution to the NLO correction for $qQ \to qQ$ scattering was given by multiplying the LO result by a logarithm and a factor as given by equation \ref{eqn:nlocorr}. One of the postulates of the \emph{Lipatov Ansatz} is that this result exponentiates, such that the virtual corrections to this process to all orders are given by
 \begin{equation}
 M_{qQ \to qQ}^{LO + virt} = M_{qQ \to qQ}^{LO} \times \exp \left[\hat{\alpha}(q_\perp) \Delta y \right],
 \end{equation}
@@ -497,7 +497,7 @@ with
 \left<f^2 \right> &= \frac{1}{N} \sum_{i=1}^{N} f^2(\vec{x_i}).
 \end{align}
 \end{subequations}
-It is important to note here that the error estimate here assumes the error is distributed in a Gaussian fashion. We clearly see that it scales as $N^{-\frac{1}{2}}$, which is rather slowly convergent, but the important point is that it is \emph{completely independent of the dimensionality} of the problem.  
+It is important to note that the error estimate here assumes the error is distributed in a Gaussian fashion. We clearly see that it scales as $N^{-\frac{1}{2}}$, which is rather slowly convergent, but the important point is that it is \emph{completely independent of the dimensionality} of the problem.  
 
 The last step is to increase the domain of integration to the larger area $V_2$ that encapsulates entirely $V_C$:
 \begin{equation}
@@ -591,7 +591,7 @@ The parameter $R$ scales the $d_{ij}$ with respect to $d_{iB}$ such that any pai
 
 \subsection{Scale Variations}
 
-It has already been discussed that the value of a parton distribution function is dependent on the energy scale at which the proton is probed. We have now also seen that the value of the strong coupling constant $\alpha_s$ is also dependent on the energy scale. In principle, these two scales are different, and called the \emph{factorisation scale} $\mu_f$ and \emph{renormalisation scale} $\mu_r$ respectively. Clearly, we need to make a choice for these scales before we can do any calculations. However, it is not clear at all what we should choose. We can imagine at least that the scales do not differ much and so we can simply consider $\mu_f = \mu_r$. Still, we find there is no one good answer to this question and so we are left with the task of calculating \emph{scale variations} in order to provide an estimate of uncertainty to our calculation arising from this. With HEJ, we by default allow for the input of four different scale choices: 
+It has already been discussed that the value of a parton distribution function is dependent on the energy scale at which the proton is probed. We have now seen that the value of the strong coupling constant $\alpha_s$ is also dependent on the energy scale. In principle, these two scales are different, and called the \emph{factorisation scale} $\mu_f$ and \emph{renormalisation scale} $\mu_r$ respectively. Clearly, we need to make a choice for these scales before we can do any calculations. However, it is not clear at all what we should choose. We can imagine at least that the scales do not differ much and so we could simply consider $\mu_f = \mu_r$. Still, we find there is no one good answer to this question and we are left with the task of calculating \emph{scale variations} in order to provide an estimate of uncertainty to our calculation arising from this. With HEJ, we by default allow for the input of four different scale choices: 
 
 \begin{enumerate}
 \item{Fixed scale;}
@@ -604,9 +604,9 @@ When calculating scale variations, we take the scale as defined and then vary in
 
 \section{Experimental Analyses}
 
-We have spent the best part of this chapter arguing from a theoretical standpoint that the systematic treatment of High Energy logarithms is required for the accurate description of LHC data. We would like to end this chapter by providing plots from actual LHC analyses to see if the experimental data actually agrees with that statement. HEJ has been used in a wide range of experimental analyses \cite{Aad2011, Chatrchyan2012, Chatrchyan2012a,Abazov2013,Aad2014a,Aad2014,Aad2015} and we present a few select plots for discussion here. To understand them all fully, we first need to explain a couple of other features of HEJ we have not yet presented. 
+We have spent the best part of this chapter arguing from a theoretical standpoint that the systematic treatment of High Energy logarithms is required for the accurate description of LHC data. We would like to end this chapter by providing plots from actual LHC analyses to show that the experimental data actually agrees with that statement. HEJ has been used in a wide range of experimental analyses \cite{Aad2011, Chatrchyan2012, Chatrchyan2012a,Abazov2013,Aad2014a,Aad2014,Aad2015} and we present a few select plots for discussion here. To understand them all fully, we first need to explain a couple of other features of HEJ we have not yet presented. 
 
-Firstly, HEJ includes a multiplicative matching to full LO calculations for matrix elements up to and including four final state jets. After a process has been clustered into final state jets, the matrix element is recalculated with the jet momenta\footnote{Since some partons may not make it into final state jets, momentum conservation may not necessarily hold here. This is solved by distributing the momenta of partons that are not included into the jets in such a way as to keep it as close as possible to the original jet momenta.} along with the full LO matrix element (currently provided by \emph{MadGraph} \cite{Alwall2011}) and the process is multiplied by the ratio of the full LO to our matrix element. We also include full LO matrix elements for non-FKL processes, which we saw are sub-leading in the high energy limit. Including matching in this way allows HEJ to be as competitive as other approaches in areas far away from the high energy limit it is designed for. 
+Firstly, HEJ includes a multiplicative matching to full LO calculations for matrix elements up to and including four final state jets. After a process has been clustered into final state jets, the matrix element is recalculated with the jet momenta\footnote{Since some partons may not make it into final state jets, momentum conservation may not necessarily hold here. This is solved by distributing the momenta of partons that are not included into the jets in such a way as to keep it as close as possible to the original jet momenta.} along with the full LO matrix element (currently provided by \emph{MadGraph} \cite{Alwall2011}) and the process is multiplied by the ratio of the full LO result to our matrix element. We also include full LO matrix elements for non-FKL processes, which we saw are sub-leading in the high energy limit but important in other regions of phase space. Including matching in this way allows HEJ to be as competitive as other approaches in areas far away from the high energy limit it is designed for. 
 
 Secondly, it is possible to interface HEJ with the \emph{parton shower} ARIADNE \cite{Andersen2011}. A parton shower is designed to simulate the hadronisation of the event and as such is a completely distinct problem from that of calculating the hard scattering matrix element that HEJ provides. The specifics of the technique are interesting \cite{Hoche2014} but beyond the scope of this thesis. The important point is that a combined HEJ+ARIADNE program can describe the high energy behaviour of the hard scattering element along with the soft behaviour of the parton shower. 
 
@@ -623,11 +623,11 @@ Figure \ref{fig:wjet} shows a range of predictions for a $W$ plus at least two j
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.8]{Images/4jet_hej.pdf} 
-\caption{Differential cross-section in HT (the scalar sum of all jet momenta) bins in a four jet ATLAS study \cite{Aad2015}}
+\caption{Differential cross-section in HT (the scalar sum of all jet momenta) bins in a four jet ATLAS study \cite{Aad2015}.}
 \label{fig:4jetan}
 \end{figure}
 
-Figure \ref{fig:4jetan} shows the cross-section for a process involving at least four final state jets binned in $H_T$. The interesting feature of this plot is that HEJ continues to match the data out to high values of $H_T$, which correspondingly means high values of $p_\perp$ for the jets. The High Energy limit that inspired HEJ holds only when the $p_\perp$ of the final state particles are all much smaller than the centre of mass energy and therefore should not be expected to provide a good description in the regime probed here. We see that HEJ keeps enough of the full process and this, along with the matching procedure, allows for it to be a useful tool for describing data even away from the limit it was designed for.
+Figure \ref{fig:4jetan} shows the cross-section for a process involving at least four final state jets binned in $H_T$, which is the scalar sum of all transverse momenta. The interesting feature of this plot is that HEJ continues to match the data out to high values of $H_T$, which correspondingly means high values of $p_\perp$ for (at least one of) the jets. The High Energy Limit that inspired HEJ holds only when the $p_\perp$ of the final state particles are all much smaller than the centre of mass energy and therefore should not be expected to provide a good description in the regime probed here. We see that HEJ keeps enough of the full process and this, along with the matching procedure, allows for it to be a fully completive description in a large part of the LHC phase space. 
 
 \begin{figure}[t]
 \centering
@@ -636,6 +636,6 @@ Figure \ref{fig:4jetan} shows the cross-section for a process involving at least
 \label{fig:vetoptbar}
 \end{figure}
 
-Figure \ref{fig:vetoptbar} is a plot from an analysis involving a jet veto. A scale (in this case, 30 GeV) is chosen whereby any extra jet emission in a rapidity gap between a defined two-jet system (here, the most forward and backward jets) is vetoed. Such a measurement is useful for testing perturbative predictions on the absence of activity in the gap; for example, we see from our HEJ amplitude that a large $\Delta y$ corresponds to a larger value of the resummation exponential. The predictions for both HEJ and HEJ+ARIADNE are shown for an observable related to the angular decorrelation of the dijet system. It is clear in this case that the best description of data comes from having both the high energy and the parton shower effects included; in the first few bins the partonic HEJ, which only includes the former, overshoots, and the POWHEG line, which only includes the latter, undershoots. 
+Figure \ref{fig:vetoptbar} is a plot from an analysis involving a jet veto. A scale (in this case, 30 GeV) is chosen whereby any extra jet emission in a rapidity gap between a defined two-jet system (here, the most forward and backward jets) is vetoed. Such a measurement is useful for testing perturbative predictions on the absence of activity in the gap; for example, we see from our HEJ amplitude that a large $\Delta y$ corresponds to a larger value of the resummation exponential. The predictions for both HEJ and HEJ+ARIADNE are shown for an observable related to the angular decorrelation of the dijet system. It is clear in this case that the best description of data comes from having both the high energy and the parton shower effects included; in the first few bins the partonic HEJ, which only includes the former, overshoots, and the POWHEG line, which only includes the latter, undershoots. The orange line (HEJ + ARIADNE), containing both, tracks the data excellently. 
 
 All of these analyses were performed during the first run of the LHC with a centre-of-mass energy of either 7 or 8 TeV. Run II will provide us with data for events at a centre of mass energy of 13 or 14 TeV and so we expect that the effect of these high energy logarithms will become even more prevalent in future analyses. 
