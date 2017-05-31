@@ -43,13 +43,13 @@
 \contentsline {section}{\numberline {3.4}Computational Aspects}{93}{section.3.4}
 \contentsline {section}{\numberline {3.5}Full Phase Space Analysis}{94}{section.3.5}
 \contentsline {section}{\numberline {3.6}Comparisons to Data}{98}{section.3.6}
-\contentsline {section}{\numberline {3.7}Summary}{103}{section.3.7}
-\contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{104}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{104}{section.4.1}
-\contentsline {section}{\numberline {4.2}Calculations of $H$ + Jets with Finite Quark Mass Effects}{107}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{107}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}$gq \to Hgq$}{110}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Checks and Verifications of Amplitudes}{124}{subsection.4.2.3}
+\contentsline {section}{\numberline {3.7}Summary}{100}{section.3.7}
+\contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{103}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{103}{section.4.1}
+\contentsline {section}{\numberline {4.2}Calculations of $H$ + Jets with Finite Quark Mass Effects}{106}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{106}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}$gq \to Hgq$}{109}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Checks and Verifications of Amplitudes}{123}{subsection.4.2.3}
 \contentsline {section}{\numberline {4.3}Final Extensions and the All-Order Amplitude}{132}{section.4.3}
 \contentsline {section}{\numberline {4.4}Computational Aspects}{133}{section.4.4}
 \contentsline {section}{\numberline {4.5}Results}{134}{section.4.5}
