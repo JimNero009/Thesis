@@ -306,7 +306,7 @@ We recall at this point a useful parametrisation for the gluon polarisation vect
 \begin{equation}
 \varepsilon_\mu^{\pm}(k,q) = \pm \frac{\matel{q^\mp}{\mu}{k^\mp}}{\sqrt{2} \left<q^\mp | k^\pm \right>},
 \end{equation}
-where $k$ is the momentum of the gluon and $q$ is an arbitrary massless reference momentum which reflects our gauge freedom. This notation is useful because it allows us to apply some of the identities established in section 1.6 to perform dot products. As previous discussed, the parametrisation of the box function was taken from \cite{Duca2003}. This parametrisation is only valid in a certain gauge choice that we must therefore conform to, yielding the following forms of the polarisation vectors:
+where $k$ is the momentum of the gluon and $q$ is an arbitrary massless reference momentum which reflects our gauge freedom. This notation is useful because it allows us to apply some of the identities established in section 1.6 to perform dot products. As previously discussed, the parametrisation of the box function was taken from \cite{Duca2003}. This parametrisation is only valid in a certain gauge choice that we must therefore conform to, yielding the following forms of the polarisation vectors:
 \begin{equation}
 \begin{split}
 \varepsilon_\mu^{\pm}(p_a) &= \pm \frac{\matel{1^\mp}{\mu}{a^\mp}}{\sqrt{2} \left<1^\mp | a^\pm \right>}, \\
@@ -380,7 +380,7 @@ For the helicity non-conserving case, we choose the helicity of the gluon with m
 \begin{equation}
 \tilde{A}_{+-} = \sqrt{2} F [T^a,T^1] \frac{\matel{2}{\mu}{b}}{[a1]} \left(\sqrt{\frac{p_1^+}{p_a^+}}\varepsilon_{H,\mu}^{-,*}(p_1) - \sqrt{\frac{p_a^+}{p_1^+}}\varepsilon_{H,\mu}^{+}(p_a) \right).
 \end{equation}
-If instead we chose $p_a$ to be moving in the - direction, we find by direct calculation that we need to multiply $\tilde{A}_{++}$ and the first term of $\tilde{A}_{+-}$ by $-\frac{p_{1,\perp}^*}{|p_{1,\perp}|^2}$, and the second term of $\tilde{A}_{+-}$ by $-\frac{p_{1,\perp}}{|p_{1,\perp}|^2}$. 
+If instead we chose $p_a$ to be moving in the - direction, we find by direct calculation that we need to multiply $\tilde{A}_{++}$ and the first term of $\tilde{A}_{+-}$ by $-\frac{p_{1,\perp}^*}{|p_{1,\perp}|}$, and the second term of $\tilde{A}_{+-}$ by $-\frac{p_{1,\perp}}{|p_{1,\perp}|}$. 
 
 We have now achieved our goal of creating a factorised matrix element. Before we write down the explicit expressions, we consider if the form can be simplified. For example, in the helicity conserving case, our gauge actually removes the contribution from one diagram. The graph shown in the top right of figure \ref{fig:qgh_lo} has a part which is a three-gluon vertex contracted with symmetric polarisation vectors that depend only on the momenta along the top line. It is easy to show by direct calculation that this yields a result of zero. Because we are going to implement this in a numerical integration program, it is important to find these contributions where the analytical result is zero. If we did not, depending on the accuracy of the calculation, a computer might give you a small (but vitally non-zero) answer that could lead to instabilities.
 
@@ -435,7 +435,7 @@ This configuration is useful to check against for two reasons. Firstly, it is a 
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.45]{Images/qg_qgH_central.pdf}
-\caption{Comparison between the HEJ effective vertex, the full LO result and the result of the $qQ \to qHQ$ LO calculation reweighted by a colour factor for a central $H$ in $gq \to Hgq$ with full top mass dependence.}
+\caption{Comparison between the HEJ effective vertex (red), the full LO result (green) and the result of the $qQ \to qHQ$ LO calculation reweighted by a colour factor for a central $H$ in $gq \to Hgq$ (purple) with full top mass dependence.}
 \label{fig:gu_ghu_cen}
 \end{figure}
 %\todo{Pale green on plots hard to see}
@@ -451,7 +451,7 @@ In figure \ref{fig:gu_ghu_out}, we plot this new effective vertex approach again
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.45]{Images/qg_qgH_outside.pdf}
-\caption{Comparison between the HEJ effective vertex, the full LO result and the result of the $qQ \to qHQ$ LO calculation reweighted by a colour factor for an outside $H$ in $gq \to Hgq$ with full top mass dependence.}
+\caption{Comparison between the HEJ effective vertex (red), the full LO result (green) and the result of the $qQ \to qHQ$ LO calculation reweighted by a colour factor (purple) for an outside $H$ in $gq \to Hgq$ with full top mass dependence.}
 \label{fig:gu_ghu_out}
 \end{figure}
 In both cases, we see clear agreement between our result and the full LO result from MadGraph in the High Energy (high $\Delta$) Limit and relatively small deviations below this. We now move on to check the effects of having a finite quark mass as opposed to an infinite one. By simply putting a high value for the top mass in our amplitude (numerically, we see that $m_t = 17400$ is a good choice -- higher values are unstable) we can generate results that correspond to the effective theory where the top mass is treated as an infinite parameter. Additionally, we can very easily add the interference via bottom loops to our result (when working out the amplitudes for helicity configurations, simply add the same amplitude with the bottom mass before squaring it) so we can also see how large an effect this has. We will begin by looking at these three cases with a central Higgs (the first set of momenta), which is plotted in figure \ref{fig:qg_qgh_compare}. We see that there are clear differences between the cases. The finite top mass case is always greater than the infinite top mass case -- in the High Energy Limit, this difference is around 3\%. The addition of the bottom quark increases this difference by a further 3\%. The same comparison for a Higgs close to the gluon (the second set of momenta) is plotted in figure \ref{fig:qg_qgh_compare_out}. In that case, we have slightly different behaviour - the infinite top mass case is still lower (approximately 5\% lower than the finite top mass line), but now the addition of the bottom loop (slightly) decreases the ME from the case where only the top quark is considered. 
@@ -459,22 +459,22 @@ In both cases, we see clear agreement between our result and the full LO result 
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.45]{Images/qg_qgH_compare_central.pdf}
-\caption{Comparison of infinite top, finite top and finite top plus finite bottom HEJ matrix elements with a central Higgs.}
+\caption{Comparison of infinite top (green), finite top (red) and finite top plus finite bottom (blue) HEJ matrix elements with a central Higgs.}
 \label{fig:qg_qgh_compare}
 \end{figure}
 
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.45]{Images/qg_qgH_compare_outside.pdf}
-\caption{Comparison of infinite top, finite top and finite top plus finite bottom HEJ matrix elements with an outside Higgs.}
+\caption{Comparison of infinite top (green), finite top (red) and finite top plus finite bottom (blue) HEJ matrix elements with an outside Higgs.}
 \label{fig:qg_qgh_compare_out}
 \end{figure}
 
 The addition of extra emissions is again achieved by multiplying Lipatov vertices into the amplitude we have derived. Some care is required to ensure the correct $t$-channel momenta are taken, resulting in a general $gq\to Hg...q$ amplitude (where the ... represent an arbitrary number of gluons) which is simply
 \begin{equation}
-|M_{gq \to Hg...q}^{HE,m_t}|^2 = |M_{gq \to Hgq}^{HE,m_t}|^2 \times \prod_{i=1}^{n-2} \frac{-g_s^2C_A V^\mu(q_i, q_{i+1}) V_\mu(q_i, q_{i+1})}{q_i q_{i+1}},
+|M_{gq \to Hg...q}^{HE,m_t}|^2 = |M_{gq \to Hgq}^{HE,m_t}|^2 \times \prod_{i=1}^{n-2} \frac{-g_s^2C_A V^\mu(q_i, q_{i+1}) V_\mu(q_i, q_{i+1})}{q_i^2 q_{i+1}^2},
 \end{equation}
-where $n$ is the number of final state jets and the $q_i$ are the $t$-channel momenta entering the Lipatov vertices -- we define $q_1 = p_a - p_1 -p_H$ and $q_i = q_{i-1} - p_i$ for $i >1$. As a check, we will generate more explorer plots for the case of one extra emission. We will choose the process $gu \to Hggu$ with a few different choices for the rapidity of the extra gluon and the Higgs to ensure we are calculating correctly. Our first configuration is used for when the Higgs is being emitted close to the extremal gluon
+where $n$ is the number of final state jets and the $q_i$ are the $t$-channel momenta entering the Lipatov vertices -- we define $q_1 = p_a - p_1 -p_H$ and $q_i = q_{i-1} - p_i$ for $i >1$. The matrix element squared has an implicit division of $q_1^2 q_{n-1}^2$. As a check, we will generate more explorer plots for the case of one extra emission. We will choose the process $gu \to Hggu$ with a few different choices for the rapidity of the extra gluon and the Higgs to ensure we are calculating correctly. Our first configuration is used for when the Higgs is being emitted close to the extremal gluon
 \begin{subequations}
 \begin{align}
 p_1 &= (40 \cosh(\Delta),-40,0,40 \sinh(\Delta)), \\
@@ -483,18 +483,18 @@ p_2 &= (40 \cosh(-\Delta/3),0,40,0), \\
 p_3 &= (40 \cosh(-\Delta),40,0,40 \sinh(-\Delta)).
 \end{align}
 \end{subequations}
-We show $|M|^2/\hat{s}^2$ as a function of $\Delta$ in figure \ref{fig:ug_for} for this configuration. Unfortunately, for these amplitudes the finite $m_t$ result available in MadGraph is numerically unstable at high $\Delta$, we will instead set $m_t$ to $17400$ and compare to the full LO effective theory matrix element (available in earlier versions of MadGraph) for the remainder of this subsection. The agreement between our result and MadGrah's finite top mass LO calculation before this point serves as evidence that the finite quark mass element of the amplitude is correct.  \todo{could actually show this in a plot}
+We show $|M|^2/\hat{s}^2$ as a function of $\Delta$ in figure \ref{fig:ug_for} for this configuration. Unfortunately, for these amplitudes the finite $m_t$ result available in MadGraph is both slow and numerically unstable at high $\Delta$. We will then instead set $m_t$ to $17400$ and compare to the full LO effective theory matrix element (available in earlier versions of MadGraph) for the remainder of this subsection. The agreement between our result and MadGrah's finite top mass LO calculation before this point serves as evidence that the finite quark mass element of the amplitude is correct.  \todo{could actually show this in a plot}
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.45]{Images/ug_nextfor.pdf}
-\caption{Comparison between the HEJ effective vertex and the full LO result of the $gu \to Hggu$ amplitude for a forward $H$ with an infinite top mass.}
+\caption{Comparison between the HEJ effective vertex (red) and the full LO result (green) of the $gu \to Hggu$ amplitude for a forward $H$ with an infinite top mass.}
 \label{fig:ug_for} 
 \end{figure}
 %\todo{Swear this looked better before? Regenerate}
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.45]{Images/ug_cen.pdf}
-\caption{Comparison between the HEJ effective vertex and the full LO result of the $gu \to gHgu$ amplitude for a central $H$ with an infinite top mass.}
+\caption{Comparison between the HEJ effective vertex (red) and the full LO result (green) of the $gu \to gHgu$ amplitude for a central $H$ with an infinite top mass.}
 \label{fig:ug_cen}
 \end{figure}
 The agreement in figure \ref{fig:ug_for} is good across the phase space and almost identical above $\Delta = 6$. Another slice of phase space we can take is one where all particles gradually move apart in rapidity:
@@ -511,21 +511,21 @@ The explorer plot for this configuration is shown in figure \ref{fig:ug_cen}. Ag
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.45]{Images/gg_nextfor.pdf}
-\caption{Comparison between the HEJ effective vertex and the full LO result of the $gg \to Hggg$ amplitude for a forward $H$ with an infinite top mass.}
+\caption{Comparison between the HEJ effective vertex (red) and the full LO result (green) of the $gg \to Hggg$ amplitude for a forward $H$ with an infinite top mass.}
 \label{fig:gg_ggh_1}
 \end{figure}
 
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.45]{Images/gg_cen1.pdf}
-\caption{Comparison between the HEJ effective vertex and the full LO result of the $gg \to gHgg$ amplitude for a central $H$ next to the extremal forward parton with an infinite top mass.}
+\caption{Comparison between the HEJ effective vertex (red) and the full LO result (green) of the $gg \to gHgg$ amplitude for a central $H$ next to the extremal forward parton with an infinite top mass.}
 \label{fig:gg_ggh_2}
 \end{figure}
 
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.45]{Images/gg_cen2.pdf}
-\caption{Comparison between the HEJ effective vertex and the full LO result of the $gg \to ggHg$ amplitude for a central $H$ next to the extremal backward parton with an infinite top mass.}
+\caption{Comparison between the HEJ effective vertex (red) and the full LO result (green) of the $gg \to ggHg$ amplitude for a central $H$ next to the extremal backward parton with an infinite top mass.}
 \label{fig:gg_ggh_3}
 \end{figure}
 
@@ -533,7 +533,7 @@ The explorer plot for this configuration is shown in figure \ref{fig:ug_cen}. Ag
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.45]{Images/gg_nextback.pdf}
-\caption{Comparison between the HEJ effective vertex and the full LO result of the $gg \to gggH$ amplitude for a backward $H$ with an infinite top mass.}
+\caption{Comparison between the HEJ effective vertex (red) and the full LO result (green) of the $gg \to gggH$ amplitude for a backward $H$ with an infinite top mass.}
 \label{fig:gg_ggh_4}
 \end{figure}
 
@@ -556,7 +556,7 @@ This gives the form of the all-order amplitude to be (where we emphasise that th
 & \cdot\prod_{j =1}^{n-1} \exp \left[ \omega_0(q_{j \perp})(y_{j+1} - y_j) \right],
 \end{split}
 \end{equation}
-where $C_{f_2} = \tilde{C}_A$ if $f_2$ is a gluon or $C_F$ if it is a quark and the notation `$...$' signifies the emission of $n-2$ gluons with $n$ being the total number of colour-charged particles in the final state. We define $q_1 = p_a - p_1 -p_H$ and $q_i = q_{i-1} - p_i$ after that and remind ourselves that there is already a division by $\hat{t}_1 \hat{t}_{n-1}$ defined within the base amplitude, so that the powers and numbers of $t$-channel propagators in this equation is correct. 
+where $C_{f_2} = \tilde{C}_A$ if $f_2$ is a gluon or $C_F$ if it is a quark and the notation `$...$' signifies the emission of $n-2$ gluons with $n$ being the total number of colour-charged particles in the final state. We define $q_1 = p_a - p_1 -p_H$ and $q_i = q_{i-1} - p_i$ after that and remind ourselves that there is already a division by $\hat{t}_1 \hat{t}_{n-1}$ defined within the squared base amplitude, so that the powers and numbers of $t$-channel propagators in this equation is correct. 
 
 In the next section, we describe the considerations needed when incorporating this amplitude in the HEJ program. 
 
@@ -650,7 +650,7 @@ Unfortunately, there have so far not been many analyses of Higgs plus jets physi
 In all of these distributions, we see that the addition of a bottom loop has a small overall effect. This would suggest that the Higgs + 1 jet studies of \cite{Lindert2017} and \cite{Grazzini2013}, where a sizeable difference was seen, is an effect of having only one jet accompanying the Higgs. 
 
 \section{Summary}
-In his chapter, we have discussed how HEJ can be extended to describe processes involving the production of a Higgs boson along with two or more jets. We discussed how, due to the added complexity of calculating loop diagrams, many fixed order approaches to the description of such amplitudes employ the infinite top mass limit. Using this as a first approximation, we showed how the HEJ amplitude looks in this limit by a simple redefinition of the current object. 
+In this chapter, we have discussed how HEJ can be extended to describe processes involving the production of a Higgs boson along with two or more jets. We discussed how, due to the added complexity of calculating loop diagrams, many fixed order approaches to the description of such amplitudes employ the infinite top mass limit. Using this as a first approximation, we showed how the HEJ amplitude looks in this limit by a simple redefinition of the current object. 
 
 From here, we argued that the employment of the infinite top mass limit is not required in HEJ: the High Energy and infinite top mass limits commute. Taking the simple example of $qQ \to qHQ$, we showed how simple it is for HEJ to keep the full finite quark mass effects in its amplitudes. By considering the limit where a Higgs boson is produced outside of a gluon, the bulk of the chapter describes the more involved calculation of the HEJ amplitude for this case, again keeping full finite quark mass effects. 
 

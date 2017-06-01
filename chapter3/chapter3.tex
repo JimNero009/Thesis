@@ -30,7 +30,7 @@ M_{qQ \to gqQ}^{uno} \sim \frac{j^\mu_{uno}(p_a,p_1,p_{uno})j_\mu(p_b,p_2)}{\hat
 \label{fig:uno}
 \end{figure}
 
-where $y_{uno} \sim y_1$ and $y_1 \gg y_2$. Throughout the following sections, we will make clear where $t$-channel poles appear by employing the notation $\hat{t}_i = p_a - \sum_{j=1}^{j=i} p_j$ and such invariants will \emph{always} be factored out of the final expression. For other instances where the use of a $t$-channel propagator still makes sense, we use the notation $t_{ij}$, which is to be interpreted as $(p_i-p_j)^2 = -s_{ij}$.  Returning to the unordered amplitude and in essence, we collapse the gluon emission to a point along the usual current such that there is only one suitable $t$-channel pole to be resummed, as opposed to the two we would get if the gluon were emitted in the FKL ordering -- it is thus clear to see why this is a sub-leading contribution. Diagrammatically, we can represent this as shown in figure \ref{fig:uno}. We should also keep in mind that discussing the colour properties of this amplitude will be more complicated than the FKL case and the result will have to be treated more carefully in this regard. To derive the form of the uno current, we will recalculate the $qQ \to gqQ$ amplitude but with the consideration that the rapidity of the gluon is no longer far away from the rapidity of the forward quark current. What this will essentially mean is that the kinematic arguments for dropping some terms, as was done in section 2.2.3, will no longer be valid. We will therefore start by writing the full LO result for this amplitude (where we will write $p_{uno} = p_g$ for brevity):
+where $y_{uno} \sim y_1$ and $y_1 \gg y_2$. Throughout the following sections, we will make clear where $t$-channel poles appear by employing the notation $\hat{t}_i = p_a - \sum_{j=1}^{j=i} p_j$ and such invariants will \emph{always} be factored out of the final expression. For other instances where the use of a $t$-channel propagator still makes sense, we use the notation $t_{ij}$, which is to be interpreted as $(p_i-p_j)^2 = -s_{ij}$. Returning to the unordered amplitude, we effectively collapse the gluon emission to a point along the usual current such that there is only one suitable $t$-channel pole to be resummed, as opposed to the two we would get if the gluon were emitted in the FKL ordering -- it is thus clear to see why this is a sub-leading contribution. Diagrammatically, we can represent this as shown in figure \ref{fig:uno}. We should also keep in mind that discussing the colour properties of this amplitude will be more complicated than the FKL case and the result will have to be treated more carefully in this regard. To derive the form of the uno current, we will recalculate the $qQ \to gqQ$ amplitude but with the consideration that the rapidity of the gluon is no longer far away from the rapidity of the forward quark current. What this will essentially mean is that the kinematic arguments for dropping some terms, as was done in section 2.2.3, will no longer be valid. We will therefore start by writing the full LO result for this amplitude (where we will write $p_{uno} = p_g$ for brevity):
 \begin{equation}
 \begin{split}
 M_{qQ \to gqQ}^{LO} =& (ig_s)^3 T^c_{1i}T_{ia}^d T^d_{2b} \varepsilon_{\nu}(p_g) \frac{\matel{1}{\nu}{g}\matel{g}{\mu}{a} + 2p_1^\nu \matel{1}{\mu}{a}}{s_{1g}\hat{t}_2}\matel{2}{\mu}{b} \\
@@ -134,7 +134,7 @@ Note the minus sign in the propagator; this is because the Feynman rule for the 
 \begin{equation}
 iM_4 = \frac{-i g_s^3 T^g_{1a}T^b_{q3}T^g_{2q}}{\hat{t}_1 t_{3b}} \matel{1}{\nu}{a}\left[\bar{u}_2 \gamma^\nu (\slashed{p}_3 - \slashed{p}_b) \gamma^\rho v_3 \right] \varepsilon_\rho (p_b).
 \end{equation}
-A similar analysis yields for the last diagram (no minus sign from the fermion propagator this time)
+A similar analysis for the last diagram (no minus sign from the fermion propagator this time) gives
 \begin{equation}
 iM_5 = \frac{i g_s^3 T^g_{1a}T^b_{2q}T^g_{q3}}{\hat{t}_1 t_{b2}} \matel{1}{\nu}{a}\left[\bar{u}_2 \gamma^\rho (\slashed{p}_2 - \slashed{p}_b) \gamma^\nu v_3 \right] \varepsilon_\rho (p_b).
 \end{equation}
@@ -246,9 +246,9 @@ where $\tilde{C}_A$ is as defined in equation \ref{eqn:CAM}. We plot this result
 
 We then move on to discussing how extra gluon emissions are added to the amplitude. Because of the factorisation properties of the High Energy Limit, so long as we assume the extra gluon emissions are far away in rapidity from the partons already in the amplitude, we can simply insert a Lipatov vertex (defined in equation \ref{eqn:lipatov}), along with a colour factor, and then divide by additional $t$-channel poles that will appear. This yields simply
 \begin{equation}
-|M_{qg \to q...Q\bar{Q}}|^2 \sim |M_{qg \to qQ\bar{Q}}|^2 \times \prod_{i=1}^{n-3}  C_A \left(\frac{-V(q_i,q_{i+1}) \cdot V(q_i,q_{i+1})}{q_i^2} \right),
+|M_{qg \to q...Q\bar{Q}}|^2 \sim |M_{qg \to qQ\bar{Q}}|^2 \times \prod_{i=1}^{n-3}  C_A \left(\frac{-V(q_i,q_{i+1}) \cdot V(q_i,q_{i+1})}{q_i^2 q_{i+1}^2} \right),
 \end{equation}
-and once more we plot this result against the full LO calculation in figure \ref{fig:qg_qqq_emis} and show that the agreement is still reasonable. 
+where we have decided to define a division of $q_1^2 q_{n-3}^2$ within the matrix element squared\footnote{The matrix element at tree-level has a division of $q_1^2$ and so a straight squaring of it would yield a division of $q_1^4$. However, once further emissions are added, we have the freedom to decide whether the $q_i^2$ terms should be associated with the Lipatov vertex or the base amplitude as we please, allowing for this form of the generalised matrix element. The important point is to include all $q_i^2$ divisions with the correct powers in the final expression.}. Once more we plot this result against the full LO calculation in figure \ref{fig:qg_qqq_emis} and show that the agreement is still reasonable. 
 
 \begin{figure}[H]
 \centering
@@ -418,8 +418,8 @@ The comparison to the full leading order result for these amplitudes (multiplied
 In this case, the addition of extra gluon emissions is slightly more complicated than in the previous case. Any extra emission can take place either before or after the effective central vertex in the rapidity chain, as shown in figure \ref{fig:5jet_choice}. This distinction needs to be kept track of and so our extension is
 \begin{equation}
 \begin{split}
-|M_{qq' \to q...Q\bar{Q}...q'}|^2 &= |M_{qq' \to qQ\bar{Q}q'}|^2 \times \prod_{i=1}^{n_a} C_A \left(\frac{-V(q_i,q_{i+1}) \cdot V(q_i,q_{i+1})}{q_{i+1}^2} \right) \\
-&\times \prod_{j=n_a+2}^{n-2} C_A \left(\frac{-V(q_j,q_{j+1}) \cdot V(q_j,q_{j+1})}{q_j^2} \right),
+|M_{qq' \to q...Q\bar{Q}...q'}|^2 &= |M_{qq' \to qQ\bar{Q}q'}|^2 \times \prod_{i=1}^{n_a} C_A \left(\frac{-V(q_i,q_{i+1}) \cdot V(q_i,q_{i+1})}{q_{i+1}^4} \right) \\
+&\times \prod_{j=n_a+2}^{n-2} C_A \left(\frac{-V(q_j,q_{j+1}) \cdot V(q_j,q_{j+1})}{q_j^4} \right),
 \end{split}
 \end{equation}
 \begin{figure}[t]
@@ -428,7 +428,7 @@ In this case, the addition of extra gluon emissions is slightly more complicated
 \caption{Extra gluon emissions can be either before (left) or after (right) the central $Q\bar{Q}$ vertex in rapidity.}
 \label{fig:5jet_choice}
 \end{figure}
-where $n_a$ is the number of gluons more forward in rapidity than the quark/anti-quark pair. We take the simplest case of adding just one extra emission and investigate the amplitude for both options. We employ the following set of five jet momenta:
+where $n_a$ is the number of gluons more forward in rapidity than the quark/anti-quark pair and we recall there is a division of $q_1^2 q_{n-1}^2$ already inside of the base matrix element (which is then being squared). To be clear with the definitions of the $q$s, we are defining $q_1 = p_a - p_1$ and then $q_i = q_{i-1}-p_i$ for all the propagators up to the central effective vertex ($2 \leq i \leq n_a$). After this vertex, defining the $q$s down the chain like this becomes cumbersome because of the extra dependence on the quark and anti-quark momenta, so we instead use momentum conservation to start defining them from the bottom up:  $q_{n-1} = p_n-p_b$ and $q_{j} = q_{j+1} + p_{j+1}$ for $n_a+2 \leq j \leq n-2$. We take the simplest case of adding just one extra emission and investigate the amplitude for both options. We employ the following set of five jet momenta:
 \begin{equation}
 \begin{split}
 p_1 & = (40 \cosh(\Delta), 0, 40, 40 \sinh(\Delta)), \\
@@ -454,6 +454,28 @@ In figure \ref{fig:central_gfor} we plot the result for when the gluon is more f
 \label{fig:central_gback}
 \end{figure}
 
+\section{All-Order Forms}
+For completeness, we give here the full forms of the all-order amplitudes for the $Q\bar{Q}$ processes. The resummation procedure proceeds in precisely the same way as in the FKL amplitudes (equation \ref{eqn:fklresum}). We simply make the following replacement:
+\begin{equation}
+\frac{1}{\hat{t}_i} \to \frac{1}{\hat{t}_i} \exp \left[ \omega_0(q_{i\perp})(y_{i+1} - y_i) \right],
+\end{equation}
+where $\omega(q_i)$ is defined in equation \ref{eqn:omega}. For the extremal $Q\bar{Q}$ amplitude, this prescription gives
+\begin{equation}
+\begin{split}
+|M_{qg \to q...Q\bar{Q}}|^2 &\sim |M_{qg \to qQ\bar{Q}}|^2 \times \prod_{i=1}^{n-3}  C_A \left(\frac{-V(q_i,q_{i+1}) \cdot V(q_i,q_{i+1})}{\hat{t}_i \hat{t}_{i+1}} \right) \\
+& \times \prod_{j =1}^{n-3} \exp \left[ \omega_0(q_{j \perp})(y_{j+1} - y_j) \right].
+\end{split}
+\end{equation}
+For the central $Q\bar{Q}$ case, the expression is
+\begin{equation}
+\begin{split}
+|M_{qq' \to q...Q\bar{Q}...q'}|^2 &= |M_{qq' \to qQ\bar{Q}q'}|^2 \times \prod_{i=1}^{n_a} C_A \left(\frac{-V(q_i,q_{i+1}) \cdot V(q_i,q_{i+1})}{\hat{t}_{i+1}^2} \right) \\
+&\times \prod_{j=n_a+2}^{n-2} C_A \left(\frac{-V(q_j,q_{j+1}) \cdot V(q_j,q_{j+1})}{\hat{t}_j^2} \right) \\
+& \times \prod_{k_1=1}^{n_a+1} \exp \left[ \omega_0(q_{k_1 \perp})(y_{k_1+1} - y_{k_1}) \right]  \\
+& \times \prod_{k_2=n_a+3}^{n-1} \exp \left[ \omega_0(q_{k_2 \perp})(y_{k_2+1} - y_{k_2}) \right].
+\end{split}
+\end{equation}
+With these forms derived, we are in a position to include them fully within the HEJ formalism. As discussed at the beginning of the chapter, these partonic subprocesses are Next-to-Leading Logarithmic in the jet process. We reiterate the fact that the derivation of these amplitudes means that HEJ is now able to include \emph{all} subprocesses that contribute at NLL. 
 \section{Computational Aspects}
 %\todo{removing from nonFKL, generating all possible processes, making sure matching is done consistently} 
 The explorer plots of the last two sections all serve to convince that the derived amplitudes behave as expected. The next step is to include them in the full HEJ program correctly. This is a very significant change to the codebase that requires the modification of many files and so a `branch' of the codebase was created so that all work can be done independently of other projects going on in the collaboration. Once everything is completed and checked, the branch can be merged back into the main development codebase in a way that does not disrupt any other work done there since the branch was created. The points that need to be considered when adding these amplitudes in are as follows:
@@ -551,4 +573,4 @@ In this chapter we have presented the beginnings of the work needed to extend HE
 
 The derivation of these new amplitudes dominated the subject matter of the chapter and correctness checks such as gauge invariance and limit checks were presented as we went along. Once we were happy that the amplitudes were behaving in the way we expected, they were carefully and correctly incorporated into the HEJ program. Section 3.5 provided details of how this inclusion affected various distributions when integrating over phase space. 
 
-The chapter concluded with comparison to real data. In all cases, it was seen that the addition of the corrections pushed our predictions closer towards the recorded data. We are now in a position to include these NLL processes as part of the standard HEJ package, forming part of the standard prediction for any future analyses. 
+The chapter concluded with comparisons to real data. In all cases, it was seen that the addition of the corrections pushed our predictions closer towards the recorded data. We are now in a position to include these NLL processes as part of the standard HEJ package, forming part of the standard prediction for any future analyses. 

@@ -40,23 +40,24 @@
 \contentsline {subsection}{\numberline {3.3.2}Verifications of the Extremal $Q\mathaccentV {bar}016{Q}$ Vertex}{79}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Calculation of $qq' \to qQ\mathaccentV {bar}016{Q}q'$ in the High Energy Limit}{83}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Verifications of the Central $Q\mathaccentV {bar}016{Q}$ Vertex}{87}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Computational Aspects}{93}{section.3.4}
-\contentsline {section}{\numberline {3.5}Full Phase Space Analysis}{94}{section.3.5}
-\contentsline {section}{\numberline {3.6}Comparisons to Data}{98}{section.3.6}
-\contentsline {section}{\numberline {3.7}Summary}{100}{section.3.7}
-\contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{103}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{103}{section.4.1}
-\contentsline {section}{\numberline {4.2}Calculations of $H$ + Jets with Finite Quark Mass Effects}{106}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{106}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}$gq \to Hgq$}{109}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Checks and Verifications of Amplitudes}{123}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Final Extensions and the All-Order Amplitude}{132}{section.4.3}
-\contentsline {section}{\numberline {4.4}Computational Aspects}{133}{section.4.4}
-\contentsline {section}{\numberline {4.5}Results}{134}{section.4.5}
-\contentsline {section}{\numberline {4.6}Summary}{141}{section.4.6}
-\contentsline {chapter}{\numberline {5}Conclusions}{143}{chapter.5}
-\contentsline {chapter}{\numberline {A}Relating the Unordered Vertex to the Extremal $Q\mathaccentV {bar}016{Q}$ Vertex}{146}{appendix.A}
+\contentsline {section}{\numberline {3.4}All-Order Forms}{93}{section.3.4}
+\contentsline {section}{\numberline {3.5}Computational Aspects}{94}{section.3.5}
+\contentsline {section}{\numberline {3.6}Full Phase Space Analysis}{95}{section.3.6}
+\contentsline {section}{\numberline {3.7}Comparisons to Data}{99}{section.3.7}
+\contentsline {section}{\numberline {3.8}Summary}{101}{section.3.8}
+\contentsline {chapter}{\numberline {4}Higgs Plus Jets with Finite Quark Mass Effects}{104}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Infinite Top Mass Limit}{104}{section.4.1}
+\contentsline {section}{\numberline {4.2}Calculations of $H$ + Jets with Finite Quark Mass Effects}{107}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}$qQ \to qHQ$}{107}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}$gq \to Hgq$}{110}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Checks and Verifications of Amplitudes}{124}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Final Extensions and the All-Order Amplitude}{133}{section.4.3}
+\contentsline {section}{\numberline {4.4}Computational Aspects}{134}{section.4.4}
+\contentsline {section}{\numberline {4.5}Results}{135}{section.4.5}
+\contentsline {section}{\numberline {4.6}Summary}{142}{section.4.6}
+\contentsline {chapter}{\numberline {5}Conclusions}{144}{chapter.5}
+\contentsline {chapter}{\numberline {A}Relating the Unordered Vertex to the Extremal $Q\mathaccentV {bar}016{Q}$ Vertex}{147}{appendix.A}
 \tocappendix 
-\contentsline {chapter}{\numberline {B}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{149}{appendix.B}
-\contentsline {chapter}{Bibliography}{155}{section*.78}
+\contentsline {chapter}{\numberline {B}Form of the $H$ Functions in the $gq \to Hgq$ Box Integral}{150}{appendix.B}
+\contentsline {chapter}{Bibliography}{156}{section*.78}
 \contentsfinish 
