@@ -16,13 +16,8 @@
 \newblock {W plus multiple jets at the LHC with High Energy jets}.
 \newblock {\em Journal of High Energy Physics 2012}, 9 (jun 2012), 10.
 
-\bibitem{Andersen2012}
-{\sc Andersen, J.~R., Hapola, T., and Smillie, J.~M.}
-\newblock {W plus multiple jets at the LHC with High Energy jets}.
-\newblock {\em Journal of High Energy Physics 2012}, 9 (sep 2012), 47.
-
 \bibitem{Andersen2011}
-{\sc Andersen, J.~R., Lonnblad, L., and Smillied, J.~M.}
+{\sc Andersen, J.~R., Lonnblad, L., and Smillie, J.~M.}
 \newblock {A parton shower for High Energy Jets}.
 \newblock {\em Journal of High Energy Physics 2011}, 7 (jul 2011), 110.
 
@@ -174,7 +169,7 @@
 \bibitem{Dirac}
 {\sc Dirac, P.}
 \newblock {\em {The Principles of Quantum Mechanics}}.
-\newblock Birkh{\"{a}}user-Verlag, dec 2006.
+\newblock Oxford University Press, dec 2006.
 
 \bibitem{Dixon1996}
 {\sc Dixon, L.}
@@ -190,7 +185,7 @@
 \bibitem{Elvang2013}
 {\sc Elvang, H., and Huang, Y.-t.}
 \newblock {Scattering Amplitudes}.
-\newblock 269.
+\newblock {\em arXiV}, 1308.1697 (aug 2013).
 
 \bibitem{Fadin2003}
 {\sc Fadin, V.~S.}
@@ -199,7 +194,9 @@
 
 \bibitem{Fadin2005}
 {\sc Fadin, V.~S.}
-\newblock {The gluon Reggeization in perturbative QCD at NLO}, nov 2005.
+\newblock {The gluon Reggeization in perturbative QCD at NLO}.
+\newblock In {\em 11th International Conference on Elastic and Diffractive
+  Scattering\/} (nov 2005), p.~7.
 
 \bibitem{Fadin2006}
 {\sc Fadin, V.~S., Fiore, R., Kozlov, M.~G., and Reznichenko, A.~V.}

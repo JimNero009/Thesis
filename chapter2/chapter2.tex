@@ -35,7 +35,7 @@ We conclude from this that (since all transverse momenta are assumed to have app
 
 Since we already have the full leading order result as given in equation \ref{eqn:qQ_qQ_LO}, we can simply apply the MRK limit to that. This gives
 \begin{equation}
-|M_{qQ\to qQ}^{MRK}|^2 = g_s^4 \times \frac{8}{9} \times \frac{\hat{s}^2}{|k_{1 \perp}|^2 |k_{2 \perp}|^2}.
+|M_{qQ\to qQ}^{MRK}|^2 = g_s^4 \times \frac{8}{9} \times \frac{\hat{s}^2}{|p_{1 \perp}|^2 |p_{2 \perp}|^2}.
 \end{equation}
 We see that we lose some information about the amplitude (we `lost' $\hat{u}$, which we saw came from the scattering of opposite helicity quarks, and approximated the full $\hat{t}$) but it is the correct expression in the relevant limit, as shown in figure \ref{fig:qQ_LO_MRK}, where we plot the full LO result and MRK limit of the $ud \to ud$ amplitude. The momenta are parametrised such that $p_1 =  \left(40 \cosh(\Delta), 40, 0, 40 \sinh(\Delta) \right)$ and $p_2 =  \left(40 \cosh(-\Delta), -40, 0, 40 \sinh(-\Delta) \right)$. We also deduce that $M \sim \hat{s}$, a scaling relationship that we will return to later.
 
@@ -108,15 +108,15 @@ which allows us to switch our integration variables to $\rho, \lambda$ and $k_\p
 &= \frac{g_s^4 \hat{s}}{ 4 \pi^2} \int d^2 k_\perp \hspace{1pt}  \frac{1}{|k_\perp|^2} \frac{1}{|k_\perp - q_\perp|^2}.
 \end{split}
 \end{equation}
-Since we are explicitly searching for terms proportional to $\Delta y = \ln \left( \frac{\hat{s}}{-\hat{t}} \right)$, then the calculation of the imaginary part immediately yields the real part, since
+We restate our postulate now that this amplitude is logarithmically enhanced in $\hat{s}/\hat{t}$, such that:
 \begin{equation}
-\ln \left( \frac{\hat{s}}{-\hat{t}} \right) = \ln \left| \frac{\hat{s}}{\hat{t}} \right| - i \pi.
+\ln \left( \frac{\hat{s}}{\hat{t}} \right) = \ln \left| \frac{\hat{s}}{\hat{t}} \right| - i \pi,
 \end{equation}
-In effect, the pure existence of an imaginary part shows that this loop diagram contains the required logarithm. Our real part, therefore, is
+where we have used the fact that $\hat{t}$ is negative. Given this, we can immediately construct our real part from the imaginary part:
 \begin{equation}
 \text{Re}(M_{NLO,1}) = \ln \left| \frac{\hat{s}}{\hat{t}} \right| \frac{-g_s^4 \hat{s}}{ 4 \pi^3} \int d^2 k_\perp \hspace{1pt}  \frac{1}{|k_\perp|^2} \frac{1}{|k_\perp - q_\perp|^2}.
 \end{equation}
-Kinematically, the other diagram we need to calculate is equivalent to this diagram under the exchange $\hat{s} \to \hat{u}$. But since in the MRK limit $\hat{s} \approx -\hat{u}$, the diagrams have the same form up to a minus sign. If there were no colour structure, the total amplitude would therefore be zero! However, we do have a colour structure which we must now treat:
+Kinematically, the other diagram we need to calculate is equivalent to this diagram under the exchange $\hat{s} \to \hat{u}$. In the MRK limit, $\hat{u} \approx -\hat{s}$ and so we can actually combine these two graphs into one by treating the colour factors properly:
 \begin{equation}
 \begin{split}
 C_{NLO,1} - C_{NLO,2} &= t^b_{q_2 q_\alpha}t^a_{q_\alpha q_b} t^b_{q_1 q_\beta} t^a_{q_\beta q_a} -  t^a_{q_2 q_\alpha}t^b_{q_\alpha q_b} t^b_{q_1 q_\beta} t^a_{q_\beta q_a}\\
@@ -128,7 +128,7 @@ C_{NLO,1} - C_{NLO,2} &= t^b_{q_2 q_\alpha}t^a_{q_\alpha q_b} t^b_{q_1 q_\beta} 
 &= \frac{-C_A}{2}C_{Tree}, \\
 \end{split}
 \end{equation}
-where $C_A = N = 3$ is a constant associated to the $SU(3)$ group. We see that the colour factor here is simply a constant multiplied by the tree level colour factor. With a small amount of manipulation and using $\hat{t} \approx -q_\perp^2$, we can then write the leading part of the NLO amplitude as proportional to the tree-level amplitude,
+where $C_A = N = 3$ is a constant associated to the $SU(3)$ group. We see that the colour factor here is simply a constant multiplied by the tree level colour factor. With a small amount of manipulation and using $\hat{t} \approx -q_\perp^2$, we can then write the leading part of the NLO amplitude as proportional to the tree-level amplitude (using $|\hat{s}/\hat{t}| =-\hat{s}/\hat{t}$),
 \begin{equation}
 M_{NLO} = M_{LO} \ln \left(\frac{\hat{s}}{-\hat{t}}\right) \hat{\alpha}(q_\perp^2),
 \end{equation}
@@ -217,12 +217,12 @@ where, for the $SU(3)$ group, we have $C_A = 3$ and $C_F = \frac{4}{3}$. We ther
 \begin{equation}
 |M_{qg \to qg}^{LO, HE}|^2 = \frac{C_A}{C_F} |M_{qQ \to qQ}^{LO, HE}|^2.
 \end{equation}
-Of course, this equality only holds in the full High Energy Limit. However, we can improve this slightly by instead multiplying by a momentum-dependent colour factor. Such a factor was found in \cite{Andersen2010} and named the \emph{Colour Acceleration Multiplier}:
+Of course, this equality only holds in the full High Energy Limit. In \cite{Andersen2010}, it was seen that instead of using this colour factor, it is possible to derive a momentum-dependent colour factor that improves the description away from the strict High Energy Limit. In essence, the $qg \to qg$ calculation was performed with High Energy considerations whilst taking care not to immediately approximate the gluon momentum as $p_2^- \sim p_b^-$. Keeping these factors separate like this and one can extract the so-called \emph{Colour Acceleration Multiplier} at the end of the calculation:
 \begin{equation}
-\tilde{C}_A = \frac{1}{2} \left(C_A - \frac{1}{C_A} \right) \left(\frac{p_b^-}{p_2^-} + \frac{p_2^-}{p_b^-} \right).
+\tilde{C}_A = \frac{1}{2} \left(C_A - \frac{1}{C_A} \right) \left(\frac{p_b^-}{p_2^-} + \frac{p_2^-}{p_b^-} \right) + \frac{1}{C_A}.
 \label{eqn:CAM}
 \end{equation}
-It is clear that this tends to $C_A$ in the limit where $p_2^- \sim p_b^-$. Using this multiplication factor instead of the straight $C_A$ allows for the approximation to be more accurate away from the strict High Energy Limit and we therefore employ it in the rest of this thesis (and, indeed, in the HEJ formalism itself). 
+It is clear that this tends to $C_A$ in the limit where $p_2^- \sim p_b^-$. We will employ this factor rather than the strict $C_A$ in the rest of this thesis (and, indeed, in the HEJ formalism itself). 
 
 \subsection{Regge Theory and the Connection to High Energy $2 \to n$ Amplitudes} 
 
@@ -280,7 +280,7 @@ Using this approximation, we can calculate the four diagrams with a gluon emitte
 \begin{equation}
 M_{eik} = M_{qQ \to qQ} (i g_s) \varepsilon_\rho^* \left(C_1\frac{p_1^\rho}{p_1 \cdot p_2} - C_2\frac{p_a^\rho}{p_a \cdot p_2} + C_3\frac{p_3^\rho}{p_3 \cdot p_2} - C_4\frac{p_b^\rho}{p_b \cdot p_2}  \right).
 \end{equation}
-The form of the approximation makes it clear that the (kinematic part of the) amplitude must be proportional to the $qQ \to qQ$ amplitude. The last diagram, however, involves emission from the $t$-channel exchanged gluon and so it is not clear if this will also be simply proportional to the $qQ \to qQ$ result. The relevant part of this diagram is
+The form of the approximation makes it clear that the (kinematic part of the) amplitude must be proportional to the $qQ \to qQ$ amplitude. The remaining diagram, however, involves emission from the $t$-channel exchanged gluon and so it is not clear if this will also be simply proportional to the $qQ \to qQ$ result. The relevant part of this diagram is
 \begin{equation}
 M_{3g} \sim \matel{1}{\mu}{a} (- g_s)(\eta^{\mu \rho}(q_1 + p_2)^\nu + \eta^{\rho \nu}(-p_2 + q_2)^\mu + \eta^{\nu \mu}(-q_2 - q_1)^\rho) \matel{3}{\nu}{b} \varepsilon^*_\rho,
 \end{equation}
@@ -406,7 +406,7 @@ The argument clearly continues to higher orders and so we can immediately genera
 \end{split}
 \label{eqn:fklresum}
 \end{equation}
-The final comment to make about the HEJ amplitude is that we can extend it to also include the emission of a Higgs \cite{Andersen2011a}, a $W^{\pm}$ \cite{Andersen2012} or a $Z$ boson \cite{Andersen2016} along with the jets. The only difference is the form of the current contraction $S_{f_1f_2 \to f_1 f_2}$. For the pure jets case, this is simply $j_\mu j^\mu$, the contraction of two pure quark currents. We can also define a current for the emission of, for example, a $W$ boson as $j^\mu_W$, which will depend on the momenta of the decay products of the $W$ along with the momentum of the quark line. For a $W$ process, then, we would have an object $S_{f_1 f_2 \to f_1 f_2 e \nu} = j^\mu_W j_\mu$. The rest of the derivation then proceeds as before. 
+The final comment to make about the HEJ amplitude is that we can extend it to also include the emission of a Higgs, a $W^{\pm}$ \cite{Andersen2011a} or a $Z$ boson \cite{Andersen2016} along with the jets. The only difference is the form of the current contraction $S_{f_1f_2 \to f_1 f_2}$. For the pure jets case, this is simply $j_\mu j^\mu$, the contraction of two pure quark currents. We can also define a current for the emission of, for example, a $W$ boson as $j^\mu_W$, which will depend on the momenta of the decay products of the $W$ along with the momentum of the quark line. For a $W$ process, then, we would have an object $S_{f_1 f_2 \to f_1 f_2 e \nu} = j^\mu_W j_\mu$. The rest of the derivation then proceeds as before. 
 
 \section{Monte Carlo Implementation}
 
@@ -498,7 +498,7 @@ with
 \left<f^2 \right> &= \frac{1}{N} \sum_{i=1}^{N} f^2(\vec{x_i}).
 \end{align}
 \end{subequations}
-It is important to note that the error estimate here assumes the error is distributed in a Gaussian fashion. We clearly see that it scales as $N^{-\frac{1}{2}}$, which is rather slowly convergent, but the important point is that it is \emph{completely independent of the dimensionality} of the problem.  
+The error given by the Central Limit Theorem is an estimate of the error only -- there is no guarantee that the error is distributed as Gaussian. We clearly see that the error scales as $N^{-\frac{1}{2}}$, which is rather slowly convergent, but the important point is that it is \emph{completely independent of the dimensionality} of the problem.  
 
 The last step is to increase the domain of integration to the larger area $V_2$ that encapsulates entirely $V_C$:
 \begin{equation}

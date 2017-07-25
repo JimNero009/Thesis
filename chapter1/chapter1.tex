@@ -270,9 +270,9 @@ A(\phi_a, \phi_b;T) = \int \mathcal{D}\phi \exp \left(i \int_o^T d^4 x \mathscr{
 
 \subsection{LSZ Formula}
 
-In QFT calculations, we will work with well-defined initial (`in') and final (`out') states, which are states containing a set number of known particles. In order to construct these states, we first have to quantise our fields. The method to do this is called \emph{canonical quantisation}; for a full description of this, the interested reader should consult the excellent discussion in \cite{Peskin1995} or \cite{Srednicki2007}. The upshot is that our field $\psi$ is promoted to a quantum mechanical operator $\hat{\psi}$ that creates particles with well-defined momentum. Since we are going to work with fermions, we quantise the Dirac field of equation \ref{eqn:dirac}:
+In QFT calculations, we will work with well-defined initial (`in') and final (`out') states, which are states containing a set number of known particles. In order to construct these states, we first have to quantise our fields. The method to do this is called \emph{canonical quantisation}; for a full description of this, the interested reader should consult the excellent discussion in \cite{Peskin1995} or \cite{Srednicki2007}. The upshot is that our field $\psi$ is promoted to a quantum mechanical operator $\hat{\psi}$ that can create particles. Since we are going to work with fermions, we quantise the Dirac field of equation \ref{eqn:dirac}:
 \begin{equation}
-\hat{\psi}(x) = \int \frac{d^3 \vec{p}}{(2 \pi)^3 2 E_{\vec{p}}} \sum_{s \in spins} \left[\hat{a}_s(\vec{p}) u^{(s)} e^{-ip\cdot x} + \hat{b}_s^\dagger(\vec{p}) v^{(s)}(\vec{p})e^{i p \cdot x} \right],
+\hat{\psi}(x) = \int \frac{d^3 \vec{p}}{(2 \pi)^3 2 E_{\vec{p}}} \sum_{s \in spins} \left[\hat{a}_s(\vec{p}) u^{(s)}(\vec{p}) e^{-ip\cdot x} + \hat{b}_s^\dagger(\vec{p}) v^{(s)}(\vec{p})e^{i p \cdot x} \right],
 \end{equation}
 along with the corresponding equation for the conjugate field $\bar{\psi}$. We can interpret the operator $\hat{a}_s(\vec{p})$ ($\hat{b}^\dagger_s (\vec{p})$) as the operator that destroys (creates) a particle (anti-particle) with momentum $\vec{p}$ and spin $s$. We can invert this equation to find forms for these operators in terms of the fields,
 \begin{subequations}
@@ -530,7 +530,7 @@ Following these rules and adding together all diagrams results in the quantity $
     \end{minipage}
     &
     %\begin{minipage}[t]{5cm}
-    Gluon Propagator with adjoint colour index $a \to b$ and momentum $p$
+    Gluon Propagator (taken in Feynman gauge) with adjoint colour index $a \to b$ and momentum $p$
     %\end{minipage}
     & 
     \begin{minipage}{5cm}

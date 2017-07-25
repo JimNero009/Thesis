@@ -306,7 +306,7 @@ We recall at this point a useful parametrisation for the gluon polarisation vect
 \begin{equation}
 \varepsilon_\mu^{\pm}(k,q) = \pm \frac{\matel{q^\mp}{\mu}{k^\mp}}{\sqrt{2} \left<q^\mp | k^\pm \right>},
 \end{equation}
-where $k$ is the momentum of the gluon and $q$ is an arbitrary massless reference momentum which reflects our gauge freedom. This notation is useful because it allows us to apply some of the identities established in section 1.6 to perform dot products. As previously discussed, the parametrisation of the box function was taken from \cite{Duca2003}. This parametrisation is only valid in a certain gauge choice that we must therefore conform to, yielding the following forms of the polarisation vectors:
+where $k$ is the momentum of the gluon and $q$ is an arbitrary massless reference momentum which reflects our gauge freedom. This notation is useful because it allows us to apply some of the identities established in section 1.6 to perform dot products. As previously discussed, the parametrisation of the box function was taken from \cite{Duca2003}. This parametrisation is only valid in a certain gauge choice (the one where both external gluons are orthogonal to both $p_a$ and $p_b$) that we must therefore conform to, yielding the following forms of the polarisation vectors:
 \begin{equation}
 \begin{split}
 \varepsilon_\mu^{\pm}(p_a) &= \pm \frac{\matel{1^\mp}{\mu}{a^\mp}}{\sqrt{2} \left<1^\mp | a^\pm \right>}, \\
@@ -326,10 +326,10 @@ Because we will be performing contractions and evaluating spinor brackets with t
 \varepsilon(p_a)^+ = \frac{\matel{a^-}{\mu}{1^-}}{\sqrt{2} [a 1]} = \frac{\matel{1^+}{\mu}{a^+}}{\sqrt{2} [a1]},
 \end{equation}
 \begin{equation}
-(\varepsilon(p_1)^+)^* = -\frac{\matel{a^-}{\mu}{1^-}}{\sqrt{2} \left<1 a \right>]} = -\frac{\matel{1^+}{\mu}{a^+}}{\sqrt{2} \left<1 a \right>},
+(\varepsilon(p_1)^+)^* = -\frac{\matel{a^-}{\mu}{1^-}}{\sqrt{2} \left<1 a \right>} = -\frac{\matel{1^+}{\mu}{a^+}}{\sqrt{2} \left<1 a \right>},
 \end{equation}
 \begin{equation}
-\varepsilon(p_a)^- = \frac{\matel{1^-}{\mu}{a^-}}{\sqrt{2} \left<1 a \right>]} = \frac{\matel{a^+}{\mu}{1^+}}{\sqrt{2} \left<1 a \right>},
+\varepsilon(p_a)^- = \frac{\matel{1^-}{\mu}{a^-}}{\sqrt{2} \left<1 a \right>} = \frac{\matel{a^+}{\mu}{1^+}}{\sqrt{2} \left<1 a \right>},
 \end{equation}
 \begin{equation}
 (\varepsilon(p_1)^-)^* = -\frac{\matel{1^-}{\mu}{a^-}}{\sqrt{2} [a 1]} = -\frac{\matel{a^+}{\mu}{1^+}}{\sqrt{2} [a1]}.
@@ -483,7 +483,7 @@ p_2 &= (40 \cosh(-\Delta/3),0,40,0), \\
 p_3 &= (40 \cosh(-\Delta),40,0,40 \sinh(-\Delta)).
 \end{align}
 \end{subequations}
-Unfortunately, for these amplitudes the finite $m_t$ result available in MadGraph is both slow and numerically unstable at high $\Delta$, as shown in figure \ref{fig:unstable}. We see that the two results begin to agree with each other in the High Energy Limit as expected, but then that the MadGraph result starts to give `NaN' as a result -- these correspond to missing points on the line. We will then instead set $m_t$ to $17400$ and compare to the full LO effective theory matrix element (available in earlier versions of MadGraph) for the remainder of this subsection. We show $|M|^2/\hat{s}^2$ as a function of $\Delta$ in figure \ref{fig:ug_for} for this momentum configuration in the infinite top mass limit. The agreement between our result and MadGrah's finite top mass LO calculation before this point serves as evidence that the finite quark mass element of the amplitude is correct.
+Unfortunately, for these amplitudes the finite $m_t$ result available in MadGraph is both slow and numerically unstable at high $\Delta$, as shown in figure \ref{fig:unstable}. We see that the two results begin to agree with each other in the High Energy Limit as expected, but then that the MadGraph result starts to give `NaN' as a result -- these correspond to missing points on the line. We will then instead set $m_t$ to $17400$ and compare to the full LO effective theory matrix element (available in earlier versions of MadGraph) for the remainder of this subsection. We show $|M|^2/\hat{s}^2$ as a function of $\Delta$ in figure \ref{fig:ug_for} for this momentum configuration in the infinite top mass limit. The agreement between our result and MadGraph's finite top mass LO calculation before this point serves as evidence that the finite quark mass element of the amplitude is correct.
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.45]{Images/mg_instability.pdf}
